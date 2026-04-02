@@ -1,0 +1,53 @@
+{
+  "family": "litp-api",
+  "requiresCompatibilities": ["FARGATE"],
+  "networkMode": "awsvpc",
+  "cpu": "256",
+  "memory": "512",
+  "runtimePlatform": {
+    "cpuArchitecture": "ARM64",
+    "operatingSystemFamily": "LINUX"
+  },
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/litp-task-role",
+  "containerDefinitions": [
+    {
+      "name": "api",
+      "image": "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/litp-api:latest",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "healthCheck": {
+        "command": ["CMD-SHELL", "wget -qO- http://localhost:8080/health || exit 1"],
+        "interval": 10,
+        "timeout": 3,
+        "retries": 3,
+        "startPeriod": 5
+      },
+      "environment": [
+        {"name": "PORT", "value": "8080"},
+        {"name": "AWS_REGION", "value": "us-east-1"}
+      ],
+      "secrets": [
+        {"name": "CLICKHOUSE_DSN", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/clickhouse-dsn"},
+        {"name": "QDRANT_HOST", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/qdrant-host"},
+        {"name": "QDRANT_PORT", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/qdrant-port"},
+        {"name": "NEO4J_URI", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/neo4j-uri"},
+        {"name": "NEO4J_USER", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/neo4j-user"},
+        {"name": "NEO4J_PASSWORD", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/neo4j-password"},
+        {"name": "COHERE_API_KEY", "valueFrom": "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/litp/cohere-api-key"}
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/litp-api",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "api"
+        }
+      }
+    }
+  ]
+}

@@ -1,35 +1,24 @@
-.PHONY: build-lambda build-api deploy-lambda
+.PHONY: build run docker-build docker-push deploy
 
-# Build Lambda function (ARM64 for Graviton — 20% cheaper)
-build-lambda:
-	cd backend && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go build -tags lambda.norpc -o bootstrap cmd/lambda/main.go
-	cd backend && zip -j lambda.zip bootstrap
-	@echo "Built: backend/lambda.zip"
+# Build locally
+build:
+	go build -o api cmd/api/main.go
 
-# Build standalone API server
-build-api:
-	cd backend && go build -o api cmd/api/main.go
-	@echo "Built: backend/api"
+# Run locally
+run: build
+	./api
 
-# Deploy Lambda function (requires AWS CLI configured)
-deploy-lambda: build-lambda
-	aws lambda update-function-code \
-		--function-name litp-api \
-		--zip-file fileb://backend/lambda.zip \
-		--region us-east-1
-	@echo "Deployed to Lambda"
+# Build Docker image (ARM64 for Fargate Graviton)
+docker-build:
+	docker build --platform linux/arm64 -t litp-api .
 
-# Create Lambda function (first time only)
-create-lambda: build-lambda
-	aws lambda create-function \
-		--function-name litp-api \
-		--runtime provided.al2023 \
-		--architectures arm64 \
-		--handler bootstrap \
-		--zip-file fileb://backend/lambda.zip \
-		--role $(LAMBDA_ROLE_ARN) \
-		--memory-size 512 \
-		--timeout 30 \
-		--region us-east-1 \
-		--environment "Variables={$$(cat .env.lambda | tr '\n' ',' | sed 's/,$$//')}"
-	@echo "Created Lambda function"
+# Push to ECR
+docker-push: docker-build
+	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $(AWS_ACCOUNT_ID).dkr.ecr.us-east-1.amazonaws.com
+	docker tag litp-api:latest $(AWS_ACCOUNT_ID).dkr.ecr.us-east-1.amazonaws.com/litp-api:latest
+	docker push $(AWS_ACCOUNT_ID).dkr.ecr.us-east-1.amazonaws.com/litp-api:latest
+
+# Deploy (update Fargate service to use new image)
+deploy: docker-push
+	aws ecs update-service --cluster litp-cluster --service litp-api --force-new-deployment --region us-east-1
+	@echo "Deploying new image — Fargate will roll out gradually"

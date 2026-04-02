@@ -5,11 +5,14 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 COPY . .
-RUN CGO_ENABLED=0 GOOS=linux go build -o /api ./cmd/api
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -o /api ./cmd/api
 
 FROM alpine:3.19
 RUN apk --no-cache add ca-certificates
 COPY --from=builder /api /api
 
 EXPOSE 8080
+HEALTHCHECK --interval=10s --timeout=3s --retries=3 \
+  CMD wget -qO- http://localhost:8080/health || exit 1
+
 ENTRYPOINT ["/api"]
