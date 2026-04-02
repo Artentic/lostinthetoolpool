@@ -13,8 +13,7 @@
     "file": "chunks/DifficultyBadge.js",
     "name": "DifficultyBadge",
     "imports": [
-      "_ssr.js",
-      "_index.js"
+      "_ssr.js"
     ]
   },
   "_SearchBar.js": {
@@ -32,10 +31,6 @@
     "file": "chunks/exports.js",
     "name": "exports"
   },
-  "_index.js": {
-    "file": "chunks/index.js",
-    "name": "index"
-  },
   "_internal.js": {
     "file": "chunks/internal.js",
     "name": "internal",
@@ -44,6 +39,10 @@
       "_ssr2.js",
       "_environment.js"
     ]
+  },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
   },
   "_shared.js": {
     "file": "chunks/shared.js",
@@ -126,7 +125,7 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.D0uyivIu.css"
+      "_app/immutable/assets/_layout.5wi4qZei.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -165,6 +164,15 @@
       "_ssr.js"
     ]
   },
+  "src/routes/ecosystems/+page.server.ts": {
+    "file": "entries/pages/ecosystems/_page.server.ts.js",
+    "name": "entries/pages/ecosystems/_page.server.ts",
+    "src": "src/routes/ecosystems/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_server.js"
+    ]
+  },
   "src/routes/ecosystems/+page.svelte": {
     "file": "entries/pages/ecosystems/_page.svelte.js",
     "name": "entries/pages/ecosystems/_page.svelte",
@@ -172,6 +180,15 @@
     "isEntry": true,
     "imports": [
       "_ssr.js"
+    ]
+  },
+  "src/routes/ecosystems/[slug]/+page.server.ts": {
+    "file": "entries/pages/ecosystems/_slug_/_page.server.ts.js",
+    "name": "entries/pages/ecosystems/_slug_/_page.server.ts",
+    "src": "src/routes/ecosystems/[slug]/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_server.js"
     ]
   },
   "src/routes/ecosystems/[slug]/+page.svelte": {
@@ -264,15 +281,22 @@
       "_state.svelte.js"
     ]
   },
+  "src/routes/tools/[slug]/+page.server.ts": {
+    "file": "entries/pages/tools/_slug_/_page.server.ts.js",
+    "name": "entries/pages/tools/_slug_/_page.server.ts",
+    "src": "src/routes/tools/[slug]/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_server.js"
+    ]
+  },
   "src/routes/tools/[slug]/+page.svelte": {
     "file": "entries/pages/tools/_slug_/_page.svelte.js",
     "name": "entries/pages/tools/_slug_/_page.svelte",
     "src": "src/routes/tools/[slug]/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_stores.js",
-      "_index.js"
+      "_ssr.js"
     ]
   }
 }

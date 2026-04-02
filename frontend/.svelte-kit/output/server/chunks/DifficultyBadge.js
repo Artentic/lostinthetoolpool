@@ -1,5 +1,5 @@
 import { c as create_ssr_component, d as each, e as escape } from "./ssr.js";
-import { D as DIFFICULTY_LABELS } from "./index.js";
+const DIFFICULTY_LABELS = ["", "Easy", "Moderate", "Intermediate", "Advanced", "Expert"];
 const DifficultyBadge = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { level } = $$props;
   let { showLabel = true } = $$props;

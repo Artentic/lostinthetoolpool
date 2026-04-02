@@ -96,6 +96,106 @@ var init_internal = __esm({
   }
 });
 
+// node_modules/esm-env/true.js
+var true_default;
+var init_true = __esm({
+  "node_modules/esm-env/true.js"() {
+    true_default = true;
+  }
+});
+
+// node_modules/esm-env/dev-fallback.js
+var node_env, dev_fallback_default;
+var init_dev_fallback = __esm({
+  "node_modules/esm-env/dev-fallback.js"() {
+    node_env = globalThis.process?.env?.NODE_ENV;
+    dev_fallback_default = node_env && !node_env.toLowerCase().startsWith("prod");
+  }
+});
+
+// node_modules/esm-env/false.js
+var init_false = __esm({
+  "node_modules/esm-env/false.js"() {
+  }
+});
+
+// node_modules/esm-env/index.js
+var init_esm_env = __esm({
+  "node_modules/esm-env/index.js"() {
+    init_true();
+    init_dev_fallback();
+    init_false();
+  }
+});
+
+// node_modules/@sveltejs/kit/src/runtime/pathname.js
+var init_pathname = __esm({
+  "node_modules/@sveltejs/kit/src/runtime/pathname.js"() {
+  }
+});
+
+// node_modules/@sveltejs/kit/src/runtime/utils.js
+var text_encoder, text_decoder;
+var init_utils = __esm({
+  "node_modules/@sveltejs/kit/src/runtime/utils.js"() {
+    init_esm_env();
+    text_encoder = new TextEncoder();
+    text_decoder = new TextDecoder();
+  }
+});
+
+// node_modules/@sveltejs/kit/src/version.js
+var init_version = __esm({
+  "node_modules/@sveltejs/kit/src/version.js"() {
+  }
+});
+
+// node_modules/@sveltejs/kit/src/exports/index.js
+function error(status, body2) {
+  if ((!true_default || dev_fallback_default) && (isNaN(status) || status < 400 || status > 599)) {
+    throw new Error(`HTTP error status codes must be between 400 and 599 \u2014 ${status} is invalid`);
+  }
+  throw new HttpError(status, body2);
+}
+function json(data, init2) {
+  const body2 = JSON.stringify(data);
+  const headers2 = new Headers(init2?.headers);
+  if (!headers2.has("content-length")) {
+    headers2.set("content-length", text_encoder.encode(body2).byteLength.toString());
+  }
+  if (!headers2.has("content-type")) {
+    headers2.set("content-type", "application/json");
+  }
+  return new Response(body2, {
+    ...init2,
+    headers: headers2
+  });
+}
+function text(body2, init2) {
+  const headers2 = new Headers(init2?.headers);
+  if (!headers2.has("content-length")) {
+    const encoded = text_encoder.encode(body2);
+    headers2.set("content-length", encoded.byteLength.toString());
+    return new Response(encoded, {
+      ...init2,
+      headers: headers2
+    });
+  }
+  return new Response(body2, {
+    ...init2,
+    headers: headers2
+  });
+}
+var init_exports = __esm({
+  "node_modules/@sveltejs/kit/src/exports/index.js"() {
+    init_internal();
+    init_esm_env();
+    init_pathname();
+    init_utils();
+    init_version();
+  }
+});
+
 // node_modules/@sveltejs/kit/src/runtime/server/constants.js
 var IN_WEBCONTAINER;
 var init_constants = __esm({
@@ -177,7 +277,7 @@ function base64_decode(encoded) {
   return bytes;
 }
 var text_encoder2, text_decoder2;
-var init_utils = __esm({
+var init_utils2 = __esm({
   ".svelte-kit/output/server/chunks/utils.js"() {
     text_encoder2 = new TextEncoder();
     text_decoder2 = new TextDecoder();
@@ -314,7 +414,7 @@ function hint_for_supported_files(key2, ext = ".js") {
   }
 }
 var internal, valid_layout_exports, valid_page_exports, valid_layout_server_exports, valid_page_server_exports, valid_server_exports, validate_layout_exports, validate_page_exports, validate_layout_server_exports, validate_page_server_exports, validate_server_exports;
-var init_exports = __esm({
+var init_exports2 = __esm({
   ".svelte-kit/output/server/chunks/exports.js"() {
     internal = new URL("sveltekit-internal://");
     valid_layout_exports = /* @__PURE__ */ new Set([
@@ -657,7 +757,7 @@ var is_legacy, placeholder_url;
 var init_state_svelte = __esm({
   ".svelte-kit/output/server/chunks/state.svelte.js"() {
     init_ssr2();
-    init_exports();
+    init_exports2();
     init_server();
     is_legacy = onMount.toString().includes("$$") || /function \w+\(\) \{\}/.test(onMount.toString());
     placeholder_url = "a:";
@@ -682,8 +782,8 @@ var init_stores = __esm({
   ".svelte-kit/output/server/chunks/stores.js"() {
     init_ssr();
     init_internal();
-    init_exports();
-    init_utils();
+    init_exports2();
+    init_utils2();
     init_server();
     init_state_svelte();
     getStores = () => {
@@ -5648,13 +5748,13 @@ var init_layout_svelte = __esm({
     init_stores();
     init_module();
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<nav class="sticky top-0 z-50 bg-charcoal-dark/95 backdrop-blur-sm border-b border-gray-700/50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between h-16"><a href="/" class="flex items-center gap-3 group" data-svelte-h="svelte-ecb7ps"><span class="text-2xl">\u{1F3CA}</span> <span class="font-heading font-extrabold text-xl tracking-wider"><span class="text-safety-orange">LOST</span> <span class="text-gray-300">IN THE</span> <span class="text-electric-blue">TOOL POOL</span></span></a> <div class="hidden md:flex items-center gap-6" data-svelte-h="svelte-13imxz6"><a href="/advisor" class="text-gray-300 hover:text-safety-orange transition font-heading uppercase tracking-wider text-sm">Project Advisor</a> <a href="/projects" class="text-gray-300 hover:text-safety-orange transition font-heading uppercase tracking-wider text-sm">Projects</a> <a href="/ecosystems" class="text-gray-300 hover:text-safety-orange transition font-heading uppercase tracking-wider text-sm">Ecosystems</a> <a href="/compare" class="text-gray-300 hover:text-safety-orange transition font-heading uppercase tracking-wider text-sm">Compare</a></div> <button class="md:hidden text-gray-300 p-2" aria-label="Toggle menu"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">${`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>`}</svg></button></div></div> ${``}</nav>`;
+      return `<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" style="background: linear-gradient(180deg, rgba(8,8,12,0.95) 0%, rgba(8,8,12,0.8) 100%); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);"><div class="max-w-7xl mx-auto px-6 lg:px-8"><div class="flex items-center justify-between h-18 py-4"><a href="/" class="flex items-center gap-3 group" data-svelte-h="svelte-1dnh1jm"> <div class="relative w-8 h-8 flex items-center justify-center"><div class="absolute inset-0 bg-ember/20 rounded-lg rotate-45 group-hover:rotate-[55deg] transition-transform duration-500"></div> <svg class="w-4 h-4 text-ember relative z-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></div> <span class="font-display font-bold text-lg tracking-tight"><span class="text-white">Lost in the</span> <span class="text-ember ml-1">Tool Pool</span></span></a> <div class="hidden md:flex items-center gap-1" data-svelte-h="svelte-15h6fq5"><a href="/advisor" class="px-4 py-2 text-steel hover:text-white transition-colors duration-200 font-body text-sm">Advisor</a> <a href="/projects" class="px-4 py-2 text-steel hover:text-white transition-colors duration-200 font-body text-sm">Projects</a> <a href="/ecosystems" class="px-4 py-2 text-steel hover:text-white transition-colors duration-200 font-body text-sm">Ecosystems</a> <a href="/compare" class="px-4 py-2 text-steel hover:text-white transition-colors duration-200 font-body text-sm">Compare</a> <a href="/search" class="ml-2 px-4 py-2 text-steel hover:text-white transition-colors duration-200 font-body text-sm flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+					Search</a></div> <button class="md:hidden text-steel p-2 hover:text-white transition-colors" aria-label="Toggle menu"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">${`<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>`}</svg></button></div></div> ${``}</nav>`;
     });
     Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<footer class="bg-charcoal-dark border-t border-gray-700/50 mt-20"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="grid grid-cols-1 md:grid-cols-4 gap-8" data-svelte-h="svelte-1sqi8w3"><div><span class="font-heading font-extrabold text-lg tracking-wider"><span class="text-safety-orange">LOST</span> <span class="text-gray-300">IN THE</span> <span class="text-electric-blue">TOOL POOL</span></span> <p class="mt-3 text-gray-400 text-sm leading-relaxed">AI-powered tool recommendations for DIY homeowners.
-					We help you figure out what you actually need.</p></div> <div><h4 class="text-safety-orange text-sm mb-3">Explore</h4> <ul class="space-y-2 text-sm text-gray-400"><li><a href="/advisor" class="hover:text-white transition">Project Advisor</a></li> <li><a href="/projects" class="hover:text-white transition">Browse Projects</a></li> <li><a href="/ecosystems" class="hover:text-white transition">Battery Ecosystems</a></li> <li><a href="/compare" class="hover:text-white transition">Compare Tools</a></li></ul></div> <div><h4 class="text-safety-orange text-sm mb-3">Popular Projects</h4> <ul class="space-y-2 text-sm text-gray-400"><li><a href="/projects/build-a-deck" class="hover:text-white transition">Build a Deck</a></li> <li><a href="/projects/bathroom-renovation" class="hover:text-white transition">Bathroom Renovation</a></li> <li><a href="/projects/build-a-fence" class="hover:text-white transition">Build a Fence</a></li> <li><a href="/projects/paint-a-room" class="hover:text-white transition">Paint a Room</a></li></ul></div> <div><h4 class="text-safety-orange text-sm mb-3">Transparency</h4> <p class="text-sm text-gray-400 leading-relaxed">We earn affiliate commissions when you buy through our links.
-					This does <strong class="text-gray-300">not</strong> affect our rankings.
-					We recommend what&#39;s best for your project, not what pays us the most.</p></div></div> <div class="mt-8 pt-6 border-t border-gray-700/30"><div class="flex flex-wrap justify-center gap-4 text-xs text-gray-500 mb-4" data-svelte-h="svelte-1epega"><a href="/legal/privacy" class="hover:text-gray-300 transition">Privacy Policy</a> <a href="/legal/terms" class="hover:text-gray-300 transition">Terms of Service</a> <a href="/legal/affiliate-disclosure" class="hover:text-gray-300 transition">Affiliate Disclosure</a> <a href="/legal/disclaimer" class="hover:text-gray-300 transition">Disclaimer</a> <a href="/legal/accessibility" class="hover:text-gray-300 transition">Accessibility</a></div> <p class="text-center text-xs text-gray-600">\xA9 ${escape((/* @__PURE__ */ new Date()).getFullYear())} Lost in the Tool Pool, operated by CYBERNITED (Belgium). Built by tool nerds, for humans who build things.</p></div></div></footer>`;
+      return `<footer class="relative mt-20"><div class="absolute inset-0 bg-void-50"></div> <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-void-400/40 to-transparent"></div> <div class="relative max-w-7xl mx-auto px-6 lg:px-8 py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-10" data-svelte-h="svelte-vdf4cx"><div><a href="/" class="flex items-center gap-2.5 mb-4"><div class="w-7 h-7 flex items-center justify-center relative"><div class="absolute inset-0 bg-ember/20 rounded-lg rotate-45"></div> <svg class="w-3.5 h-3.5 text-ember relative z-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></div> <span class="font-display font-bold text-sm"><span class="text-white">Lost in the</span> <span class="text-ember ml-1">Tool Pool</span></span></a> <p class="text-steel-dark text-sm leading-relaxed">AI-powered tool recommendations for DIY homeowners.
+					We help you figure out what you actually need.</p></div> <div><h4 class="text-white font-display font-semibold text-sm mb-4">Explore</h4> <ul class="space-y-2.5 text-sm text-steel-dark"><li><a href="/advisor" class="hover:text-ember transition-colors duration-200">Project Advisor</a></li> <li><a href="/projects" class="hover:text-ember transition-colors duration-200">Browse Projects</a></li> <li><a href="/ecosystems" class="hover:text-ember transition-colors duration-200">Battery Ecosystems</a></li> <li><a href="/compare" class="hover:text-ember transition-colors duration-200">Compare Tools</a></li></ul></div> <div><h4 class="text-white font-display font-semibold text-sm mb-4">Popular</h4> <ul class="space-y-2.5 text-sm text-steel-dark"><li><a href="/projects/build-a-deck" class="hover:text-ember transition-colors duration-200">Build a Deck</a></li> <li><a href="/projects/bathroom-renovation" class="hover:text-ember transition-colors duration-200">Bathroom Renovation</a></li> <li><a href="/projects/build-a-fence" class="hover:text-ember transition-colors duration-200">Build a Fence</a></li> <li><a href="/projects/paint-a-room" class="hover:text-ember transition-colors duration-200">Paint a Room</a></li></ul></div> <div><h4 class="text-white font-display font-semibold text-sm mb-4">Transparency</h4> <p class="text-sm text-steel-dark leading-relaxed">We earn affiliate commissions when you buy through our links.
+					This does <strong class="text-steel-light">not</strong> affect our rankings.</p></div></div> <div class="mt-12 pt-8"><div class="h-px bg-gradient-to-r from-transparent via-void-400/30 to-transparent mb-8"></div> <div class="flex flex-col sm:flex-row items-center justify-between gap-4"><div class="flex flex-wrap justify-center gap-5 text-xs text-steel-dark" data-svelte-h="svelte-1j7sm8u"><a href="/legal/privacy" class="hover:text-steel-light transition-colors">Privacy</a> <a href="/legal/terms" class="hover:text-steel-light transition-colors">Terms</a> <a href="/legal/affiliate-disclosure" class="hover:text-steel-light transition-colors">Affiliate Disclosure</a> <a href="/legal/disclaimer" class="hover:text-steel-light transition-colors">Disclaimer</a> <a href="/legal/accessibility" class="hover:text-steel-light transition-colors">Accessibility</a></div> <p class="text-xs text-void-500">\xA9 ${escape((/* @__PURE__ */ new Date()).getFullYear())} CYBERNITED</p></div></div></div></footer>`;
     });
     Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $page, $$unsubscribe_page;
@@ -5687,8 +5787,8 @@ var init__ = __esm({
   ".svelte-kit/output/server/nodes/0.js"() {
     index = 0;
     component = async () => component_cache ??= (await Promise.resolve().then(() => (init_layout_svelte(), layout_svelte_exports))).default;
-    imports = ["_app/immutable/nodes/0.DTZEXDB9.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js"];
-    stylesheets = ["_app/immutable/assets/0.CbAuLbLL.css"];
+    imports = ["_app/immutable/nodes/0.BC6xNbaG.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js"];
+    stylesheets = ["_app/immutable/assets/0._u8mha71.css"];
     fonts = [];
   }
 });
@@ -5726,7 +5826,7 @@ var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     index2 = 1;
     component2 = async () => component_cache2 ??= (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default;
-    imports2 = ["_app/immutable/nodes/1.DCa4y9xe.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js"];
+    imports2 = ["_app/immutable/nodes/1.CtebNx_W.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js"];
     stylesheets2 = [];
     fonts2 = [];
   }
@@ -5764,8 +5864,8 @@ var init_page_svelte = __esm({
     init_ssr();
     init_SearchBar();
     init_internal();
-    init_exports();
-    init_utils();
+    init_exports2();
+    init_utils2();
     init_server();
     init_state_svelte();
     Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5773,120 +5873,136 @@ var init_page_svelte = __esm({
         "I want to build a 12x16 deck on a budget",
         "What's the minimum toolkit for a bathroom reno?",
         "Milwaukee vs DeWalt for a serious DIYer?",
-        "I need to cut a hole in drywall for a new outlet",
-        "Best starter kit under $500 for a new homeowner",
-        "What do I need to refinish hardwood floors?"
+        "Best starter kit under $500 for a new homeowner"
       ];
       const projects = [
         {
           slug: "build-a-deck",
           name: "Build a Deck",
-          icon: "\u{1FAB5}",
           difficulty: 3
         },
         {
           slug: "build-a-fence",
           name: "Build a Fence",
-          icon: "\u{1F3D7}\uFE0F",
           difficulty: 2
         },
         {
           slug: "bathroom-renovation",
           name: "Bathroom Reno",
-          icon: "\u{1F6BF}",
           difficulty: 4
         },
         {
           slug: "paint-a-room",
           name: "Paint a Room",
-          icon: "\u{1F3A8}",
           difficulty: 1
         },
         {
           slug: "install-hardwood-flooring",
           name: "Install Flooring",
-          icon: "\u{1FAB5}",
           difficulty: 3
         },
         {
           slug: "build-raised-garden-beds",
           name: "Garden Beds",
-          icon: "\u{1F331}",
           difficulty: 1
         },
         {
           slug: "drywall-installation",
           name: "Drywall",
-          icon: "\u{1F9F1}",
           difficulty: 3
         },
         {
           slug: "yard-maintenance",
           name: "Yard Care",
-          icon: "\u{1F33F}",
           difficulty: 1
         }
       ];
-      return `${$$result.head += `<!-- HEAD_svelte-nihspp_START -->${$$result.title = `<title>Lost in the Tool Pool \u2014 AI-Powered Tool Recommendations for DIY Projects</title>`, ""}<meta name="description" content="Tell us your project, we'll tell you exactly what tools you need. AI-powered recommendations, ecosystem comparisons, and the best deals."><!-- HEAD_svelte-nihspp_END -->`, ""}  <section class="relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-b from-charcoal-dark via-charcoal to-charcoal-dark"></div> <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22%3E%3Crect fill=%22none%22 stroke=%22%23ff6b35%22 stroke-width=%220.5%22 width=%2260%22 height=%2260%22/%3E%3C/svg%3E'); background-size: 60px 60px;"></div> <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center"><h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6" data-svelte-h="svelte-c94snm"><span class="text-white">Tell Us Your Project.</span><br> <span class="text-safety-orange">We&#39;ll Tell You What Tools You Need.</span></h1> <p class="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10 font-body normal-case" data-svelte-h="svelte-s63pwd">Stop guessing. Stop overspending. Get AI-powered tool recommendations
-			tailored to your specific project, budget, and skill level.</p> <div class="flex justify-center mb-8">${validate_component(SearchBar, "SearchBar").$$render(
+      const ecosystems = [
+        {
+          name: "Milwaukee",
+          slug: "milwaukee-m18",
+          color: "#db0032"
+        },
+        {
+          name: "DeWalt",
+          slug: "dewalt-20v-max",
+          color: "#febd17"
+        },
+        {
+          name: "Makita",
+          slug: "makita-18v-lxt",
+          color: "#00a4b3"
+        },
+        {
+          name: "Ryobi",
+          slug: "ryobi-one-plus",
+          color: "#8dc73f"
+        },
+        {
+          name: "EGO",
+          slug: "ego-56v",
+          color: "#00b140"
+        },
+        {
+          name: "Bosch",
+          slug: "bosch-18v",
+          color: "#005daa"
+        }
+      ];
+      return `${$$result.head += `<!-- HEAD_svelte-nihspp_START -->${$$result.title = `<title>Lost in the Tool Pool \u2014 AI-Powered Tool Recommendations for DIY Projects</title>`, ""}<meta name="description" content="Tell us your project, we'll tell you exactly what tools you need. AI-powered recommendations, ecosystem comparisons, and the best deals."><!-- HEAD_svelte-nihspp_END -->`, ""}  <section class="relative min-h-[90vh] flex items-center overflow-hidden"><div class="absolute inset-0 bg-void"></div> <div class="absolute inset-0 section-grid opacity-60"></div> <div class="absolute inset-0" style="background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(255,107,53,0.04) 0%, transparent 100%)"></div>  <div class="absolute right-[8%] top-[20%] w-72 h-72 hidden lg:block animate-float opacity-30" data-svelte-h="svelte-159c7ho"><div class="relative w-full h-full"><div class="absolute inset-0" style="background: linear-gradient(135deg, #1e1e2e 0%, #0e0e14 40%, #1e1e2e 80%); clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); "></div> <div class="absolute inset-4" style="background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, transparent 60%); clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); "></div> <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full" style="background: linear-gradient(135deg, #08080c 0%, #12121a 50%, #08080c 100%); box-shadow: inset 0 2px 4px rgba(255,255,255,0.05);"></div></div></div>  <div class="absolute left-[5%] bottom-[15%] w-40 h-40 hidden lg:block animate-float opacity-20" style="animation-delay: -3s;" data-svelte-h="svelte-1hmjtm4"><div class="w-full h-full rounded-2xl rotate-12" style="background: linear-gradient(135deg, #181824 0%, #0e0e14 50%, #181824 100%); box-shadow: 0 10px 40px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.04); "></div></div> <div class="relative max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-20 w-full"><div class="${[
+        "max-w-3xl",
+        "opacity-0 "
+      ].join(" ").trim()}"><div class="flex items-center gap-3 mb-8" data-svelte-h="svelte-16x1njw"><div class="h-px w-12 bg-ember/60"></div> <span class="text-ember font-mono text-xs tracking-widest uppercase">AI-Powered Tool Advisor</span></div> <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-[0.95] tracking-tight mb-8" data-svelte-h="svelte-gp0gch">Tell us your project.
+				<br> <span class="text-gradient">We&#39;ll tell you</span> <br> <span class="text-gradient">what tools you need.</span></h1> <p class="text-steel text-lg sm:text-xl max-w-xl mb-12 leading-relaxed font-light" data-svelte-h="svelte-10nxl05">Stop guessing. Stop overspending. Get personalized tool recommendations
+				tailored to your project, budget, and skill level.</p> <div class="max-w-2xl mb-8">${validate_component(SearchBar, "SearchBar").$$render(
         $$result,
         {
           size: "large",
-          placeholder: "Describe your project... e.g., I want to build a deck"
+          placeholder: "Describe your project..."
         },
         {},
         {}
-      )}</div> <div class="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">${each(exampleQueries, (query) => {
-        return `<button class="text-xs px-3 py-1.5 rounded-full bg-charcoal-light border border-gray-600/50 text-gray-400 hover:text-safety-orange hover:border-safety-orange/30 transition font-body normal-case">&quot;${escape(query)}&quot;
-				</button>`;
-      })}</div></div></section>  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"><h2 class="text-2xl sm:text-3xl text-center mb-10" data-svelte-h="svelte-gbdanl"><span class="text-gray-300">Pick a Project,</span> <span class="text-safety-orange">Get Your Toolkit</span></h2> <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">${each(projects, (project) => {
-        return `<a href="${"/projects/" + escape(project.slug, true)}" class="card text-center group cursor-pointer hover:border-safety-orange/50 hover:-translate-y-1 transition-all duration-300"><span class="text-4xl block mb-3">${escape(project.icon)}</span> <span class="font-heading text-sm text-gray-200 group-hover:text-safety-orange transition">${escape(project.name)}</span> <div class="mt-2 flex justify-center gap-1">${each(Array(5), (_2, i2) => {
-          return `<span class="${"w-1.5 h-1.5 rounded-full " + escape(
-            i2 < project.difficulty ? "bg-safety-orange" : "bg-gray-600",
-            true
-          )}"></span>`;
+      )}</div> <div class="flex flex-wrap gap-2 max-w-2xl">${each(exampleQueries, (query) => {
+        return `<button class="text-xs px-3.5 py-1.5 rounded-full border border-void-400/40 text-steel-dark hover:text-ember hover:border-ember/30 transition-all duration-300 font-body">${escape(query)} </button>`;
+      })}</div></div></div> <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-void to-transparent"></div></section>  <section class="relative py-28 px-6 lg:px-8"><div class="max-w-7xl mx-auto"><div class="flex items-end justify-between mb-14" data-svelte-h="svelte-2mikzb"><div><span class="text-ember font-mono text-xs tracking-widest uppercase mb-3 block">Quick Start</span> <h2 class="text-3xl sm:text-4xl">Pick a project, get your toolkit</h2></div> <a href="/projects" class="hidden sm:flex items-center gap-2 text-steel text-sm hover:text-ember transition-colors font-body">All 20 projects
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a></div> <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 stagger">${each(projects, (project) => {
+        return `<a href="${"/projects/" + escape(project.slug, true)}" class="card group cursor-pointer opacity-0 animate-slide-up"><span class="font-display text-sm text-white/90 group-hover:text-ember transition-colors duration-300">${escape(project.name)}</span> <div class="flex items-center gap-1.5 mt-3">${each(Array(5), (_2, i2) => {
+          return `<span class="${"w-1.5 h-1.5 rounded-full " + escape(i2 < project.difficulty ? "bg-ember/70" : "bg-void-400", true)}"></span>`;
         })}</div> </a>`;
-      })}</div> <div class="text-center mt-6" data-svelte-h="svelte-15bh0ak"><a href="/projects" class="text-electric-blue hover:text-electric-blue-light transition text-sm font-heading uppercase tracking-wider">View all 20 projects \u2192</a></div></section>  <section class="bg-charcoal-dark py-16" data-svelte-h="svelte-ztwm9d"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="text-2xl sm:text-3xl text-center mb-12"><span class="text-gray-300">How It</span> <span class="text-electric-blue">Works</span></h2> <div class="grid md:grid-cols-3 gap-8"><div class="text-center"><div class="w-16 h-16 mx-auto mb-4 rounded-full bg-safety-orange/10 border border-safety-orange/30 flex items-center justify-center"><span class="text-safety-orange font-heading text-2xl font-bold">1</span></div> <h3 class="text-lg mb-2 text-white">Describe Your Project</h3> <p class="text-gray-400 text-sm normal-case font-body">Tell us what you want to build in plain English. No jargon needed.
-					&quot;I want to build a deck&quot; is perfect.</p></div> <div class="text-center"><div class="w-16 h-16 mx-auto mb-4 rounded-full bg-electric-blue/10 border border-electric-blue/30 flex items-center justify-center"><span class="text-electric-blue font-heading text-2xl font-bold">2</span></div> <h3 class="text-lg mb-2 text-white">Get Your Toolkit</h3> <p class="text-gray-400 text-sm normal-case font-body">We recommend exactly what you need \u2014 tools, accessories, and safety gear.
-					Skip what you already own. Rent what you&#39;ll use once.</p></div> <div class="text-center"><div class="w-16 h-16 mx-auto mb-4 rounded-full bg-safety-orange/10 border border-safety-orange/30 flex items-center justify-center"><span class="text-safety-orange font-heading text-2xl font-bold">3</span></div> <h3 class="text-lg mb-2 text-white">Buy With Confidence</h3> <p class="text-gray-400 text-sm normal-case font-body">Compare prices across retailers. Pick the battery ecosystem that fits your life.
-					Every recommendation explained \u2014 no mystery picks.</p></div></div></div></section>  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"><h2 class="text-2xl sm:text-3xl text-center mb-4" data-svelte-h="svelte-u81eaz"><span class="text-gray-300">Choose Your</span> <span class="text-safety-orange">Battery Ecosystem</span></h2> <p class="text-center text-gray-400 mb-10 max-w-xl mx-auto font-body normal-case text-sm" data-svelte-h="svelte-ia706t">Your first battery tool purchase locks you into an ecosystem. We help you pick the right one
-		before you&#39;re invested.</p> <div class="flex flex-wrap justify-center gap-3">${each(
+      })}</div></div></section>  <section class="relative py-28 px-6 lg:px-8 section-glow"><div class="absolute inset-0 bg-void-50"></div> <div class="absolute inset-0 section-grid opacity-40"></div> <div class="relative max-w-7xl mx-auto"><div class="text-center mb-20" data-svelte-h="svelte-ptpk7v"><span class="text-ember font-mono text-xs tracking-widest uppercase mb-3 block">How It Works</span> <h2 class="text-3xl sm:text-4xl">Three steps to the right tools</h2></div> <div class="grid md:grid-cols-3 gap-8 lg:gap-12">${each(
         [
           {
-            name: "Milwaukee",
-            color: "bg-milwaukee",
-            slug: "milwaukee-m18"
+            num: "01",
+            title: "Describe Your Project",
+            desc: "Tell us what you want to build in plain English. No jargon needed."
           },
           {
-            name: "DeWalt",
-            color: "bg-dewalt text-black",
-            slug: "dewalt-20v-max"
+            num: "02",
+            title: "Get Your Toolkit",
+            desc: "We recommend exactly what you need. Skip what you own. Rent what you use once."
           },
           {
-            name: "Makita",
-            color: "bg-makita",
-            slug: "makita-18v-lxt"
-          },
-          {
-            name: "Ryobi",
-            color: "bg-ryobi text-black",
-            slug: "ryobi-one-plus"
-          },
-          {
-            name: "Bosch",
-            color: "bg-bosch",
-            slug: "bosch-18v"
-          },
-          {
-            name: "EGO",
-            color: "bg-ego",
-            slug: "ego-56v"
+            num: "03",
+            title: "Buy With Confidence",
+            desc: "Compare prices across retailers. Pick the ecosystem that fits your life."
           }
         ],
-        (eco) => {
-          return `<a href="${"/ecosystems/" + escape(eco.slug, true)}" class="${"ecosystem-badge " + escape(eco.color, true) + " text-sm px-5 py-2.5 hover:scale-105 transition-transform cursor-pointer"}">${escape(eco.name)} </a>`;
+        (step) => {
+          return `<div class="card-glass text-center"><div class="w-14 h-14 mx-auto mb-6 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(255,107,53,0.1) 0%, rgba(255,107,53,0.02) 100%); border: 1px solid rgba(255,107,53,0.15);"><span class="text-ember font-mono text-sm font-semibold">${escape(step.num)}</span></div> <h3 class="text-lg mb-3">${escape(step.title)}</h3> <p class="text-steel text-sm leading-relaxed">${escape(step.desc)}</p> </div>`;
         }
-      )}</div> <div class="text-center mt-6" data-svelte-h="svelte-1b0v8oc"><a href="/ecosystems" class="text-electric-blue hover:text-electric-blue-light transition text-sm font-heading uppercase tracking-wider">Compare all 13 ecosystems \u2192</a></div></section>  <section class="bg-charcoal-dark border-y border-gray-700/30 py-8" data-svelte-h="svelte-dreatt"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-center"><div><span class="text-3xl font-heading font-bold text-safety-orange">500+</span> <p class="text-xs text-gray-400 font-heading uppercase tracking-wider">Tools Analyzed</p></div> <div><span class="text-3xl font-heading font-bold text-electric-blue">13</span> <p class="text-xs text-gray-400 font-heading uppercase tracking-wider">Battery Ecosystems</p></div> <div><span class="text-3xl font-heading font-bold text-safety-orange">20</span> <p class="text-xs text-gray-400 font-heading uppercase tracking-wider">Project Types</p></div> <div><span class="text-3xl font-heading font-bold text-electric-blue">$0</span> <p class="text-xs text-gray-400 font-heading uppercase tracking-wider">Pay-to-Rank</p></div></div></div></section>`;
+      )}</div></div></section>  <section class="relative py-28 px-6 lg:px-8"><div class="max-w-7xl mx-auto"><div class="text-center mb-14" data-svelte-h="svelte-1tnn8jg"><span class="text-ember font-mono text-xs tracking-widest uppercase mb-3 block">Battery Platforms</span> <h2 class="text-3xl sm:text-4xl mb-4">Choose your ecosystem</h2> <p class="text-steel max-w-lg mx-auto text-sm leading-relaxed">Your first battery tool locks you into an ecosystem. We help you pick the right one.</p></div> <div class="flex flex-wrap justify-center gap-3">${each(ecosystems, (eco) => {
+        return `<a href="${"/ecosystems/" + escape(eco.slug, true)}" class="group px-6 py-3 rounded-xl border border-void-400/40 hover:-translate-y-0.5 transition-all duration-300"><span class="font-display font-semibold text-sm text-white">${escape(eco.name)}</span> </a>`;
+      })}</div> <div class="text-center mt-8" data-svelte-h="svelte-mqs966"><a href="/ecosystems" class="text-steel text-sm hover:text-ember transition-colors font-body">Compare all 34 ecosystems \u2192</a></div></div></section>  <section class="relative py-16 px-6 lg:px-8"><div class="absolute inset-0 bg-void-50"></div> <div class="relative max-w-7xl mx-auto"><div class="grid grid-cols-2 sm:grid-cols-4 gap-8">${each(
+        [
+          { value: "1,039", label: "Tools Analyzed" },
+          { value: "34", label: "Ecosystems" },
+          { value: "24", label: "Brands" },
+          { value: "$0", label: "Pay-to-Rank" }
+        ],
+        (stat) => {
+          return `<div class="text-center"><span class="text-3xl sm:text-4xl font-display font-bold text-gradient">${escape(stat.value)}</span> <p class="text-steel-dark text-xs font-mono tracking-widest uppercase mt-2">${escape(stat.label)}</p> </div>`;
+        }
+      )}</div></div></section>  <section class="relative py-28 px-6 lg:px-8 overflow-hidden" data-svelte-h="svelte-1r3vp9p"><div class="absolute inset-0" style="background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(255,107,53,0.05) 0%, transparent 100%)"></div> <div class="relative max-w-2xl mx-auto text-center"><h2 class="text-3xl sm:text-4xl mb-6">Ready to stop guessing?</h2> <p class="text-steel text-lg mb-10 leading-relaxed">Describe your next project and get a personalized toolkit recommendation in seconds.</p> <a href="/advisor" class="btn-primary text-lg px-10 py-4">Try the Advisor</a></div></section>`;
     });
   }
 });
@@ -5905,7 +6021,7 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     index3 = 2;
     component3 = async () => component_cache3 ??= (await Promise.resolve().then(() => (init_page_svelte(), page_svelte_exports))).default;
-    imports3 = ["_app/immutable/nodes/2.xqg3jy3S.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/DYtejBVi.js", "_app/immutable/chunks/aZoe7EhK.js"];
+    imports3 = ["_app/immutable/nodes/2.C00itKMa.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/BeIIhAfn.js", "_app/immutable/chunks/C6T1Hsz6.js"];
     stylesheets3 = [];
     fonts3 = [];
   }
@@ -5923,8 +6039,8 @@ var init_page_svelte2 = __esm({
     init_stores();
     init_SearchBar();
     init_internal();
-    init_exports();
-    init_utils();
+    init_exports2();
+    init_utils2();
     init_server();
     init_state_svelte();
     Page2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5986,7 +6102,7 @@ var init__4 = __esm({
   ".svelte-kit/output/server/nodes/3.js"() {
     index4 = 3;
     component4 = async () => component_cache4 ??= (await Promise.resolve().then(() => (init_page_svelte2(), page_svelte_exports2))).default;
-    imports4 = ["_app/immutable/nodes/3.0iFuwekj.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js", "_app/immutable/chunks/DYtejBVi.js"];
+    imports4 = ["_app/immutable/nodes/3.DzmBQL7f.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js", "_app/immutable/chunks/BeIIhAfn.js"];
     stylesheets4 = [];
     fonts4 = [];
   }
@@ -6074,9 +6190,46 @@ var init__5 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     index5 = 4;
     component5 = async () => component_cache5 ??= (await Promise.resolve().then(() => (init_page_svelte3(), page_svelte_exports3))).default;
-    imports5 = ["_app/immutable/nodes/4.BAjJm2fL.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports5 = ["_app/immutable/nodes/4.Bj9CtVmE.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets5 = [];
     fonts5 = [];
+  }
+});
+
+// .svelte-kit/output/server/chunks/server.js
+async function apiFetch(path, init2) {
+  const res = await fetch(`${API_BASE}${path}`, {
+    ...init2,
+    headers: { "Content-Type": "application/json", ...init2?.headers }
+  });
+  if (!res.ok) {
+    throw new Error(`API ${res.status}: ${path}`);
+  }
+  return res.json();
+}
+var API_BASE;
+var init_server2 = __esm({
+  ".svelte-kit/output/server/chunks/server.js"() {
+    API_BASE = "http://localhost:8080";
+  }
+});
+
+// .svelte-kit/output/server/entries/pages/ecosystems/_page.server.ts.js
+var page_server_ts_exports = {};
+__export(page_server_ts_exports, {
+  load: () => load
+});
+async function load() {
+  try {
+    const ecosystems = await apiFetch("/api/v1/ecosystems");
+    return { ecosystems };
+  } catch {
+    return { ecosystems: [] };
+  }
+}
+var init_page_server_ts = __esm({
+  ".svelte-kit/output/server/entries/pages/ecosystems/_page.server.ts.js"() {
+    init_server2();
   }
 });
 
@@ -6090,141 +6243,13 @@ var init_page_svelte4 = __esm({
   ".svelte-kit/output/server/entries/pages/ecosystems/_page.svelte.js"() {
     init_ssr();
     Page4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      const ecosystems = [
-        {
-          slug: "milwaukee-m18",
-          name: "Milwaukee M18",
-          brand: "Milwaukee",
-          voltage: 18,
-          tools: "250+",
-          target: "Pro",
-          color: "bg-milwaukee",
-          exclusive: "Home Depot"
-        },
-        {
-          slug: "milwaukee-m12",
-          name: "Milwaukee M12",
-          brand: "Milwaukee",
-          voltage: 12,
-          tools: "125+",
-          target: "Pro",
-          color: "bg-milwaukee",
-          exclusive: "Home Depot"
-        },
-        {
-          slug: "dewalt-20v-max",
-          name: "DeWalt 20V MAX",
-          brand: "DeWalt",
-          voltage: 20,
-          tools: "300+",
-          target: "Both",
-          color: "bg-dewalt text-black",
-          exclusive: "None"
-        },
-        {
-          slug: "makita-18v-lxt",
-          name: "Makita 18V LXT",
-          brand: "Makita",
-          voltage: 18,
-          tools: "350+",
-          target: "Both",
-          color: "bg-makita",
-          exclusive: "None"
-        },
-        {
-          slug: "ryobi-one-plus",
-          name: "Ryobi ONE+",
-          brand: "Ryobi",
-          voltage: 18,
-          tools: "300+",
-          target: "DIY",
-          color: "bg-ryobi text-black",
-          exclusive: "Home Depot"
-        },
-        {
-          slug: "bosch-18v",
-          name: "Bosch 18V",
-          brand: "Bosch",
-          voltage: 18,
-          tools: "90+",
-          target: "Both",
-          color: "bg-bosch",
-          exclusive: "None"
-        },
-        {
-          slug: "ridgid-18v",
-          name: "Ridgid 18V",
-          brand: "Ridgid",
-          voltage: 18,
-          tools: "85+",
-          target: "Both",
-          color: "bg-gray-500",
-          exclusive: "Home Depot"
-        },
-        {
-          slug: "ego-56v",
-          name: "EGO 56V",
-          brand: "EGO",
-          voltage: 56,
-          tools: "70+",
-          target: "Both",
-          color: "bg-ego",
-          exclusive: "None"
-        },
-        {
-          slug: "kobalt-24v",
-          name: "Kobalt 24V",
-          brand: "Kobalt",
-          voltage: 24,
-          tools: "75+",
-          target: "DIY",
-          color: "bg-blue-600",
-          exclusive: "Lowe's"
-        },
-        {
-          slug: "greenworks-24v",
-          name: "Greenworks 24V",
-          brand: "Greenworks",
-          voltage: 24,
-          tools: "100+",
-          target: "DIY",
-          color: "bg-green-600",
-          exclusive: "None"
-        },
-        {
-          slug: "husqvarna-battery",
-          name: "Husqvarna Battery",
-          brand: "Husqvarna",
-          voltage: 36,
-          tools: "55+",
-          target: "Pro",
-          color: "bg-orange-600",
-          exclusive: "Dealers"
-        },
-        {
-          slug: "stihl-ak",
-          name: "STIHL AK",
-          brand: "STIHL",
-          voltage: 36,
-          tools: "20+",
-          target: "DIY",
-          color: "bg-orange-500",
-          exclusive: "Dealers"
-        },
-        {
-          slug: "stihl-ap",
-          name: "STIHL AP",
-          brand: "STIHL",
-          voltage: 36,
-          tools: "25+",
-          target: "Pro",
-          color: "bg-orange-500",
-          exclusive: "Dealers"
-        }
-      ];
-      return `${$$result.head += `<!-- HEAD_svelte-1bs6ilz_START -->${$$result.title = `<title>Battery Tool Ecosystems Compared \u2014 Lost in the Tool Pool</title>`, ""}<meta name="description" content="Compare 13 battery tool ecosystems: Milwaukee, DeWalt, Makita, Ryobi, EGO, and more. Find the right platform before you're locked in."><!-- HEAD_svelte-1bs6ilz_END -->`, ""} <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="text-center mb-10" data-svelte-h="svelte-1bvq6uy"><h1 class="text-3xl sm:text-4xl mb-4"><span class="text-white">Battery</span> <span class="text-safety-orange">Ecosystems</span></h1> <p class="text-gray-400 font-body normal-case max-w-xl mx-auto">Your first battery tool purchase locks you into an ecosystem.
-			Choose wisely \u2014 here&#39;s everything you need to know about each one.</p></div> <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${each(ecosystems, (eco) => {
-        return `<a href="${"/ecosystems/" + escape(eco.slug, true)}" class="card group hover:-translate-y-1 transition-all duration-300"><div class="flex items-center justify-between mb-3"><span class="${"ecosystem-badge " + escape(eco.color, true)}">${escape(eco.brand)}</span> <span class="text-xs text-gray-500 font-heading uppercase">${escape(eco.target)}</span></div> <h3 class="font-heading text-lg text-gray-200 group-hover:text-safety-orange transition">${escape(eco.name)}</h3> <div class="mt-3 grid grid-cols-3 gap-2 text-center"><div><span class="text-sm font-bold text-safety-orange">${escape(eco.voltage)}V</span> <p class="text-[10px] text-gray-500 font-heading uppercase" data-svelte-h="svelte-1hwxn3z">Voltage</p></div> <div><span class="text-sm font-bold text-electric-blue">${escape(eco.tools)}</span> <p class="text-[10px] text-gray-500 font-heading uppercase" data-svelte-h="svelte-1vmem2o">Tools</p></div> <div><span class="text-xs font-bold text-gray-400">${escape(eco.exclusive)}</span> <p class="text-[10px] text-gray-500 font-heading uppercase" data-svelte-h="svelte-1wztm65">Exclusive</p> </div></div> </a>`;
+      let ecosystems;
+      let { data } = $$props;
+      if ($$props.data === void 0 && $$bindings.data && data !== void 0) $$bindings.data(data);
+      ecosystems = data.ecosystems || [];
+      return `${$$result.head += `<!-- HEAD_svelte-1wknsp4_START -->${$$result.title = `<title>Battery Tool Ecosystems Compared \u2014 Lost in the Tool Pool</title>`, ""}<meta name="description" content="${"Compare " + escape(ecosystems.length, true) + " battery tool ecosystems: Milwaukee, DeWalt, Makita, Ryobi, EGO, and more. Find the right platform before you're locked in."}"><!-- HEAD_svelte-1wknsp4_END -->`, ""} <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="text-center mb-10"><h1 class="text-3xl sm:text-4xl mb-4" data-svelte-h="svelte-1p8o9d6"><span class="text-white">Battery</span> <span class="text-safety-orange">Ecosystems</span></h1> <p class="text-gray-400 font-body normal-case max-w-xl mx-auto">Your first battery tool purchase locks you into an ecosystem.
+			Choose wisely \u2014 ${escape(ecosystems.length)} platforms compared.</p></div> <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${each(ecosystems, (eco) => {
+        return `<a href="${"/ecosystems/" + escape(eco.slug, true)}" class="card group hover:-translate-y-1 transition-all duration-300"><div class="flex items-center justify-between mb-3"><span class="ecosystem-badge bg-gray-600 text-white">${escape(eco.slug.split("-")[0])}</span></div> <h3 class="font-heading text-lg text-gray-200 group-hover:text-safety-orange transition">${escape(eco.slug)}</h3> <div class="mt-3 text-center"><span class="text-2xl font-heading font-bold text-electric-blue">${escape(eco.tool_count)}</span> <p class="text-[10px] text-gray-500 font-heading uppercase" data-svelte-h="svelte-1vmem2o">Tools</p></div> </a>`;
       })}</div></div>`;
     });
   }
@@ -6237,16 +6262,39 @@ __export(__exports6, {
   fonts: () => fonts6,
   imports: () => imports6,
   index: () => index6,
+  server: () => page_server_ts_exports,
+  server_id: () => server_id,
   stylesheets: () => stylesheets6
 });
-var index6, component_cache6, component6, imports6, stylesheets6, fonts6;
+var index6, component_cache6, component6, server_id, imports6, stylesheets6, fonts6;
 var init__6 = __esm({
   ".svelte-kit/output/server/nodes/5.js"() {
+    init_page_server_ts();
     index6 = 5;
     component6 = async () => component_cache6 ??= (await Promise.resolve().then(() => (init_page_svelte4(), page_svelte_exports4))).default;
-    imports6 = ["_app/immutable/nodes/5.DcuMyQhA.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    server_id = "src/routes/ecosystems/+page.server.ts";
+    imports6 = ["_app/immutable/nodes/5.BR2Six7A.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets6 = [];
     fonts6 = [];
+  }
+});
+
+// .svelte-kit/output/server/entries/pages/ecosystems/_slug_/_page.server.ts.js
+var page_server_ts_exports2 = {};
+__export(page_server_ts_exports2, {
+  load: () => load2
+});
+async function load2({ params }) {
+  try {
+    const data = await apiFetch(`/api/v1/ecosystems/${params.slug}`);
+    return { ecosystem: data.ecosystem || params.slug, tools: data.tools || [] };
+  } catch {
+    return { ecosystem: params.slug, tools: [] };
+  }
+}
+var init_page_server_ts2 = __esm({
+  ".svelte-kit/output/server/entries/pages/ecosystems/_slug_/_page.server.ts.js"() {
+    init_server2();
   }
 });
 
@@ -6262,65 +6310,31 @@ var init_page_svelte5 = __esm({
     init_stores();
     Page5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let slug;
-      let eco;
+      let tools;
+      let ecoName;
+      let byCategory;
       let $page, $$unsubscribe_page;
       $$unsubscribe_page = subscribe(page, (value) => $page = value);
-      const ecoData = {
-        "milwaukee-m18": {
-          name: "Milwaukee M18",
-          brand: "Milwaukee",
-          voltage: 18,
-          tools: "250+",
-          target: "Professional trades and serious DIYers",
-          parent: "TTI Group",
-          exclusive: "Home Depot",
-          warranty: "5-year tool warranty",
-          color: "bg-milwaukee",
-          strengths: [
-            "Industry-leading impact drivers and drills",
-            "ONE-KEY smart tool connectivity",
-            "Largest pro-grade selection",
-            "Excellent battery life with high-output packs"
-          ],
-          weaknesses: [
-            "Premium pricing",
-            "Home Depot exclusive limits availability",
-            "Overkill for casual DIY"
-          ],
-          starter_kit: [
-            "Drill/Driver",
-            "Impact Driver",
-            "Circular Saw",
-            "Reciprocating Saw",
-            "Multi-Tool"
-          ],
-          starter_cost: 685
-        }
-      };
+      let { data } = $$props;
+      if ($$props.data === void 0 && $$bindings.data && data !== void 0) $$bindings.data(data);
       slug = $page.params.slug;
-      eco = ecoData[slug] || {
-        name: slug.split("-").map((w2) => w2.charAt(0).toUpperCase() + w2.slice(1)).join(" "),
-        brand: slug.split("-")[0],
-        voltage: 18,
-        tools: "TBD",
-        target: "TBD",
-        parent: "",
-        exclusive: "",
-        warranty: "",
-        color: "bg-gray-600",
-        strengths: [],
-        weaknesses: [],
-        starter_kit: [],
-        starter_cost: 0
-      };
+      tools = data.tools || [];
+      ecoName = slug.split("-").map((w2) => w2.charAt(0).toUpperCase() + w2.slice(1)).join(" ");
+      byCategory = tools.reduce(
+        (acc, t3) => {
+          const cat = t3.category || "other";
+          if (!acc[cat]) acc[cat] = [];
+          acc[cat].push(t3);
+          return acc;
+        },
+        {}
+      );
       $$unsubscribe_page();
-      return `${$$result.head += `<!-- HEAD_svelte-1rc1t3x_START -->${$$result.title = `<title>${escape(eco.name)} Ecosystem Guide \u2014 Lost in the Tool Pool</title>`, ""}<meta name="description" content="${"Complete guide to the " + escape(eco.name, true) + " battery ecosystem. " + escape(eco.tools, true) + " tools, compatibility info, starter kit recommendations, and honest pros/cons."}"><!-- HEAD_svelte-1rc1t3x_END -->`, ""} <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="mb-6" data-svelte-h="svelte-14bwacf"><a href="/ecosystems" class="text-sm text-gray-500 hover:text-safety-orange transition font-heading uppercase tracking-wider">\u2190 All Ecosystems</a></div> <div class="flex items-center gap-4 mb-8"><span class="${"ecosystem-badge " + escape(eco.color, true) + " text-lg px-6 py-3"}">${escape(eco.brand)}</span> <div><h1 class="text-3xl sm:text-4xl text-white">${escape(eco.name)}</h1> <p class="text-gray-400 font-body normal-case mt-1">${escape(eco.target)}</p></div></div>  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8"><div class="card text-center"><span class="text-2xl font-heading font-bold text-safety-orange">${escape(eco.voltage)}V</span> <p class="text-xs text-gray-500 font-heading uppercase mt-1" data-svelte-h="svelte-136dfv0">Voltage</p></div> <div class="card text-center"><span class="text-2xl font-heading font-bold text-electric-blue">${escape(eco.tools)}</span> <p class="text-xs text-gray-500 font-heading uppercase mt-1" data-svelte-h="svelte-tdnc65">Tools</p></div> <div class="card text-center"><span class="text-sm font-heading font-bold text-gray-300">${escape(eco.exclusive || "Everywhere")}</span> <p class="text-xs text-gray-500 font-heading uppercase mt-1" data-svelte-h="svelte-ewqqr5">Sold At</p></div> <div class="card text-center"><span class="text-sm font-heading font-bold text-gray-300">${escape(eco.warranty || "Varies")}</span> <p class="text-xs text-gray-500 font-heading uppercase mt-1" data-svelte-h="svelte-1yyb9le">Warranty</p></div></div>  ${eco.strengths.length ? `<div class="card mb-4"><h2 class="text-lg text-green-400 mb-3" data-svelte-h="svelte-1nkp35r">Strengths</h2> <ul class="space-y-2">${each(eco.strengths, (s4) => {
-        return `<li class="flex items-start gap-3 text-gray-300 font-body normal-case text-sm"><span class="text-green-400 flex-shrink-0" data-svelte-h="svelte-1twkq3y">+</span> ${escape(s4)} </li>`;
-      })}</ul></div>` : ``}  ${eco.weaknesses.length ? `<div class="card mb-4"><h2 class="text-lg text-red-400 mb-3" data-svelte-h="svelte-1r2ckga">Weaknesses</h2> <ul class="space-y-2">${each(eco.weaknesses, (w2) => {
-        return `<li class="flex items-start gap-3 text-gray-300 font-body normal-case text-sm"><span class="text-red-400 flex-shrink-0" data-svelte-h="svelte-vt3uqc">-</span> ${escape(w2)} </li>`;
-      })}</ul></div>` : ``}  ${eco.starter_kit.length ? `<div class="card"><h2 class="text-lg text-safety-orange mb-3" data-svelte-h="svelte-qqtcqm">Recommended Starter Kit</h2> <ul class="space-y-2 mb-4">${each(eco.starter_kit, (tool) => {
-        return `<li class="flex items-center gap-3 text-gray-300 font-body normal-case text-sm"><span class="w-2 h-2 rounded-full bg-safety-orange flex-shrink-0"></span> ${escape(tool)} </li>`;
-      })}</ul> ${eco.starter_cost ? `<p class="text-sm text-gray-400 font-body normal-case">Estimated cost (tools only): <span class="text-safety-orange font-bold">$${escape(eco.starter_cost)}</span></p>` : ``}</div>` : ``}</div>`;
+      return `${$$result.head += `<!-- HEAD_svelte-jtzmr8_START -->${$$result.title = `<title>${escape(ecoName)} \u2014 ${escape(tools.length)} Tools \u2014 Lost in the Tool Pool</title>`, ""}<!-- HEAD_svelte-jtzmr8_END -->`, ""} <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="mb-6" data-svelte-h="svelte-14bwacf"><a href="/ecosystems" class="text-sm text-gray-500 hover:text-safety-orange transition font-heading uppercase tracking-wider">\u2190 All Ecosystems</a></div> <h1 class="text-3xl sm:text-4xl text-white mb-2">${escape(ecoName)}</h1> <p class="text-gray-400 font-body normal-case mb-8">${escape(tools.length)} tools in this ecosystem</p> ${each(Object.entries(byCategory), ([category, catTools]) => {
+        return `<div class="mb-8"><h2 class="text-lg text-safety-orange mb-4 font-heading uppercase">${escape(category.replace(/-/g, " "))}</h2> <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">${each(catTools, (tool) => {
+          return `<a href="${"/tools/" + escape(tool.slug, true)}" class="card group hover:-translate-y-0.5 transition-all"><h3 class="font-body text-sm text-gray-200 group-hover:text-safety-orange transition normal-case leading-tight">${escape(tool.name)}</h3> <div class="flex items-end justify-between mt-3"><span class="text-xl font-heading font-bold text-safety-orange">${tool.price_current > 0 ? `$${escape(tool.price_current)}` : `TBD`}</span> ${tool.rating > 0 ? `<span class="text-xs text-gray-500 flex items-center gap-1"><svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg> ${escape(tool.rating)} </span>` : ``}</div> ${tool.subcategory ? `<span class="text-[10px] text-gray-600 font-heading uppercase mt-1 block">${escape(tool.subcategory.replace(/-/g, " "))}</span>` : ``} </a>`;
+        })}</div> </div>`;
+      })}</div>`;
     });
   }
 });
@@ -6332,14 +6346,18 @@ __export(__exports7, {
   fonts: () => fonts7,
   imports: () => imports7,
   index: () => index7,
+  server: () => page_server_ts_exports2,
+  server_id: () => server_id2,
   stylesheets: () => stylesheets7
 });
-var index7, component_cache7, component7, imports7, stylesheets7, fonts7;
+var index7, component_cache7, component7, server_id2, imports7, stylesheets7, fonts7;
 var init__7 = __esm({
   ".svelte-kit/output/server/nodes/6.js"() {
+    init_page_server_ts2();
     index7 = 6;
     component7 = async () => component_cache7 ??= (await Promise.resolve().then(() => (init_page_svelte5(), page_svelte_exports5))).default;
-    imports7 = ["_app/immutable/nodes/6.CyraluvW.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js"];
+    server_id2 = "src/routes/ecosystems/[slug]/+page.server.ts";
+    imports7 = ["_app/immutable/nodes/6.CcNkyYQg.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js"];
     stylesheets7 = [];
     fonts7 = [];
   }
@@ -6374,7 +6392,7 @@ var init__8 = __esm({
   ".svelte-kit/output/server/nodes/7.js"() {
     index8 = 7;
     component8 = async () => component_cache8 ??= (await Promise.resolve().then(() => (init_page_svelte6(), page_svelte_exports6))).default;
-    imports8 = ["_app/immutable/nodes/7.C3jWvIiu.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports8 = ["_app/immutable/nodes/7.BlrfCT9s.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets8 = [];
     fonts8 = [];
   }
@@ -6409,7 +6427,7 @@ var init__9 = __esm({
   ".svelte-kit/output/server/nodes/8.js"() {
     index9 = 8;
     component9 = async () => component_cache9 ??= (await Promise.resolve().then(() => (init_page_svelte7(), page_svelte_exports7))).default;
-    imports9 = ["_app/immutable/nodes/8.QzSs5Etu.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports9 = ["_app/immutable/nodes/8.DRdaDmgr.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets9 = [];
     fonts9 = [];
   }
@@ -6444,7 +6462,7 @@ var init__10 = __esm({
   ".svelte-kit/output/server/nodes/9.js"() {
     index10 = 9;
     component10 = async () => component_cache10 ??= (await Promise.resolve().then(() => (init_page_svelte8(), page_svelte_exports8))).default;
-    imports10 = ["_app/immutable/nodes/9.ieS5X7nO.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports10 = ["_app/immutable/nodes/9.BAsEKeTR.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets10 = [];
     fonts10 = [];
   }
@@ -6479,7 +6497,7 @@ var init__11 = __esm({
   ".svelte-kit/output/server/nodes/10.js"() {
     index11 = 10;
     component11 = async () => component_cache11 ??= (await Promise.resolve().then(() => (init_page_svelte9(), page_svelte_exports9))).default;
-    imports11 = ["_app/immutable/nodes/10.Bv5-OObi.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports11 = ["_app/immutable/nodes/10.DwdppfgJ.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets11 = [];
     fonts11 = [];
   }
@@ -6514,38 +6532,18 @@ var init__12 = __esm({
   ".svelte-kit/output/server/nodes/11.js"() {
     index12 = 11;
     component12 = async () => component_cache12 ??= (await Promise.resolve().then(() => (init_page_svelte10(), page_svelte_exports10))).default;
-    imports12 = ["_app/immutable/nodes/11.CFsBYqSB.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"];
+    imports12 = ["_app/immutable/nodes/11.CAcov3O5.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"];
     stylesheets12 = [];
     fonts12 = [];
   }
 });
 
-// .svelte-kit/output/server/chunks/index.js
-var ECOSYSTEM_COLORS, DIFFICULTY_LABELS;
-var init_chunks = __esm({
-  ".svelte-kit/output/server/chunks/index.js"() {
-    ECOSYSTEM_COLORS = {
-      "milwaukee-m18": "bg-milwaukee text-white",
-      "milwaukee-m12": "bg-milwaukee text-white",
-      "dewalt-20v-max": "bg-dewalt text-black",
-      "dewalt-flexvolt": "bg-dewalt text-black",
-      "makita-18v-lxt": "bg-makita text-white",
-      "makita-40v-xgt": "bg-makita text-white",
-      "ryobi-one-plus": "bg-ryobi text-black",
-      "ryobi-40v": "bg-ryobi text-black",
-      "bosch-18v": "bg-bosch text-white",
-      "ego-56v": "bg-ego text-white"
-    };
-    DIFFICULTY_LABELS = ["", "Easy", "Moderate", "Intermediate", "Advanced", "Expert"];
-  }
-});
-
 // .svelte-kit/output/server/chunks/DifficultyBadge.js
-var DifficultyBadge;
+var DIFFICULTY_LABELS, DifficultyBadge;
 var init_DifficultyBadge = __esm({
   ".svelte-kit/output/server/chunks/DifficultyBadge.js"() {
     init_ssr();
-    init_chunks();
+    DIFFICULTY_LABELS = ["", "Easy", "Moderate", "Intermediate", "Advanced", "Expert"];
     DifficultyBadge = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { level } = $$props;
       let { showLabel = true } = $$props;
@@ -6761,7 +6759,7 @@ var init__13 = __esm({
   ".svelte-kit/output/server/nodes/12.js"() {
     index13 = 12;
     component13 = async () => component_cache13 ??= (await Promise.resolve().then(() => (init_page_svelte11(), page_svelte_exports11))).default;
-    imports13 = ["_app/immutable/nodes/12.CdD0HRJu.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/Cfk4_Z0v.js", "_app/immutable/chunks/DU4gwN7y.js"];
+    imports13 = ["_app/immutable/nodes/12.CJpZPSi9.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/D5O58gs2.js"];
     stylesheets13 = [];
     fonts13 = [];
   }
@@ -6896,7 +6894,7 @@ var init__14 = __esm({
   ".svelte-kit/output/server/nodes/13.js"() {
     index14 = 13;
     component14 = async () => component_cache14 ??= (await Promise.resolve().then(() => (init_page_svelte12(), page_svelte_exports12))).default;
-    imports14 = ["_app/immutable/nodes/13.BZiodxEY.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js", "_app/immutable/chunks/Cfk4_Z0v.js", "_app/immutable/chunks/DU4gwN7y.js"];
+    imports14 = ["_app/immutable/nodes/13.BmLdQtvP.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js", "_app/immutable/chunks/D5O58gs2.js"];
     stylesheets14 = [];
     fonts14 = [];
   }
@@ -6914,24 +6912,26 @@ var init_page_svelte13 = __esm({
     init_stores();
     init_SearchBar();
     init_internal();
-    init_exports();
-    init_utils();
+    init_exports2();
+    init_utils2();
     init_server();
     init_state_svelte();
     Page13 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $page, $$unsubscribe_page;
       $$unsubscribe_page = subscribe(page, (value) => $page = value);
       let query = $page.url.searchParams.get("q") || "";
+      let results = [];
+      let total = 0;
       let $$settled;
       let $$rendered;
       let previous_head = $$result.head;
       do {
         $$settled = true;
         $$result.head = previous_head;
-        $$rendered = `${$$result.head += `<!-- HEAD_svelte-16qcmdo_START -->${$$result.title = `<title>${escape(query ? `"${query}" \u2014 Search Results` : "Search Tools")} \u2014 Lost in the Tool Pool</title>`, ""}<!-- HEAD_svelte-16qcmdo_END -->`, ""} <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="flex justify-center mb-8">${validate_component(SearchBar, "SearchBar").$$render(
+        $$rendered = `${$$result.head += `<!-- HEAD_svelte-1bmy5ss_START -->${$$result.title = `<title>${escape(query ? `"${query}" \u2014 ${total} results` : "Search Tools")} \u2014 Lost in the Tool Pool</title>`, ""}<!-- HEAD_svelte-1bmy5ss_END -->`, ""} <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="flex justify-center mb-8">${validate_component(SearchBar, "SearchBar").$$render(
           $$result,
           {
-            placeholder: "Search tools, brands, or categories...",
+            placeholder: "Search 1,000+ tools by name, brand, or category...",
             value: query
           },
           {
@@ -6941,7 +6941,9 @@ var init_page_svelte13 = __esm({
             }
           },
           {}
-        )}</div> ${`${`${`<div class="text-center py-12" data-svelte-h="svelte-1q7izpr"><p class="text-gray-500 font-body normal-case">Enter a search term to find tools.</p></div>`}`}`}</div>`;
+        )}</div> ${``} ${`${results.length > 0 ? `<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">${each(results, (product) => {
+          return `<a href="${"/tools/" + escape(product.slug, true)}" class="card group hover:-translate-y-0.5 transition-all"><span class="text-[10px] text-gray-600 font-heading uppercase">${escape(product.brand)} / ${escape(product.ecosystem)}</span> <h3 class="font-body text-sm text-gray-200 group-hover:text-safety-orange transition normal-case leading-tight mt-1">${escape(product.name)}</h3> <div class="flex items-end justify-between mt-3"><span class="text-xl font-heading font-bold text-safety-orange">${product.price_current > 0 ? `$${escape(product.price_current)}` : `TBD`}</span> ${product.rating > 0 ? `<span class="text-xs text-gray-500 flex items-center gap-1"><svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg> ${escape(product.rating)} </span>` : ``}</div> </a>`;
+        })}</div>` : `${``}`}`}</div>`;
       } while (!$$settled);
       $$unsubscribe_page();
       return $$rendered;
@@ -6963,9 +6965,29 @@ var init__15 = __esm({
   ".svelte-kit/output/server/nodes/14.js"() {
     index15 = 14;
     component15 = async () => component_cache15 ??= (await Promise.resolve().then(() => (init_page_svelte13(), page_svelte_exports13))).default;
-    imports15 = ["_app/immutable/nodes/14.Cz54X_34.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js", "_app/immutable/chunks/DYtejBVi.js"];
+    imports15 = ["_app/immutable/nodes/14.oVy6wE1F.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/i7wgsyJU.js", "_app/immutable/chunks/C6T1Hsz6.js", "_app/immutable/chunks/BeIIhAfn.js"];
     stylesheets15 = [];
     fonts15 = [];
+  }
+});
+
+// .svelte-kit/output/server/entries/pages/tools/_slug_/_page.server.ts.js
+var page_server_ts_exports3 = {};
+__export(page_server_ts_exports3, {
+  load: () => load3
+});
+async function load3({ params }) {
+  try {
+    const product = await apiFetch(`/api/v1/tools/${params.slug}`);
+    return { product };
+  } catch {
+    throw error(404, "Tool not found");
+  }
+}
+var init_page_server_ts3 = __esm({
+  ".svelte-kit/output/server/entries/pages/tools/_slug_/_page.server.ts.js"() {
+    init_server2();
+    init_exports();
   }
 });
 
@@ -6974,52 +6996,45 @@ var page_svelte_exports14 = {};
 __export(page_svelte_exports14, {
   default: () => Page14
 });
-var Page14;
+var AffiliateNotice, Page14;
 var init_page_svelte14 = __esm({
   ".svelte-kit/output/server/entries/pages/tools/_slug_/_page.svelte.js"() {
     init_ssr();
-    init_stores();
-    init_chunks();
+    AffiliateNotice = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let { compact: compact2 = false } = $$props;
+      if ($$props.compact === void 0 && $$bindings.compact && compact2 !== void 0) $$bindings.compact(compact2);
+      return `${compact2 ? `<p class="text-[11px] text-gray-500 font-body normal-case mt-2" data-svelte-h="svelte-1r7vyo2">Links may earn us a commission \u2014 <a href="/legal/affiliate-disclosure" class="underline hover:text-gray-400">details</a>. Does not affect our picks.</p>` : `<div class="bg-charcoal-dark/50 border border-gray-700/30 rounded-lg px-4 py-3 mb-6" data-svelte-h="svelte-kdxpsc"><p class="text-xs text-gray-400 font-body normal-case"><strong class="text-gray-300">Transparency:</strong> We earn affiliate commissions when you buy through our links, at no extra cost to you.
+			This does not influence our recommendations.
+			<a href="/legal/affiliate-disclosure" class="text-safety-orange hover:underline">Learn more</a></p></div>`}`;
+    });
     Page14 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let ecosystemClass;
-      let $page, $$unsubscribe_page;
-      $$unsubscribe_page = subscribe(page, (value) => $page = value);
-      let product = {
-        name: 'Milwaukee M18 FUEL 1/4" Hex Impact Driver',
-        brand: "Milwaukee",
-        ecosystem: "milwaukee-m18",
-        price_current: 149,
-        rating: 4.9,
-        review_count: 6200,
-        description: "The king of impact drivers. 2000 in-lbs of torque with 4-mode DRIVE CONTROL for precision and power.",
-        features: [
-          "POWERSTATE brushless motor",
-          "4-mode DRIVE CONTROL",
-          "REDLINK intelligence",
-          "Auto-stop mode for precision"
-        ],
-        specs: {
-          voltage: 18,
-          max_rpm: 3600,
-          max_torque: "2000 in-lbs",
-          drive: "1/4 hex",
-          brushless: true
-        },
-        weight_lbs: 2.9
-      };
-      $page.params.slug;
-      ecosystemClass = ECOSYSTEM_COLORS[product.ecosystem];
-      $$unsubscribe_page();
-      return `${$$result.head += `<!-- HEAD_svelte-11z40vr_START -->${$$result.title = `<title>${escape(product.name)} \u2014 Lost in the Tool Pool</title>`, ""}<meta name="description" content="${escape(product.description, true) + " $" + escape(product.price_current, true) + ". Compare prices across retailers."}"><!-- HEAD_svelte-11z40vr_END -->`, ""} <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="mb-6"><a href="${"/ecosystems/" + escape(product.ecosystem, true)}" class="text-sm text-gray-500 hover:text-safety-orange transition font-heading uppercase tracking-wider">\u2190 ${escape(product.brand)} ${escape(product.ecosystem.split("-").pop()?.toUpperCase())}</a></div> <div class="grid md:grid-cols-2 gap-8"> <div class="bg-charcoal-light rounded-xl p-8 flex items-center justify-center aspect-square" data-svelte-h="svelte-jni8d3"><svg class="w-32 h-32 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg></div>  <div><span class="${"ecosystem-badge " + escape(ecosystemClass, true) + " mb-3"}">${escape(product.brand)} ${escape(product.ecosystem.split("-").pop())}</span> <h1 class="text-2xl sm:text-3xl text-white mt-2 normal-case font-heading">${escape(product.name)}</h1> <div class="flex items-center gap-3 mt-3"><div class="flex items-center gap-1">${each(Array(5), (_2, i2) => {
+      let product;
+      let specs;
+      let features;
+      let retailers;
+      let ecoSlug;
+      let { data } = $$props;
+      if ($$props.data === void 0 && $$bindings.data && data !== void 0) $$bindings.data(data);
+      product = data.product;
+      specs = product.specs || {};
+      features = product.features || [];
+      retailers = product.retailers || [];
+      ecoSlug = product.ecosystem || "";
+      return `${$$result.head += `<!-- HEAD_svelte-1xcc2sg_START -->${$$result.title = `<title>${escape(product.name)} \u2014 $${escape(product.price_current)} \u2014 Lost in the Tool Pool</title>`, ""}<meta name="description"${add_attribute("content", product.description, 0)}><!-- HEAD_svelte-1xcc2sg_END -->`, ""} <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="mb-6">${ecoSlug ? `<a href="${"/ecosystems/" + escape(ecoSlug, true)}" class="text-sm text-gray-500 hover:text-safety-orange transition font-heading uppercase tracking-wider">\u2190 ${escape(ecoSlug.replace(/-/g, " "))}</a>` : ``}</div> <div class="grid md:grid-cols-2 gap-8"> <div class="bg-charcoal-light rounded-xl p-8 flex items-center justify-center aspect-square">${product.image_url ? `<img${add_attribute("src", product.image_url, 0)}${add_attribute("alt", product.name, 0)} class="max-w-full max-h-full object-contain">` : `<div class="text-center"><svg class="w-24 h-24 text-gray-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg> <p class="text-xs text-gray-600 mt-2">${escape(product.brand)}</p></div>`}</div>  <div><span class="text-xs text-gray-500 font-heading uppercase tracking-wider">${escape(product.brand)} / ${escape(product.category?.replace(/-/g, " "))}</span> <h1 class="text-2xl sm:text-3xl text-white mt-2 normal-case font-heading leading-tight">${escape(product.name)}</h1> ${product.rating > 0 ? `<div class="flex items-center gap-2 mt-3"><div class="flex items-center gap-0.5">${each(Array(5), (_2, i2) => {
         return `<svg class="${"w-4 h-4 " + escape(
           i2 < Math.floor(product.rating) ? "text-yellow-400" : "text-gray-600",
           true
         )}" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>`;
-      })} <span class="text-sm text-gray-400 ml-1">${escape(product.rating)} (${escape(product.review_count.toLocaleString())} reviews)</span></div></div> <div class="mt-6"><span class="text-4xl font-heading font-bold text-safety-orange">$${escape(product.price_current)}</span> ${`<span class="ml-2 text-xs text-gray-500 font-body normal-case" data-svelte-h="svelte-1cbdwt9">(tool only \u2014 battery sold separately)</span>`}</div> <p class="mt-4 text-gray-400 font-body normal-case text-sm leading-relaxed">${escape(product.description)}</p>  <div class="mt-6 flex flex-wrap gap-3" data-svelte-h="svelte-yywb0s"><a href="#" class="affiliate-btn bg-[#ff9900] text-black">Buy at Amazon</a> <a href="#" class="affiliate-btn bg-[#f96302] text-white">Buy at Home Depot</a> <a href="#" class="affiliate-btn bg-[#004990] text-white">Buy at Lowe&#39;s</a></div> <p class="mt-2 text-xs text-gray-600 font-body normal-case" data-svelte-h="svelte-t0nfou">Prices may vary. We earn a commission on purchases \u2014 this doesn&#39;t affect our recommendations.</p></div></div>  <div class="card mt-8"><h2 class="text-lg text-safety-orange mb-4" data-svelte-h="svelte-1t6gjjp">Specifications</h2> <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">${each(Object.entries(product.specs), ([key2, value]) => {
+      })}</div> <span class="text-sm text-gray-400">${escape(product.rating)} (${escape((product.review_count || 0).toLocaleString())} reviews)</span></div>` : ``} <div class="mt-6"><span class="text-4xl font-heading font-bold text-safety-orange">$${escape(product.price_current)}</span> ${product.price_msrp && product.price_msrp > product.price_current ? `<span class="ml-2 text-lg text-gray-500 line-through">$${escape(product.price_msrp)}</span>` : ``} ${product.is_cordless ? `<span class="ml-2 text-xs text-gray-500 font-body normal-case" data-svelte-h="svelte-rrghcm">(tool only)</span>` : ``}</div> ${product.description ? `<p class="mt-4 text-gray-400 font-body normal-case text-sm leading-relaxed">${escape(product.description)}</p>` : ``}  ${retailers.length > 0 ? `<div class="mt-6 flex flex-wrap gap-3">${each(retailers, (retailer) => {
+        return `<a href="#" class="${"affiliate-btn " + escape(
+          retailer === "amazon" ? "bg-[#ff9900] text-black" : retailer === "homedepot" ? "bg-[#f96302] text-white" : retailer === "lowes" ? "bg-[#004990] text-white" : "bg-gray-600 text-white",
+          true
+        )}">Buy at ${escape(retailer === "homedepot" ? "Home Depot" : retailer === "lowes" ? "Lowe's" : retailer.charAt(0).toUpperCase() + retailer.slice(1))} </a>`;
+      })}</div> ${validate_component(AffiliateNotice, "AffiliateNotice").$$render($$result, { compact: true }, {}, {})}` : ``}</div></div>  ${Object.keys(specs).length > 0 ? `<div class="card mt-8"><h2 class="text-lg text-safety-orange mb-4" data-svelte-h="svelte-1t6gjjp">Specifications</h2> <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">${each(Object.entries(specs), ([key2, value]) => {
         return `<div><span class="text-xs text-gray-500 font-heading uppercase tracking-wider">${escape(key2.replace(/_/g, " "))}</span> <p class="text-white font-body normal-case text-sm mt-0.5">${escape(value)}</p> </div>`;
-      })} <div><span class="text-xs text-gray-500 font-heading uppercase tracking-wider" data-svelte-h="svelte-8yzjw0">Weight</span> <p class="text-white font-body normal-case text-sm mt-0.5">${escape(product.weight_lbs)} lbs</p></div> <div><span class="text-xs text-gray-500 font-heading uppercase tracking-wider" data-svelte-h="svelte-18qog49">Cordless</span> <p class="text-white font-body normal-case text-sm mt-0.5">${escape("Yes")}</p></div></div></div>  <div class="card mt-4"><h2 class="text-lg text-electric-blue mb-4" data-svelte-h="svelte-11q6akq">Key Features</h2> <ul class="space-y-2">${each(product.features, (feature) => {
-        return `<li class="flex items-center gap-3 text-gray-300 font-body normal-case text-sm"><span class="w-1.5 h-1.5 rounded-full bg-electric-blue flex-shrink-0"></span> ${escape(feature)} </li>`;
-      })}</ul></div></div>`;
+      })} ${product.weight_lbs > 0 ? `<div><span class="text-xs text-gray-500 font-heading uppercase tracking-wider" data-svelte-h="svelte-8yzjw0">Weight</span> <p class="text-white font-body normal-case text-sm mt-0.5">${escape(product.weight_lbs)} lbs</p></div>` : ``}</div></div>` : ``}  ${features.length > 0 ? `<div class="card mt-4"><h2 class="text-lg text-electric-blue mb-4" data-svelte-h="svelte-11q6akq">Key Features</h2> <ul class="space-y-2">${each(features, (feature) => {
+        return `<li class="flex items-start gap-3 text-gray-300 font-body normal-case text-sm"><span class="w-1.5 h-1.5 rounded-full bg-electric-blue flex-shrink-0 mt-1.5"></span> ${escape(feature)} </li>`;
+      })}</ul></div>` : ``}  ${ecoSlug ? `<div class="mt-6 text-center"><a href="${"/ecosystems/" + escape(ecoSlug, true)}" class="text-electric-blue hover:text-electric-blue-light transition text-sm font-heading uppercase tracking-wider">View all ${escape(ecoSlug.replace(/-/g, " "))} tools \u2192</a></div>` : ``}</div>`;
     });
   }
 });
@@ -7031,71 +7046,25 @@ __export(__exports16, {
   fonts: () => fonts16,
   imports: () => imports16,
   index: () => index16,
+  server: () => page_server_ts_exports3,
+  server_id: () => server_id3,
   stylesheets: () => stylesheets16
 });
-var index16, component_cache16, component16, imports16, stylesheets16, fonts16;
+var index16, component_cache16, component16, server_id3, imports16, stylesheets16, fonts16;
 var init__16 = __esm({
   ".svelte-kit/output/server/nodes/15.js"() {
+    init_page_server_ts3();
     index16 = 15;
     component16 = async () => component_cache16 ??= (await Promise.resolve().then(() => (init_page_svelte14(), page_svelte_exports14))).default;
-    imports16 = ["_app/immutable/nodes/15.COfIRCGq.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/D6YF6ztN.js", "_app/immutable/chunks/6Jn0Uoq0.js", "_app/immutable/chunks/EQNdKP1E.js", "_app/immutable/chunks/aZoe7EhK.js", "_app/immutable/chunks/DU4gwN7y.js"];
+    server_id3 = "src/routes/tools/[slug]/+page.server.ts";
+    imports16 = ["_app/immutable/nodes/15.DDfJtW7G.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js", "_app/immutable/chunks/D6YF6ztN.js"];
     stylesheets16 = [];
     fonts16 = [];
   }
 });
 
-// node_modules/@sveltejs/kit/src/exports/index.js
-init_internal();
-
-// node_modules/esm-env/true.js
-var true_default = true;
-
-// node_modules/esm-env/dev-fallback.js
-var node_env = globalThis.process?.env?.NODE_ENV;
-var dev_fallback_default = node_env && !node_env.toLowerCase().startsWith("prod");
-
-// node_modules/@sveltejs/kit/src/runtime/utils.js
-var text_encoder = new TextEncoder();
-var text_decoder = new TextDecoder();
-
-// node_modules/@sveltejs/kit/src/exports/index.js
-function error(status, body2) {
-  if ((!true_default || dev_fallback_default) && (isNaN(status) || status < 400 || status > 599)) {
-    throw new Error(`HTTP error status codes must be between 400 and 599 \u2014 ${status} is invalid`);
-  }
-  throw new HttpError(status, body2);
-}
-function json(data, init2) {
-  const body2 = JSON.stringify(data);
-  const headers2 = new Headers(init2?.headers);
-  if (!headers2.has("content-length")) {
-    headers2.set("content-length", text_encoder.encode(body2).byteLength.toString());
-  }
-  if (!headers2.has("content-type")) {
-    headers2.set("content-type", "application/json");
-  }
-  return new Response(body2, {
-    ...init2,
-    headers: headers2
-  });
-}
-function text(body2, init2) {
-  const headers2 = new Headers(init2?.headers);
-  if (!headers2.has("content-length")) {
-    const encoded = text_encoder.encode(body2);
-    headers2.set("content-length", encoded.byteLength.toString());
-    return new Response(encoded, {
-      ...init2,
-      headers: headers2
-    });
-  }
-  return new Response(body2, {
-    ...init2,
-    headers: headers2
-  });
-}
-
 // .svelte-kit/output/server/chunks/shared.js
+init_exports();
 init_internal();
 init_server();
 
@@ -8021,7 +7990,7 @@ function stringify_primitive2(thing) {
 }
 
 // .svelte-kit/output/server/chunks/shared.js
-init_utils();
+init_utils2();
 var browser = false;
 var SVELTE_KIT_ASSETS = "/_svelte_kit_assets";
 var ENDPOINT_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"];
@@ -8574,6 +8543,7 @@ function create_remote_key(id, payload) {
 }
 
 // .svelte-kit/output/server/index.js
+init_exports();
 init_internal();
 init_server();
 
@@ -8593,8 +8563,8 @@ function reset() {
 }
 
 // .svelte-kit/output/server/index.js
-init_exports();
-init_utils();
+init_exports2();
+init_utils2();
 init_ssr();
 
 // .svelte-kit/output/server/chunks/internal.js
@@ -8784,7 +8754,7 @@ var options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "kwp9xa"
+  version_hash: "1prhk9i"
 };
 async function get_hooks() {
   let handle;
@@ -9621,9 +9591,9 @@ async function load_server_data({ event, event_state, state, node, parent }) {
     url: false,
     search_params: /* @__PURE__ */ new Set()
   };
-  const load = node.server.load;
+  const load4 = node.server.load;
   const slash = node.server.trailingSlash;
-  if (!load) {
+  if (!load4) {
     return { type: "data", data: null, uses, slash };
   }
   const url = make_trackable(
@@ -9653,7 +9623,7 @@ async function load_server_data({ event, event_state, state, node, parent }) {
       const traced_event = merge_tracing(event, current2);
       const result2 = await with_request_store(
         { event: traced_event, state: event_state },
-        () => load.call(null, {
+        () => load4.call(null, {
           ...traced_event,
           fetch: (info, init2) => {
             new URL(info instanceof Request ? info.url : info, event.url);
@@ -9727,8 +9697,8 @@ async function load_data({
   csr
 }) {
   const server_data_node = await server_data_promise;
-  const load = node?.universal?.load;
-  if (!load) {
+  const load4 = node?.universal?.load;
+  if (!load4) {
     return server_data_node?.data ?? null;
   }
   const result = await record_span({
@@ -9742,7 +9712,7 @@ async function load_data({
       const traced_event = merge_tracing(event, current2);
       return await with_request_store(
         { event: traced_event, state: event_state },
-        () => load.call(null, {
+        () => load4.call(null, {
           url: event.url,
           params: event.params,
           data: server_data_node?.data ?? null,
@@ -12854,7 +12824,7 @@ var manifest = (() => {
     assets: /* @__PURE__ */ new Set([]),
     mimeTypes: {},
     _: {
-      client: { start: "_app/immutable/entry/start.PnLi9rLV.js", app: "_app/immutable/entry/app.DzqkHtpf.js", imports: ["_app/immutable/entry/start.PnLi9rLV.js", "_app/immutable/chunks/aZoe7EhK.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/entry/app.DzqkHtpf.js", "_app/immutable/chunks/tkWzf5gq.js", "_app/immutable/chunks/6Jn0Uoq0.js"], stylesheets: [], fonts: [], uses_env_dynamic_public: false },
+      client: { start: "_app/immutable/entry/start.XQ8XdSEM.js", app: "_app/immutable/entry/app.DbBEe-Ao.js", imports: ["_app/immutable/entry/start.XQ8XdSEM.js", "_app/immutable/chunks/C6T1Hsz6.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/entry/app.DbBEe-Ao.js", "_app/immutable/chunks/DKrd6ziA.js", "_app/immutable/chunks/Cq4za7Ty.js"], stylesheets: [], fonts: [], uses_env_dynamic_public: false },
       nodes: [
         __memo(() => Promise.resolve().then(() => (init__(), __exports))),
         __memo(() => Promise.resolve().then(() => (init__2(), __exports2))),
