@@ -1,0 +1,1886 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-04-02",
+  "description": "Comprehensive tool use-case database mapping tasks to tools. Designed for a recommendation AI that thinks in terms of TASKS (what a DIYer wants to do) rather than tool names.",
+  "tool_count": 45,
+  "tools": [
+    {
+      "tool_type": "drill-driver",
+      "common_names": ["drill", "drill/driver", "cordless drill", "power drill", "driver drill", "variable speed drill"],
+      "what_it_does": "Drills holes and drives screws. This is the single most essential power tool — if you own one tool, this is it. A chuck holds round or hex-shank bits, and you control speed with a trigger.",
+      "primary_uses": [
+        "Drilling holes in wood, plastic, and soft metal",
+        "Driving and removing screws (deck screws, drywall screws, wood screws)",
+        "Assembling and disassembling furniture",
+        "Hanging shelves, curtain rods, and wall mounts",
+        "Installing hardware (hinges, drawer pulls, door knobs)"
+      ],
+      "secondary_uses": [
+        "Mixing paint or thin-set with a paddle bit",
+        "Drilling small holes in thin metal or aluminum",
+        "Light sanding with a sanding drum attachment",
+        "Wire brushing rust off metal surfaces",
+        "Driving small lag screws into pre-drilled softwood"
+      ],
+      "NOT_for": [
+        "Driving long screws into hardwood or dense material (use an impact driver — much less wrist strain)",
+        "Drilling into concrete, brick, or masonry (use a hammer drill or rotary hammer)",
+        "Driving large lag bolts (use an impact driver or impact wrench)",
+        "Driving framing nails (use a framing nailer)"
+      ],
+      "overlaps_with": [
+        {"tool": "impact-driver", "overlap": "Both drive screws, but an impact driver delivers more torque with less wrist strain. For light screw driving a drill is fine, but for decks, framing, or long screws, the impact driver wins."},
+        {"tool": "hammer-drill", "overlap": "A hammer drill does everything a drill/driver does PLUS drills into masonry. If you might ever drill into concrete or brick, get a hammer drill instead — it works as a regular drill too."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "bathroom-renovation", "kitchen-renovation", "hang-shelves-cabinets", "assemble-furniture", "install-hardwood-flooring", "build-raised-garden-beds", "build-a-shed", "drywall-installation", "install-crown-molding-trim", "basic-plumbing-repairs", "basic-electrical-work"],
+      "can_replace": ["manual screwdriver for most tasks", "hand drill / brace for hole drilling", "awl for starting screw holes"],
+      "replaced_by": ["impact-driver for heavy screw driving", "hammer-drill for masonry work"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — this is the first power tool everyone should own. You will use it on literally every project.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless drills have been the standard for 20+ years. There is no reason to buy a corded drill anymore unless you need a specialized corded hammer drill.",
+      "minimum_budget": 49,
+      "sweet_spot_budget": 99,
+      "pro_budget": 179,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "bosch-18v", "kobalt-24v"]
+    },
+    {
+      "tool_type": "impact-driver",
+      "common_names": ["impact driver", "impact", "impactor", "hex driver"],
+      "what_it_does": "Drives screws and bolts with rotational concussive force. It hammers the bit forward while twisting, delivering massive torque without twisting your wrist. Think of it as a drill on steroids for driving fasteners.",
+      "primary_uses": [
+        "Driving long screws (deck screws, structural screws, lag screws)",
+        "Driving screws into hardwood and dense material",
+        "Driving large quantities of screws quickly (decking, framing, subfloor)",
+        "Removing stuck or rusted screws and bolts",
+        "Installing and removing hex-head bolts and nuts (with socket adapter)"
+      ],
+      "secondary_uses": [
+        "Drilling holes with hex-shank drill bits (less precise than a drill, but works)",
+        "Driving concrete screws (Tapcon) into pre-drilled holes",
+        "Assembling metal shelving and storage racks",
+        "Automotive work — removing small bolts and fasteners",
+        "Installing cabinet hardware in bulk"
+      ],
+      "NOT_for": [
+        "Precision drilling (the impacts make it hard to control — use a drill/driver)",
+        "Drilling into concrete or masonry (use a hammer drill or rotary hammer)",
+        "Drilling large holes with spade or Forstner bits (use a drill — the impacts can break bits)",
+        "Delicate work where you might strip the screw head (use a drill on low torque setting)"
+      ],
+      "overlaps_with": [
+        {"tool": "drill-driver", "overlap": "Both drive screws, but the impact driver is faster and less tiring for long/large screws. A drill gives more control for delicate work."},
+        {"tool": "impact-wrench", "overlap": "Both deliver concussive torque, but an impact wrench uses a square drive for sockets and delivers much more torque for automotive and structural bolts."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "build-a-shed", "install-hardwood-flooring", "hang-shelves-cabinets", "build-raised-garden-beds", "bathroom-renovation", "kitchen-renovation"],
+      "can_replace": ["drill-driver for most screw driving tasks", "manual ratchet and socket set for light bolt work"],
+      "replaced_by": ["impact-wrench for large bolts and automotive work"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — the second most essential power tool after a drill. Most combo kits include both a drill and impact driver, and that's the best value.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Impact drivers are almost exclusively cordless. Corded models are rare and not worth it.",
+      "minimum_budget": 69,
+      "sweet_spot_budget": 119,
+      "pro_budget": 199,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "bosch-18v", "kobalt-24v"]
+    },
+    {
+      "tool_type": "hammer-drill",
+      "common_names": ["hammer drill", "hammerdrill", "percussion drill", "masonry drill", "combo hammer drill"],
+      "what_it_does": "A drill/driver with an added hammering action that rapidly taps the bit forward while spinning. This lets it drill into concrete, brick, mortar, and stone. Most hammer drills have a switch to turn the hammer off, so it doubles as a regular drill.",
+      "primary_uses": [
+        "Drilling holes in concrete, brick, mortar, and block (for anchors, screws, tapcons)",
+        "Drilling into stucco and stone veneer",
+        "Installing concrete anchors for ledger boards, brackets, and mounts",
+        "Drilling through brick for venting or cable routing",
+        "All regular drill/driver tasks (drilling wood, metal, driving screws) with hammer mode off"
+      ],
+      "secondary_uses": [
+        "Drilling into tile (with appropriate bit and low hammer setting)",
+        "Mixing mortar or thinset with a paddle attachment",
+        "Driving screws (works as a regular drill/driver with hammer off)"
+      ],
+      "NOT_for": [
+        "Heavy-duty concrete work — drilling lots of holes or holes larger than 1/2 inch (use a rotary hammer — much faster and easier)",
+        "Chiseling concrete or removing tile (use a rotary hammer in hammer-only mode)",
+        "Driving screws at high speed (use an impact driver — less wrist fatigue)"
+      ],
+      "overlaps_with": [
+        {"tool": "drill-driver", "overlap": "A hammer drill does everything a regular drill does, plus masonry. If you're buying your first drill and might ever drill into concrete, get a hammer drill — it costs only $20-30 more."},
+        {"tool": "rotary-hammer", "overlap": "Both drill into masonry, but a rotary hammer uses an electro-pneumatic piston mechanism that's 5-10x more powerful. For occasional small holes in brick, a hammer drill is fine. For structural concrete, lots of holes, or holes over 1/2 inch, you need a rotary hammer."}
+      ],
+      "projects_that_need_this": ["bathroom-renovation", "kitchen-renovation", "finish-a-basement", "build-a-deck", "hang-shelves-cabinets", "basic-electrical-work", "concrete-work"],
+      "can_replace": ["drill-driver for all tasks (it IS a drill/driver with an extra mode)", "star drill and hammer for occasional masonry holes (old-school method)"],
+      "replaced_by": ["rotary-hammer for serious concrete work"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — especially if buying your first drill. The hammer drill function adds minimal cost and you WILL need it eventually (hanging a TV mount on a concrete wall, installing a ledger board, etc.).",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Modern cordless hammer drills (18V/20V) handle most homeowner masonry tasks fine. Only heavy-duty concrete work might need a corded rotary hammer.",
+      "minimum_budget": 69,
+      "sweet_spot_budget": 129,
+      "pro_budget": 219,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "bosch-18v"]
+    },
+    {
+      "tool_type": "circular-saw",
+      "common_names": ["circular saw", "skilsaw", "Skil saw", "buzz saw", "circ saw", "sidewinder"],
+      "what_it_does": "Makes straight cuts in wood, plywood, and sheet goods. Think of it as a portable table saw you bring to the material instead of bringing material to the saw. A spinning disc blade cuts through lumber and plywood quickly.",
+      "primary_uses": [
+        "Cutting lumber to length — 2x4s, 2x6s, 2x10s, etc.",
+        "Cutting plywood and sheet goods (OSB, MDF, hardboard)",
+        "Ripping boards to width using a straight-edge guide or rip fence",
+        "Cross-cutting deck boards, fence pickets, and framing lumber",
+        "Cutting stair stringers and rafters"
+      ],
+      "secondary_uses": [
+        "Cutting cement board or HardieBacker with a cement board blade",
+        "Cutting metal studs or thin metal with a metal-cutting blade",
+        "Making dado cuts with multiple passes (not ideal, but doable)",
+        "Cutting composite decking",
+        "Breaking down large sheet goods for transport or rough sizing"
+      ],
+      "NOT_for": [
+        "Curved cuts (use a jigsaw)",
+        "Precision miter or angle cuts (use a miter saw — a circ saw with a speed square gets close, but a miter saw is faster and more accurate)",
+        "Cutting in tight spaces or flush cuts (use an oscillating multi-tool)",
+        "Ripping long boards repeatedly to exact width (use a table saw for production work)",
+        "Cutting metal pipe or rebar (use a reciprocating saw or angle grinder)"
+      ],
+      "overlaps_with": [
+        {"tool": "miter-saw", "overlap": "Both crosscut lumber to length. A miter saw is faster and more precise for repeated cuts and angled cuts, but a circular saw is portable and can cut wider material. For a beginner doing one project, a circular saw + speed square can replace a miter saw."},
+        {"tool": "table-saw", "overlap": "Both rip boards to width. A table saw is more precise for repeated rip cuts and joinery, but a circular saw with a guide can do occasional rips just fine."},
+        {"tool": "track-saw", "overlap": "A track saw is essentially a circular saw on a precision rail. It makes perfectly straight cuts in sheet goods and replaces both a circular saw and table saw for many tasks — but costs 3-5x more."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "build-a-shed", "install-hardwood-flooring", "install-laminate-flooring", "finish-a-basement", "drywall-installation", "build-raised-garden-beds"],
+      "can_replace": ["hand saw for most straight cuts", "miter saw for basic crosscuts (with a speed square)", "table saw for occasional rip cuts (with a straight-edge guide)"],
+      "replaced_by": ["table-saw for shop work and repeated rip cuts", "miter-saw for fast, precise angle cuts", "track-saw for precise sheet good cuts"],
+      "difficulty_to_use": 2,
+      "danger_level": 4,
+      "rent_vs_buy": "Buy — you will use this constantly for almost any project involving wood. One of the first five power tools to own.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Modern 18V/20V cordless circular saws match corded performance for most cuts. The convenience of no cord is huge on a job site or in the yard. Only heavy all-day ripping might benefit from corded.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 149,
+      "pro_budget": 229,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "kobalt-24v"]
+    },
+    {
+      "tool_type": "miter-saw",
+      "common_names": ["miter saw", "mitre saw", "chop saw", "compound miter saw", "sliding miter saw", "drop saw"],
+      "what_it_does": "Makes precise crosscuts and angled cuts in lumber and trim. The blade swings down onto material held against a fence. You set the angle, pull the trigger, and push down — perfect repeatable cuts every time. A 'sliding' miter saw also moves forward and back, allowing wider cuts.",
+      "primary_uses": [
+        "Cutting trim, molding, and baseboards — especially mitered corners (45-degree cuts)",
+        "Cutting framing lumber to exact length quickly",
+        "Cutting deck boards and fence pickets to consistent length",
+        "Making angled cuts for picture frames, door casings, window trim",
+        "Cutting repeated pieces to the same length (set a stop block and go)"
+      ],
+      "secondary_uses": [
+        "Cutting PVC pipe and trim boards",
+        "Cutting aluminum extrusions and soft metals (with appropriate blade)",
+        "Cutting composite decking",
+        "Dado cuts with repeated passes (possible but a table saw is better)",
+        "Rough crosscuts for firewood-length logs (not ideal, but works for small stuff)"
+      ],
+      "NOT_for": [
+        "Ripping boards to width (use a table saw or circular saw with a guide)",
+        "Cutting plywood or large sheet goods (the material won't fit — use a circular saw or track saw)",
+        "Curved cuts (use a jigsaw)",
+        "Cutting through nails or demolition work (use a reciprocating saw)",
+        "Portable job site cuts on the ground (it needs a stable surface — use a circular saw)"
+      ],
+      "overlaps_with": [
+        {"tool": "circular-saw", "overlap": "Both crosscut lumber. A circular saw with a speed square can make miter cuts, but a miter saw is faster, safer, and more precise — especially for trim work where a 1/32 inch matters."},
+        {"tool": "table-saw", "overlap": "A table saw can make crosscuts with a miter gauge, but a miter saw is faster and more intuitive for crosscutting long boards and trim."}
+      ],
+      "projects_that_need_this": ["install-crown-molding-trim", "build-a-deck", "build-a-fence", "build-a-shed", "install-hardwood-flooring", "install-laminate-flooring", "finish-a-basement"],
+      "can_replace": ["circular saw + speed square for crosscuts and miters", "hand miter box for small trim pieces"],
+      "replaced_by": ["circular-saw for basic crosscuts when portability matters"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy if you do any trim work or deck/fence building. Rent if you have a single weekend project. A 10-inch sliding compound miter saw is the sweet spot for homeowners.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless miter saws have matured. The 7-1/4 inch models are very capable for trim and light framing. For a 10-inch or 12-inch sliding model, corded still offers the best value.",
+      "minimum_budget": 149,
+      "sweet_spot_budget": 299,
+      "pro_budget": 549,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ryobi-one-plus", "ridgid-18v"]
+    },
+    {
+      "tool_type": "table-saw",
+      "common_names": ["table saw", "bench saw", "contractor saw", "cabinet saw", "jobsite table saw", "portable table saw"],
+      "what_it_does": "A stationary saw where the blade protrudes up through a flat table surface. You push material through the blade to make cuts. It excels at ripping boards to consistent widths and making repeatable, precise cuts. The most versatile stationary saw in a workshop.",
+      "primary_uses": [
+        "Ripping boards to width (turning a 2x6 into a 2x3, for example)",
+        "Making repeated cuts to the same width (rip fence locks in the measurement)",
+        "Cutting plywood and sheet goods to size",
+        "Making rabbets, dados, and grooves (with a dado blade set)",
+        "Cutting thin strips for trim, edging, or small parts"
+      ],
+      "secondary_uses": [
+        "Crosscutting with a miter gauge or crosscut sled",
+        "Cutting joinery — tenons, box joints, finger joints",
+        "Tapering cuts with a taper jig",
+        "Resawing thin boards from thick stock (limited by blade height)",
+        "Cutting bevels (most blades tilt to 45 degrees)"
+      ],
+      "NOT_for": [
+        "Curved cuts of any kind (use a jigsaw or band saw)",
+        "Cutting on site — table saws need a flat, stable surface and power (a circular saw is the portable option)",
+        "Cutting metal (use an angle grinder, reciprocating saw, or metal-cutting chop saw)",
+        "Precision miter cuts on long trim pieces (use a miter saw — it's designed for that)",
+        "Demolition or cutting through nails (use a reciprocating saw)"
+      ],
+      "overlaps_with": [
+        {"tool": "circular-saw", "overlap": "Both rip boards, but a table saw is far more precise and repeatable. A circular saw with a good guide can substitute for occasional ripping."},
+        {"tool": "track-saw", "overlap": "A track saw can rip sheet goods as precisely as a table saw, and takes up less space. Some woodworkers are replacing table saws with track saws for sheet good work."},
+        {"tool": "miter-saw", "overlap": "Both can crosscut, but a miter saw is faster and safer for crosscutting trim and lumber. A table saw with a crosscut sled is more precise for small pieces."}
+      ],
+      "projects_that_need_this": ["kitchen-renovation", "install-hardwood-flooring", "build-a-shed", "install-crown-molding-trim", "finish-a-basement"],
+      "can_replace": ["circular-saw for rip cuts", "hand rip saw for splitting boards"],
+      "replaced_by": ["track-saw for sheet goods in small shops", "circular-saw + guide for portable ripping"],
+      "difficulty_to_use": 3,
+      "danger_level": 5,
+      "rent_vs_buy": "Buy if you do regular woodworking or plan multiple projects. Rent for a single project like installing hardwood floors. A portable jobsite table saw ($300-500) is the best entry point for most homeowners.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Cordless table saws exist (DeWalt, Milwaukee) but are expensive and have limited cut capacity. For most homeowners, a corded jobsite table saw is the better value. Get cordless only if you already have high-capacity batteries.",
+      "minimum_budget": 249,
+      "sweet_spot_budget": 449,
+      "pro_budget": 899,
+      "battery_ecosystems": ["dewalt-flexvolt", "milwaukee-m18"]
+    },
+    {
+      "tool_type": "track-saw",
+      "common_names": ["track saw", "plunge saw", "rail saw", "guided saw", "Festool track saw"],
+      "what_it_does": "A circular saw that rides on a precision aluminum rail (track). The saw plunges into the material and glides along the track, making perfectly straight, splinter-free cuts. Think of it as a portable table saw with built-in precision.",
+      "primary_uses": [
+        "Breaking down plywood and sheet goods with dead-straight cuts",
+        "Making precise rip cuts without a table saw",
+        "Cutting countertop material to size",
+        "Cutting large panels that can't fit on a table saw",
+        "Precision crosscuts on wide boards"
+      ],
+      "secondary_uses": [
+        "Cutting solid-surface countertop material (Corian, etc.)",
+        "Cutting insulation boards (rigid foam)",
+        "Making bevel cuts (most tilt to 45+ degrees)",
+        "Cutting doors to size (trimming height)"
+      ],
+      "NOT_for": [
+        "Curved cuts (use a jigsaw)",
+        "Quick rough crosscuts on a job site (a circular saw is faster to set up)",
+        "Demolition or cutting through nails (use a reciprocating saw)",
+        "Cutting narrow trim pieces (use a miter saw)"
+      ],
+      "overlaps_with": [
+        {"tool": "circular-saw", "overlap": "Both cut sheet goods and lumber, but a track saw produces cleaner, straighter cuts. A circular saw with a clamp-on guide can approximate a track saw for basic cuts."},
+        {"tool": "table-saw", "overlap": "A track saw can replace a table saw for ripping sheet goods and boards. Many small-shop woodworkers use a track saw instead of a table saw to save space."}
+      ],
+      "projects_that_need_this": ["kitchen-renovation", "install-hardwood-flooring", "build-a-shed", "finish-a-basement"],
+      "can_replace": ["table-saw for sheet goods", "circular-saw + straight-edge guide"],
+      "replaced_by": ["table-saw for repeated rip cuts with a fence"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy if you work with a lot of plywood or sheet goods, or if you don't have space for a table saw. Otherwise, a circular saw with a good straight-edge guide gets you 80% of the way there.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless track saws are excellent — no cord to manage while making long cuts. Makita and DeWalt both offer strong cordless options.",
+      "minimum_budget": 199,
+      "sweet_spot_budget": 399,
+      "pro_budget": 699,
+      "battery_ecosystems": ["makita-18v-lxt", "dewalt-20v-max", "milwaukee-m18"]
+    },
+    {
+      "tool_type": "reciprocating-saw",
+      "common_names": ["reciprocating saw", "recip saw", "Sawzall", "sawz-all", "demolition saw", "tiger saw"],
+      "what_it_does": "A handheld saw with a blade that moves back and forth rapidly (like a powered hand saw). It's the ultimate demolition and rough-cutting tool. It can cut through almost anything — wood, metal, pipe, nails, plaster — all at once. Not pretty, but effective.",
+      "primary_uses": [
+        "Demolition — cutting apart walls, removing old framing, tearing out cabinets",
+        "Cutting through wood with embedded nails (demo blades eat through nails)",
+        "Cutting metal and PVC pipe in tight spaces",
+        "Pruning large tree branches (with a pruning blade)",
+        "Cutting openings in walls for doors, windows, or pass-throughs"
+      ],
+      "secondary_uses": [
+        "Cutting metal rebar, threaded rod, angle iron, and unistrut",
+        "Cutting cast iron drain pipe",
+        "Trimming door jambs for flooring transitions",
+        "Cutting pallet wood apart",
+        "Flush cutting nails, bolts, or pipe stubs against surfaces"
+      ],
+      "NOT_for": [
+        "Precision cuts of any kind (cuts are rough and hard to control — use a circular saw or miter saw)",
+        "Curved cuts in finish material (use a jigsaw for controlled curves)",
+        "Cutting sheet goods (use a circular saw — a recip saw will chew it up)",
+        "Finish carpentry or trim work (too aggressive — use a miter saw or oscillating tool)"
+      ],
+      "overlaps_with": [
+        {"tool": "jigsaw", "overlap": "Both have reciprocating blades, but a jigsaw is for controlled curved cuts in thinner material, while a recip saw is for brute-force demolition and rough cutting through anything."},
+        {"tool": "oscillating-multi-tool", "overlap": "An oscillating tool can make controlled cuts in tight spaces (like trimming a door jamb), while a recip saw is faster but less precise. Use the oscillating tool when you need finesse, the recip saw when you need force."},
+        {"tool": "circular-saw", "overlap": "For rough crosscuts in lumber, either works, but a circular saw is cleaner and safer. A recip saw shines when cutting through wood that has nails in it."}
+      ],
+      "projects_that_need_this": ["bathroom-renovation", "kitchen-renovation", "finish-a-basement", "basic-plumbing-repairs", "tree-trimming-removal", "drywall-installation"],
+      "can_replace": ["hand saw for rough cuts", "hacksaw for cutting metal pipe"],
+      "replaced_by": ["circular-saw for straight cuts in clean wood", "jigsaw for precise curved cuts"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy if you do any renovation or demolition work — it's irreplaceable for demo. Rent if you have a single demo project. Most battery ecosystems include one.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless recip saws are very capable. The portability is huge for demolition work where outlets may not be available. Modern 18V/20V models have enough power for all but the heaviest-duty use.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 139,
+      "pro_budget": 219,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v"]
+    },
+    {
+      "tool_type": "jigsaw",
+      "common_names": ["jigsaw", "jig saw", "saber saw", "sabre saw", "scroll cutter", "bayonet saw"],
+      "what_it_does": "A handheld saw with a thin blade that moves up and down, allowing you to cut curves, circles, and complex shapes in wood, plastic, and thin metal. It's the go-to for any cut that isn't a straight line.",
+      "primary_uses": [
+        "Cutting curves and complex shapes in wood and plywood",
+        "Cutting holes for sinks in countertops",
+        "Cutting circles and rounded corners",
+        "Cutting notches and irregular shapes in boards",
+        "Making cutouts in sheet goods (after drilling a starter hole)"
+      ],
+      "secondary_uses": [
+        "Straight cuts in thin material (plywood, laminate) — not as clean as a circular saw but works",
+        "Cutting ceramic tile with a diamond blade",
+        "Cutting thin metal and aluminum sheet",
+        "Cutting laminate countertop for sink openings",
+        "Cutting plastic laminate and acrylic sheet",
+        "Cutting PVC and thin-wall pipe"
+      ],
+      "NOT_for": [
+        "Long straight cuts (too slow and wavy — use a circular saw or track saw)",
+        "Cutting thick lumber (blade deflects — use a circular saw)",
+        "Demolition work (too delicate — use a reciprocating saw)",
+        "Cutting metal pipe (use a reciprocating saw or hacksaw)",
+        "Precision scroll work (use a scroll saw for very intricate cuts)"
+      ],
+      "overlaps_with": [
+        {"tool": "reciprocating-saw", "overlap": "Both have reciprocating blades. A jigsaw is for finesse and curves; a recip saw is for brute force and demolition. They're complementary, not interchangeable."},
+        {"tool": "band-saw", "overlap": "Both cut curves, but a band saw handles thicker material and makes smoother curves. A jigsaw is portable; a band saw is stationary."},
+        {"tool": "oscillating-multi-tool", "overlap": "An oscillating tool can make plunge cuts and small cutouts where a jigsaw won't fit. For larger curves, the jigsaw is better."},
+        {"tool": "circular-saw", "overlap": "A jigsaw CAN make straight cuts, but much more slowly and less precisely than a circular saw."}
+      ],
+      "projects_that_need_this": ["kitchen-renovation", "bathroom-renovation", "install-hardwood-flooring", "install-laminate-flooring", "install-tile", "build-a-deck"],
+      "can_replace": ["coping saw for curved cuts", "hand scroll saw for shapes", "keyhole saw for cutouts"],
+      "replaced_by": ["band-saw for thick curved cuts", "scroll-saw for very intricate work", "circular-saw for straight cuts"],
+      "difficulty_to_use": 2,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — it's inexpensive and you'll use it whenever you need a curved or custom cut. One of the most versatile saws for a homeowner.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless jigsaws work great for the intermittent cuts a homeowner makes. The freedom from a cord makes it easier to follow curves and work on sawhorses.",
+      "minimum_budget": 49,
+      "sweet_spot_budget": 119,
+      "pro_budget": 199,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "bosch-18v"]
+    },
+    {
+      "tool_type": "band-saw",
+      "common_names": ["band saw", "bandsaw", "floor band saw", "benchtop band saw"],
+      "what_it_does": "A stationary saw with a continuous loop blade that runs around two or three wheels. The blade passes through a slot in a flat table, and you push material into the blade. It cuts curves in thick material and resaws (slices thick boards into thinner boards) better than any other tool.",
+      "primary_uses": [
+        "Cutting curves and irregular shapes in thick wood (2 inches or more)",
+        "Resawing lumber — slicing thick boards into thinner pieces or veneer",
+        "Cutting tenons, dovetails, and other joinery",
+        "Ripping small pieces that would be unsafe on a table saw",
+        "Cutting thick hardwood, green wood, and logs for turning blanks"
+      ],
+      "secondary_uses": [
+        "Cutting metal (with a metal-cutting blade and lower speed)",
+        "Cutting plastic and foam blocks",
+        "Pad-sawing multiple identical curved pieces at once",
+        "Cutting circles with a circle-cutting jig",
+        "Crosscutting thick stock"
+      ],
+      "NOT_for": [
+        "Straight rip cuts where precision matters (use a table saw — band saw rips are rougher)",
+        "Cutting plywood or large sheet goods (too big for the throat — use a circular saw or track saw)",
+        "Jobsite or portable work (it's a stationary shop tool)",
+        "Demolition or rough cutting (use a reciprocating saw)",
+        "Cutting in tight spaces or flush cuts (use an oscillating tool)"
+      ],
+      "overlaps_with": [
+        {"tool": "jigsaw", "overlap": "Both cut curves, but a band saw handles much thicker material and leaves a smoother cut. A jigsaw is portable; a band saw stays in the shop."},
+        {"tool": "table-saw", "overlap": "Both can rip boards, but a table saw rips straighter. A band saw is safer for narrow rips and can resaw, which a table saw can't do as well."},
+        {"tool": "scroll-saw", "overlap": "Both cut curves, but a scroll saw handles very intricate detail cuts in thin material. A band saw handles thick material and wider curves."}
+      ],
+      "projects_that_need_this": ["build-a-shed", "kitchen-renovation"],
+      "can_replace": ["jigsaw for thick curved cuts", "hand coping saw for joinery"],
+      "replaced_by": ["jigsaw for portable curved cutting"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy only if you're a serious woodworker. Most homeowners don't need one — a jigsaw handles occasional curves. A benchtop 9-inch or 10-inch model is a good entry point.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Band saws are shop tools that need consistent power and run for extended periods. Corded is the way to go.",
+      "minimum_budget": 149,
+      "sweet_spot_budget": 349,
+      "pro_budget": 799,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "oscillating-multi-tool",
+      "common_names": ["oscillating multi-tool", "oscillating tool", "multi-tool", "OMT", "vibrating tool", "Fein tool", "multi-master"],
+      "what_it_does": "The Swiss Army knife of power tools. A small handheld tool whose blade or attachment oscillates (vibrates) rapidly back and forth in a tiny arc. With different attachments, it can cut, sand, scrape, and grind — especially in tight spaces where no other tool fits. It's the rescue tool when you think 'how am I going to get in there?'",
+      "primary_uses": [
+        "Flush-cutting door jambs and casings so flooring slides underneath",
+        "Cutting drywall for electrical boxes, patches, and openings",
+        "Removing grout from between tiles (without damaging the tiles)",
+        "Removing old caulk from tubs, sinks, and countertops",
+        "Sanding in tight corners and edges where a regular sander can't reach",
+        "Plunge-cutting into a surface (cutting a hole in the middle of material without a starter hole)"
+      ],
+      "secondary_uses": [
+        "Cutting nails and screws flush with a surface (bi-metal blade)",
+        "Scraping paint, adhesive, thinset, and glue from surfaces",
+        "Trimming shims flush with framing",
+        "Cutting copper, PVC, or ABS pipe in tight spaces",
+        "Removing old window glazing",
+        "Sanding detailed furniture, spindles, and carved surfaces",
+        "Cutting out damaged sections of drywall precisely",
+        "Removing old mortar from brick joints (repointing prep)",
+        "Undercutting door frames for tile installation",
+        "Cutting pocket holes in plaster or paneling"
+      ],
+      "NOT_for": [
+        "Long straight cuts in wood (way too slow — use a circular saw)",
+        "Cutting full sheets of plywood (use a circular saw or track saw)",
+        "Heavy demolition (too weak — use a reciprocating saw)",
+        "Cutting curves in sheet material (too slow — use a jigsaw)",
+        "Aggressive material removal (use an angle grinder or belt sander)"
+      ],
+      "overlaps_with": [
+        {"tool": "reciprocating-saw", "overlap": "Both can cut pipe and wood in tight spaces. The oscillating tool is slower but much more precise and controlled — it won't damage surrounding material. Use it when precision matters, the recip saw when speed matters."},
+        {"tool": "detail-sander", "overlap": "The oscillating tool with a sanding pad does the same job as a detail sander. If you already own an oscillating tool, you may not need a separate detail sander."},
+        {"tool": "jigsaw", "overlap": "Both can make cutouts, but a jigsaw is faster for large cuts and curves. The oscillating tool can plunge-cut into the middle of a surface without a starter hole."},
+        {"tool": "angle-grinder", "overlap": "Both can remove mortar and grout, but an oscillating tool is more controlled and won't damage adjacent tiles. An angle grinder is faster for large-area removal."}
+      ],
+      "projects_that_need_this": ["bathroom-renovation", "kitchen-renovation", "install-hardwood-flooring", "install-laminate-flooring", "install-tile", "drywall-installation", "install-crown-molding-trim", "basic-plumbing-repairs", "paint-a-room"],
+      "can_replace": ["detail sander in tight spaces", "hand scraper for removing caulk/adhesive", "grout removal tool (manual)", "keyhole saw for drywall cutouts", "coping saw for flush cuts"],
+      "replaced_by": ["reciprocating-saw for fast rough cuts", "jigsaw for larger cutouts", "angle-grinder for aggressive material removal"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — this is one of the most useful tools a homeowner can own. You won't use it every day, but when you need it, nothing else works. Cheap models start at $30 and good ones are under $100.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless is ideal here — you're often working in awkward positions (under cabinets, behind toilets, inside walls) where a cord is a nuisance. Battery life is fine for the intermittent use this tool sees.",
+      "minimum_budget": 29,
+      "sweet_spot_budget": 99,
+      "pro_budget": 179,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v", "bosch-18v"]
+    },
+    {
+      "tool_type": "angle-grinder",
+      "common_names": ["angle grinder", "grinder", "disc grinder", "side grinder", "cut-off tool", "4-1/2 inch grinder"],
+      "what_it_does": "A high-speed spinning disc tool that grinds, cuts, polishes, and cleans hard materials like metal, concrete, stone, and tile. Swap the disc for different tasks. It's the multi-use beast for anything hard — metal fabrication, concrete work, tile cutting, rust removal.",
+      "primary_uses": [
+        "Cutting metal — rebar, angle iron, bolts, pipe, sheet metal, steel studs",
+        "Grinding welds smooth and flush",
+        "Cutting tile and stone (with a diamond blade)",
+        "Removing rust, paint, and corrosion from metal surfaces (with a wire wheel or flap disc)",
+        "Grinding down concrete bumps, mortar squeeze-out, and rough edges"
+      ],
+      "secondary_uses": [
+        "Cutting concrete and masonry (small cuts with a diamond blade — for big jobs, rent a concrete saw)",
+        "Sharpening lawn mower blades, axes, and garden tools",
+        "Polishing metal to a mirror finish (with a polishing pad and compound)",
+        "Cutting and shaping pavers and brick (scoring and snapping)",
+        "Removing thinset and mortar from concrete floors (with a cup wheel)",
+        "Cleaning and prepping metal before welding or painting",
+        "Cutting ceramic and porcelain tile for tight fits"
+      ],
+      "NOT_for": [
+        "Cutting wood (extremely dangerous — wood-cutting discs on angle grinders are notorious for kickback injuries)",
+        "Precision cuts where measurements matter (cuts are rough — use a miter saw or tile saw for precision)",
+        "Sanding wood surfaces (too aggressive — use a random orbit sander)",
+        "Working near flammable materials (angle grinders produce sparks that can start fires)"
+      ],
+      "overlaps_with": [
+        {"tool": "oscillating-multi-tool", "overlap": "Both can remove grout and mortar. An angle grinder is much faster but less controlled. The oscillating tool won't damage adjacent tiles; the angle grinder might."},
+        {"tool": "rotary-tool", "overlap": "Both can cut metal, but an angle grinder handles much larger and thicker material. A rotary tool (Dremel) is for small, precision metal cutting and engraving."},
+        {"tool": "reciprocating-saw", "overlap": "Both can cut metal pipe and rebar. An angle grinder makes cleaner cuts; a recip saw is better for pipe in tight spaces."}
+      ],
+      "projects_that_need_this": ["install-tile", "bathroom-renovation", "kitchen-renovation", "concrete-work", "build-a-deck", "build-a-fence", "car-maintenance"],
+      "can_replace": ["hacksaw for cutting metal", "wire brush for rust removal", "manual tile nippers for tile cuts", "file for deburring metal"],
+      "replaced_by": ["wet tile saw for precision tile cuts", "bench grinder for tool sharpening"],
+      "difficulty_to_use": 2,
+      "danger_level": 5,
+      "rent_vs_buy": "Buy — corded models start at $30, and you'll use it for metal cutting, tile work, rust removal, and dozens of other tasks. One of the best bang-for-your-buck tools.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless angle grinders are very capable and the freedom from a cord is great for outdoor and construction work. However, a cheap corded 4-1/2 inch grinder ($30) is often the best first grinder because you'll use it hard and don't want to burn through expensive batteries.",
+      "minimum_budget": 29,
+      "sweet_spot_budget": 79,
+      "pro_budget": 179,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ryobi-one-plus", "ridgid-18v"]
+    },
+    {
+      "tool_type": "random-orbit-sander",
+      "common_names": ["random orbit sander", "orbital sander", "palm sander", "round sander", "ROS", "5-inch sander"],
+      "what_it_does": "A handheld sander with a round pad that both spins and orbits randomly, leaving a swirl-free finish. It's the go-to sander for almost everything — furniture, cabinets, trim, decks, and any wood surface that needs smoothing or paint prep.",
+      "primary_uses": [
+        "Smoothing wood surfaces before staining or finishing",
+        "Removing old paint and varnish from wood",
+        "Sanding between coats of finish (polyurethane, lacquer, paint)",
+        "Preparing surfaces for painting (scuff sanding for adhesion)",
+        "Sanding wood filler and putty flush with surrounding surface",
+        "Smoothing drywall patches and joint compound"
+      ],
+      "secondary_uses": [
+        "Sanding deck boards and outdoor furniture",
+        "Removing light rust from metal surfaces",
+        "Smoothing wood glue squeeze-out after it dries",
+        "Sanding auto body filler (Bondo) for car repair",
+        "Breaking edges and softening corners on wood projects"
+      ],
+      "NOT_for": [
+        "Heavy stock removal (too slow — use a belt sander)",
+        "Sanding in tight corners or detailed areas (round pad can't reach — use a detail sander or oscillating tool)",
+        "Sanding large flat surfaces quickly (use a belt sander for the first pass, then finish with the random orbit)",
+        "Sanding floors (use a floor sander — either drum or random orbit floor model)"
+      ],
+      "overlaps_with": [
+        {"tool": "belt-sander", "overlap": "A belt sander removes material much faster but leaves scratches. A random orbit sander is slower but leaves a better finish. For most projects: belt sand first, then finish with the random orbit sander."},
+        {"tool": "detail-sander", "overlap": "A detail sander reaches tight corners that a round-pad sander can't. If you sand a lot of furniture or trim, you may want both."},
+        {"tool": "oscillating-multi-tool", "overlap": "An oscillating tool with a sanding pad can reach tight spots, but it's slower and less comfortable for large areas than a dedicated sander."}
+      ],
+      "projects_that_need_this": ["paint-a-room", "build-a-deck", "build-raised-garden-beds", "install-hardwood-flooring", "build-a-shed", "bathroom-renovation", "kitchen-renovation", "install-crown-molding-trim"],
+      "can_replace": ["sanding block and sandpaper for almost all tasks", "sheet sander (quarter-sheet or half-sheet)"],
+      "replaced_by": ["belt-sander for heavy material removal", "detail-sander for tight corners"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — inexpensive, essential for any finishing work, and you'll use it on every project that involves wood or paint. Use 5-inch hook-and-loop discs for easy sandpaper changes.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless random orbit sanders work well and the freedom from a cord makes sanding large surfaces easier. However, corded models are cheap ($40-60) and offer unlimited run time, which matters when sanding a whole deck.",
+      "minimum_budget": 39,
+      "sweet_spot_budget": 69,
+      "pro_budget": 149,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt"]
+    },
+    {
+      "tool_type": "belt-sander",
+      "common_names": ["belt sander", "belt and disc sander", "portable belt sander", "power sander"],
+      "what_it_does": "A sander that runs a continuous loop of sandpaper over two rollers at high speed. It removes material very quickly — great for flattening rough surfaces, stripping paint, and shaping wood. Think of it as the bulldozer of sanders.",
+      "primary_uses": [
+        "Rapidly removing material from wood surfaces (leveling, flattening, thinning)",
+        "Stripping paint and old finishes from large flat surfaces",
+        "Smoothing rough lumber and construction-grade wood",
+        "Sanding deck boards flat (removing raised grain and splinters)",
+        "Flattening glued-up panels and cutting boards"
+      ],
+      "secondary_uses": [
+        "Shaping and profiling wood edges",
+        "Fitting doors — sanding the edge to prevent sticking",
+        "Smoothing hardwood floor edges (where the drum sander can't reach)",
+        "Removing dried concrete, plaster, or thinset from tools and surfaces",
+        "Sharpening tools on a stationary belt sander"
+      ],
+      "NOT_for": [
+        "Fine finishing (leaves scratches — always follow with a random orbit sander)",
+        "Curved or detailed surfaces (too flat and aggressive — use a detail sander or random orbit)",
+        "Drywall or joint compound (clogs the belt instantly)",
+        "Sanding in corners (belt is flat and linear — use a detail sander or oscillating tool)"
+      ],
+      "overlaps_with": [
+        {"tool": "random-orbit-sander", "overlap": "Both sand wood, but a belt sander is for heavy removal and a random orbit is for finishing. They complement each other — use the belt sander first, then the orbital."},
+        {"tool": "angle-grinder", "overlap": "Both can remove material aggressively. An angle grinder with a flap disc removes material from metal and concrete; a belt sander is better for wood."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "install-hardwood-flooring", "paint-a-room", "build-a-shed"],
+      "can_replace": ["hand planing for flattening (for beginners who can't use a hand plane)", "heavy sanding by hand"],
+      "replaced_by": ["random-orbit-sander for finishing", "electric hand planer for heavy stock removal on edges"],
+      "difficulty_to_use": 2,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you do a lot of rough wood work or deck refinishing. Otherwise, a random orbit sander with coarse (60-80 grit) paper handles most tasks — just slower.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Belt sanders draw a lot of power for sustained use. Cordless models exist but drain batteries quickly. A corded model is the better value for most homeowners.",
+      "minimum_budget": 49,
+      "sweet_spot_budget": 79,
+      "pro_budget": 159,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18"]
+    },
+    {
+      "tool_type": "detail-sander",
+      "common_names": ["detail sander", "corner sander", "mouse sander", "finishing sander", "triangular sander", "delta sander"],
+      "what_it_does": "A small sander with a triangular-shaped pad that vibrates (oscillates) to sand in corners, edges, and tight spots where round-pad sanders can't reach. The pointed tip gets right into inside corners.",
+      "primary_uses": [
+        "Sanding inside corners, window frames, and door jambs",
+        "Sanding detailed furniture — legs, spindles, carved surfaces",
+        "Sanding stair treads and balusters",
+        "Getting into corners when refinishing cabinets",
+        "Sanding between coats of finish on detailed trim work"
+      ],
+      "secondary_uses": [
+        "Sanding small picture frames and craft projects",
+        "Smoothing wood filler in corners and tight spots",
+        "Removing paint from detailed moldings",
+        "Light sanding on shutters and louvered surfaces"
+      ],
+      "NOT_for": [
+        "Large flat surfaces (way too slow — use a random orbit sander)",
+        "Heavy material removal (not enough power — use a belt sander)",
+        "Sanding floors or decks (too small — use a floor sander or random orbit)"
+      ],
+      "overlaps_with": [
+        {"tool": "random-orbit-sander", "overlap": "A random orbit sander handles most sanding, but its round pad can't reach into corners. Use the detail sander for the spots the orbital can't reach."},
+        {"tool": "oscillating-multi-tool", "overlap": "An oscillating tool with a sanding attachment does almost the same job as a detail sander. If you already own an oscillating multi-tool, you may not need a dedicated detail sander."}
+      ],
+      "projects_that_need_this": ["paint-a-room", "install-crown-molding-trim", "kitchen-renovation", "bathroom-renovation"],
+      "can_replace": ["sanding by hand in corners", "sanding sponge for detailed work"],
+      "replaced_by": ["oscillating-multi-tool with sanding attachment"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — they're cheap ($25-50). But if you already have an oscillating multi-tool, try its sanding attachment first before buying a dedicated detail sander.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Detail sanders are inexpensive, low-draw tools. A corded model at $25-40 is the best value. Cordless detail sanders are rare and not worth the battery cost.",
+      "minimum_budget": 25,
+      "sweet_spot_budget": 39,
+      "pro_budget": 69,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "router",
+      "common_names": ["router", "wood router", "trim router", "compact router", "plunge router", "fixed-base router", "palm router"],
+      "what_it_does": "A high-speed spinning tool that shapes, profiles, and hollows out wood. A router bit spins at 10,000-30,000 RPM and carves profiles into edges, cuts grooves, makes dadoes, and creates joinery. There are two types: compact/trim routers (small, one-handed) and full-size routers (two-handed, more powerful).",
+      "primary_uses": [
+        "Rounding over or chamfering edges on shelves, tables, and countertops",
+        "Cutting decorative edge profiles (ogee, cove, roundover, bead, roman ogee)",
+        "Cutting dadoes and rabbets for shelving and joinery",
+        "Trimming laminate and edge banding flush",
+        "Cutting grooves for drawer bottoms and panel backs"
+      ],
+      "secondary_uses": [
+        "Cutting mortises for hinges and hardware (with a jig)",
+        "Pattern routing — duplicating shapes using a template",
+        "Making custom moldings and trim profiles",
+        "Cutting sign letters and decorative inlays",
+        "Flattening slabs with a router sled (full-size router)",
+        "Cutting circles and arches with a trammel attachment",
+        "Jointing edges with a straight bit (poor man's jointer)"
+      ],
+      "NOT_for": [
+        "Cutting through material completely (it shapes and profiles, it doesn't cut boards apart — use a saw)",
+        "Beginners who don't understand climb cutting and feed direction (learn the basics first — kickback is serious)",
+        "Plywood edges (the plies can chip and tear out — sand them instead)",
+        "Drilling holes (use a drill)"
+      ],
+      "overlaps_with": [
+        {"tool": "oscillating-multi-tool", "overlap": "An oscillating tool can trim door jambs and make shallow cuts, but a router does precise, repeatable edge profiling and joinery that no other handheld tool can match."},
+        {"tool": "table-saw", "overlap": "A table saw with a dado blade can cut dadoes and rabbets, but a router with a guide is more versatile and can cut stopped dadoes that a table saw can't."}
+      ],
+      "projects_that_need_this": ["kitchen-renovation", "install-crown-molding-trim", "build-a-deck", "install-hardwood-flooring", "hang-shelves-cabinets", "build-a-shed"],
+      "can_replace": ["hand plane for edge profiling (with a roundover or chamfer bit)", "chisel for mortises (with a jig)"],
+      "replaced_by": ["nothing — no other tool replicates what a router does for edge profiling and decorative work"],
+      "difficulty_to_use": 3,
+      "danger_level": 4,
+      "rent_vs_buy": "Buy if you do any woodworking or trim work. A compact/trim router ($80-130) is the best starting point — it handles 80% of routing tasks a homeowner needs. Get a full-size plunge router when you need deeper cuts or larger bits.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless compact routers have become excellent. No cord to get tangled while routing edges is a real advantage. For full-size routers, corded is still king due to power demands.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 129,
+      "pro_budget": 249,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ryobi-one-plus", "ridgid-18v"]
+    },
+    {
+      "tool_type": "brad-nailer",
+      "common_names": ["brad nailer", "18 gauge nailer", "18-gauge nail gun", "brad gun", "finish brad nailer"],
+      "what_it_does": "Shoots thin 18-gauge brads (nails) into wood for attaching trim and thin materials. The nails are so thin they leave almost no hole — sometimes you don't even need to fill them. It's the clean, quiet option for light trim and craft work.",
+      "primary_uses": [
+        "Attaching thin trim and molding (quarter round, shoe molding, small casing)",
+        "Pinning small pieces in place while glue dries",
+        "Attaching thin plywood backs to cabinets and bookshelves",
+        "Craft and small woodworking projects",
+        "Installing lightweight decorative trim and panel moldings"
+      ],
+      "secondary_uses": [
+        "Tacking together picture frames temporarily",
+        "Attaching screen molding",
+        "Installing thin wainscoting panels",
+        "Temporary assembly before screwing or gluing"
+      ],
+      "NOT_for": [
+        "Heavy trim like crown molding or thick baseboards (not enough holding power — use a finish nailer)",
+        "Structural work or framing (way too small — use a framing nailer)",
+        "Installing door or window casing (use a finish nailer — brads can't hold thick trim against a wall)",
+        "Hardwoods like oak or maple trim (brads may bend — use a finish nailer)",
+        "Outdoor trim (brads rust quickly — use stainless or galvanized finish nails)"
+      ],
+      "overlaps_with": [
+        {"tool": "finish-nailer", "overlap": "Both install trim. A brad nailer is for thin, light trim where you want invisible holes. A finish nailer holds heavier trim more securely but leaves a larger hole that needs filling. For most homeowner trim projects, a finish nailer is more versatile."},
+        {"tool": "pin-nailer", "overlap": "A 23-gauge pin nailer is even thinner and more invisible than a brad nailer, but has almost no holding power — it's for pinning while glue dries and nothing else."}
+      ],
+      "projects_that_need_this": ["install-crown-molding-trim", "build-a-shed", "kitchen-renovation", "finish-a-basement"],
+      "can_replace": ["hammer and small finish nails for trim", "pin nailer for slightly more holding power"],
+      "replaced_by": ["finish-nailer for heavier trim work"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you do trim work — they're inexpensive ($80-130 cordless). If you can only own one nailer, get a 16-gauge finish nailer instead — it's more versatile.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless brad nailers are a game-changer — no compressor, no hoses. Battery-powered 18-gauge brad nailers are affordable and incredibly convenient.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 129,
+      "pro_budget": 219,
+      "battery_ecosystems": ["ryobi-one-plus", "dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ridgid-18v"]
+    },
+    {
+      "tool_type": "finish-nailer",
+      "common_names": ["finish nailer", "15 gauge nailer", "16 gauge nailer", "finish nail gun", "trim nailer", "angled finish nailer"],
+      "what_it_does": "Shoots 15-gauge or 16-gauge finish nails for installing substantial trim, molding, and woodworking. The nails are thick enough to hold heavy trim securely but thin enough to be hidden with a dab of putty. This is the workhorse nailer for trim carpentry.",
+      "primary_uses": [
+        "Installing baseboards, crown molding, and chair rail",
+        "Installing door and window casings",
+        "Attaching stair treads to risers",
+        "Building and installing cabinets (face frames, shelves)",
+        "Installing wainscoting and paneling",
+        "Securing thick trim like 5/4 boards and MDF moldings"
+      ],
+      "secondary_uses": [
+        "Building furniture — attaching face frames, trim details",
+        "Installing hardwood stair nosing",
+        "Attaching exterior trim (with stainless or galvanized nails)",
+        "Assembling jigs and shop fixtures"
+      ],
+      "NOT_for": [
+        "Structural framing — joining studs, joists, rafters (way too small — use a framing nailer or structural screws)",
+        "Attaching subfloor or sheathing (use a framing nailer or screws)",
+        "Tiny trim where you want invisible holes (use a brad nailer)",
+        "Metal or concrete attachment (use screws or masonry anchors)"
+      ],
+      "overlaps_with": [
+        {"tool": "brad-nailer", "overlap": "Both install trim. A finish nailer handles heavier trim (crown molding, baseboards, thick casing). A brad nailer is for lighter trim where you want nearly invisible holes."},
+        {"tool": "framing-nailer", "overlap": "Finish nails are for appearance trim; framing nails are for structure. They're for completely different purposes — there's no overlap in use, just confusion about when to use which."}
+      ],
+      "projects_that_need_this": ["install-crown-molding-trim", "kitchen-renovation", "bathroom-renovation", "finish-a-basement", "install-hardwood-flooring", "build-a-shed"],
+      "can_replace": ["brad nailer for most trim (finish nailer is more versatile)", "hammer and finish nails"],
+      "replaced_by": ["nothing for its core use — this is THE trim installation tool"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you have any trim to install — crown molding, baseboards, casings. Rent if it's a one-time room. A 16-gauge is the best all-around choice for homeowners. A 15-gauge angled nailer gets into tighter corners.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless finish nailers have made pneumatic (compressor) models nearly obsolete for homeowners. No compressor, no hoses, no noise. The convenience is worth every penny.",
+      "minimum_budget": 119,
+      "sweet_spot_budget": 199,
+      "pro_budget": 349,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt", "ryobi-one-plus", "ridgid-18v"]
+    },
+    {
+      "tool_type": "framing-nailer",
+      "common_names": ["framing nailer", "framing nail gun", "framer", "stick nailer", "clipped head nailer", "round head nailer"],
+      "what_it_does": "Drives large framing nails (8d to 16d, typically 2-1/2 to 3-1/2 inches long) for structural construction. This is the heavy-duty nail gun that builds houses — framing walls, attaching joists, nailing sheathing, and building decks.",
+      "primary_uses": [
+        "Framing walls — nailing studs to plates",
+        "Building deck frames — nailing joists, blocking, and rim boards",
+        "Attaching roof and wall sheathing (plywood/OSB)",
+        "Building sheds, workshops, and outbuildings",
+        "Sistering joists and adding structural blocking",
+        "Nailing fence rails to posts"
+      ],
+      "secondary_uses": [
+        "Subfloor installation (nailing plywood to joists)",
+        "Building forms for concrete pours",
+        "Toenailing studs and joists",
+        "Attaching joist hangers and framing hardware (for the nails, not the screws)"
+      ],
+      "NOT_for": [
+        "Finish trim or molding (leaves huge, ugly holes — use a finish nailer or brad nailer)",
+        "Furniture building (way too powerful and messy — use screws, brads, or finish nails)",
+        "Drywall (use a drywall screw gun)",
+        "Indoor use in finished spaces (loud, aggressive, and leaves a mess)"
+      ],
+      "overlaps_with": [
+        {"tool": "finish-nailer", "overlap": "Completely different use cases despite both being 'nail guns.' A framing nailer is for structure; a finish nailer is for trim. No overlap."},
+        {"tool": "structural-screws", "overlap": "Structural screws (like GRK or TimberLok) can replace framing nails in many applications and offer better holding power. Screws are slower to install but don't require a specialized tool — just an impact driver."}
+      ],
+      "projects_that_need_this": ["build-a-shed", "build-a-deck", "build-a-fence", "finish-a-basement"],
+      "can_replace": ["hammer and framing nails (much, much faster)", "palm nailer for tight spots"],
+      "replaced_by": ["structural screws and an impact driver for many applications"],
+      "difficulty_to_use": 2,
+      "danger_level": 4,
+      "rent_vs_buy": "Rent unless you're building multiple large structures. A framing nailer is a specialized tool most homeowners use maybe once or twice. Renting is $40-60/day. If you're building a whole shed AND a deck AND a fence, then buying makes sense.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless framing nailers are a revelation — no compressor, no hoses. Milwaukee and DeWalt make excellent cordless framers. The upfront cost is high ($350+) but the convenience is incredible.",
+      "minimum_budget": 199,
+      "sweet_spot_budget": 329,
+      "pro_budget": 449,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt"]
+    },
+    {
+      "tool_type": "impact-wrench",
+      "common_names": ["impact wrench", "impact gun", "torque wrench", "lug wrench", "rattle gun", "1/2 inch impact", "3/8 impact"],
+      "what_it_does": "Like an impact driver's big brother. It delivers massive rotational torque for tightening and loosening bolts and nuts. Uses a square-drive socket attachment (like a ratchet wrench, but powered). Essential for automotive work and heavy construction fasteners.",
+      "primary_uses": [
+        "Removing and installing lug nuts (tire changes)",
+        "Automotive repair — brake calipers, suspension bolts, engine bolts, exhaust bolts",
+        "Driving and removing lag bolts for deck and structural construction",
+        "Removing rusted or seized bolts",
+        "Assembling and disassembling heavy equipment and machinery"
+      ],
+      "secondary_uses": [
+        "Installing concrete anchor bolts",
+        "Building heavy-duty outdoor structures (pergolas, playsets) with carriage bolts",
+        "Removing lawnmower blades",
+        "Disassembling heavy furniture and metal shelving",
+        "Working on trailers and hitches"
+      ],
+      "NOT_for": [
+        "Driving screws (use an impact driver — an impact wrench is too powerful and uses square drive, not hex)",
+        "Precision torque work (an impact wrench can over-torque — use a calibrated torque wrench for final tightening on critical fasteners like lug nuts and head bolts)",
+        "Small bolts and delicate fasteners (too much torque — will snap them)",
+        "Drilling holes (use a drill)"
+      ],
+      "overlaps_with": [
+        {"tool": "impact-driver", "overlap": "Both deliver concussive torque, but an impact driver uses 1/4-inch hex for screw bits, while an impact wrench uses 1/2-inch or 3/8-inch square drive for sockets. An impact driver with a socket adapter can handle light bolt work, but an impact wrench is needed for lug nuts, lag bolts, and stuck fasteners."},
+        {"tool": "breaker-bar", "overlap": "A breaker bar (long ratchet handle) can break free stuck bolts manually. An impact wrench does it instantly without needing leverage or muscle."}
+      ],
+      "projects_that_need_this": ["car-maintenance", "build-a-deck", "build-a-shed", "concrete-work"],
+      "can_replace": ["ratchet and socket set (for speed)", "breaker bar for stuck bolts", "lug wrench for tire changes"],
+      "replaced_by": ["impact-driver with socket adapter for light bolt work"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you do any car maintenance — changing tires alone makes it worth it. A cordless 1/2-inch impact wrench is one of the most satisfying tools to own. Also essential if you're doing deck framing with lag bolts.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless impact wrenches have enough torque for lug nuts and lag bolts. No air compressor needed. Milwaukee M18 FUEL and DeWalt 20V MAX are the top choices.",
+      "minimum_budget": 99,
+      "sweet_spot_budget": 199,
+      "pro_budget": 349,
+      "battery_ecosystems": ["milwaukee-m18", "dewalt-20v-max", "makita-18v-lxt", "ryobi-one-plus", "ridgid-18v"]
+    },
+    {
+      "tool_type": "rotary-hammer",
+      "common_names": ["rotary hammer", "rotary hammer drill", "SDS hammer drill", "SDS-Plus", "SDS-Max", "roto hammer", "hammer drill (heavy duty)"],
+      "what_it_does": "A heavy-duty drill specifically designed for concrete, stone, and masonry. Unlike a regular hammer drill that uses a clutch mechanism, a rotary hammer uses an electro-pneumatic piston — delivering 5-10x more impact energy. It also has a hammer-only mode that acts like a mini jackhammer for light chiseling.",
+      "primary_uses": [
+        "Drilling holes in poured concrete for anchors (wedge anchors, sleeve anchors, drop-ins)",
+        "Drilling into concrete block, brick, and stone",
+        "Installing ledger board anchors for decks",
+        "Drilling holes larger than 1/2 inch in concrete",
+        "Drilling multiple holes in concrete (the electro-pneumatic mechanism doesn't fatigue like a hammer drill)"
+      ],
+      "secondary_uses": [
+        "Light chiseling — removing small sections of concrete, brick, or tile (in hammer-only mode)",
+        "Removing tile from concrete floors (with a tile scraper chisel bit)",
+        "Breaking up small concrete patches",
+        "Driving ground rod electrodes (with the right adapter)",
+        "Drilling into natural stone and granite"
+      ],
+      "NOT_for": [
+        "Drilling into wood or metal (use a regular drill — a rotary hammer is overkill and too heavy)",
+        "Driving screws (use a drill/driver or impact driver)",
+        "Heavy demolition — breaking up a whole concrete slab (rent a full demolition hammer/jackhammer)",
+        "Precision drilling (the hammer action makes it hard to be precise — use a regular drill for non-masonry)"
+      ],
+      "overlaps_with": [
+        {"tool": "hammer-drill", "overlap": "Both drill into masonry. A hammer drill is fine for occasional small holes (up to 1/2 inch) in brick or block. A rotary hammer is mandatory for: poured structural concrete, holes larger than 1/2 inch, drilling many holes, and any serious anchoring work. The difference is night and day."},
+        {"tool": "demolition-hammer", "overlap": "A rotary hammer in hammer-only mode can do light chiseling, but a dedicated demolition hammer (jack hammer) is needed for breaking up concrete slabs, sidewalks, or large-scale demolition."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "finish-a-basement", "concrete-work", "bathroom-renovation", "build-a-fence"],
+      "can_replace": ["hammer drill for all masonry drilling", "star drill and hammer for concrete holes"],
+      "replaced_by": ["hammer-drill for occasional small masonry holes (good enough for most homeowners)"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Rent for most homeowners. You'll use it for a day or two when anchoring a ledger board or setting concrete anchors, then it sits unused for years. Renting is $40-60/day. Buy if you do regular concrete work.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless SDS-Plus rotary hammers from Milwaukee (M18 FUEL) and DeWalt (20V MAX) are excellent for the holes a homeowner needs. The portability is great for outdoor deck ledger work. Only heavy-duty SDS-Max models still need cords.",
+      "minimum_budget": 149,
+      "sweet_spot_budget": 249,
+      "pro_budget": 449,
+      "battery_ecosystems": ["milwaukee-m18", "dewalt-20v-max", "makita-18v-lxt", "bosch-18v"]
+    },
+    {
+      "tool_type": "rotary-tool",
+      "common_names": ["rotary tool", "Dremel", "die grinder", "precision grinder", "hobby tool", "engraving tool"],
+      "what_it_does": "A small, pen-shaped tool that spins a tiny bit or attachment at very high speed (10,000-35,000 RPM). It does precision cutting, grinding, engraving, polishing, and carving at a miniature scale. Think of it as a tiny angle grinder for detailed work.",
+      "primary_uses": [
+        "Cutting small pieces of metal, plastic, and thin wood",
+        "Engraving and carving designs into wood, metal, glass, and stone",
+        "Grinding and shaping small metal parts",
+        "Polishing and buffing small metal objects (jewelry, hardware, faucets)",
+        "Sharpening lawn mower blades, chainsaw chains, and garden tools"
+      ],
+      "secondary_uses": [
+        "Cutting drywall for outlet boxes (with a drywall cutting bit)",
+        "Removing grout from between tiles (with a grout removal bit)",
+        "Deburring cut metal edges",
+        "Cleaning rust from small areas",
+        "Cutting plastic trim and PVC pipe in tight spaces",
+        "Sanding small areas with sanding drums",
+        "Cutting bolts and screws to length",
+        "Etching glass",
+        "Pet nail trimming (yes, really)"
+      ],
+      "NOT_for": [
+        "Cutting large materials (too small and slow — use an angle grinder, circular saw, or jigsaw)",
+        "Heavy grinding or material removal (too little power — use an angle grinder)",
+        "Sanding large surfaces (too small — use a random orbit sander)",
+        "Serious woodworking cuts (use a saw)",
+        "Drilling standard-size holes (use a drill)"
+      ],
+      "overlaps_with": [
+        {"tool": "angle-grinder", "overlap": "Both cut and grind metal, but a rotary tool is for small, precise work while an angle grinder handles large, aggressive cuts. A rotary tool fits where an angle grinder can't."},
+        {"tool": "oscillating-multi-tool", "overlap": "Both can cut small areas and remove grout. A rotary tool is more precise for carving and engraving; an oscillating tool is better for flush cuts and scraping."}
+      ],
+      "projects_that_need_this": ["install-tile", "basic-plumbing-repairs", "basic-electrical-work", "car-maintenance"],
+      "can_replace": ["hand files for small shaping", "manual engraving tools", "small hand saws for detailed cuts"],
+      "replaced_by": ["angle-grinder for larger metalwork", "oscillating-multi-tool for flush cuts"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — Dremel kits start at $30-50 with a bunch of accessories. It's a great tool to have on hand for small, detailed tasks that no other tool handles well.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless rotary tools exist (Dremel makes several) but corded models offer more consistent power at high RPM. For occasional use, cordless is fine. For extended carving or cutting, corded is better.",
+      "minimum_budget": 29,
+      "sweet_spot_budget": 69,
+      "pro_budget": 129,
+      "battery_ecosystems": ["ryobi-one-plus", "milwaukee-m12", "dewalt-20v-max"]
+    },
+    {
+      "tool_type": "lawn-mower-push",
+      "common_names": ["push mower", "walk-behind mower", "lawn mower", "cordless mower", "battery mower", "electric mower"],
+      "what_it_does": "Cuts grass by spinning a blade horizontally under a deck. A push mower is manually pushed by the operator. Modern battery-powered push mowers are quiet, emission-free, and require almost no maintenance compared to gas models.",
+      "primary_uses": [
+        "Regular lawn mowing on flat to slightly sloped yards",
+        "Maintaining small to medium lawns (up to 1/4 acre)",
+        "Mulching grass clippings back into the lawn",
+        "Bagging clippings for compost or disposal",
+        "Side-discharging clippings for fast mowing"
+      ],
+      "secondary_uses": [
+        "Mulching fallen leaves in autumn (run over them to chop fine)",
+        "Cutting tall weeds and overgrown grass (with multiple passes)"
+      ],
+      "NOT_for": [
+        "Large yards over 1/4 acre (too tiring — get a self-propelled mower)",
+        "Hilly or sloped terrain (exhausting to push uphill — get self-propelled with rear-wheel drive)",
+        "Very thick, tall, or wet grass (may bog down — self-propelled handles better)",
+        "Properties over 1/2 acre (consider a riding mower or zero-turn)"
+      ],
+      "overlaps_with": [
+        {"tool": "lawn-mower-self-propelled", "overlap": "Same tool, but self-propelled drives itself forward. Choose push for flat yards under 1/4 acre — it's lighter, cheaper, and simpler. Choose self-propelled for larger or hilly yards."},
+        {"tool": "string-trimmer", "overlap": "A string trimmer cleans up edges and spots the mower can't reach. They complement each other — most homeowners need both."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["reel mower (manual push mower) for very small lawns"],
+      "replaced_by": ["lawn-mower-self-propelled for larger or hilly yards", "riding mower for 1/2 acre+", "zero-turn mower for 1 acre+"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — you'll use it weekly during growing season. Battery mowers start at $200 and are virtually maintenance-free.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery mowers are the best choice for most suburban lawns. No gas, no oil changes, no tune-ups, no pull-cord starting. EGO, Ryobi, Greenworks, and Kobalt all make excellent battery mowers. One battery charge handles up to 1/4 acre.",
+      "minimum_budget": 199,
+      "sweet_spot_budget": 329,
+      "pro_budget": 499,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "greenworks-60v", "greenworks-80v", "kobalt-40v", "dewalt-20v-max"]
+    },
+    {
+      "tool_type": "lawn-mower-self-propelled",
+      "common_names": ["self-propelled mower", "self propelled lawn mower", "powered mower", "walk-behind mower"],
+      "what_it_does": "Same as a push mower, but it drives itself forward — you just walk behind and steer. Available in front-wheel drive (easier turning) and rear-wheel drive (better on hills). Reduces fatigue dramatically on larger yards.",
+      "primary_uses": [
+        "Mowing medium to large lawns (1/4 to 1/2 acre)",
+        "Mowing hilly or sloped terrain without exhaustion",
+        "Mowing thick grass (St. Augustine, Bermuda, Zoysia) that resists pushing",
+        "Regular maintenance mowing with less physical effort"
+      ],
+      "secondary_uses": [
+        "Mulching leaves in autumn",
+        "Mowing overgrown grass that would bog down a push mower"
+      ],
+      "NOT_for": [
+        "Very small flat yards (a push mower is simpler and cheaper)",
+        "Properties over 1/2 acre (consider a riding or zero-turn mower to save time)",
+        "Steep embankments (dangerous — use a string trimmer or hire someone)"
+      ],
+      "overlaps_with": [
+        {"tool": "lawn-mower-push", "overlap": "Same basic tool — the only difference is the self-propulsion. If your yard is flat and under 1/4 acre, save the money and get a push mower."},
+        {"tool": "zero-turn-mower", "overlap": "For yards approaching 1/2 acre, a zero-turn is faster but much more expensive. A self-propelled mower is the sweet spot for most suburban homes."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["push mower for easier mowing"],
+      "replaced_by": ["zero-turn mower or riding mower for properties over 1/2 acre"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — you'll mow weekly. A good battery self-propelled mower costs $350-600 and lasts for years.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery self-propelled mowers are excellent. EGO's self-propelled models are the gold standard. Most handle 1/3 acre on a single charge. Rear-wheel drive models climb hills well.",
+      "minimum_budget": 299,
+      "sweet_spot_budget": 449,
+      "pro_budget": 699,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "greenworks-60v", "greenworks-80v", "kobalt-40v", "dewalt-20v-max"]
+    },
+    {
+      "tool_type": "string-trimmer",
+      "common_names": ["string trimmer", "weed eater", "weed whacker", "line trimmer", "strimmer", "grass trimmer", "whipper snipper"],
+      "what_it_does": "A spinning nylon string that cuts grass, weeds, and light vegetation. Used to trim areas the lawn mower can't reach — along fences, around trees, next to flower beds, and along sidewalks. Most can be turned vertically to edge along driveways and walkways.",
+      "primary_uses": [
+        "Trimming grass along fences, walls, and garden edges",
+        "Trimming around trees, posts, and landscape features",
+        "Edging along sidewalks, driveways, and garden beds (turn trimmer vertically)",
+        "Cutting tall weeds and overgrown areas",
+        "Cleaning up areas the mower missed or can't reach"
+      ],
+      "secondary_uses": [
+        "Light brush clearing",
+        "Knocking down tall grass before mowing",
+        "Trimming around mailboxes, play equipment, and yard ornaments"
+      ],
+      "NOT_for": [
+        "Mowing an entire lawn (too slow and inconsistent — use a mower)",
+        "Creating precise, deep lawn edges (a dedicated edger cuts a cleaner line, but a string trimmer gets close enough for most people)",
+        "Cutting woody stems or thick brush (the string breaks — use a brush cutter blade attachment or chainsaw)",
+        "Cutting tree branches (use a pole saw or chainsaw)"
+      ],
+      "overlaps_with": [
+        {"tool": "edger", "overlap": "Both edge along sidewalks and driveways. A dedicated edger cuts a sharper, deeper line, but a string trimmer turned vertically does 90% of the job. Most homeowners don't need a separate edger."},
+        {"tool": "lawn-mower-push", "overlap": "A string trimmer can't replace a mower, and a mower can't replace a trimmer. You need both — the mower for the lawn, the trimmer for the edges."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["manual grass shears for edging", "lawn edger for basic edging (when turned vertically)", "sickle or scythe for weed cutting"],
+      "replaced_by": ["dedicated edger for professional-looking edges", "brush cutter for heavy vegetation"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy — an essential yard tool that you'll use every time you mow. Battery models start at $80 and are far more pleasant than gas models (lighter, quieter, no mixed fuel).",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery string trimmers are the default for homeowners now. They're lighter, quieter, and start instantly. EGO 56V, Ryobi 40V, and Milwaukee M18 FUEL are top picks. Match your mower's battery ecosystem to share batteries.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 149,
+      "pro_budget": 249,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "ryobi-one-plus", "greenworks-60v", "milwaukee-m18", "dewalt-20v-max", "kobalt-40v"]
+    },
+    {
+      "tool_type": "edger",
+      "common_names": ["lawn edger", "stick edger", "wheeled edger", "walk-behind edger", "sidewalk edger"],
+      "what_it_does": "A vertical spinning blade that cuts a crisp, defined line along sidewalks, driveways, and garden beds. It slices through the turf and soil to create a sharp boundary between the lawn and hard surfaces. Think of it as the difference between a clean shave and a quick trim.",
+      "primary_uses": [
+        "Creating sharp edges along sidewalks and driveways",
+        "Maintaining defined borders along garden beds and landscape areas",
+        "Re-establishing overgrown lawn edges in spring",
+        "Cutting through grass creeping over sidewalk and driveway edges"
+      ],
+      "secondary_uses": [
+        "Creating new landscape bed edges",
+        "Cutting shallow trenches for landscape lighting wire"
+      ],
+      "NOT_for": [
+        "Trimming grass in general (use a string trimmer)",
+        "Cutting weeds or tall grass (use a string trimmer or mower)",
+        "Deep trenching (use a trencher — rent one)"
+      ],
+      "overlaps_with": [
+        {"tool": "string-trimmer", "overlap": "A string trimmer turned vertically can edge along sidewalks and driveways. It won't cut as deep or crisp a line, but it's good enough for most homeowners. If you already have a string trimmer, try it for edging before buying a dedicated edger."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["manual half-moon edging tool", "flat shovel for creating bed edges"],
+      "replaced_by": ["string-trimmer for basic edging (good enough for most people)"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy only if you want pristine lawn edges. Most homeowners can edge effectively with their string trimmer. Consider a multi-head system (EGO or Milwaukee QUIK-LOK) with an edger attachment to get both tools from one powerhead.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery edgers are the way to go for homeowners. Many come as attachments to string trimmer powerheads (EGO Multi-Head, Milwaukee QUIK-LOK, Ryobi Expand-It).",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 129,
+      "pro_budget": 199,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "milwaukee-m18", "dewalt-20v-max", "kobalt-40v"]
+    },
+    {
+      "tool_type": "leaf-blower",
+      "common_names": ["leaf blower", "blower", "yard blower", "battery blower", "jet blower"],
+      "what_it_does": "Blasts a high-velocity stream of air to move leaves, grass clippings, dirt, and debris off driveways, sidewalks, patios, decks, and lawns. More versatile than most people realize — it cleans workshops, dries surfaces, and clears snow from steps.",
+      "primary_uses": [
+        "Blowing leaves off the lawn, driveway, and sidewalks",
+        "Clearing grass clippings from sidewalks and driveways after mowing",
+        "Blowing debris off patios, decks, and porches",
+        "Herding leaves into piles for collection",
+        "Clearing light debris from garage floors and workshops"
+      ],
+      "secondary_uses": [
+        "Clearing light snow (1-2 inches) off steps, walkways, and cars",
+        "Drying vehicles after washing",
+        "Clearing sawdust and wood chips from a work area",
+        "Blowing out gutters (from a ladder — be careful)",
+        "Cleaning under decks and hard-to-reach areas"
+      ],
+      "NOT_for": [
+        "Heavy snow removal (use a snow blower or shovel)",
+        "Wet, matted leaves (need to rake those — a blower just pushes them around)",
+        "Cleaning indoor spaces (too powerful and loud — use a shop vacuum)",
+        "Moving gravel, mulch, or heavy materials (not enough force)"
+      ],
+      "overlaps_with": [
+        {"tool": "shop-vacuum", "overlap": "Some leaf blowers have a vacuum/mulch mode that sucks up leaves and shreds them. A shop vac collects debris; a blower moves it. Different tools for different approaches to cleanup."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["rake for leaf gathering (much faster)", "broom for outdoor sweeping"],
+      "replaced_by": ["nothing — a leaf blower is uniquely effective at what it does"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — you'll use it weekly during fall and after every mow. Handheld battery blowers start at $60. Get a handheld for yards under 1/4 acre, backpack for larger properties.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery blowers are quieter than gas and start instantly. Handheld models (200-400 CFM) handle suburban yards. Backpack models (500-700+ CFM) handle larger properties and heavier leaf loads. Match your mower/trimmer ecosystem.",
+      "minimum_budget": 59,
+      "sweet_spot_budget": 149,
+      "pro_budget": 299,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "ryobi-one-plus", "greenworks-60v", "milwaukee-m18", "dewalt-20v-max", "kobalt-40v"]
+    },
+    {
+      "tool_type": "chainsaw",
+      "common_names": ["chainsaw", "chain saw", "tree saw"],
+      "what_it_does": "A cutting tool with a chain of sharp teeth that runs around a guide bar at high speed. It cuts through trees, logs, and thick branches faster than any other tool. Available in gas, corded electric, and battery-powered models.",
+      "primary_uses": [
+        "Cutting down small to medium trees",
+        "Cutting fallen trees and storm damage cleanup",
+        "Cutting firewood to length (bucking logs)",
+        "Limbing fallen trees (removing branches from the trunk)",
+        "Pruning large branches (over 4 inches diameter)"
+      ],
+      "secondary_uses": [
+        "Milling lumber from logs (with a chainsaw mill attachment)",
+        "Rough shaping landscape timbers",
+        "Cutting large posts and beams",
+        "Clearing brush and thick saplings"
+      ],
+      "NOT_for": [
+        "Precision cuts of any kind (use a saw designed for the material)",
+        "Cutting close to structures or the ground (the chain can catch and kick back — use a reciprocating saw)",
+        "Small branch pruning under 3 inches (use a pole saw or hand pruners — a chainsaw is overkill)",
+        "Indoor use (gas models produce deadly carbon monoxide; even electric models are dangerous indoors)"
+      ],
+      "overlaps_with": [
+        {"tool": "reciprocating-saw", "overlap": "A recip saw with a pruning blade can cut branches and small trees. It's safer and more controllable than a chainsaw for small jobs, but much slower for anything over 4 inches in diameter."},
+        {"tool": "pole-saw", "overlap": "A pole saw is a small chainsaw on a pole for reaching high branches. For branches you can reach from the ground, a chainsaw is faster. For anything overhead, a pole saw is safer."}
+      ],
+      "projects_that_need_this": ["tree-trimming-removal", "yard-maintenance"],
+      "can_replace": ["bow saw and axe for tree cutting", "hand pruning saw for large branches"],
+      "replaced_by": ["reciprocating-saw for small branches and demolition", "pole-saw for overhead branches"],
+      "difficulty_to_use": 3,
+      "danger_level": 5,
+      "rent_vs_buy": "Buy a small battery chainsaw (10-14 inch bar) if you have trees on your property — great for storm cleanup and firewood. Rent a larger gas model for big tree removal. NEVER tackle large tree felling without experience — hire an arborist.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery chainsaws are perfect for homeowners. A 14-16 inch battery saw handles most residential tree work. They start instantly, are quieter, and require less maintenance than gas. EGO 56V and Milwaukee M18 FUEL are top performers. For heavy professional felling, gas is still king.",
+      "minimum_budget": 129,
+      "sweet_spot_budget": 249,
+      "pro_budget": 449,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "milwaukee-m18", "dewalt-20v-max", "greenworks-60v", "makita-18v-lxt"]
+    },
+    {
+      "tool_type": "hedge-trimmer",
+      "common_names": ["hedge trimmer", "hedge clipper", "power hedge shears", "shrub trimmer"],
+      "what_it_does": "A long bar with reciprocating double-sided blades that cuts and shapes hedges, shrubs, and bushes. It's like a powered version of hand hedge shears. Swipe it along the surface of a hedge and it clips everything in its path.",
+      "primary_uses": [
+        "Trimming and shaping hedges and foundation shrubs",
+        "Maintaining boxwood, privet, holly, and other hedge plants",
+        "Shaping topiaries and ornamental shrubs",
+        "Cutting back overgrown bushes"
+      ],
+      "secondary_uses": [
+        "Trimming ornamental grasses at end of season",
+        "Light brush clearing (thin stems under 1/2 inch)",
+        "Cutting back perennial beds in spring"
+      ],
+      "NOT_for": [
+        "Thick branches over 3/4 inch (use loppers or a chainsaw)",
+        "Cutting trees or large limbs (use a chainsaw or pole saw)",
+        "Grass trimming or edging (use a string trimmer)",
+        "Precision individual branch pruning (use hand pruners)"
+      ],
+      "overlaps_with": [
+        {"tool": "manual-hedge-shears", "overlap": "Both trim hedges, but a power hedge trimmer is 10x faster for long hedges. Hand shears give more precision for small, detailed work."},
+        {"tool": "string-trimmer", "overlap": "Some people use string trimmers to shape hedges in a pinch, but a hedge trimmer gives a much cleaner, more uniform cut."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["manual hedge shears", "hand pruners for broad shaping"],
+      "replaced_by": ["nothing for its specific use — it's the only efficient tool for long hedge maintenance"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you have hedges — you'll use it 3-6 times per year. Battery models start at $80. Consider a multi-head system attachment if you already have a compatible powerhead.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery hedge trimmers are ideal. No extension cord to accidentally cut (a real hazard with corded models). Lighter than gas, starts instantly. EGO, Ryobi, and Milwaukee all make excellent models.",
+      "minimum_budget": 69,
+      "sweet_spot_budget": 129,
+      "pro_budget": 229,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "ryobi-one-plus", "milwaukee-m18", "dewalt-20v-max", "greenworks-60v", "kobalt-40v"]
+    },
+    {
+      "tool_type": "pole-saw",
+      "common_names": ["pole saw", "pole pruner", "tree trimmer", "extension saw", "telescoping saw"],
+      "what_it_does": "A small chainsaw head mounted on a long pole (8-12 feet) that lets you cut tree branches from the ground without climbing a ladder. Much safer than using a chainsaw up a ladder.",
+      "primary_uses": [
+        "Pruning high tree branches from the ground (up to 12-15 feet)",
+        "Removing dead branches from shade trees",
+        "Clearing branches away from the house, roof, and power lines (stay far from power lines!)",
+        "Trimming branches overhanging fences and walkways"
+      ],
+      "secondary_uses": [
+        "Light limbing of fallen trees (using the saw head without the pole)",
+        "Reaching over fences and obstacles to cut branches"
+      ],
+      "NOT_for": [
+        "Cutting down trees (use a chainsaw)",
+        "Heavy branches over 6-8 inches (too dangerous overhead — hire an arborist)",
+        "Branches near power lines (NEVER — call the utility company)",
+        "Precision pruning of small ornamental branches (use hand pruners or loppers)"
+      ],
+      "overlaps_with": [
+        {"tool": "chainsaw", "overlap": "A chainsaw is more powerful but requires climbing or a ladder to reach high branches. A pole saw is safer from the ground but limited in reach and cutting capacity."},
+        {"tool": "reciprocating-saw", "overlap": "A recip saw with a long pruning blade can cut branches at moderate height if you're on a ladder. A pole saw is safer because you stay on the ground."}
+      ],
+      "projects_that_need_this": ["tree-trimming-removal", "yard-maintenance"],
+      "can_replace": ["manual pole pruner (ratchet type)", "chainsaw + ladder for high branches (much safer)"],
+      "replaced_by": ["chainsaw for ground-level cutting", "arborist for large or dangerous trees"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy if you have mature trees — you'll prune at least once a year. Consider a multi-head system attachment (EGO Multi-Head or Milwaukee QUIK-LOK) rather than a dedicated pole saw.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery pole saws are the obvious choice. No cord to get caught in tree branches, no gas fumes while looking up. EGO, Ryobi, and Milwaukee all offer strong battery pole saws.",
+      "minimum_budget": 99,
+      "sweet_spot_budget": 179,
+      "pro_budget": 299,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "ryobi-one-plus", "milwaukee-m18", "dewalt-20v-max", "greenworks-60v"]
+    },
+    {
+      "tool_type": "pressure-washer",
+      "common_names": ["pressure washer", "power washer", "jet washer", "spray washer"],
+      "what_it_does": "Pumps water at high pressure through a nozzle to blast dirt, grime, mildew, mold, loose paint, and stains off surfaces. Different nozzle tips (0-degree to 40-degree) control the spray pattern from a focused jet to a wide fan.",
+      "primary_uses": [
+        "Cleaning concrete driveways, sidewalks, and patios (1800-3000 PSI)",
+        "Washing house siding — vinyl, wood, fiber cement (1500-2000 PSI)",
+        "Cleaning and restoring wood decks (500-1500 PSI)",
+        "Removing mold and mildew from outdoor surfaces",
+        "Prepping surfaces for painting or staining (removing loose paint and dirt)"
+      ],
+      "secondary_uses": [
+        "Cleaning patio furniture and outdoor cushion frames",
+        "Washing vehicles, boats, and RVs (with low pressure and soap nozzle)",
+        "Cleaning fences before staining",
+        "Removing graffiti",
+        "Cleaning gutters with a gutter attachment",
+        "Cleaning brick and stone surfaces"
+      ],
+      "NOT_for": [
+        "Delicate surfaces — windows (can shatter), painted surfaces (can strip paint), stained wood (can gouge). Always start at low pressure and test!",
+        "Indoor use (the spray goes everywhere and creates a flood)",
+        "Cleaning roof shingles at full pressure (damages shingles — use a low-pressure soft wash with chemicals instead)",
+        "Removing oil stains from concrete alone (need a degreaser chemical too)"
+      ],
+      "overlaps_with": [
+        {"tool": "garden-hose-nozzle", "overlap": "A hose nozzle can rinse surfaces, but a pressure washer delivers 5-50x the cleaning power. For light rinsing, a hose works. For real cleaning, you need pressure."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "paint-a-room", "yard-maintenance", "concrete-work"],
+      "can_replace": ["scrub brush and hose for outdoor cleaning (10x faster)", "chemical-only cleaning for most surfaces"],
+      "replaced_by": ["nothing for its specific purpose — pressure washing is uniquely effective"],
+      "difficulty_to_use": 1,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy an electric model (1800-2300 PSI) for $150-300 — you'll use it 3-6 times a year for driveways, siding, and decks. Rent a gas model (3000+ PSI) for heavy jobs like stripping a deck or cleaning large concrete areas.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Battery pressure washers exist but have very low PSI (under 1000) — fine for car washing and light rinsing but not enough for real cleaning. Electric corded models (1800-2300 PSI) are the sweet spot for homeowners. Gas models (3000+ PSI) are for heavy-duty or professional use.",
+      "minimum_budget": 119,
+      "sweet_spot_budget": 249,
+      "pro_budget": 449,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v"]
+    },
+    {
+      "tool_type": "snow-blower",
+      "common_names": ["snow blower", "snowblower", "snow thrower", "snow removal machine"],
+      "what_it_does": "Scoops up snow from driveways and walkways and throws it to the side through a chute. Available in single-stage (auger only, for light snow), two-stage (auger + impeller, for deeper snow), and three-stage (auger + accelerator + impeller, for the heaviest conditions).",
+      "primary_uses": [
+        "Clearing driveways of snow after storms",
+        "Clearing sidewalks and walkways",
+        "Removing snow from patios and around the house",
+        "Clearing end-of-driveway plow ridges (the heavy stuff the city plow leaves)"
+      ],
+      "secondary_uses": [
+        "Clearing parking pads and turn-around areas",
+        "Moving light powdery snow off decks (with care)"
+      ],
+      "NOT_for": [
+        "Light dustings under 2 inches (use a broom or leaf blower)",
+        "Ice removal (a snow blower won't break ice — use salt/ice melt and a scraper)",
+        "Gravel driveways with a single-stage model (it picks up and throws gravel — two-stage with adjustable height is better)"
+      ],
+      "overlaps_with": [
+        {"tool": "snow-shovel", "overlap": "A shovel costs $20 and works for small areas and light snow. A snow blower is worth it if you have a long driveway, get frequent heavy snow, or have physical limitations."},
+        {"tool": "leaf-blower", "overlap": "A powerful leaf blower can clear light, powdery snow (1-2 inches) from steps and walkways. Not a substitute for real snow removal."}
+      ],
+      "projects_that_need_this": ["yard-maintenance"],
+      "can_replace": ["snow shovel (saves your back)", "hiring a plow service (pays for itself in 1-2 seasons)"],
+      "replaced_by": ["snow plow attachment on a riding mower or ATV for very long driveways"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Buy if you live in snow country and have a driveway. Single-stage battery models ($300-500) handle up to 6 inches. Two-stage models ($800-1500) handle 12+ inches. Three-stage ($1500-2500) for extreme snowfall regions.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery single-stage snow blowers are excellent for most suburban driveways with moderate snowfall (up to 6-8 inches). EGO and Ryobi lead the battery segment. For heavy snowfall areas (12+ inches regularly), gas two-stage is still the standard, but battery two-stage models are emerging.",
+      "minimum_budget": 299,
+      "sweet_spot_budget": 599,
+      "pro_budget": 1299,
+      "battery_ecosystems": ["ego-56v", "ryobi-40v", "greenworks-60v", "greenworks-80v", "kobalt-40v"]
+    },
+    {
+      "tool_type": "multi-head-system",
+      "common_names": ["multi-head system", "power head", "attachment system", "multi-tool system", "QUIK-LOK", "Multi-Head", "Expand-It", "TrimmerPlus"],
+      "what_it_does": "A single motor/powerhead that accepts interchangeable attachments — string trimmer, edger, pole saw, hedge trimmer, leaf blower, cultivator, and more. Buy one powerhead and multiple attachments instead of separate tools. Saves money and storage space.",
+      "primary_uses": [
+        "String trimming (primary attachment most people start with)",
+        "Edging along sidewalks and driveways (edger attachment)",
+        "Pruning overhead branches (pole saw attachment)",
+        "Trimming hedges (hedge trimmer attachment)",
+        "Cultivating garden beds (cultivator attachment)"
+      ],
+      "secondary_uses": [
+        "Blowing leaves and debris (blower attachment — available on some systems)",
+        "Brush cutting thick vegetation (brush cutter attachment)",
+        "Power sweeping (sweeper attachment on some systems)"
+      ],
+      "NOT_for": [
+        "Mowing a lawn (no mower attachment exists for these systems)",
+        "Heavy-duty versions of each tool (dedicated single-purpose tools are more powerful and ergonomic for extended use)",
+        "Cross-brand compatibility (attachments only work within the same brand's system — Milwaukee QUIK-LOK works with Milwaukee, EGO Multi-Head with EGO, etc.)"
+      ],
+      "overlaps_with": [
+        {"tool": "string-trimmer", "overlap": "A multi-head system with a trimmer attachment does the same job as a dedicated string trimmer. The multi-head version adds versatility but is slightly heavier and more expensive than a standalone trimmer."},
+        {"tool": "pole-saw", "overlap": "A pole saw attachment is lighter and cheaper than a dedicated pole saw if you already have the powerhead."},
+        {"tool": "hedge-trimmer", "overlap": "A hedge trimmer attachment is cheaper than a standalone hedge trimmer if you already have the powerhead."},
+        {"tool": "edger", "overlap": "An edger attachment is the cheapest way to add edging capability if you have a compatible powerhead."}
+      ],
+      "projects_that_need_this": ["yard-maintenance", "tree-trimming-removal"],
+      "can_replace": ["separate string trimmer, edger, pole saw, and hedge trimmer (one powerhead replaces all four motors)"],
+      "replaced_by": ["dedicated individual tools for each task (more power, better ergonomics, but more expense and storage)"],
+      "difficulty_to_use": 1,
+      "danger_level": 2,
+      "rent_vs_buy": "Buy if you need 3+ outdoor tools — the economics work out quickly. A powerhead + trimmer + edger + pole saw costs less than buying 3 standalone tools. Best systems: EGO Multi-Head (56V), Milwaukee QUIK-LOK (M18), Ryobi Expand-It (40V).",
+      "buy_cordless": true,
+      "buy_cordless_reason": "These systems are designed around battery power. The shared-battery concept is the whole point — one battery platform powers all your outdoor tools.",
+      "minimum_budget": 199,
+      "sweet_spot_budget": 349,
+      "pro_budget": 549,
+      "battery_ecosystems": ["ego-56v", "milwaukee-m18", "ryobi-40v", "dewalt-20v-max", "greenworks-60v"]
+    },
+    {
+      "tool_type": "shop-vacuum",
+      "common_names": ["shop vac", "shop vacuum", "wet/dry vac", "wet dry vacuum", "contractor vacuum", "dust extractor"],
+      "what_it_does": "A heavy-duty vacuum that sucks up sawdust, drywall dust, wood chips, screws, water, and construction debris that would destroy a household vacuum. Most can handle both wet and dry messes. Essential for any workshop or renovation project.",
+      "primary_uses": [
+        "Cleaning up sawdust and wood shavings from woodworking",
+        "Vacuuming drywall dust during renovation",
+        "Cleaning up construction debris — screws, nails, insulation, chunks",
+        "Sucking up water from floods, leaks, and wet basements",
+        "Connecting to power tools for dust collection (sanders, miter saws, track saws)"
+      ],
+      "secondary_uses": [
+        "Cleaning out the garage and workshop",
+        "Vacuuming the car interior",
+        "Cleaning up fireplace ash (with the correct filter)",
+        "Unclogging drains with reverse-flow blowing",
+        "Cleaning rain gutters with an attachment"
+      ],
+      "NOT_for": [
+        "Regular household vacuuming (too loud and crude for carpet and hardwood — use a household vacuum)",
+        "Fine dust collection for a permanent workshop (get a dedicated dust collector for table saws and planers)",
+        "Vacuuming drywall dust without a fine-dust filter (regular filters clog immediately — use a HEPA or fine-dust bag)"
+      ],
+      "overlaps_with": [
+        {"tool": "dust-collector", "overlap": "A shop vac works for portable dust collection (connecting to one tool at a time). A dedicated dust collector handles high-volume chips from table saws and planers in a permanent shop."},
+        {"tool": "household-vacuum", "overlap": "A household vacuum handles carpet and floors; a shop vac handles construction messes. Don't use a household vacuum for renovation dust — it will destroy the motor and filters."}
+      ],
+      "projects_that_need_this": ["bathroom-renovation", "kitchen-renovation", "drywall-installation", "install-hardwood-flooring", "install-tile", "finish-a-basement", "build-a-shed", "paint-a-room"],
+      "can_replace": ["broom and dustpan for construction cleanup", "mop for water cleanup"],
+      "replaced_by": ["dedicated dust collector for permanent workshop", "household vacuum for regular cleaning"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Buy — a 6-gallon shop vac starts at $50 and is essential for any renovation or woodworking project. You'll also use it for garage cleanup, car interior cleaning, and water emergencies.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Cordless shop vacs exist but have limited suction and run time. For serious cleanup, a corded model is far more capable. Some battery models (Milwaukee M18) work as a supplement for quick messes, not as a primary shop vac.",
+      "minimum_budget": 49,
+      "sweet_spot_budget": 99,
+      "pro_budget": 249,
+      "battery_ecosystems": ["milwaukee-m18", "dewalt-20v-max", "ryobi-one-plus"]
+    },
+    {
+      "tool_type": "drywall-screw-gun",
+      "common_names": ["drywall screw gun", "drywall gun", "auto-feed screw gun", "collated screw gun"],
+      "what_it_does": "A specialized screwdriver designed for installing drywall. It drives drywall screws to a precise, consistent depth (dimpled just below the surface without tearing the paper) and has a clutch that disengages at the right depth. Auto-feed models use collated screw strips for rapid installation.",
+      "primary_uses": [
+        "Installing drywall sheets to studs and joists",
+        "Driving hundreds of drywall screws quickly and consistently",
+        "Ensuring screws are set to the correct depth (not too deep, not too shallow)"
+      ],
+      "secondary_uses": [
+        "Driving screws into metal studs for commercial drywall",
+        "Installing cement board (with cement board screws)"
+      ],
+      "NOT_for": [
+        "General screw driving (use a drill or impact driver)",
+        "Drilling holes (it's a screwdriver, not a drill)",
+        "Installing trim or other non-drywall materials (wrong depth setting)"
+      ],
+      "overlaps_with": [
+        {"tool": "drill-driver", "overlap": "A regular drill/driver can install drywall screws if you're careful with the clutch setting. But a drywall screw gun is much faster and more consistent for large jobs (a whole room or house). For patching a small area with a few screws, your drill/driver is fine."},
+        {"tool": "impact-driver", "overlap": "An impact driver can drive drywall screws but will over-drive them, tearing the paper face. A drywall screw gun's depth-sensitive clutch prevents this. Don't use an impact driver for drywall."}
+      ],
+      "projects_that_need_this": ["drywall-installation", "finish-a-basement", "bathroom-renovation", "kitchen-renovation"],
+      "can_replace": ["drill/driver with a drywall dimple bit (the screw gun is faster and more consistent)"],
+      "replaced_by": ["drill/driver with careful clutch setting for small drywall patches (a few sheets or less)"],
+      "difficulty_to_use": 1,
+      "danger_level": 1,
+      "rent_vs_buy": "Rent for a single-room project. Buy only if you're drywalling a whole basement, addition, or doing it professionally. An auto-feed model ($200-350) is worth it for large jobs.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Cordless drywall guns exist but corded models are common since drywall installation happens indoors with available power. If you're already invested in a battery ecosystem, a cordless model saves hassle with extension cords.",
+      "minimum_budget": 39,
+      "sweet_spot_budget": 99,
+      "pro_budget": 249,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "makita-18v-lxt"]
+    },
+    {
+      "tool_type": "stud-finder",
+      "common_names": ["stud finder", "stud sensor", "stud detector", "wall scanner", "wire detector"],
+      "what_it_does": "An electronic device that detects the location of wood studs, metal pipes, and electrical wires behind drywall. Essential before drilling or nailing into any wall — it tells you where to (and where NOT to) drill.",
+      "primary_uses": [
+        "Finding wall studs for hanging heavy items (TVs, shelves, cabinets)",
+        "Locating studs before installing wall-mounted fixtures",
+        "Identifying stud spacing and layout in walls",
+        "Avoiding electrical wires and pipes before drilling or cutting into walls"
+      ],
+      "secondary_uses": [
+        "Locating floor joists under subfloor for squeak repair",
+        "Finding ceiling joists for hanging heavy fixtures",
+        "Detecting metal pipes and rebar behind surfaces",
+        "Checking wall layout before renovation demolition"
+      ],
+      "NOT_for": [
+        "Finding studs in plaster and lath walls (most electronic stud finders don't work well on plaster — use a rare-earth magnet to find nails in the studs instead)",
+        "Precisely locating wires (it shows general areas but shouldn't be relied on for exact wire location — always turn off power before cutting into walls)",
+        "Finding studs in exterior walls with thick insulation or stucco (signals get confused)"
+      ],
+      "overlaps_with": [
+        {"tool": "rare-earth-magnet", "overlap": "A strong magnet can find studs by locating the drywall screws or nails driven into them. Works better than electronic stud finders on plaster walls. Cheap ($5) but less informative — it finds the fastener, not the stud edges."}
+      ],
+      "projects_that_need_this": ["hang-shelves-cabinets", "drywall-installation", "bathroom-renovation", "kitchen-renovation", "install-crown-molding-trim", "basic-electrical-work"],
+      "can_replace": ["knocking on the wall and listening for a solid sound (the old-school method)", "driving small test nails to find studs"],
+      "replaced_by": ["rare-earth magnet for plaster walls"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — they cost $15-40 for a basic model and you'll use one every time you hang anything on a wall. Spend $40-80 for a model that also detects wires and pipes.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "All stud finders are battery powered (usually a 9V battery). This isn't really a cordless/corded decision — they're all portable.",
+      "minimum_budget": 15,
+      "sweet_spot_budget": 35,
+      "pro_budget": 79,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "level",
+      "common_names": ["level", "spirit level", "bubble level", "torpedo level", "box level", "laser level", "4-foot level"],
+      "what_it_does": "Tells you if something is perfectly horizontal (level) or vertical (plumb). A bubble in a liquid-filled vial sits between two lines when the surface is level. Available as simple bubble levels (torpedo, 2-foot, 4-foot) and high-tech laser levels that project a line across the room.",
+      "primary_uses": [
+        "Leveling shelves, cabinets, and picture frames when hanging",
+        "Checking posts for plumb (perfectly vertical) during fence and deck building",
+        "Leveling appliances — washer, dryer, refrigerator, stove",
+        "Ensuring level layout lines for tile, wainscoting, and chair rails",
+        "Checking floor flatness before installing flooring"
+      ],
+      "secondary_uses": [
+        "Laser level: projecting level lines for installing crown molding, chair rail, and wainscoting around a room",
+        "Laser level: establishing level foundation lines for decks and sheds",
+        "Checking window and door frames for plumb and level during installation",
+        "Setting grade for drainage around a foundation"
+      ],
+      "NOT_for": [
+        "Precise surveying (use a transit or builder's level for large outdoor projects)",
+        "Measuring distances or angles (use a tape measure and speed square)"
+      ],
+      "overlaps_with": [
+        {"tool": "laser-level", "overlap": "A laser level projects a visible level line across a room, which is more convenient than holding a bubble level along a wall. For single-item hanging, a torpedo level is fine. For running trim around a room or tiling, a laser level saves massive time."}
+      ],
+      "projects_that_need_this": ["hang-shelves-cabinets", "build-a-deck", "build-a-fence", "install-tile", "install-crown-molding-trim", "build-raised-garden-beds", "build-a-shed", "install-hardwood-flooring", "drywall-installation", "bathroom-renovation", "kitchen-renovation"],
+      "can_replace": ["plumb bob for checking vertical", "water level for checking level over long distances (laser level is easier)"],
+      "replaced_by": ["laser level for large-scale level/plumb tasks"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — a torpedo level ($10) and a 4-foot level ($25) are essential. A self-leveling laser level ($30-80) is a worthwhile upgrade when you're doing trim, tile, or any job that needs level lines across a room.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Bubble levels need no power. Laser levels run on batteries (AA or rechargeable). Both are inherently portable.",
+      "minimum_budget": 10,
+      "sweet_spot_budget": 35,
+      "pro_budget": 149,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "tape-measure",
+      "common_names": ["tape measure", "tape", "measuring tape", "retractable tape", "25-foot tape"],
+      "what_it_does": "A retractable flexible ruler for measuring distances. The hooked end grabs onto edges for easy solo measuring. The most-used tool on any job site — measure twice, cut once. A 25-foot tape handles most home projects.",
+      "primary_uses": [
+        "Measuring lumber, materials, and openings before cutting",
+        "Measuring rooms for flooring, paint, and furniture",
+        "Laying out and marking cut lines on materials",
+        "Measuring distances between walls, studs, and fixtures",
+        "Checking dimensions during construction (is that 8 feet? measure it)"
+      ],
+      "secondary_uses": [
+        "Measuring for material estimates (how much plywood, flooring, or tile to buy)",
+        "Checking level over short distances (tape sagging equals not level)",
+        "Scribing circles with the tape locked and a pencil at the end"
+      ],
+      "NOT_for": [
+        "Precision under 1/32 inch (use calipers or a precision rule)",
+        "Very long distances over 50 feet (use a long tape or laser distance measurer)"
+      ],
+      "overlaps_with": [
+        {"tool": "laser-distance-measurer", "overlap": "A laser distance measurer is faster for room dimensions and long measurements. A tape measure is essential for marking cut lines on material and measuring in tight spaces."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "bathroom-renovation", "kitchen-renovation", "finish-a-basement", "install-hardwood-flooring", "install-tile", "build-raised-garden-beds", "build-a-shed", "drywall-installation", "paint-a-room", "install-crown-molding-trim", "hang-shelves-cabinets", "assemble-furniture", "concrete-work"],
+      "can_replace": ["folding ruler", "yardstick for longer measurements"],
+      "replaced_by": ["laser distance measurer for room dimensions"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — costs $10-30 and is the most essential tool of any kind. Get a 25-foot tape with a 1-inch wide blade that locks and has a magnetic tip.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "A tape measure is a manual tool — no power needed. Laser distance measurers are battery-powered but complement rather than replace a tape measure.",
+      "minimum_budget": 8,
+      "sweet_spot_budget": 20,
+      "pro_budget": 35,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "speed-square",
+      "common_names": ["speed square", "rafter square", "triangle square", "Swanson square", "layout square", "quick square"],
+      "what_it_does": "A triangular metal square that does four things at once: marks 90-degree crosscut lines, marks angles from 0-90 degrees, acts as a saw guide for your circular saw, and finds rafter angles for roof framing. The most useful $10 you'll ever spend.",
+      "primary_uses": [
+        "Marking square crosscut lines on lumber (place against edge, draw along the straight side)",
+        "Guiding a circular saw for square crosscuts (clamp the square to the board, run the saw base along the edge)",
+        "Marking angled cut lines (using the degree scale along the hypotenuse)",
+        "Checking if a corner is square (90-degree reference)"
+      ],
+      "secondary_uses": [
+        "Finding rafter angles and stair stringer layouts",
+        "Marking stud and joist layout lines on plates",
+        "Scribing lines parallel to an edge",
+        "Checking if a board edge is straight",
+        "Improvised protractor for measuring angles"
+      ],
+      "NOT_for": [
+        "Long straight lines (use a chalk line or straight edge)",
+        "Precision angle measurement (use a digital angle finder or protractor for critical angles)",
+        "Checking level or plumb (use a level)"
+      ],
+      "overlaps_with": [
+        {"tool": "combination-square", "overlap": "A combination square can also mark 90 and 45-degree lines, and has a ruler. A speed square is faster for rough framing and saw guides. A combination square is better for precision woodworking."},
+        {"tool": "framing-square", "overlap": "A framing square (large L-shaped square) handles bigger layout tasks like stair stringers and rafter calculations. A speed square fits in your pocket and handles most quick marking."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "build-a-shed", "install-hardwood-flooring", "finish-a-basement"],
+      "can_replace": ["combination square for rough marking", "protractor for basic angle marking"],
+      "replaced_by": ["combination square for precision woodworking", "framing square for large layout"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — costs $7-15. No reason to ever rent or borrow one. It lives in your tool belt or tool bag permanently.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "It's a manual layout tool — no power needed.",
+      "minimum_budget": 7,
+      "sweet_spot_budget": 12,
+      "pro_budget": 20,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "circular-saw-blade",
+      "common_names": ["circular saw blade", "saw blade", "carbide blade", "framing blade", "finish blade", "plywood blade"],
+      "what_it_does": "The replaceable disc that does the actual cutting on your circular saw, miter saw, or table saw. Different blade types are designed for different materials and cut qualities. Using the right blade is the difference between a clean cut and a splintered mess.",
+      "primary_uses": [
+        "General purpose / framing blade (24 teeth): Fast rough cuts in framing lumber — 2x4s, 2x6s. Cuts fast, finish is rough.",
+        "Fine finish / crosscut blade (60-80 teeth): Clean, smooth cuts in hardwood, plywood, and trim. Cuts slower but clean.",
+        "Plywood / melamine blade (80+ teeth): Ultra-clean cuts in veneered plywood and melamine without chip-out.",
+        "Combination blade (40-50 teeth): A do-everything blade that crosscuts and rips reasonably well. Best single blade if you only want one."
+      ],
+      "secondary_uses": [
+        "Metal-cutting blade: Cuts metal studs, thin steel, aluminum",
+        "Cement board blade: Polycrystalline diamond or carbide blade for HardieBacker and cement board",
+        "Diamond blade: Cuts tile, stone, and masonry on an angle grinder or tile saw"
+      ],
+      "NOT_for": [
+        "Cutting materials the blade isn't designed for (a wood blade on metal will ruin the blade and could be dangerous)",
+        "Using a dull blade and compensating with force (change the blade — dull blades are more dangerous than sharp ones)"
+      ],
+      "overlaps_with": [
+        {"tool": "miter-saw", "overlap": "Miter saws and circular saws use the same diameter blades (7-1/4 inch or 10 inch). You can swap blades between them if the arbor hole matches."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-fence", "build-a-shed", "kitchen-renovation", "install-hardwood-flooring", "install-crown-molding-trim", "finish-a-basement"],
+      "can_replace": ["nothing — this IS the cutting element. The saw is just the motor that spins it."],
+      "replaced_by": ["different blade type when cutting different materials"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — blades are consumable items. Get a 24-tooth framing blade for rough work and a 60-tooth finish blade for clean cuts. Combination (40T) blade is the best single blade to start with.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "This is an accessory, not a powered tool.",
+      "minimum_budget": 8,
+      "sweet_spot_budget": 25,
+      "pro_budget": 59,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "wet-tile-saw",
+      "common_names": ["tile saw", "wet saw", "wet tile cutter", "tile cutting saw", "diamond saw"],
+      "what_it_does": "A tabletop saw with a diamond blade that cuts tile, stone, and porcelain while spraying water to keep the blade cool and suppress dust. It makes clean, precise cuts in ceramic, porcelain, marble, granite, and glass tile that no other tool can match.",
+      "primary_uses": [
+        "Cutting ceramic and porcelain floor tile to size",
+        "Cutting wall tile for kitchen and bathroom",
+        "Making L-shaped and notch cuts around outlets and fixtures",
+        "Cutting natural stone (marble, granite, travertine)",
+        "Cutting glass mosaic tile"
+      ],
+      "secondary_uses": [
+        "Cutting thin brick veneer",
+        "Cutting cement pavers",
+        "Miter-cutting tile edges for corner joints (on saws with tilt capability)"
+      ],
+      "NOT_for": [
+        "Wood, metal, or anything that isn't tile/stone/masonry",
+        "Quick single cuts (setup and cleanup time make it overkill for one cut — use a manual tile cutter or angle grinder with a diamond blade for a few cuts)",
+        "Cutting tile on site without water access (the water system is essential)"
+      ],
+      "overlaps_with": [
+        {"tool": "angle-grinder", "overlap": "An angle grinder with a diamond blade can cut tile, but the cuts are rougher, dustier, and less controlled. For a few cuts or rough cuts, an angle grinder works. For a full tile job (bathroom floor, shower, backsplash), you need a wet tile saw."},
+        {"tool": "manual-tile-cutter", "overlap": "A manual tile cutter (score and snap) handles straight cuts in ceramic tile quickly and cheaply. But it can't make L-cuts, notches, or cut porcelain/stone. A wet saw handles everything."}
+      ],
+      "projects_that_need_this": ["install-tile", "bathroom-renovation", "kitchen-renovation"],
+      "can_replace": ["angle grinder with diamond blade for tile cutting (much cleaner and more precise)", "manual tile cutter for complex cuts"],
+      "replaced_by": ["angle grinder with diamond blade for a few quick cuts (rental cost not worth it for 3 cuts)"],
+      "difficulty_to_use": 2,
+      "danger_level": 3,
+      "rent_vs_buy": "Rent for most homeowners. A decent wet saw rents for $50-75/day. You'll only tile a bathroom once every 10-20 years. Buy ($100-200 for a basic 7-inch model) only if you plan to tile multiple rooms or enjoy tile work.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Wet tile saws need a continuous water supply and consistent power. All models are corded. This is a shop/jobsite tool, not a portable one.",
+      "minimum_budget": 79,
+      "sweet_spot_budget": 199,
+      "pro_budget": 499,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "clamps",
+      "common_names": ["clamps", "bar clamp", "F-clamp", "pipe clamp", "quick clamp", "spring clamp", "C-clamp", "trigger clamp", "parallel jaw clamp"],
+      "what_it_does": "Holds pieces of wood, metal, or other materials together while glue dries, while you drill, while you cut, or while you assemble something. Woodworkers say you can never have too many clamps. They're the extra pair of hands you don't have.",
+      "primary_uses": [
+        "Holding glued pieces together while the glue dries",
+        "Clamping a straight-edge guide to sheet goods for circular saw cuts",
+        "Holding workpieces to a bench while you drill, sand, or cut",
+        "Assembling cabinets, shelves, and furniture",
+        "Securing a speed square or fence to guide a tool"
+      ],
+      "secondary_uses": [
+        "Temporarily holding boards in position during framing",
+        "Clamping a stop block to a miter saw fence for repeated cuts",
+        "Holding material for welding",
+        "Improvised vise for small workpieces"
+      ],
+      "NOT_for": [
+        "Permanent fastening (clamps are temporary — use screws, nails, or glue for permanent connections)",
+        "Heavy structural loads (use bolts and brackets)"
+      ],
+      "overlaps_with": [
+        {"tool": "vise", "overlap": "A vise mounted to a bench holds workpieces for filing, sawing, and drilling. Clamps are more portable and versatile, but a vise is more secure for aggressive work."}
+      ],
+      "projects_that_need_this": ["build-a-deck", "build-a-shed", "build-raised-garden-beds", "kitchen-renovation", "install-hardwood-flooring", "hang-shelves-cabinets", "install-crown-molding-trim"],
+      "can_replace": ["extra pair of hands", "weights and heavy objects for clamping pressure"],
+      "replaced_by": ["nothing — clamps are irreplaceable in woodworking"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — start with 4-6 quick-grip bar clamps (6-inch and 12-inch). Add more as needed. Clamps are cheap ($5-15 each for basic trigger clamps) and you'll use them constantly.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Clamps are manual tools. No power needed.",
+      "minimum_budget": 5,
+      "sweet_spot_budget": 15,
+      "pro_budget": 45,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "work-light",
+      "common_names": ["work light", "job site light", "LED work light", "portable light", "flood light", "task light", "trouble light"],
+      "what_it_does": "A portable, bright LED light that illuminates work areas where existing lighting is insufficient. Essential for renovation work (the power may be off), basement finishing, attic work, and any job site before the permanent lighting is installed.",
+      "primary_uses": [
+        "Illuminating work areas during renovation (when overhead lights are removed or power is off)",
+        "Lighting up basements, attics, crawl spaces, and garages",
+        "Providing task lighting for detail work (tiling, trim installation, painting)",
+        "Lighting outdoor work areas for early morning or evening projects"
+      ],
+      "secondary_uses": [
+        "Emergency lighting during power outages",
+        "Inspection lighting for plumbing and electrical work inside walls",
+        "Photography and video lighting for documentation",
+        "Camping and outdoor activities"
+      ],
+      "NOT_for": [
+        "Permanent lighting installation (use hardwired fixtures)"
+      ],
+      "overlaps_with": [
+        {"tool": "headlamp", "overlap": "A headlamp keeps your hands free and lights wherever you look — great for working inside walls, under sinks, and in crawl spaces. A work light illuminates a larger area. Both are useful."}
+      ],
+      "projects_that_need_this": ["bathroom-renovation", "kitchen-renovation", "finish-a-basement", "basic-electrical-work", "basic-plumbing-repairs", "drywall-installation"],
+      "can_replace": ["trouble light (old-school incandescent work lights)", "flashlight for work areas"],
+      "replaced_by": ["permanent installed lighting once a project is complete"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — LED work lights start at $20 and are incredibly useful. Get a battery-powered one that matches your tool battery ecosystem for convenience.",
+      "buy_cordless": true,
+      "buy_cordless_reason": "Battery-powered work lights are essential — you're often working in spaces where the power is disconnected or outlets don't exist yet. Most tool brands offer lights that use the same batteries as their power tools.",
+      "minimum_budget": 19,
+      "sweet_spot_budget": 49,
+      "pro_budget": 129,
+      "battery_ecosystems": ["dewalt-20v-max", "milwaukee-m18", "milwaukee-m12", "ryobi-one-plus", "makita-18v-lxt", "ridgid-18v"]
+    },
+    {
+      "tool_type": "chalk-line",
+      "common_names": ["chalk line", "snap line", "chalk box", "marking line", "string line"],
+      "what_it_does": "A retractable string coated in chalk dust. Stretch it between two points, pull it up, and snap it against a surface to mark a perfectly straight line over long distances. Essential for layout work — framing walls, installing flooring, setting tile, and marking cut lines on plywood.",
+      "primary_uses": [
+        "Marking straight layout lines on subfloors for framing walls",
+        "Marking guidelines for installing first row of flooring, tile, or drywall",
+        "Marking long straight cut lines on plywood and sheet goods",
+        "Marking stud locations on plates for wall framing",
+        "Marking reference lines for installing siding"
+      ],
+      "secondary_uses": [
+        "Marking lines on concrete for forms or layout",
+        "Creating grid lines for tile layout",
+        "Marking rip lines on long boards"
+      ],
+      "NOT_for": [
+        "Short measurements (use a pencil and square)",
+        "Permanent marks (chalk wipes off — use a marker for permanent lines)",
+        "Precision under 1/16 inch (the chalk line has some thickness)"
+      ],
+      "overlaps_with": [
+        {"tool": "laser-level", "overlap": "A laser level projects a visible line on a wall for trim and cabinet installation. A chalk line marks a line on a floor or large surface. They're complementary — laser for walls, chalk for floors and sheet goods."}
+      ],
+      "projects_that_need_this": ["install-hardwood-flooring", "install-tile", "drywall-installation", "build-a-deck", "build-a-shed", "finish-a-basement"],
+      "can_replace": ["straight edge and pencil for long lines", "string and pencil for layout"],
+      "replaced_by": ["laser level for wall layout"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — costs $5-12. It's a consumable item (refill the chalk) that you'll use on any construction or flooring project.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "Manual tool — no power needed.",
+      "minimum_budget": 5,
+      "sweet_spot_budget": 10,
+      "pro_budget": 15,
+      "battery_ecosystems": []
+    },
+    {
+      "tool_type": "circular-saw-guide",
+      "common_names": ["straight edge guide", "saw guide", "cutting guide", "rip guide", "track guide", "edge guide", "Kreg Rip-Cut", "Bora clamp edge"],
+      "what_it_does": "A long, straight aluminum or steel rail that clamps to material and guides your circular saw for straight cuts. It turns a $100 circular saw into a tool that makes cuts nearly as straight as a $400 track saw. The poor man's track saw.",
+      "primary_uses": [
+        "Making straight rip cuts in plywood and sheet goods with a circular saw",
+        "Breaking down full sheets of plywood into manageable sizes",
+        "Ripping boards to consistent width",
+        "Making long straight crosscuts on wide boards"
+      ],
+      "secondary_uses": [
+        "Guiding a router along a straight line for dadoes and grooves",
+        "Guiding a jigsaw for straighter cuts"
+      ],
+      "NOT_for": [
+        "Curved cuts (no guide helps with curves — use a jigsaw)",
+        "Short crosscuts on narrow boards (use a speed square instead)",
+        "Replacing a track saw for ultra-precision work (a track saw with its anti-splinter strip is still cleaner)"
+      ],
+      "overlaps_with": [
+        {"tool": "track-saw", "overlap": "A straight-edge guide + circular saw is 80% as good as a track saw at 20% of the price. The track saw adds anti-splinter strips, plunge capability, and slightly better precision. For a budget-conscious DIYer, the guide + circular saw is the way to start."},
+        {"tool": "table-saw", "overlap": "Both make straight rip cuts. A table saw is faster for repeated cuts, but a guide + circular saw works for occasional ripping without a stationary tool."}
+      ],
+      "projects_that_need_this": ["build-a-shed", "kitchen-renovation", "finish-a-basement", "install-hardwood-flooring"],
+      "can_replace": ["track saw for budget-conscious straight cuts", "table saw for occasional sheet good ripping"],
+      "replaced_by": ["track-saw for premium precision", "table-saw for production ripping"],
+      "difficulty_to_use": 1,
+      "danger_level": 0,
+      "rent_vs_buy": "Buy — $20-50 for a basic straight edge, $40-80 for a Kreg Rip-Cut or Bora WTX clamp edge. Essential accessory if you own a circular saw and work with plywood.",
+      "buy_cordless": false,
+      "buy_cordless_reason": "It's a passive guide — no power needed.",
+      "minimum_budget": 15,
+      "sweet_spot_budget": 40,
+      "pro_budget": 79,
+      "battery_ecosystems": []
+    }
+  ],
+  "task_to_tool_index": {
+    "cut wood straight": ["circular-saw", "miter-saw", "table-saw", "track-saw"],
+    "cut wood curves": ["jigsaw", "band-saw"],
+    "cut plywood": ["circular-saw", "track-saw", "table-saw"],
+    "cut metal": ["angle-grinder", "reciprocating-saw", "rotary-tool"],
+    "cut tile": ["wet-tile-saw", "angle-grinder", "rotary-tool"],
+    "cut concrete": ["angle-grinder", "rotary-hammer"],
+    "cut pipe": ["reciprocating-saw", "oscillating-multi-tool", "angle-grinder", "rotary-tool"],
+    "cut drywall": ["oscillating-multi-tool", "rotary-tool", "jigsaw"],
+    "cut tree branches": ["chainsaw", "pole-saw", "reciprocating-saw"],
+    "demolition": ["reciprocating-saw", "rotary-hammer", "angle-grinder"],
+    "drill holes in wood": ["drill-driver", "hammer-drill"],
+    "drill holes in concrete": ["hammer-drill", "rotary-hammer"],
+    "drill holes in metal": ["drill-driver", "hammer-drill"],
+    "drive screws": ["drill-driver", "impact-driver"],
+    "drive long screws": ["impact-driver"],
+    "drive lag bolts": ["impact-wrench", "impact-driver"],
+    "remove bolts": ["impact-wrench"],
+    "sand wood smooth": ["random-orbit-sander", "belt-sander", "detail-sander"],
+    "sand in corners": ["detail-sander", "oscillating-multi-tool"],
+    "remove paint": ["random-orbit-sander", "belt-sander", "angle-grinder", "oscillating-multi-tool"],
+    "remove rust": ["angle-grinder", "rotary-tool"],
+    "remove grout": ["oscillating-multi-tool", "angle-grinder", "rotary-tool"],
+    "remove caulk": ["oscillating-multi-tool"],
+    "shape wood edges": ["router"],
+    "cut grooves dadoes": ["router", "table-saw"],
+    "install trim": ["finish-nailer", "brad-nailer", "miter-saw"],
+    "install baseboards": ["finish-nailer", "miter-saw"],
+    "install crown molding": ["finish-nailer", "miter-saw"],
+    "install drywall": ["drywall-screw-gun", "drill-driver"],
+    "frame a wall": ["framing-nailer", "circular-saw", "miter-saw"],
+    "build a deck": ["circular-saw", "miter-saw", "impact-driver", "drill-driver", "speed-square", "tape-measure", "level", "chalk-line"],
+    "install flooring": ["miter-saw", "jigsaw", "oscillating-multi-tool", "tape-measure", "chalk-line"],
+    "tile a bathroom": ["wet-tile-saw", "angle-grinder", "oscillating-multi-tool", "level", "tape-measure"],
+    "hang something on wall": ["drill-driver", "stud-finder", "level", "tape-measure"],
+    "mow lawn": ["lawn-mower-push", "lawn-mower-self-propelled"],
+    "trim lawn edges": ["string-trimmer", "edger"],
+    "clear leaves": ["leaf-blower"],
+    "trim hedges": ["hedge-trimmer"],
+    "prune trees": ["pole-saw", "chainsaw"],
+    "remove snow": ["snow-blower"],
+    "clean driveway": ["pressure-washer"],
+    "clean deck": ["pressure-washer", "random-orbit-sander"],
+    "find wall studs": ["stud-finder"],
+    "measure things": ["tape-measure"],
+    "check if level": ["level"],
+    "mark straight lines": ["chalk-line", "speed-square"],
+    "cut angles": ["miter-saw", "speed-square", "circular-saw"],
+    "make flush cuts": ["oscillating-multi-tool"],
+    "sharpen tools": ["angle-grinder", "rotary-tool"],
+    "polish metal": ["angle-grinder", "rotary-tool"],
+    "change tires": ["impact-wrench"],
+    "automotive repair": ["impact-wrench", "rotary-tool"]
+  },
+  "beginner_buying_order": {
+    "description": "If you're starting from zero tools, buy them roughly in this order. The first 5 will handle 80% of home projects.",
+    "tiers": [
+      {
+        "tier": 1,
+        "name": "The Absolute Essentials",
+        "budget_estimate": "$200-350",
+        "tools": ["drill-driver", "impact-driver", "tape-measure", "speed-square", "level"],
+        "note": "Buy the drill and impact as a combo kit — much better value than separate. Add the three hand tools for under $50 total. This gets you through hanging shelves, assembling furniture, basic repairs, and 80% of home tasks."
+      },
+      {
+        "tier": 2,
+        "name": "Ready for Real Projects",
+        "budget_estimate": "$250-450 (cumulative $450-800)",
+        "tools": ["circular-saw", "random-orbit-sander", "oscillating-multi-tool", "stud-finder", "chalk-line", "clamps"],
+        "note": "Now you can cut wood, sand surfaces, make plunge cuts, and find studs. You can tackle a deck, build raised garden beds, refinish furniture, and do basic renovations."
+      },
+      {
+        "tier": 3,
+        "name": "Renovation Ready",
+        "budget_estimate": "$400-700 (cumulative $850-1500)",
+        "tools": ["miter-saw", "finish-nailer", "jigsaw", "shop-vacuum", "work-light"],
+        "note": "Install trim, make curved cuts, clean up properly, and work in dark spaces. You can now handle a bathroom renovation, install flooring, finish a basement, and build a shed."
+      },
+      {
+        "tier": 4,
+        "name": "Serious DIYer",
+        "budget_estimate": "$500-1000 (cumulative $1350-2500)",
+        "tools": ["table-saw", "router", "reciprocating-saw", "angle-grinder", "hammer-drill", "brad-nailer"],
+        "note": "Full workshop capability. You can build cabinets, do precision woodworking, handle demolition, cut tile and metal, and drill into concrete. At this point, you can tackle nearly any home project."
+      }
+    ]
+  }
+}
