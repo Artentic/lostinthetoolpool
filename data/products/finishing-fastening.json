@@ -1,0 +1,925 @@
+{
+  "category_group": "Sanding, Finishing, Fastening & Specialty",
+  "last_updated": "2026-04-02",
+  "products": [
+    {
+      "id": "milwaukee-m18-ros-2648-20",
+      "name": "Milwaukee M18 5 in. Random Orbit Sander",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2648-20",
+      "category": "Sanding & Finishing",
+      "subcategory": "Random Orbit Sanders",
+      "price_bare_tool": 149.00,
+      "price_kit": null,
+      "key_specs": {
+        "pad_size": "5 in.",
+        "speed_range": "7,000-12,000 OPM",
+        "orbit_diameter": "3/32 in.",
+        "motor_type": "Brushed",
+        "weight_bare": "3.5 lbs",
+        "dust_collection": "Canister + universal hose adapter",
+        "battery_runtime": "35 min (XC3.0 battery)"
+      },
+      "rating": 4.7,
+      "review_count": 2100,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "Variable speed dial for matching orbit speed to application",
+        "Hook-and-loop quick-change sanding pad",
+        "Universal hose adapter for dust collection",
+        "Compact ergonomic design for one-handed use",
+        "Compatible with all M18 REDLITHIUM batteries"
+      ],
+      "description": "The Milwaukee M18 Random Orbit Sander delivers corded-level sanding performance at up to 12,000 OPM with variable speed control. It includes a dust canister and universal hose adapter for clean work, and runs about 35 minutes on an XC3.0 battery pack.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/304591900",
+        "amazon": "https://www.amazon.com/dp/B07BM93DK1"
+      }
+    },
+    {
+      "id": "dewalt-20v-ros-dcw210b",
+      "name": "DeWalt 20V MAX XR 5 in. Brushless Random Orbital Sander",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCW210B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Random Orbit Sanders",
+      "price_bare_tool": 179.00,
+      "price_kit": 259.00,
+      "key_specs": {
+        "pad_size": "5 in.",
+        "speed_range": "8,000-12,000 OPM",
+        "orbit_diameter": "3/32 in.",
+        "motor_type": "Brushless",
+        "weight_bare": "3.2 lbs",
+        "dust_collection": "Locking dust bag + dust collector compatible",
+        "paper_pattern": "8-hole hook-and-loop"
+      },
+      "rating": 4.8,
+      "review_count": 3400,
+      "retailers": ["Home Depot", "Amazon", "Lowe's", "Acme Tools"],
+      "features": [
+        "Brushless motor for longer runtime and tool life",
+        "Low-profile height for precise work close to surfaces",
+        "One-handed locking dust bag for secure attachment",
+        "Rubber overmold grip for comfortable extended sanding",
+        "Variable speed dial for application-specific control"
+      ],
+      "description": "The DeWalt DCW210B is a brushless 5-inch random orbit sander that runs from 8,000 to 12,000 OPM with a low-profile design for getting close to your work surface. Its one-handed locking dust bag and rubber overmold grip make it comfortable for extended sanding sessions.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/305585327",
+        "amazon": "https://www.amazon.com/dp/B07JQM7C28"
+      }
+    },
+    {
+      "id": "makita-18v-ros-xob01z",
+      "name": "Makita 18V LXT 5 in. Variable Speed Random Orbit Sander",
+      "brand": "Makita",
+      "ecosystem": "18V LXT",
+      "model_number": "XOB01Z",
+      "category": "Sanding & Finishing",
+      "subcategory": "Random Orbit Sanders",
+      "price_bare_tool": 139.00,
+      "price_kit": null,
+      "key_specs": {
+        "pad_size": "5 in.",
+        "speed_range": "7,000/9,500/11,000 OPM (3-speed)",
+        "orbit_diameter": "1/8 in.",
+        "motor_type": "Brushed",
+        "weight_bare": "3.6 lbs",
+        "dust_collection": "Dust bag included",
+        "battery_runtime": "40 min per charge"
+      },
+      "rating": 4.7,
+      "review_count": 1900,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools"],
+      "features": [
+        "Three speed settings via one-touch electronic switch",
+        "Larger 1/8 in. orbit for fast material removal and swirl-free finish",
+        "Pad brake reduces free-spin for improved finish quality",
+        "Controlled startup system prevents gouging",
+        "Up to 40 minutes runtime on a single charge"
+      ],
+      "description": "The Makita XOB01Z stands out with three distinct speed settings and a larger 1/8-inch orbit for fast, efficient sanding with a swirl-free finish. Its pad brake and controlled startup prevent common beginner mistakes like gouging, making it a forgiving sander for DIYers.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/206051086",
+        "amazon": "https://www.amazon.com/dp/B00M9CXMNY"
+      }
+    },
+    {
+      "id": "ryobi-one-ros-pcl406b",
+      "name": "Ryobi ONE+ 18V 5 in. Random Orbit Sander",
+      "brand": "Ryobi",
+      "ecosystem": "ONE+ 18V",
+      "model_number": "PCL406B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Random Orbit Sanders",
+      "price_bare_tool": 59.00,
+      "price_kit": 119.00,
+      "key_specs": {
+        "pad_size": "5 in.",
+        "speed": "10,000 OPM (single speed)",
+        "orbit_diameter": "3/32 in.",
+        "motor_type": "Brushed",
+        "weight_bare": "2.7 lbs",
+        "dust_collection": "Dust bag + 1-1/4 in. and 1-7/8 in. dust port",
+        "height": "6 in."
+      },
+      "rating": 4.5,
+      "review_count": 2800,
+      "retailers": ["Home Depot", "Amazon"],
+      "features": [
+        "40% reduced vibration for comfortable extended use",
+        "Multiple grip zones for different hand positions",
+        "Rocker switch with rubber membrane for dust protection",
+        "Lightest in class at only 2.7 lbs bare",
+        "Compatible with 300+ ONE+ tools on the same battery"
+      ],
+      "description": "At just $59, the Ryobi PCL406B is the most affordable cordless random orbit sander on the market. It delivers solid 10,000 OPM performance with 40% reduced vibration, weighs only 2.7 lbs, and fits the massive ONE+ battery ecosystem of 300+ tools.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/318531838",
+        "amazon": "https://www.amazon.com/dp/B09ZBK3BJJ"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-grinder-2880-20",
+      "name": "Milwaukee M18 FUEL 4-1/2 in. / 5 in. Angle Grinder (Paddle Switch)",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2880-20",
+      "category": "Sanding & Finishing",
+      "subcategory": "Angle Grinders",
+      "price_bare_tool": 199.00,
+      "price_kit": null,
+      "key_specs": {
+        "disc_size": "4-1/2 in. / 5 in.",
+        "speed": "8,500 RPM",
+        "motor_type": "POWERSTATE Brushless",
+        "spindle_thread": "5/8 in. - 11",
+        "weight_bare": "4.6 lbs",
+        "switch_type": "Paddle switch, no-lock",
+        "cuts_per_charge": "Up to 135 (with XC6.0 battery)"
+      },
+      "rating": 4.8,
+      "review_count": 3200,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "POWERSTATE brushless motor delivers 11A corded equivalent performance",
+        "Electronic clutch for kickback protection",
+        "Overload protection to maximize motor life",
+        "Tool-free accessory and guard adjustments",
+        "Paddle switch with no-lock design for safety"
+      ],
+      "description": "The Milwaukee 2880-20 is a pro-grade cordless angle grinder that matches the power of an 11-amp corded grinder. Its electronic clutch provides kickback protection, and tool-free guard and accessory changes minimize downtime. Delivers up to 135 cuts per charge.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/315445886",
+        "amazon": "https://www.amazon.com/dp/B08LNVY4BN"
+      }
+    },
+    {
+      "id": "dewalt-20v-grinder-dcg413b",
+      "name": "DeWalt 20V MAX XR 4-1/2 in. Brushless Angle Grinder",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCG413B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Angle Grinders",
+      "price_bare_tool": 199.00,
+      "price_kit": null,
+      "key_specs": {
+        "disc_size": "4-1/2 in.",
+        "speed": "9,000 RPM",
+        "motor_type": "Brushless",
+        "spindle_thread": "5/8 in. - 11",
+        "weight_bare": "3.7 lbs",
+        "switch_type": "Paddle switch, two-stage trigger",
+        "brake_time": "2 seconds or less"
+      },
+      "rating": 4.8,
+      "review_count": 4100,
+      "retailers": ["Home Depot", "Lowe's", "Amazon", "Acme Tools"],
+      "features": [
+        "Kickback Brake engages when pinch, stall, or bind-up detected",
+        "Brake stops wheel in 2 seconds or less",
+        "Two-stage trigger requires two distinct actions to activate",
+        "Brushless motor for extended runtime and durability",
+        "Compact and lightweight at only 3.7 lbs"
+      ],
+      "description": "The DeWalt DCG413B is a compact, lightweight angle grinder with standout safety features. Its Kickback Brake automatically shuts the grinder off during dangerous pinch or bind-up events, and the two-stage trigger prevents accidental activation. At 3.7 lbs, it is easy to handle for extended grinding sessions.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/301562545",
+        "amazon": "https://www.amazon.com/dp/B07457BXJW"
+      }
+    },
+    {
+      "id": "makita-18v-grinder-xag04z",
+      "name": "Makita 18V LXT Brushless 4-1/2 in. / 5 in. Cut-Off/Angle Grinder",
+      "brand": "Makita",
+      "ecosystem": "18V LXT",
+      "model_number": "XAG04Z",
+      "category": "Sanding & Finishing",
+      "subcategory": "Angle Grinders",
+      "price_bare_tool": 179.00,
+      "price_kit": null,
+      "key_specs": {
+        "disc_size": "4-1/2 in. / 5 in.",
+        "speed": "8,500 RPM",
+        "motor_type": "BL Brushless",
+        "spindle_thread": "5/8 in. - 11",
+        "weight_bare": "5.2 lbs",
+        "auto_speed_change": true,
+        "star_protection": true
+      },
+      "rating": 4.7,
+      "review_count": 2600,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools"],
+      "features": [
+        "Automatic Speed Change Technology adjusts speed and torque during operation",
+        "BL Brushless motor for up to 50% longer runtime per charge",
+        "Star Protection communication technology prevents overload and overheat",
+        "Ideal for grinding, cutting, and sanding tile, concrete, and pipe",
+        "Compatible with Makita's extensive 18V LXT battery system"
+      ],
+      "description": "The Makita XAG04Z features Automatic Speed Change Technology that intelligently adjusts speed and torque during use for optimal performance. Its Star Protection system allows the tool and battery to communicate in real time, preventing overload and overheating damage.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/301986732",
+        "amazon": "https://www.amazon.com/dp/B071KD1CHB"
+      }
+    },
+    {
+      "id": "ryobi-one-grinder-pcl445b",
+      "name": "Ryobi ONE+ 18V 4-1/2 in. Angle Grinder",
+      "brand": "Ryobi",
+      "ecosystem": "ONE+ 18V",
+      "model_number": "PCL445B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Angle Grinders",
+      "price_bare_tool": 69.00,
+      "price_kit": null,
+      "key_specs": {
+        "disc_size": "4-1/2 in.",
+        "speed": "9,000 RPM",
+        "motor_type": "Brushed",
+        "spindle_thread": "5/8 in. - 11",
+        "weight_bare": "3.4 lbs",
+        "handle_positions": 3,
+        "guard_adjustment": "Tool-free"
+      },
+      "rating": 4.4,
+      "review_count": 1500,
+      "retailers": ["Home Depot", "Amazon"],
+      "features": [
+        "9,000 RPM for efficient and rapid material removal",
+        "3-position handle for maximum control and adaptability",
+        "On-board wrench storage for hassle-free accessory changes",
+        "Tool-free adjustable guard for quick changes",
+        "Ergonomic design optimized for flush cutting"
+      ],
+      "description": "The Ryobi PCL445B is a budget-friendly cordless angle grinder that delivers 9,000 RPM of grinding power. Its 3-position handle, on-board wrench storage, and tool-free guard adjustment make it easy to use for occasional grinding, cutting, and surface prep tasks.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/318696913",
+        "amazon": "https://www.amazon.com/dp/B09ZF9RFVT"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-router-2723-20",
+      "name": "Milwaukee M18 FUEL Compact Router",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2723-20",
+      "category": "Sanding & Finishing",
+      "subcategory": "Compact Routers",
+      "price_bare_tool": 179.00,
+      "price_kit": null,
+      "key_specs": {
+        "horsepower": "1-1/4 HP",
+        "speed_range": "10,000-31,000 RPM",
+        "collet_size": "1/4 in.",
+        "depth_adjustment": "1/64 in. micro increments",
+        "max_bit_depth": "1-1/2 in.",
+        "motor_type": "Brushless",
+        "weight_bare": "2.95 lbs",
+        "sub_base_size": "4 in."
+      },
+      "rating": 4.9,
+      "review_count": 3800,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Tool Nut"],
+      "features": [
+        "1-1/4 HP brushless motor with 31,000 RPM max speed",
+        "1/64 in. micro-adjustment for precise depth control",
+        "Dual LED lights illuminate work surface",
+        "Includes base, large baseplate, edge guide, and dust shroud",
+        "Up to 250 ft of 3/8 in. roundovers in oak on XC5.0 battery"
+      ],
+      "description": "The Milwaukee 2723-20 is widely considered the best cordless compact router available. It delivers 1-1/4 HP with speeds up to 31,000 RPM, and its 1/64-inch micro depth adjustment provides woodworking-grade precision. Comes with a generous accessory package including edge guide and dust shroud.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/313020581",
+        "amazon": "https://www.amazon.com/dp/B07XM9876N"
+      }
+    },
+    {
+      "id": "dewalt-20v-router-dcw600b",
+      "name": "DeWalt 20V MAX XR Brushless Compact Router",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCW600B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Compact Routers",
+      "price_bare_tool": 219.00,
+      "price_kit": null,
+      "key_specs": {
+        "speed_range": "16,000-25,500 RPM",
+        "collet_size": "1/4 in.",
+        "depth_adjustment": "Ring adjustment",
+        "motor_type": "Brushless",
+        "weight_bare": "3.9 lbs",
+        "led_lights": "Dual LED",
+        "soft_start": true
+      },
+      "rating": 4.8,
+      "review_count": 4500,
+      "retailers": ["Home Depot", "Amazon", "Lowe's"],
+      "features": [
+        "Brushless motor delivers among the most powerful cordless router performance",
+        "Variable speed from 16,000 to 25,500 RPM",
+        "Dual LED lights for superior bit visibility",
+        "Soft start for controlled plunge entry",
+        "Depth adjustment ring for precise settings"
+      ],
+      "description": "The DeWalt DCW600B is one of the most powerful cordless compact routers available, tying for fastest in hardwood stress tests. It handles edge profiling, template routing, and dados in hardwoods without bogging down. The trade-off is its higher price and minimal included accessories.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/305964582",
+        "amazon": "https://www.amazon.com/dp/B07KSRTDML"
+      }
+    },
+    {
+      "id": "makita-18v-router-xtr01z",
+      "name": "Makita 18V LXT Brushless Compact Router",
+      "brand": "Makita",
+      "ecosystem": "18V LXT",
+      "model_number": "XTR01Z",
+      "category": "Sanding & Finishing",
+      "subcategory": "Compact Routers",
+      "price_bare_tool": 135.00,
+      "price_kit": 370.00,
+      "key_specs": {
+        "speed_range": "10,000-30,000 RPM",
+        "collet_size": "1/4 in.",
+        "plunge_capacity": "1-9/16 in.",
+        "motor_type": "BL Brushless",
+        "weight_with_battery": "4.6 lbs",
+        "depth_adjustment": "Rack-and-pinion fine adjustment",
+        "base_type": "Fixed base with quick-release cam lock"
+      },
+      "rating": 4.7,
+      "review_count": 2200,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Tool Nut"],
+      "features": [
+        "Rack-and-pinion fine depth adjustment system for precise settings",
+        "Dual LED lights illuminate work surface",
+        "Quick-release cam lock for easy depth adjustments and base removal",
+        "Electronic speed control maintains constant speed under load",
+        "Soft start feature for smooth entry into workpiece"
+      ],
+      "description": "The Makita XTR01Z is the best value in cordless compact routers at $135 bare tool. Its rack-and-pinion depth adjustment is smooth and precise, and the kit option ($370) includes a plunge base, two batteries, charger, and case -- making it the most complete package available.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/301687775",
+        "amazon": "https://www.amazon.com/dp/B01N7DQ3F5"
+      }
+    },
+    {
+      "id": "dewalt-20v-belt-sander-dcw220b",
+      "name": "DeWalt 20V MAX XR Brushless 3 in. x 21 in. Belt Sander",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCW220B",
+      "category": "Sanding & Finishing",
+      "subcategory": "Belt Sanders",
+      "price_bare_tool": 249.00,
+      "price_kit": null,
+      "key_specs": {
+        "belt_size": "3 in. x 21 in.",
+        "speed_range": "650-1,050 SFPM",
+        "speed_settings": 25,
+        "motor_type": "Brushless",
+        "weight_bare": "9.26 lbs",
+        "dust_collection": "AirLock system, up to 95% efficiency",
+        "belt_change": "Tool-free quick-release"
+      },
+      "rating": 4.6,
+      "review_count": 800,
+      "retailers": ["Home Depot", "Lowe's", "Amazon", "Acme Tools"],
+      "features": [
+        "25-speed selection dial for precise material removal control",
+        "AirLock dust collection system with up to 95% efficiency",
+        "Tool-free quick-release belt change system",
+        "Delivers 22% more power than corded equivalent",
+        "Variable speed trigger plus speed selection dial for dual control"
+      ],
+      "description": "The DeWalt DCW220B is a serious cordless belt sander with a full-size 3x21-inch belt and 25 speed settings. Its AirLock dust collection captures up to 95% of dust, and the tool-free belt change system keeps you working. At 9.26 lbs, it has enough weight to let gravity assist your sanding.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/323914753",
+        "amazon": "https://www.amazon.com/dp/B0BY2T3XVT"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-brad-nailer-2746-20",
+      "name": "Milwaukee M18 FUEL 18 Gauge Brad Nailer",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2746-20",
+      "category": "Fastening",
+      "subcategory": "Brad Nailers (18ga)",
+      "price_bare_tool": 279.00,
+      "price_kit": 399.00,
+      "key_specs": {
+        "gauge": "18 ga",
+        "nail_length": "5/8 in. to 2-1/8 in.",
+        "magazine_capacity": 110,
+        "firing_modes": "Sequential and contact actuation",
+        "motor_type": "POWERSTATE Brushless",
+        "weight_bare": "5.3 lbs",
+        "depth_adjustment": "Tool-free",
+        "drive_mechanism": "Sealed compressed nitrogen"
+      },
+      "rating": 4.8,
+      "review_count": 2500,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "Zero ramp-up time for instant firing",
+        "Sealed compressed nitrogen drive eliminates gas cartridge costs",
+        "Clear line of sight for accurate nail placement",
+        "Compact body for access into corners and tight spaces",
+        "Consistent drive into both hardwoods and softwoods"
+      ],
+      "description": "The Milwaukee 2746-20 uses a sealed nitrogen mechanism that fires instantly with zero ramp-up time, unlike gas cartridge nailers. It drives 18-gauge brads from 5/8 to 2-1/8 inches consistently into both hardwoods and softwoods, with a 110-nail magazine that minimizes reloading.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/313741268",
+        "amazon": "https://www.amazon.com/dp/B07YRHF2TF"
+      }
+    },
+    {
+      "id": "dewalt-20v-brad-nailer-dcn680b",
+      "name": "DeWalt 20V MAX XR 18 Gauge Cordless Brad Nailer",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCN680B",
+      "category": "Fastening",
+      "subcategory": "Brad Nailers (18ga)",
+      "price_bare_tool": 249.00,
+      "price_kit": 349.00,
+      "key_specs": {
+        "gauge": "18 ga",
+        "nail_length": "5/8 in. to 2-1/8 in.",
+        "nails_per_charge": "800-1,200 (with 2.0Ah battery)",
+        "firing_modes": "Sequential and bump",
+        "motor_type": "Brushless",
+        "weight_bare": "5.3 lbs",
+        "depth_adjustment": "Tool-free",
+        "jam_release": "Tool-free"
+      },
+      "rating": 4.7,
+      "review_count": 5200,
+      "retailers": ["Home Depot", "Amazon", "Lowe's", "Acme Tools"],
+      "features": [
+        "Micro nose design for improved line of sight and nail accuracy",
+        "Drives 800-1,200 nails per charge on a 2.0Ah battery",
+        "Tool-free depth adjustment for precise countersinking",
+        "Tool-free jam release for fast clearing during operation",
+        "Brushless motor for extended tool life"
+      ],
+      "description": "The DeWalt DCN680B is a top-selling cordless brad nailer that drives 800 to 1,200 nails per charge. Its micro nose design gives excellent sightlines for accurate placement, and tool-free depth adjustment and jam release keep you productive. Ideal for trim, molding, and cabinetry work.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/302029641",
+        "amazon": "https://www.amazon.com/dp/B06XF6MZJ5"
+      }
+    },
+    {
+      "id": "ryobi-one-brad-nailer-p321",
+      "name": "Ryobi ONE+ 18V AirStrike 18 Gauge Brad Nailer",
+      "brand": "Ryobi",
+      "ecosystem": "ONE+ 18V",
+      "model_number": "P321",
+      "category": "Fastening",
+      "subcategory": "Brad Nailers (18ga)",
+      "price_bare_tool": 99.00,
+      "price_kit": null,
+      "key_specs": {
+        "gauge": "18 ga",
+        "nail_length": "5/8 in. to 2 in.",
+        "nails_per_charge": "Up to 1,700 (with 4.0Ah battery)",
+        "firing_modes": "Sequential and contact actuation",
+        "motor_type": "Brushed",
+        "depth_adjustment": "Tool-free dial",
+        "jam_release": "Tool-free"
+      },
+      "rating": 4.5,
+      "review_count": 6200,
+      "retailers": ["Home Depot"],
+      "features": [
+        "AirStrike Technology eliminates compressor, hose, and gas cartridges",
+        "45% smaller nose for tight spot access (vs P320)",
+        "12% more compact for enhanced maneuverability (vs P320)",
+        "Tool-free depth of drive adjustment dial",
+        "Up to 1,700 nails per charge for all-day work"
+      ],
+      "description": "The Ryobi P321 delivers incredible value at $99 -- it is the most affordable cordless brad nailer from a major brand. No compressor or gas cartridges needed; just pop in a battery and start nailing. Fires up to 1,700 brads per charge, though it may struggle with the longest nails in hardwoods.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/315855110"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-finish-nailer-2839-20",
+      "name": "Milwaukee M18 FUEL Gen II 15 Gauge Angled Finish Nailer",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2839-20",
+      "category": "Fastening",
+      "subcategory": "Finish Nailers (15/16ga)",
+      "price_bare_tool": 379.00,
+      "price_kit": null,
+      "key_specs": {
+        "gauge": "15 ga",
+        "nail_type": "DA type angled",
+        "nail_length": "1-1/4 in. to 2-1/2 in.",
+        "nails_per_charge": "Up to 750 (with CP2.0 battery)",
+        "firing_modes": "Sequential and contact actuation",
+        "motor_type": "POWERSTATE Brushless",
+        "depth_adjustment": "Tool-free",
+        "jam_clearing": "Tool-free latch"
+      },
+      "rating": 4.8,
+      "review_count": 1800,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Tool Nut"],
+      "features": [
+        "Nitrogen air spring for pneumatic-like nailing response",
+        "Zero ramp-up time from nail to nail",
+        "Compact ergonomic design for access into tight spaces",
+        "LED work light for visibility in dark areas",
+        "Tip storage on magazine for quick access to no-mar tips"
+      ],
+      "description": "The Milwaukee 2839-20 is a premium 15-gauge finish nailer that delivers pneumatic-like response using a nitrogen air spring. It fires up to 750 nails per charge with zero ramp-up time, driving angled finish nails from 1-1/4 to 2-1/2 inches for crown molding, baseboards, and heavy trim work.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/317978291",
+        "amazon": "https://www.amazon.com/dp/B0BFD73KRZ"
+      }
+    },
+    {
+      "id": "dewalt-20v-finish-nailer-dcn660b",
+      "name": "DeWalt 20V MAX XR 16 Gauge Angled Finish Nailer",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCN660B",
+      "category": "Fastening",
+      "subcategory": "Finish Nailers (15/16ga)",
+      "price_bare_tool": 399.00,
+      "price_kit": null,
+      "key_specs": {
+        "gauge": "16 ga",
+        "nail_type": "20-degree angled",
+        "nail_length": "1-1/4 in. to 2-1/2 in.",
+        "nails_per_charge": "Up to 800 (with 2.0Ah battery)",
+        "fire_rate": "Up to 4 nails per second",
+        "firing_modes": "Sequential and bump",
+        "motor_type": "Brushless",
+        "depth_adjustment": "Tool-free"
+      },
+      "rating": 4.7,
+      "review_count": 3600,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "Fires up to 4 nails per second in bump mode",
+        "Multifunctional LED lights for work area illumination",
+        "Tool-free stall release lever for quick recovery",
+        "Adjustable belt hook for convenient carrying",
+        "Brushless motor for consistent drive performance"
+      ],
+      "description": "The DeWalt DCN660B is a 16-gauge angled finish nailer built for production speed, firing up to 4 nails per second. It drives 800 nails per charge and handles crown molding, casing, and baseboards with consistent countersinking. The tool-free stall release lever gets you back to work fast if a jam occurs.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/206528524",
+        "amazon": "https://www.amazon.com/dp/B0195KBAVI"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-impact-wrench-2967-20",
+      "name": "Milwaukee M18 FUEL 1/2 in. High Torque Impact Wrench (Friction Ring)",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2967-20",
+      "category": "Fastening",
+      "subcategory": "Impact Wrenches (1/2 in.)",
+      "price_bare_tool": 299.00,
+      "price_kit": 399.00,
+      "key_specs": {
+        "drive_size": "1/2 in.",
+        "fastening_torque": "1,200 ft-lbs",
+        "nut_busting_torque": "1,600 ft-lbs",
+        "speed": "0-2,000 RPM",
+        "impact_rate": "0-2,400 IPM",
+        "motor_type": "POWERSTATE Brushless",
+        "length": "7.6 in.",
+        "weight_bare": "5.9 lbs",
+        "modes": "4 (including AUTO SHUT-OFF and Bolt Removal Control)",
+        "anvil_type": "Friction ring"
+      },
+      "rating": 4.9,
+      "review_count": 4200,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Northern Tool"],
+      "features": [
+        "1,600 ft-lbs nut-busting torque for the toughest bolts",
+        "At 7.6 in. long, up to 2 in. shorter than competitors",
+        "4-Mode DRIVE CONTROL with AUTO SHUT-OFF to prevent overtightening",
+        "Tri-LED lighting eliminates shadows around fasteners",
+        "Friction ring for tool-free socket changes"
+      ],
+      "description": "The Milwaukee 2967-20 is the king of cordless impact wrenches, delivering 1,600 ft-lbs of nut-busting torque in a compact 7.6-inch body. Its 4-mode drive control includes AUTO SHUT-OFF to prevent overtightening and Bolt Removal Control mode for precise work. A must-have for automotive and heavy-duty fastening.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/326201858",
+        "amazon": "https://www.amazon.com/dp/B0BQ1X56QC"
+      }
+    },
+    {
+      "id": "dewalt-20v-impact-wrench-dcf900b",
+      "name": "DeWalt 20V MAX XR 1/2 in. High Torque Impact Wrench (Hog Ring)",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCF900B",
+      "category": "Fastening",
+      "subcategory": "Impact Wrenches (1/2 in.)",
+      "price_bare_tool": 279.00,
+      "price_kit": 389.00,
+      "key_specs": {
+        "drive_size": "1/2 in.",
+        "fastening_torque": "1,030 ft-lbs",
+        "breakaway_torque": "1,400 ft-lbs",
+        "motor_type": "Brushless",
+        "modes": "4 speed settings",
+        "anvil_type": "Hog ring",
+        "precision_wrench_mode": true,
+        "led_work_light": true
+      },
+      "rating": 4.7,
+      "review_count": 2800,
+      "retailers": ["Home Depot", "Amazon", "Tractor Supply", "Acme Tools"],
+      "features": [
+        "1,400 ft-lbs breakaway torque for stubborn fasteners",
+        "PRECISION WRENCH mode prevents overtightening and run-off",
+        "BATTERYGUARD shock-absorbing battery connection",
+        "4-mode speed settings for precise control",
+        "On-tool LED work light for visibility"
+      ],
+      "description": "The DeWalt DCF900B delivers 1,400 ft-lbs of breakaway torque with a PRECISION WRENCH mode that prevents overtightening in forward and controls run-off in reverse. The BATTERYGUARD feature absorbs drops and impacts to protect the battery connection during rough use.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/317991357",
+        "amazon": "https://www.amazon.com/dp/B0B9T68W3B"
+      }
+    },
+    {
+      "id": "makita-18v-impact-wrench-xwt08z",
+      "name": "Makita 18V LXT Brushless 1/2 in. High Torque Impact Wrench",
+      "brand": "Makita",
+      "ecosystem": "18V LXT",
+      "model_number": "XWT08Z",
+      "category": "Fastening",
+      "subcategory": "Impact Wrenches (1/2 in.)",
+      "price_bare_tool": 329.00,
+      "price_kit": null,
+      "key_specs": {
+        "drive_size": "1/2 in.",
+        "fastening_torque": "740 ft-lbs",
+        "breakaway_torque": "1,180 ft-lbs",
+        "speed_range": "0-900/0-1,000/0-1,800 RPM (3-speed)",
+        "impact_rate": "0-1,800/0-2,000/0-2,200 IPM",
+        "motor_type": "BL Brushless",
+        "weight_with_battery": "7.9 lbs",
+        "anvil_type": "Friction ring"
+      },
+      "rating": 4.6,
+      "review_count": 1600,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "1,180 ft-lbs breakaway torque for heavy-duty applications",
+        "Electronic 3-speed power selection switch",
+        "BL Brushless motor for up to 50% longer runtime",
+        "Star Protection against overloading, over-discharging, and overheating",
+        "Friction ring anvil for quick socket changes"
+      ],
+      "description": "The Makita XWT08Z is a reliable high-torque impact wrench with 1,180 ft-lbs of breakaway torque and an electronic 3-speed selector for precision control. Star Protection technology monitors conditions in real time to prevent damage from overloading or overheating.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/206637027",
+        "amazon": "https://www.amazon.com/dp/B01CA04RH4"
+      }
+    },
+    {
+      "id": "ryobi-one-hp-impact-wrench-pbliw01b",
+      "name": "Ryobi ONE+ HP 18V Brushless 4-Mode 1/2 in. High Torque Impact Wrench",
+      "brand": "Ryobi",
+      "ecosystem": "ONE+ 18V",
+      "model_number": "PBLIW01B",
+      "category": "Fastening",
+      "subcategory": "Impact Wrenches (1/2 in.)",
+      "price_bare_tool": 219.00,
+      "price_kit": null,
+      "key_specs": {
+        "drive_size": "1/2 in.",
+        "fastening_torque": "700 ft-lbs",
+        "breakaway_torque": "1,170 ft-lbs",
+        "speed": "0-2,100 RPM",
+        "motor_type": "Brushless",
+        "modes": "4 (Low, Medium, High, Auto)",
+        "weight_bare": "5.5 lbs",
+        "gear_case": "Die-cast for durability"
+      },
+      "rating": 4.6,
+      "review_count": 2100,
+      "retailers": ["Home Depot", "Amazon"],
+      "features": [
+        "1,170 ft-lbs breakaway torque at a budget-friendly price",
+        "Auto Mode prevents overtightening and provides controlled removal",
+        "Die-cast gear case for greater durability",
+        "Friction ring anvil for quick socket changes",
+        "Tri-beam LED worklights for clear workspace visibility"
+      ],
+      "description": "The Ryobi PBLIW01B is the best-value high-torque impact wrench at $219. It delivers 1,170 ft-lbs of breakaway torque with a brushless motor and 4-mode control board including an Auto Mode that prevents overtightening. Surprisingly competitive with pro-grade tools at nearly half the price.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/317438520",
+        "amazon": "https://www.amazon.com/dp/B0BCSKD867"
+      }
+    },
+    {
+      "id": "milwaukee-m18-rover-flood-light-2366-20",
+      "name": "Milwaukee M18 ROVER Dual Power Flood Light",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2366-20",
+      "category": "Specialty",
+      "subcategory": "Work Lights",
+      "price_bare_tool": 179.00,
+      "price_kit": null,
+      "key_specs": {
+        "lumens": 4000,
+        "light_modes": 3,
+        "runtime": "Up to 12 hours (with XC5.0 battery)",
+        "power_options": "M18 battery or 120V AC",
+        "ip_rating": "IP54 (dust and water resistant)",
+        "head_rotation": "120 degrees",
+        "weight_bare": "3.3 lbs"
+      },
+      "rating": 4.7,
+      "review_count": 1200,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools"],
+      "features": [
+        "4,000 lumens of TRUEVIEW High Definition output",
+        "Dual power: runs on M18 battery or plugs into 120V AC outlet",
+        "IP54 rated for dust and water resistance",
+        "120-degree rotating light head for flexible positioning",
+        "Integrated keyholes for hanging on overhead surfaces"
+      ],
+      "description": "The Milwaukee 2366-20 ROVER Flood Light delivers 4,000 lumens and runs on either an M18 battery (up to 12 hours) or a standard 120V outlet for all-day power. Its IP54 rating means it handles dust and rain, and the 120-degree rotating head puts light exactly where you need it.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/316373277",
+        "amazon": "https://www.amazon.com/dp/B08LGVX4HK"
+      }
+    },
+    {
+      "id": "dewalt-20v-work-light-dcl074",
+      "name": "DeWalt 20V MAX Tool Connect All-Purpose Cordless Work Light",
+      "brand": "DeWalt",
+      "ecosystem": "20V MAX",
+      "model_number": "DCL074",
+      "category": "Specialty",
+      "subcategory": "Work Lights",
+      "price_bare_tool": 219.00,
+      "price_kit": null,
+      "key_specs": {
+        "lumens": 5000,
+        "runtime": "Up to 11 hours",
+        "ip_rating": "IP54 (weather and dust resistant)",
+        "connectivity": "Tool Connect Bluetooth app control",
+        "light_type": "Natural white LED",
+        "impact_resistant": true,
+        "hook": "Integrated hanging hook"
+      },
+      "rating": 4.6,
+      "review_count": 900,
+      "retailers": ["Home Depot", "Amazon", "Lowe's"],
+      "features": [
+        "5,000 lumens of natural white LED light",
+        "Tool Connect app for remote on/off and brightness control",
+        "IP54 weather and dust resistance for outdoor use",
+        "Impact resistant body and lens",
+        "Compatible with all DeWalt 20V MAX and FLEXVOLT batteries"
+      ],
+      "description": "The DeWalt DCL074 pumps out 5,000 lumens of natural white light for up to 11 hours on a single charge. Its Tool Connect Bluetooth compatibility lets you control brightness and power from your phone. The IP54 rating and impact-resistant construction make it tough enough for any jobsite.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/308552876",
+        "amazon": "https://www.amazon.com/dp/B07JNL7FN2"
+      }
+    },
+    {
+      "id": "milwaukee-m18-bluetooth-speaker-2954-20",
+      "name": "Milwaukee M18 Bluetooth Jobsite Speaker",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "2954-20",
+      "category": "Specialty",
+      "subcategory": "Bluetooth Speakers / Radios",
+      "price_bare_tool": 179.00,
+      "price_kit": null,
+      "key_specs": {
+        "speaker_config": "3.75 in. woofer + high frequency tweeter",
+        "bluetooth_version": "5.3",
+        "bluetooth_range": "Up to 200 ft",
+        "runtime": "Up to 18 hours at 100% volume (with XC5.0 battery)",
+        "power_options": "M18 battery or AC power",
+        "ip_rating": "Weather and dust resistant"
+      },
+      "rating": 4.6,
+      "review_count": 700,
+      "retailers": ["Home Depot", "Amazon"],
+      "features": [
+        "Bluetooth 5.3 with up to 200 ft wireless range",
+        "18 hours of runtime at full volume on XC5.0 battery",
+        "3.75 in. woofer and tweeter optimized for medium-sized spaces",
+        "Dual power: M18 battery or AC plug-in",
+        "Rugged construction for jobsite durability"
+      ],
+      "description": "The Milwaukee 2954-20 Bluetooth Speaker is built for the jobsite with Bluetooth 5.3 delivering 200 feet of wireless range. It runs up to 18 hours at full volume on an XC5.0 battery, which is enough for two full workdays of music. The 3.75-inch woofer and tweeter deliver clear, room-filling sound.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/329967572",
+        "amazon": "https://www.amazon.com/dp/B0DF5Q5SJV"
+      }
+    },
+    {
+      "id": "milwaukee-m18-wet-dry-vac-0880-20",
+      "name": "Milwaukee M18 2-Gallon Wet/Dry Vacuum",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "0880-20",
+      "category": "Specialty",
+      "subcategory": "Vacuums",
+      "price_bare_tool": 159.00,
+      "price_kit": null,
+      "key_specs": {
+        "capacity": "2 gallons",
+        "suction": "45 CFM, 32 in. water lift",
+        "runtime": "30+ min (with HD 9.0 battery)",
+        "filter": "Certified HEPA",
+        "weight_bare": "6.5 lbs",
+        "design": "Stackable with on-board accessory storage"
+      },
+      "rating": 4.5,
+      "review_count": 3100,
+      "retailers": ["Home Depot", "Amazon", "Ace Hardware"],
+      "features": [
+        "Certified HEPA filter for fine dust capture",
+        "Stackable design with all accessories stored inside",
+        "Flexible hose, crevice tool, and utility nozzle included",
+        "High performance motor for strong wet and dry suction",
+        "Compact and portable for quick cleanup"
+      ],
+      "description": "The Milwaukee 0880-20 is a compact 2-gallon wet/dry vacuum that is perfect for quick jobsite cleanup. Its certified HEPA filter captures fine dust, and the stackable design stores all accessories inside the unit. At 6.5 lbs, it is easy to carry anywhere on the job.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/202043806",
+        "amazon": "https://www.amazon.com/dp/B07FB26QRD"
+      }
+    },
+    {
+      "id": "milwaukee-m18-fuel-shop-vac-0910-20",
+      "name": "Milwaukee M18 FUEL 6-Gallon Wet/Dry Shop Vacuum",
+      "brand": "Milwaukee",
+      "ecosystem": "M18",
+      "model_number": "0910-20",
+      "category": "Specialty",
+      "subcategory": "Vacuums",
+      "price_bare_tool": 249.00,
+      "price_kit": null,
+      "key_specs": {
+        "capacity": "6 gallons",
+        "motor_equivalent": "3.5 Peak HP",
+        "runtime_max_power": "31 min / 1,000 sq ft (on HD12.0 battery)",
+        "runtime_max_runtime": "47 min / 1,300 sq ft (on HD12.0 battery)",
+        "motor_type": "POWERSTATE Brushless",
+        "modes": "MAX POWER and MAX RUN-TIME",
+        "wheel_life": "Up to 8X longer wheel life",
+        "hose_durability": "Up to 2X hose life"
+      },
+      "rating": 4.7,
+      "review_count": 1400,
+      "retailers": ["Home Depot", "Amazon", "Acme Tools", "Ace Hardware"],
+      "features": [
+        "Outperforms 3.5 Peak HP corded vacuums",
+        "Two modes: MAX POWER for tough jobs, MAX RUN-TIME for larger areas",
+        "Reinforced casters with 8X wheel life",
+        "Crush and twist-resistant hose with 2X durability",
+        "Includes filter, hose, crevice tool, utility nozzle, and extension wands"
+      ],
+      "description": "The Milwaukee 0910-20 is a full-size 6-gallon cordless shop vacuum that outperforms 3.5 HP corded models. With MAX POWER mode cleaning 1,000 sq ft per charge and MAX RUN-TIME covering 1,300 sq ft, it replaces your corded shop vac. Reinforced wheels and hose are built to last.",
+      "affiliate_links": {
+        "home_depot": "https://www.homedepot.com/p/319165218",
+        "amazon": "https://www.amazon.com/dp/B0BLTCSMGB"
+      }
+    }
+  ]
+}
