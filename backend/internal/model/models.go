@@ -5,6 +5,9 @@ import (
 	"time"
 )
 
+// DIFFICULTY_LABELS maps difficulty levels 1-5 to human-readable labels.
+var DIFFICULTY_LABELS = [6]string{"", "Easy", "Moderate", "Intermediate", "Advanced", "Expert"}
+
 // Product represents a tool product from ClickHouse.
 type Product struct {
 	SKU            string          `json:"sku" db:"sku"`

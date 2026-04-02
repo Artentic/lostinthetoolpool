@@ -12,8 +12,9 @@ import (
 	pb "github.com/qdrant/go-client/qdrant"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/config"
+	awsconfig "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
+	brtypes "github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
 )
 
 type AdvisorService struct {
@@ -25,7 +26,7 @@ type AdvisorService struct {
 }
 
 func NewAdvisorService(region, modelID string, embedSvc *EmbeddingService, qdrant *database.QdrantClient, ch *database.ClickHouseClient) (*AdvisorService, error) {
-	cfg, err := config.LoadDefaultConfig(context.Background(), config.WithRegion(region))
+	cfg, err := awsconfig.LoadDefaultConfig(context.Background(), awsconfig.WithRegion(region))
 	if err != nil {
 		return nil, fmt.Errorf("load aws config: %w", err)
 	}
@@ -258,7 +259,7 @@ func (s *AdvisorService) callClaudeStreaming(ctx context.Context, systemPrompt, 
 
 	for event := range stream.Events() {
 		switch v := event.(type) {
-		case *bedrockruntime.InvokeModelWithResponseStreamOutputMemberChunk:
+		case *brtypes.ResponseStreamMemberChunk:
 			// Parse the chunk to extract text delta
 			var chunk struct {
 				Type  string `json:"type"`
