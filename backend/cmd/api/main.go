@@ -74,6 +74,9 @@ func main() {
 		}
 	}
 
+	// Analytics service
+	analyticsSvc := service.NewAnalyticsService(ch)
+
 	// Initialize handlers
 	toolH := handler.NewToolHandler(productSvc)
 	ecoH := handler.NewEcosystemHandler(ecosystemSvc, productSvc)
@@ -82,6 +85,7 @@ func main() {
 	catH := handler.NewCategoryHandler(categorySvc)
 	affH := handler.NewAffiliateHandler(productSvc)
 	advisorH := handler.NewAdvisorHandler(advisorSvc)
+	analyticsH := handler.NewAnalyticsHandler(analyticsSvc)
 
 	// Router
 	r := chi.NewRouter()
@@ -135,6 +139,14 @@ func main() {
 
 		// Affiliate
 		r.Get("/affiliate/redirect/{sku}", affH.Redirect)
+
+		// Analytics (fire-and-forget event ingestion)
+		r.Post("/analytics/search", analyticsH.LogSearch)
+		r.Post("/analytics/affiliate-click", analyticsH.LogAffiliateClick)
+		r.Post("/analytics/pageview", analyticsH.LogPageView)
+		r.Post("/analytics/product-view", analyticsH.LogProductView)
+		r.Post("/analytics/ecosystem-selection", analyticsH.LogEcosystemSelection)
+		r.Post("/analytics/toolkit-generated", analyticsH.LogToolkitGenerated)
 	})
 
 	// Server
