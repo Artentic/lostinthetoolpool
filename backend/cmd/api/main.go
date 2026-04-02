@@ -9,6 +9,7 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/config"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/handler"
@@ -21,8 +22,8 @@ import (
 
 func main() {
 	cfg := config.Load()
+	memCache := cache.New()
 
-	// Initialize database connections
 	ch, err := database.NewClickHouse(cfg.ClickHouseDSN)
 	if err != nil {
 		log.Fatalf("clickhouse: %v", err)
@@ -41,20 +42,14 @@ func main() {
 	}
 	defer neo4j.Close(context.Background())
 
-	redis, err := database.NewRedis(cfg.RedisAddr)
-	if err != nil {
-		log.Fatalf("redis: %v", err)
-	}
-	defer redis.Close()
+	// Services
+	productSvc := service.NewProductService(ch, memCache)
+	ecosystemSvc := service.NewEcosystemService(neo4j, memCache)
+	projectSvc := service.NewProjectService(neo4j, memCache)
+	searchSvc := service.NewSearchService(qdrant, ch, memCache)
+	categorySvc := service.NewCategoryService(neo4j, memCache)
+	analyticsSvc := service.NewAnalyticsService(ch)
 
-	// Initialize services
-	productSvc := service.NewProductService(ch, redis)
-	ecosystemSvc := service.NewEcosystemService(neo4j, redis)
-	projectSvc := service.NewProjectService(neo4j, redis)
-	searchSvc := service.NewSearchService(qdrant, ch, redis)
-	categorySvc := service.NewCategoryService(neo4j, redis)
-
-	// Embedding service (optional — needs COHERE_API_KEY)
 	var embedSvc *service.EmbeddingService
 	if cfg.CohereAPIKey != "" {
 		embedSvc = service.NewEmbeddingService(cfg.CohereAPIKey)
@@ -63,21 +58,17 @@ func main() {
 		log.Println("COHERE_API_KEY not set — search and advisor will return empty results")
 	}
 
-	// Advisor service (optional — needs AWS credentials + Cohere)
 	var advisorSvc *service.AdvisorService
 	if embedSvc != nil {
-		advisorSvc, err = service.NewAdvisorService(cfg.AWSRegion, cfg.BedrockModel, embedSvc, qdrant, ch, redis)
+		advisorSvc, err = service.NewAdvisorService(cfg.AWSRegion, cfg.BedrockModel, embedSvc, qdrant, ch)
 		if err != nil {
-			log.Printf("advisor service not available: %v", err)
+			log.Printf("advisor not available: %v", err)
 		} else {
 			log.Println("Advisor service initialized (Claude via Bedrock)")
 		}
 	}
 
-	// Analytics service
-	analyticsSvc := service.NewAnalyticsService(ch)
-
-	// Initialize handlers
+	// Handlers
 	toolH := handler.NewToolHandler(productSvc)
 	ecoH := handler.NewEcosystemHandler(ecosystemSvc, productSvc)
 	projH := handler.NewProjectHandler(projectSvc)
@@ -87,10 +78,7 @@ func main() {
 	advisorH := handler.NewAdvisorHandler(advisorSvc)
 	analyticsH := handler.NewAnalyticsHandler(analyticsSvc)
 
-	// Router
 	r := chi.NewRouter()
-
-	// Middleware
 	r.Use(chimw.RequestID)
 	r.Use(chimw.RealIP)
 	r.Use(mw.Logger)
@@ -105,42 +93,25 @@ func main() {
 		MaxAge:           300,
 	}))
 
-	// Health check
 	r.Get("/health", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		w.Write([]byte(`{"status":"ok"}`))
 	})
 
-	// API v1 routes
 	r.Route("/api/v1", func(r chi.Router) {
-		// Projects
 		r.Get("/projects", projH.List)
 		r.Get("/projects/{slug}", projH.GetBySlug)
 		r.Get("/projects/{slug}/toolkit", projH.GetToolkit)
-
-		// Tools
 		r.Get("/tools/{slug}", toolH.GetBySlug)
 		r.Get("/tools/{slug}/prices", toolH.GetPriceHistory)
 		r.Get("/tools/compare", toolH.Compare)
-
-		// Ecosystems
 		r.Get("/ecosystems", ecoH.List)
 		r.Get("/ecosystems/{slug}", ecoH.GetBySlug)
 		r.Get("/ecosystems/{slug}/starter-kit", ecoH.GetStarterKit)
-
-		// Search
 		r.Post("/search", searchH.Search)
-
-		// Categories
 		r.Get("/categories", catH.List)
-
-		// Advisor (AI-powered)
 		r.Post("/advisor", advisorH.Advise)
-
-		// Affiliate
 		r.Get("/affiliate/redirect/{sku}", affH.Redirect)
-
-		// Analytics (fire-and-forget event ingestion)
 		r.Post("/analytics/search", analyticsH.LogSearch)
 		r.Post("/analytics/affiliate-click", analyticsH.LogAffiliateClick)
 		r.Post("/analytics/pageview", analyticsH.LogPageView)
@@ -149,7 +120,6 @@ func main() {
 		r.Post("/analytics/toolkit-generated", analyticsH.LogToolkitGenerated)
 	})
 
-	// Server
 	srv := &http.Server{
 		Addr:         ":" + cfg.Port,
 		Handler:      r,
@@ -158,7 +128,6 @@ func main() {
 		IdleTimeout:  60 * time.Second,
 	}
 
-	// Graceful shutdown
 	go func() {
 		log.Printf("API server starting on :%s", cfg.Port)
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
@@ -173,7 +142,6 @@ func main() {
 	log.Println("Shutting down server...")
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
-
 	if err := srv.Shutdown(ctx); err != nil {
 		log.Fatalf("server shutdown: %v", err)
 	}

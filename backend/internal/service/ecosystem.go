@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/model"
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
@@ -13,18 +14,17 @@ import (
 
 type EcosystemService struct {
 	neo4j *database.Neo4jClient
-	redis *database.RedisClient
+	cache *cache.Memory
 }
 
-func NewEcosystemService(neo4j *database.Neo4jClient, redis *database.RedisClient) *EcosystemService {
-	return &EcosystemService{neo4j: neo4j, redis: redis}
+func NewEcosystemService(neo4j *database.Neo4jClient, c *cache.Memory) *EcosystemService {
+	return &EcosystemService{neo4j: neo4j, cache: c}
 }
 
 func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) {
-	cacheKey := "ecosystems:all"
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get("ecosystems:all"); ok {
 		var ecosystems []model.Ecosystem
-		if json.Unmarshal(cached, &ecosystems) == nil {
+		if json.Unmarshal(data, &ecosystems) == nil {
 			return ecosystems, nil
 		}
 	}
@@ -47,7 +47,7 @@ func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) 
 		var ecosystems []model.Ecosystem
 		for records.Next(ctx) {
 			r := records.Record()
-			eco := model.Ecosystem{
+			ecosystems = append(ecosystems, model.Ecosystem{
 				Slug:          getString(r, "slug"),
 				Name:          getString(r, "name"),
 				Brand:         getString(r, "brand"),
@@ -55,8 +55,7 @@ func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) 
 				ToolCount:     getInt(r, "tool_count"),
 				Target:        getString(r, "target"),
 				ParentCompany: getString(r, "parent_company"),
-			}
-			ecosystems = append(ecosystems, eco)
+			})
 		}
 		return ecosystems, nil
 	})
@@ -66,17 +65,16 @@ func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) 
 
 	ecosystems := result.([]model.Ecosystem)
 	if data, err := json.Marshal(ecosystems); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 1*time.Hour)
+		s.cache.Set("ecosystems:all", data, 1*time.Hour)
 	}
-
 	return ecosystems, nil
 }
 
 func (s *EcosystemService) GetBySlug(ctx context.Context, slug string) (*model.Ecosystem, error) {
 	cacheKey := "ecosystem:" + slug
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var eco model.Ecosystem
-		if json.Unmarshal(cached, &eco) == nil {
+		if json.Unmarshal(data, &eco) == nil {
 			return &eco, nil
 		}
 	}
@@ -94,11 +92,9 @@ func (s *EcosystemService) GetBySlug(ctx context.Context, slug string) (*model.E
 		if err != nil {
 			return nil, err
 		}
-
 		if !record.Next(ctx) {
 			return nil, fmt.Errorf("ecosystem not found: %s", slug)
 		}
-
 		r := record.Record()
 		return &model.Ecosystem{
 			Slug:          getString(r, "slug"),
@@ -116,35 +112,9 @@ func (s *EcosystemService) GetBySlug(ctx context.Context, slug string) (*model.E
 
 	eco := result.(*model.Ecosystem)
 	if data, err := json.Marshal(eco); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 1*time.Hour)
+		s.cache.Set(cacheKey, data, 1*time.Hour)
 	}
-
 	return eco, nil
-}
-
-func (s *EcosystemService) GetExclusiveRetailers(ctx context.Context, slug string) ([]string, error) {
-	session := s.neo4j.ReadSession(ctx)
-	defer session.Close(ctx)
-
-	result, err := session.ExecuteRead(ctx, func(tx neo4j.ManagedTransaction) (any, error) {
-		records, err := tx.Run(ctx, `
-			MATCH (r:Retailer)-[:EXCLUSIVE]->(e:Ecosystem {slug: $slug})
-			RETURN r.name AS name
-		`, map[string]any{"slug": slug})
-		if err != nil {
-			return nil, err
-		}
-
-		var retailers []string
-		for records.Next(ctx) {
-			retailers = append(retailers, getString(records.Record(), "name"))
-		}
-		return retailers, nil
-	})
-	if err != nil {
-		return nil, fmt.Errorf("get exclusive retailers: %w", err)
-	}
-	return result.([]string), nil
 }
 
 // neo4j record helpers

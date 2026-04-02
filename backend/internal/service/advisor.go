@@ -22,10 +22,9 @@ type AdvisorService struct {
 	embedSvc  *EmbeddingService
 	qdrant    *database.QdrantClient
 	ch        *database.ClickHouseClient
-	redis     *database.RedisClient
 }
 
-func NewAdvisorService(region, modelID string, embedSvc *EmbeddingService, qdrant *database.QdrantClient, ch *database.ClickHouseClient, redis *database.RedisClient) (*AdvisorService, error) {
+func NewAdvisorService(region, modelID string, embedSvc *EmbeddingService, qdrant *database.QdrantClient, ch *database.ClickHouseClient) (*AdvisorService, error) {
 	cfg, err := config.LoadDefaultConfig(context.Background(), config.WithRegion(region))
 	if err != nil {
 		return nil, fmt.Errorf("load aws config: %w", err)
@@ -39,7 +38,6 @@ func NewAdvisorService(region, modelID string, embedSvc *EmbeddingService, qdran
 		embedSvc: embedSvc,
 		qdrant:   qdrant,
 		ch:       ch,
-		redis:    redis,
 	}, nil
 }
 

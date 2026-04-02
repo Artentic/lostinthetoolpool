@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/config"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/handler"
@@ -19,9 +20,10 @@ import (
 
 var chiLambda *chiadapter.ChiLambda
 
-// init runs once on cold start — connections are reused across warm invocations.
+// init runs once on cold start — connections reused across warm invocations.
 func init() {
 	cfg := config.Load()
+	memCache := cache.New()
 
 	ch, err := database.NewClickHouse(cfg.ClickHouseDSN)
 	if err != nil {
@@ -38,17 +40,12 @@ func init() {
 		log.Fatalf("neo4j: %v", err)
 	}
 
-	redis, err := database.NewRedis(cfg.RedisAddr)
-	if err != nil {
-		log.Fatalf("redis: %v", err)
-	}
-
 	// Services
-	productSvc := service.NewProductService(ch, redis)
-	ecosystemSvc := service.NewEcosystemService(neo4j, redis)
-	projectSvc := service.NewProjectService(neo4j, redis)
-	searchSvc := service.NewSearchService(qdrant, ch, redis)
-	categorySvc := service.NewCategoryService(neo4j, redis)
+	productSvc := service.NewProductService(ch, memCache)
+	ecosystemSvc := service.NewEcosystemService(neo4j, memCache)
+	projectSvc := service.NewProjectService(neo4j, memCache)
+	searchSvc := service.NewSearchService(qdrant, ch, memCache)
+	categorySvc := service.NewCategoryService(neo4j, memCache)
 	analyticsSvc := service.NewAnalyticsService(ch)
 
 	var embedSvc *service.EmbeddingService
@@ -58,7 +55,7 @@ func init() {
 
 	var advisorSvc *service.AdvisorService
 	if embedSvc != nil {
-		advisorSvc, err = service.NewAdvisorService(cfg.AWSRegion, cfg.BedrockModel, embedSvc, qdrant, ch, redis)
+		advisorSvc, err = service.NewAdvisorService(cfg.AWSRegion, cfg.BedrockModel, embedSvc, qdrant, ch)
 		if err != nil {
 			log.Printf("advisor not available: %v", err)
 		}
@@ -74,7 +71,6 @@ func init() {
 	advisorH := handler.NewAdvisorHandler(advisorSvc)
 	analyticsH := handler.NewAnalyticsHandler(analyticsSvc)
 
-	// Router (identical to standalone server)
 	r := chi.NewRouter()
 	r.Use(chimw.RequestID)
 	r.Use(chimw.RealIP)
@@ -98,20 +94,16 @@ func init() {
 		r.Get("/projects", projH.List)
 		r.Get("/projects/{slug}", projH.GetBySlug)
 		r.Get("/projects/{slug}/toolkit", projH.GetToolkit)
-
 		r.Get("/tools/{slug}", toolH.GetBySlug)
 		r.Get("/tools/{slug}/prices", toolH.GetPriceHistory)
 		r.Get("/tools/compare", toolH.Compare)
-
 		r.Get("/ecosystems", ecoH.List)
 		r.Get("/ecosystems/{slug}", ecoH.GetBySlug)
 		r.Get("/ecosystems/{slug}/starter-kit", ecoH.GetStarterKit)
-
 		r.Post("/search", searchH.Search)
 		r.Get("/categories", catH.List)
 		r.Post("/advisor", advisorH.Advise)
 		r.Get("/affiliate/redirect/{sku}", affH.Redirect)
-
 		r.Post("/analytics/search", analyticsH.LogSearch)
 		r.Post("/analytics/affiliate-click", analyticsH.LogAffiliateClick)
 		r.Post("/analytics/pageview", analyticsH.LogPageView)

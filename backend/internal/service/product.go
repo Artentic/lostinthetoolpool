@@ -7,24 +7,25 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/model"
 )
 
 type ProductService struct {
 	ch    *database.ClickHouseClient
-	redis *database.RedisClient
+	cache *cache.Memory
 }
 
-func NewProductService(ch *database.ClickHouseClient, redis *database.RedisClient) *ProductService {
-	return &ProductService{ch: ch, redis: redis}
+func NewProductService(ch *database.ClickHouseClient, c *cache.Memory) *ProductService {
+	return &ProductService{ch: ch, cache: c}
 }
 
 func (s *ProductService) GetBySlug(ctx context.Context, slug string) (*model.Product, error) {
 	cacheKey := "product:" + slug
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var p model.Product
-		if json.Unmarshal(cached, &p) == nil {
+		if json.Unmarshal(data, &p) == nil {
 			return &p, nil
 		}
 	}
@@ -39,35 +40,22 @@ func (s *ProductService) GetBySlug(ctx context.Context, slug string) (*model.Pro
 		LIMIT 1
 	`, slug)
 
-	var p model.Product
-	var specsStr, linksStr string
-	var cordless, stock uint8
-	err := row.Scan(
-		&p.SKU, &p.Name, &p.Brand, &p.Ecosystem, &p.Category, &p.Subcategory,
-		&p.ToolType, &p.Slug, &p.PriceCurrent, &p.PriceMSRP, &specsStr,
-		&p.Rating, &p.ReviewCount, &p.ImageURL, &linksStr, &p.Description,
-		&p.Features, &cordless, &p.WeightLbs, &stock, &p.UpdatedAt,
-	)
+	p, err := scanProduct(row)
 	if err != nil {
 		return nil, fmt.Errorf("query product: %w", err)
 	}
-	p.Specs = json.RawMessage(specsStr)
-	p.AffiliateLinks = json.RawMessage(linksStr)
-	p.IsCordless = cordless == 1
-	p.InStock = stock == 1
 
 	if data, err := json.Marshal(p); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 15*time.Minute)
+		s.cache.Set(cacheKey, data, 15*time.Minute)
 	}
-
-	return &p, nil
+	return p, nil
 }
 
 func (s *ProductService) GetBySKU(ctx context.Context, sku string) (*model.Product, error) {
 	cacheKey := "product:sku:" + sku
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var p model.Product
-		if json.Unmarshal(cached, &p) == nil {
+		if json.Unmarshal(data, &p) == nil {
 			return &p, nil
 		}
 	}
@@ -82,35 +70,22 @@ func (s *ProductService) GetBySKU(ctx context.Context, sku string) (*model.Produ
 		LIMIT 1
 	`, sku)
 
-	var p model.Product
-	var specsStr, linksStr string
-	var cordless, stock uint8
-	err := row.Scan(
-		&p.SKU, &p.Name, &p.Brand, &p.Ecosystem, &p.Category, &p.Subcategory,
-		&p.ToolType, &p.Slug, &p.PriceCurrent, &p.PriceMSRP, &specsStr,
-		&p.Rating, &p.ReviewCount, &p.ImageURL, &linksStr, &p.Description,
-		&p.Features, &cordless, &p.WeightLbs, &stock, &p.UpdatedAt,
-	)
+	p, err := scanProduct(row)
 	if err != nil {
 		return nil, fmt.Errorf("query product by sku: %w", err)
 	}
-	p.Specs = json.RawMessage(specsStr)
-	p.AffiliateLinks = json.RawMessage(linksStr)
-	p.IsCordless = cordless == 1
-	p.InStock = stock == 1
 
 	if data, err := json.Marshal(p); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 15*time.Minute)
+		s.cache.Set(cacheKey, data, 15*time.Minute)
 	}
-
-	return &p, nil
+	return p, nil
 }
 
 func (s *ProductService) ListByEcosystem(ctx context.Context, ecosystem string) ([]model.Product, error) {
 	cacheKey := "products:eco:" + ecosystem
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var products []model.Product
-		if json.Unmarshal(cached, &products) == nil {
+		if json.Unmarshal(data, &products) == nil {
 			return products, nil
 		}
 	}
@@ -135,17 +110,16 @@ func (s *ProductService) ListByEcosystem(ctx context.Context, ecosystem string) 
 	}
 
 	if data, err := json.Marshal(products); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 10*time.Minute)
+		s.cache.Set(cacheKey, data, 10*time.Minute)
 	}
-
 	return products, nil
 }
 
 func (s *ProductService) Compare(ctx context.Context, skus []string) (*model.ComparisonResult, error) {
 	cacheKey := "compare:" + strings.Join(skus, ",")
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var result model.ComparisonResult
-		if json.Unmarshal(cached, &result) == nil {
+		if json.Unmarshal(data, &result) == nil {
 			return &result, nil
 		}
 	}
@@ -160,16 +134,11 @@ func (s *ProductService) Compare(ctx context.Context, skus []string) (*model.Com
 	}
 
 	specs := buildSpecComparison(products)
-
-	result := &model.ComparisonResult{
-		Products: products,
-		Specs:    specs,
-	}
+	result := &model.ComparisonResult{Products: products, Specs: specs}
 
 	if data, err := json.Marshal(result); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 30*time.Minute)
+		s.cache.Set(cacheKey, data, 30*time.Minute)
 	}
-
 	return result, nil
 }
 
@@ -196,7 +165,6 @@ func (s *ProductService) GetPriceHistory(ctx context.Context, sku string) ([]mod
 		ph.InStock = stock == 1
 		history = append(history, ph)
 	}
-
 	return history, nil
 }
 
@@ -207,33 +175,42 @@ func (s *ProductService) TrackAffiliateClick(ctx context.Context, click model.Af
 	`, click.SessionID, click.SKU, click.Retailer, click.DestinationURL, click.ReferrerPage, click.ReferrerQuery)
 }
 
+// scanProduct scans a single row into a Product.
+func scanProduct(row interface{ Scan(dest ...any) error }) (*model.Product, error) {
+	var p model.Product
+	var specsStr, linksStr string
+	var cordless, stock uint8
+	err := row.Scan(
+		&p.SKU, &p.Name, &p.Brand, &p.Ecosystem, &p.Category, &p.Subcategory,
+		&p.ToolType, &p.Slug, &p.PriceCurrent, &p.PriceMSRP, &specsStr,
+		&p.Rating, &p.ReviewCount, &p.ImageURL, &linksStr, &p.Description,
+		&p.Features, &cordless, &p.WeightLbs, &stock, &p.UpdatedAt,
+	)
+	if err != nil {
+		return nil, err
+	}
+	p.Specs = json.RawMessage(specsStr)
+	p.AffiliateLinks = json.RawMessage(linksStr)
+	p.IsCordless = cordless == 1
+	p.InStock = stock == 1
+	return &p, nil
+}
+
 // scanProducts scans multiple rows into a slice of Products.
 func scanProducts(rows interface{ Next() bool; Scan(dest ...any) error }) ([]model.Product, error) {
 	var products []model.Product
 	for rows.Next() {
-		var p model.Product
-		var specsStr, linksStr string
-		var cordless, stock uint8
-		if err := rows.Scan(
-			&p.SKU, &p.Name, &p.Brand, &p.Ecosystem, &p.Category, &p.Subcategory,
-			&p.ToolType, &p.Slug, &p.PriceCurrent, &p.PriceMSRP, &specsStr,
-			&p.Rating, &p.ReviewCount, &p.ImageURL, &linksStr, &p.Description,
-			&p.Features, &cordless, &p.WeightLbs, &stock, &p.UpdatedAt,
-		); err != nil {
+		p, err := scanProduct(rows)
+		if err != nil {
 			return nil, fmt.Errorf("scan product: %w", err)
 		}
-		p.Specs = json.RawMessage(specsStr)
-		p.AffiliateLinks = json.RawMessage(linksStr)
-		p.IsCordless = cordless == 1
-		p.InStock = stock == 1
-		products = append(products, p)
+		products = append(products, *p)
 	}
 	return products, nil
 }
 
 // buildSpecComparison extracts specs from products into a comparison table.
 func buildSpecComparison(products []model.Product) []model.SpecRow {
-	// Collect all spec keys across products
 	allSpecs := make(map[string]bool)
 	parsed := make([]map[string]interface{}, len(products))
 
@@ -249,10 +226,7 @@ func buildSpecComparison(products []model.Product) []model.SpecRow {
 
 	var rows []model.SpecRow
 	for key := range allSpecs {
-		row := model.SpecRow{
-			Label:  key,
-			Values: make(map[string]string),
-		}
+		row := model.SpecRow{Label: key, Values: make(map[string]string)}
 		for i, p := range products {
 			if parsed[i] != nil {
 				if v, ok := parsed[i][key]; ok {
@@ -263,17 +237,14 @@ func buildSpecComparison(products []model.Product) []model.SpecRow {
 		rows = append(rows, row)
 	}
 
-	// Add non-spec comparison fields
 	priceRow := model.SpecRow{Label: "price", Values: make(map[string]string), Unit: "USD"}
 	ratingRow := model.SpecRow{Label: "rating", Values: make(map[string]string)}
 	weightRow := model.SpecRow{Label: "weight", Values: make(map[string]string), Unit: "lbs"}
-
 	for _, p := range products {
 		priceRow.Values[p.SKU] = fmt.Sprintf("%.2f", p.PriceCurrent)
 		ratingRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.Rating)
 		weightRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.WeightLbs)
 	}
 
-	rows = append([]model.SpecRow{priceRow, ratingRow, weightRow}, rows...)
-	return rows
+	return append([]model.SpecRow{priceRow, ratingRow, weightRow}, rows...)
 }

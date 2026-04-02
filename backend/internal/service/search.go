@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/model"
 	pb "github.com/qdrant/go-client/qdrant"
@@ -14,15 +15,13 @@ import (
 type SearchService struct {
 	qdrant *database.QdrantClient
 	ch     *database.ClickHouseClient
-	redis  *database.RedisClient
+	cache  *cache.Memory
 }
 
-func NewSearchService(qdrant *database.QdrantClient, ch *database.ClickHouseClient, redis *database.RedisClient) *SearchService {
-	return &SearchService{qdrant: qdrant, ch: ch, redis: redis}
+func NewSearchService(qdrant *database.QdrantClient, ch *database.ClickHouseClient, c *cache.Memory) *SearchService {
+	return &SearchService{qdrant: qdrant, ch: ch, cache: c}
 }
 
-// Search performs a vector similarity search against the tools collection.
-// The embedding must be generated before calling this method.
 func (s *SearchService) Search(ctx context.Context, embedding []float32, filters *model.Filters, limit int) (*model.SearchResult, error) {
 	if limit <= 0 {
 		limit = 20
@@ -30,7 +29,6 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 
 	start := time.Now()
 
-	// Build Qdrant filter conditions
 	var must []*pb.Condition
 	if filters != nil {
 		if len(filters.Brand) > 0 {
@@ -46,10 +44,8 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 			must = append(must, &pb.Condition{
 				ConditionOneOf: &pb.Condition_Field{
 					Field: &pb.FieldCondition{
-						Key: "is_cordless",
-						Match: &pb.Match{
-							MatchValue: &pb.Match_Boolean{Boolean: true},
-						},
+						Key:   "is_cordless",
+						Match: &pb.Match{MatchValue: &pb.Match_Boolean{Boolean: true}},
 					},
 				},
 			})
@@ -66,10 +62,7 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 			}
 			must = append(must, &pb.Condition{
 				ConditionOneOf: &pb.Condition_Field{
-					Field: &pb.FieldCondition{
-						Key:   "price",
-						Range: rangeFilter,
-					},
+					Field: &pb.FieldCondition{Key: "price", Range: rangeFilter},
 				},
 			})
 		}
@@ -81,7 +74,6 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 		Limit:          uint64(limit),
 		WithPayload:    &pb.WithPayloadSelector{SelectorOptions: &pb.WithPayloadSelector_Enable{Enable: true}},
 	}
-
 	if len(must) > 0 {
 		searchReq.Filter = &pb.Filter{Must: must}
 	}
@@ -91,11 +83,9 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 		return nil, fmt.Errorf("qdrant search: %w", err)
 	}
 
-	// Extract SKUs from results and fetch full products from ClickHouse
 	var skus []string
 	for _, r := range resp.GetResult() {
-		payload := r.GetPayload()
-		if sku, ok := payload["sku"]; ok {
+		if sku, ok := r.GetPayload()["sku"]; ok {
 			skus = append(skus, sku.GetStringValue())
 		}
 	}
@@ -105,12 +95,10 @@ func (s *SearchService) Search(ctx context.Context, embedding []float32, filters
 		return nil, err
 	}
 
-	elapsed := time.Since(start).Milliseconds()
-
 	return &model.SearchResult{
 		Products: products,
 		Total:    len(products),
-		QueryMS:  elapsed,
+		QueryMS:  time.Since(start).Milliseconds(),
 	}, nil
 }
 
@@ -118,7 +106,6 @@ func (s *SearchService) fetchProductsBySKUs(ctx context.Context, skus []string) 
 	if len(skus) == 0 {
 		return nil, nil
 	}
-
 	rows, err := s.ch.Conn().Query(ctx, `
 		SELECT sku, name, brand, ecosystem, category, subcategory, tool_type, slug,
 		       price_current, price_msrp, specs, rating, review_count, image_url,
@@ -131,13 +118,10 @@ func (s *SearchService) fetchProductsBySKUs(ctx context.Context, skus []string) 
 		return nil, fmt.Errorf("fetch products by skus: %w", err)
 	}
 	defer rows.Close()
-
 	return scanProducts(rows)
 }
 
-// LogQuery logs a search query to ClickHouse for analytics.
 func (s *SearchService) LogQuery(ctx context.Context, sessionID, queryText, queryType string, resultsCount int, resultsSKUs []string, clickedSKU string, responseMS int) {
-	// Fire and forget — don't block on analytics
 	go func() {
 		bgCtx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 		defer cancel()
@@ -148,19 +132,17 @@ func (s *SearchService) LogQuery(ctx context.Context, sessionID, queryText, quer
 	}()
 }
 
-// CacheSearchResult caches a search result in Redis.
 func (s *SearchService) CacheSearchResult(ctx context.Context, query string, result *model.SearchResult) {
 	data, err := json.Marshal(result)
 	if err != nil {
 		return
 	}
-	s.redis.Client().Set(ctx, "search:"+query, data, 15*time.Minute)
+	s.cache.Set("search:"+query, data, 15*time.Minute)
 }
 
-// GetCachedSearch returns a cached search result if available.
 func (s *SearchService) GetCachedSearch(ctx context.Context, query string) *model.SearchResult {
-	data, err := s.redis.Client().Get(ctx, "search:"+query).Bytes()
-	if err != nil {
+	data, ok := s.cache.Get("search:" + query)
+	if !ok {
 		return nil
 	}
 	var result model.SearchResult
@@ -171,12 +153,6 @@ func (s *SearchService) GetCachedSearch(ctx context.Context, query string) *mode
 }
 
 func matchKeywords(field string, values []string) *pb.Condition {
-	var matchValues []*pb.Value
-	for _, v := range values {
-		matchValues = append(matchValues, &pb.Value{
-			Kind: &pb.Value_StringValue{StringValue: v},
-		})
-	}
 	return &pb.Condition{
 		ConditionOneOf: &pb.Condition_Field{
 			Field: &pb.FieldCondition{

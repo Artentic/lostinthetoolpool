@@ -10,7 +10,6 @@ type Config struct {
 	Neo4jURI      string
 	Neo4jUser     string
 	Neo4jPassword string
-	RedisAddr     string
 	AWSRegion     string
 	BedrockModel  string
 	CohereAPIKey  string
@@ -25,7 +24,6 @@ func Load() *Config {
 		Neo4jURI:      getEnv("NEO4J_URI", "bolt://localhost:7687"),
 		Neo4jUser:     getEnv("NEO4J_USER", "neo4j"),
 		Neo4jPassword: getEnv("NEO4J_PASSWORD", "litp_dev_2024"),
-		RedisAddr:     getEnv("REDIS_URL", getEnv("REDIS_ADDR", "localhost:6379")),
 		AWSRegion:     getEnv("AWS_REGION", "us-east-1"),
 		BedrockModel:  getEnv("BEDROCK_MODEL", "anthropic.claude-sonnet-4-6-20250514-v1:0"),
 		CohereAPIKey:  getEnv("COHERE_API_KEY", ""),

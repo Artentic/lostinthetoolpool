@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/model"
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
@@ -13,18 +14,17 @@ import (
 
 type CategoryService struct {
 	neo4j *database.Neo4jClient
-	redis *database.RedisClient
+	cache *cache.Memory
 }
 
-func NewCategoryService(neo4j *database.Neo4jClient, redis *database.RedisClient) *CategoryService {
-	return &CategoryService{neo4j: neo4j, redis: redis}
+func NewCategoryService(neo4j *database.Neo4jClient, c *cache.Memory) *CategoryService {
+	return &CategoryService{neo4j: neo4j, cache: c}
 }
 
 func (s *CategoryService) List(ctx context.Context) ([]model.Category, error) {
-	cacheKey := "categories:tree"
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get("categories:tree"); ok {
 		var categories []model.Category
-		if json.Unmarshal(cached, &categories) == nil {
+		if json.Unmarshal(data, &categories) == nil {
 			return categories, nil
 		}
 	}
@@ -58,10 +58,7 @@ func (s *CategoryService) List(ctx context.Context) ([]model.Category, error) {
 							slug, _ := m["slug"].(string)
 							name, _ := m["name"].(string)
 							if slug != "" {
-								cat.Subcategories = append(cat.Subcategories, model.Subcategory{
-									Slug: slug,
-									Name: name,
-								})
+								cat.Subcategories = append(cat.Subcategories, model.Subcategory{Slug: slug, Name: name})
 							}
 						}
 					}
@@ -77,8 +74,7 @@ func (s *CategoryService) List(ctx context.Context) ([]model.Category, error) {
 
 	categories := result.([]model.Category)
 	if data, err := json.Marshal(categories); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 1*time.Hour)
+		s.cache.Set("categories:tree", data, 1*time.Hour)
 	}
-
 	return categories, nil
 }

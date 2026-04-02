@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Artentic/lostinthetoolpool/internal/cache"
 	"github.com/Artentic/lostinthetoolpool/internal/database"
 	"github.com/Artentic/lostinthetoolpool/internal/model"
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
@@ -13,18 +14,17 @@ import (
 
 type ProjectService struct {
 	neo4j *database.Neo4jClient
-	redis *database.RedisClient
+	cache *cache.Memory
 }
 
-func NewProjectService(neo4j *database.Neo4jClient, redis *database.RedisClient) *ProjectService {
-	return &ProjectService{neo4j: neo4j, redis: redis}
+func NewProjectService(neo4j *database.Neo4jClient, c *cache.Memory) *ProjectService {
+	return &ProjectService{neo4j: neo4j, cache: c}
 }
 
 func (s *ProjectService) List(ctx context.Context) ([]model.Project, error) {
-	cacheKey := "projects:all"
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get("projects:all"); ok {
 		var projects []model.Project
-		if json.Unmarshal(cached, &projects) == nil {
+		if json.Unmarshal(data, &projects) == nil {
 			return projects, nil
 		}
 	}
@@ -62,17 +62,16 @@ func (s *ProjectService) List(ctx context.Context) ([]model.Project, error) {
 
 	projects := result.([]model.Project)
 	if data, err := json.Marshal(projects); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 1*time.Hour)
+		s.cache.Set("projects:all", data, 1*time.Hour)
 	}
-
 	return projects, nil
 }
 
 func (s *ProjectService) GetBySlug(ctx context.Context, slug string) (*model.Project, error) {
 	cacheKey := "project:" + slug
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var p model.Project
-		if json.Unmarshal(cached, &p) == nil {
+		if json.Unmarshal(data, &p) == nil {
 			return &p, nil
 		}
 	}
@@ -91,7 +90,6 @@ func (s *ProjectService) GetBySlug(ctx context.Context, slug string) (*model.Pro
 		if err != nil {
 			return nil, err
 		}
-
 		if !record.Next(ctx) {
 			return nil, fmt.Errorf("project not found: %s", slug)
 		}
@@ -104,7 +102,6 @@ func (s *ProjectService) GetBySlug(ctx context.Context, slug string) (*model.Pro
 			Difficulty:   getInt(r, "difficulty"),
 			TimeEstimate: getString(r, "time_estimate"),
 		}
-
 		if v, _ := r.Get("related_slugs"); v != nil {
 			if slugs, ok := v.([]any); ok {
 				for _, s := range slugs {
@@ -114,7 +111,6 @@ func (s *ProjectService) GetBySlug(ctx context.Context, slug string) (*model.Pro
 				}
 			}
 		}
-
 		return p, nil
 	})
 	if err != nil {
@@ -123,17 +119,16 @@ func (s *ProjectService) GetBySlug(ctx context.Context, slug string) (*model.Pro
 
 	project := result.(*model.Project)
 	if data, err := json.Marshal(project); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 1*time.Hour)
+		s.cache.Set(cacheKey, data, 1*time.Hour)
 	}
-
 	return project, nil
 }
 
 func (s *ProjectService) GetToolkit(ctx context.Context, slug, ecosystem string) (*model.ProjectToolkit, error) {
 	cacheKey := fmt.Sprintf("toolkit:%s:%s", slug, ecosystem)
-	if cached, err := s.redis.Client().Get(ctx, cacheKey).Bytes(); err == nil {
+	if data, ok := s.cache.Get(cacheKey); ok {
 		var tk model.ProjectToolkit
-		if json.Unmarshal(cached, &tk) == nil {
+		if json.Unmarshal(data, &tk) == nil {
 			return &tk, nil
 		}
 	}
@@ -152,11 +147,7 @@ func (s *ProjectService) GetToolkit(ctx context.Context, slug, ecosystem string)
 			RETURN sc.slug AS subcategory, sc.name AS subcategory_name,
 			       r.priority AS priority
 			ORDER BY
-			  CASE r.priority
-			    WHEN 'essential' THEN 1
-			    WHEN 'recommended' THEN 2
-			    ELSE 3
-			  END
+			  CASE r.priority WHEN 'essential' THEN 1 WHEN 'recommended' THEN 2 ELSE 3 END
 		`, map[string]any{"slug": slug})
 		if err != nil {
 			return nil, err
@@ -177,10 +168,7 @@ func (s *ProjectService) GetToolkit(ctx context.Context, slug, ecosystem string)
 	}
 
 	items := result.([]model.ToolkitItem)
-	toolkit := &model.ProjectToolkit{
-		Project:   *project,
-		Ecosystem: ecosystem,
-	}
+	toolkit := &model.ProjectToolkit{Project: *project, Ecosystem: ecosystem}
 
 	for _, item := range items {
 		switch item.Priority {
@@ -194,8 +182,7 @@ func (s *ProjectService) GetToolkit(ctx context.Context, slug, ecosystem string)
 	}
 
 	if data, err := json.Marshal(toolkit); err == nil {
-		s.redis.Client().Set(ctx, cacheKey, data, 30*time.Minute)
+		s.cache.Set(cacheKey, data, 30*time.Minute)
 	}
-
 	return toolkit, nil
 }
