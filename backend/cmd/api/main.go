@@ -54,14 +54,34 @@ func main() {
 	searchSvc := service.NewSearchService(qdrant, ch, redis)
 	categorySvc := service.NewCategoryService(neo4j, redis)
 
+	// Embedding service (optional — needs COHERE_API_KEY)
+	var embedSvc *service.EmbeddingService
+	if cfg.CohereAPIKey != "" {
+		embedSvc = service.NewEmbeddingService(cfg.CohereAPIKey)
+		log.Println("Cohere embedding service initialized")
+	} else {
+		log.Println("COHERE_API_KEY not set — search and advisor will return empty results")
+	}
+
+	// Advisor service (optional — needs AWS credentials + Cohere)
+	var advisorSvc *service.AdvisorService
+	if embedSvc != nil {
+		advisorSvc, err = service.NewAdvisorService(cfg.AWSRegion, cfg.BedrockModel, embedSvc, qdrant, ch, redis)
+		if err != nil {
+			log.Printf("advisor service not available: %v", err)
+		} else {
+			log.Println("Advisor service initialized (Claude via Bedrock)")
+		}
+	}
+
 	// Initialize handlers
 	toolH := handler.NewToolHandler(productSvc)
 	ecoH := handler.NewEcosystemHandler(ecosystemSvc, productSvc)
 	projH := handler.NewProjectHandler(projectSvc)
-	searchH := handler.NewSearchHandler(searchSvc)
+	searchH := handler.NewSearchHandler(searchSvc, embedSvc)
 	catH := handler.NewCategoryHandler(categorySvc)
 	affH := handler.NewAffiliateHandler(productSvc)
-	advisorH := handler.NewAdvisorHandler()
+	advisorH := handler.NewAdvisorHandler(advisorSvc)
 
 	// Router
 	r := chi.NewRouter()

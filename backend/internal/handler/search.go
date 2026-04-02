@@ -10,10 +10,11 @@ import (
 
 type SearchHandler struct {
 	searchSvc *service.SearchService
+	embedSvc  *service.EmbeddingService
 }
 
-func NewSearchHandler(searchSvc *service.SearchService) *SearchHandler {
-	return &SearchHandler{searchSvc: searchSvc}
+func NewSearchHandler(searchSvc *service.SearchService, embedSvc *service.EmbeddingService) *SearchHandler {
+	return &SearchHandler{searchSvc: searchSvc, embedSvc: embedSvc}
 }
 
 // POST /api/v1/search
@@ -35,14 +36,33 @@ func (h *SearchHandler) Search(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// TODO: Generate embedding via Cohere API
-	// For now, return a placeholder response
-	// In production: embedding := embed(req.Query)
-	// Then: results := h.searchSvc.Search(ctx, embedding, req.Filters, req.Limit)
+	// Generate embedding via Cohere
+	if h.embedSvc == nil {
+		writeJSON(w, http.StatusOK, &model.SearchResult{Products: nil, Total: 0, QueryMS: 0})
+		return
+	}
 
-	writeJSON(w, http.StatusOK, &model.SearchResult{
-		Products: nil,
-		Total:    0,
-		QueryMS:  0,
-	})
+	embedding, err := h.embedSvc.EmbedQuery(r.Context(), req.Query)
+	if err != nil {
+		writeError(w, http.StatusInternalServerError, "failed to generate embedding")
+		return
+	}
+
+	results, err := h.searchSvc.Search(r.Context(), embedding, req.Filters, req.Limit)
+	if err != nil {
+		writeError(w, http.StatusInternalServerError, "search failed")
+		return
+	}
+
+	// Cache and log
+	h.searchSvc.CacheSearchResult(r.Context(), req.Query, results)
+
+	var skus []string
+	for _, p := range results.Products {
+		skus = append(skus, p.SKU)
+	}
+	sessionID := r.URL.Query().Get("sid")
+	h.searchSvc.LogQuery(r.Context(), sessionID, req.Query, "search", results.Total, skus, "", int(results.QueryMS))
+
+	writeJSON(w, http.StatusOK, results)
 }

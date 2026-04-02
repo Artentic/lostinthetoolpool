@@ -5,14 +5,15 @@ import (
 	"net/http"
 
 	"github.com/Artentic/lostinthetoolpool/internal/model"
+	"github.com/Artentic/lostinthetoolpool/internal/service"
 )
 
 type AdvisorHandler struct {
-	// LLM integration will be added in Phase 5
+	advisorSvc *service.AdvisorService
 }
 
-func NewAdvisorHandler() *AdvisorHandler {
-	return &AdvisorHandler{}
+func NewAdvisorHandler(advisorSvc *service.AdvisorService) *AdvisorHandler {
+	return &AdvisorHandler{advisorSvc: advisorSvc}
 }
 
 // POST /api/v1/advisor
@@ -28,14 +29,45 @@ func (h *AdvisorHandler) Advise(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Phase 5 will implement:
-	// 1. Embed query with Cohere
-	// 2. Vector search Qdrant for relevant tools/projects
-	// 3. Build context from search results
-	// 4. Send to Claude via Bedrock with streaming
-	// 5. Return structured toolkit recommendation
+	// Check if client accepts streaming
+	if r.Header.Get("Accept") == "text/event-stream" {
+		h.adviseStream(w, r, req)
+		return
+	}
 
-	writeJSON(w, http.StatusOK, &model.AdvisorResponse{
-		Message: "Advisor feature coming soon. Describe your project and we'll recommend the perfect toolkit.",
-	})
+	if h.advisorSvc == nil {
+		writeJSON(w, http.StatusOK, &model.AdvisorResponse{
+			Message: "Advisor service not configured. Set AWS credentials and COHERE_API_KEY.",
+		})
+		return
+	}
+
+	resp, err := h.advisorSvc.Advise(r.Context(), req)
+	if err != nil {
+		writeError(w, http.StatusInternalServerError, "advisor failed: "+err.Error())
+		return
+	}
+
+	writeJSON(w, http.StatusOK, resp)
+}
+
+func (h *AdvisorHandler) adviseStream(w http.ResponseWriter, r *http.Request, req model.AdvisorRequest) {
+	if h.advisorSvc == nil {
+		writeError(w, http.StatusServiceUnavailable, "advisor not configured")
+		return
+	}
+
+	w.Header().Set("Content-Type", "text/event-stream")
+	w.Header().Set("Cache-Control", "no-cache")
+	w.Header().Set("Connection", "keep-alive")
+	w.WriteHeader(http.StatusOK)
+
+	if f, ok := w.(http.Flusher); ok {
+		f.Flush()
+	}
+
+	if err := h.advisorSvc.AdviseStream(r.Context(), req, w); err != nil {
+		// Can't send error status after headers are sent, just log
+		_ = json.NewEncoder(w).Encode(map[string]string{"error": err.Error()})
+	}
 }

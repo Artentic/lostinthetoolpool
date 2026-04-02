@@ -82,7 +82,19 @@ Design: Dark workshop theme, Barlow Condensed + Inter, safety orange + electric 
 Config: Cloudflare Pages adapter, Tailwind CSS, custom color palette per ecosystem
 
 ## Phase 5: LLM Integration
-Status: **NOT STARTED**
+Status: **COMPLETE**
+
+| Component | File | Description |
+|---|---|---|
+| Embedding Service | `backend/internal/service/embedding.go` | Cohere embed-english-v3.0 (1024 dims), batch support (96/req) |
+| Advisor Service | `backend/internal/service/advisor.go` | RAG pipeline: embed → Qdrant search → context build → Claude via Bedrock |
+| Updated Search Handler | `backend/internal/handler/search.go` | Now uses Cohere embeddings for semantic vector search |
+| Updated Advisor Handler | `backend/internal/handler/advisor.go` | Supports both sync and SSE streaming responses |
+| Updated Main | `backend/cmd/api/main.go` | Wires up embedding + advisor services, graceful degradation |
+
+Pipeline: User query → Cohere embed → Qdrant vector search (tools + projects) → Build context with RAG results → Claude via Bedrock (streaming SSE) → Structured toolkit response
+
+Graceful degradation: If COHERE_API_KEY or AWS credentials are missing, search/advisor return empty results instead of crashing
 
 ## Phase 6: Marketing Strategy
 Status: **NOT STARTED**
