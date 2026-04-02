@@ -7,16 +7,17 @@
     "category": "outdoor-power",
     "subcategory": "lawn-mowers",
     "tool_type": "self-propelled-mower",
-    "price_current": 649.00,
+    "price_current": 649,
+    "price_msrp": 649,
     "specs": {
-      "voltage": 56,
-      "deck_size": "21 inch",
-      "self_propelled": true,
       "battery_ah": 7.5,
-      "runtime_min": 60,
+      "cutting_height_max": 4,
       "cutting_height_min": 1.5,
-      "cutting_height_max": 4.0,
-      "motor_type": "brushless"
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 60,
+      "self_propelled": true,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 9200,
@@ -30,7 +31,13 @@
     ],
     "is_cordless": true,
     "weight_lbs": 62.5,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "RYOBI-RY40HPLM02K2",
@@ -40,15 +47,16 @@
     "category": "outdoor-power",
     "subcategory": "lawn-mowers",
     "tool_type": "self-propelled-mower",
-    "price_current": 699.00,
+    "price_current": 699,
+    "price_msrp": 699,
     "specs": {
-      "voltage": 40,
-      "deck_size": "21 inch",
-      "self_propelled": true,
-      "battery_ah": 6.0,
+      "battery_ah": 6,
       "battery_count": 2,
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
       "runtime_min": 70,
-      "motor_type": "brushless"
+      "self_propelled": true,
+      "voltage": 40
     },
     "rating": 4.5,
     "review_count": 2100,
@@ -61,8 +69,11 @@
       "Compatible with 85+ Ryobi 40V tools"
     ],
     "is_cordless": true,
-    "weight_lbs": 70.0,
-    "retailers": ["homedepot"]
+    "weight_lbs": 70,
+    "retailers": [
+      "homedepot"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-ST1523S",
@@ -72,16 +83,17 @@
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
-    "price_current": 219.00,
+    "price_current": 219,
+    "price_msrp": 219,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 4,
       "cutting_swath": "15 inch",
+      "feed_type": "POWERLOAD automatic",
       "line_diameter": "0.095 inch",
-      "battery_ah": 4.0,
-      "runtime_min": 50,
       "motor_type": "brushless",
+      "runtime_min": 50,
       "shaft_type": "straight",
-      "feed_type": "POWERLOAD automatic"
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 5400,
@@ -94,8 +106,13 @@
       "IPX4 weather resistant rating"
     ],
     "is_cordless": true,
-    "weight_lbs": 11.0,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "weight_lbs": 11,
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "MIL-2825-21ST",
@@ -105,17 +122,18 @@
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
-    "price_current": 299.00,
+    "price_current": 299,
+    "price_msrp": 299,
     "specs": {
-      "voltage": 18,
+      "battery_ah": 8,
       "cutting_swath": "14-16 inch",
+      "feed_type": "bump feed",
       "line_diameter": "0.080-0.095 inch",
-      "battery_ah": 8.0,
-      "runtime_min": 60,
-      "rpm": 6200,
       "motor_type": "brushless",
+      "rpm": 6200,
+      "runtime_min": 60,
       "shaft_type": "straight",
-      "feed_type": "bump feed"
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 4800,
@@ -129,25 +147,31 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12.3,
-    "retailers": ["amazon", "homedepot", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "DEW-DCST922P1",
     "name": "DeWalt 20V MAX 14\" Brushless Folding String Trimmer Kit (5.0Ah)",
     "brand": "DeWalt",
-    "ecosystem": "dewalt-20v",
+    "ecosystem": "dewalt-20v-max",
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
-    "price_current": 239.00,
+    "price_current": 239,
+    "price_msrp": 239,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 5,
       "cutting_swath": "14 inch",
+      "feed_type": "bump feed QuickLoad",
       "line_diameter": "0.080 inch",
-      "battery_ah": 5.0,
       "motor_type": "brushless",
       "shaft_type": "straight folding",
-      "feed_type": "bump feed QuickLoad"
+      "voltage": 20
     },
     "rating": 4.5,
     "review_count": 3600,
@@ -161,7 +185,13 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.5,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "RYOBI-RY40290",
@@ -171,15 +201,16 @@
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
-    "price_current": 259.00,
+    "price_current": 259,
+    "price_msrp": 259,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 4,
       "cutting_swath": "13-15 inch",
+      "feed_type": "REEL EASY+ bump feed",
       "line_diameter": "0.080-0.095 inch",
-      "battery_ah": 4.0,
       "motor_type": "brushless",
       "shaft_type": "straight carbon fiber",
-      "feed_type": "REEL EASY+ bump feed"
+      "voltage": 40
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -193,7 +224,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.5,
-    "retailers": ["homedepot"]
+    "retailers": [
+      "homedepot"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-LB6504",
@@ -203,15 +237,16 @@
     "category": "outdoor-power",
     "subcategory": "leaf-blowers",
     "tool_type": "handheld-blower",
-    "price_current": 299.00,
+    "price_current": 299,
+    "price_msrp": 299,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 5,
       "cfm": 650,
-      "mph": 180,
-      "battery_ah": 5.0,
-      "runtime_min": 90,
       "motor_type": "brushless",
-      "noise_db": 65
+      "mph": 180,
+      "noise_db": 65,
+      "runtime_min": 90,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 7500,
@@ -225,7 +260,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.2,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "MIL-2724-21HD",
@@ -235,14 +275,15 @@
     "category": "outdoor-power",
     "subcategory": "leaf-blowers",
     "tool_type": "handheld-blower",
-    "price_current": 349.00,
+    "price_current": 349,
+    "price_msrp": 349,
     "specs": {
-      "voltage": 18,
+      "battery_ah": 8,
       "cfm": 450,
-      "mph": 120,
-      "battery_ah": 8.0,
       "motor_type": "brushless",
-      "noise_db": 61
+      "mph": 120,
+      "noise_db": 61,
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 5200,
@@ -255,25 +296,31 @@
       "Compatible with 250+ M18 tools"
     ],
     "is_cordless": true,
-    "weight_lbs": 6.0,
-    "retailers": ["amazon", "homedepot", "acehardware"]
+    "weight_lbs": 6,
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "DEW-DCBL722P1",
     "name": "DeWalt 20V MAX XR 450 CFM Handheld Leaf Blower Kit (5.0Ah)",
     "brand": "DeWalt",
-    "ecosystem": "dewalt-20v",
+    "ecosystem": "dewalt-20v-max",
     "category": "outdoor-power",
     "subcategory": "leaf-blowers",
     "tool_type": "handheld-blower",
-    "price_current": 189.00,
+    "price_current": 189,
+    "price_msrp": 189,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 5,
       "cfm": 450,
-      "mph": 125,
-      "battery_ah": 5.0,
       "motor_type": "brushless",
-      "noise_db": 66
+      "mph": 125,
+      "noise_db": 66,
+      "voltage": 20
     },
     "rating": 4.6,
     "review_count": 6800,
@@ -287,7 +334,13 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.1,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "RYOBI-RY404130",
@@ -297,15 +350,16 @@
     "category": "outdoor-power",
     "subcategory": "leaf-blowers",
     "tool_type": "handheld-blower",
-    "price_current": 179.00,
+    "price_current": 179,
+    "price_msrp": 179,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 4,
       "cfm": 600,
-      "mph": 155,
-      "battery_ah": 4.0,
-      "runtime_min": 22,
       "motor_type": "brushless",
-      "noise_db": 59
+      "mph": 155,
+      "noise_db": 59,
+      "runtime_min": 22,
+      "voltage": 40
     },
     "rating": 4.6,
     "review_count": 3200,
@@ -319,7 +373,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.6,
-    "retailers": ["homedepot", "amazon"]
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-CS1804",
@@ -329,16 +387,17 @@
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 349.00,
+    "price_current": 349,
+    "price_msrp": 349,
     "specs": {
-      "voltage": 56,
       "bar_length": "18 inch",
-      "chain_pitch": "3/8 inch",
+      "battery_ah": 5,
       "chain_gauge": "0.050 inch",
-      "rpm": 11000,
-      "battery_ah": 5.0,
+      "chain_pitch": "3/8 inch",
       "cuts_per_charge": 300,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "rpm": 11000,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 4200,
@@ -352,7 +411,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 14.5,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "MIL-2727-21HD",
@@ -362,15 +426,16 @@
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 519.00,
+    "price_current": 519,
+    "price_msrp": 519,
     "specs": {
-      "voltage": 18,
       "bar_length": "16 inch",
-      "chain_pitch": "3/8 inch low profile",
+      "battery_ah": 12,
       "chain_gauge": "0.043 inch",
-      "battery_ah": 12.0,
+      "chain_pitch": "3/8 inch low profile",
       "cuts_per_charge": 150,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 3800,
@@ -384,25 +449,31 @@
     ],
     "is_cordless": true,
     "weight_lbs": 19.4,
-    "retailers": ["amazon", "homedepot", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "DEW-DCCS670X1",
     "name": "DeWalt FLEXVOLT 60V MAX 16\" Brushless Chainsaw Kit (3.0Ah)",
     "brand": "DeWalt",
-    "ecosystem": "dewalt-60v",
+    "ecosystem": "dewalt-flexvolt",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 409.00,
+    "price_current": 409,
+    "price_msrp": 409,
     "specs": {
-      "voltage": 60,
       "bar_length": "16 inch",
-      "chain_pitch": "3/8 inch low profile",
+      "battery_ah": 3,
       "chain_gauge": "0.043 inch",
-      "battery_ah": 3.0,
+      "chain_pitch": "3/8 inch low profile",
       "cuts_per_charge": 70,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 4100,
@@ -416,25 +487,32 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12.2,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "DEW-DCCS620P1",
     "name": "DeWalt 20V MAX XR Compact 12\" Brushless Chainsaw Kit (5.0Ah)",
     "brand": "DeWalt",
-    "ecosystem": "dewalt-20v",
+    "ecosystem": "dewalt-20v-max",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 249.00,
+    "price_current": 249,
+    "price_msrp": 249,
     "specs": {
-      "voltage": 20,
       "bar_length": "12 inch",
-      "chain_pitch": "3/8 inch low profile",
+      "battery_ah": 5,
       "chain_gauge": "0.043 inch",
-      "battery_ah": 5.0,
+      "chain_pitch": "3/8 inch low profile",
       "cuts_per_charge": 90,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "voltage": 20
     },
     "rating": 4.5,
     "review_count": 8200,
@@ -447,8 +525,14 @@
       "Compatible with all DeWalt 20V MAX batteries"
     ],
     "is_cordless": true,
-    "weight_lbs": 9.0,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "weight_lbs": 9,
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "RYOBI-RY40580",
@@ -458,15 +542,16 @@
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 369.00,
+    "price_current": 369,
+    "price_msrp": 369,
     "specs": {
-      "voltage": 40,
       "bar_length": "18 inch",
-      "chain_pitch": "3/8 inch",
+      "battery_ah": 5,
       "chain_gauge": "0.050 inch",
-      "battery_ah": 5.0,
+      "chain_pitch": "3/8 inch",
       "cuts_per_charge": 168,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "voltage": 40
     },
     "rating": 4.4,
     "review_count": 2400,
@@ -480,7 +565,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 13.2,
-    "retailers": ["homedepot", "amazon"]
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-HT2411",
@@ -490,16 +579,17 @@
     "category": "outdoor-power",
     "subcategory": "hedge-trimmers",
     "tool_type": "hedge-trimmer",
-    "price_current": 249.00,
+    "price_current": 249,
+    "price_msrp": 249,
     "specs": {
-      "voltage": 56,
-      "blade_length": "24 inch",
-      "cut_capacity": "1 inch",
-      "spm": 3000,
       "battery_ah": 2.5,
-      "runtime_min": 60,
+      "blade_length": "24 inch",
+      "blade_type": "dual-action hardened steel",
+      "cut_capacity": "1 inch",
       "motor_type": "brushless",
-      "blade_type": "dual-action hardened steel"
+      "runtime_min": 60,
+      "spm": 3000,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 4200,
@@ -513,7 +603,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.2,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "RYOBI-RY40640",
@@ -523,14 +618,15 @@
     "category": "outdoor-power",
     "subcategory": "hedge-trimmers",
     "tool_type": "hedge-trimmer",
-    "price_current": 159.00,
+    "price_current": 159,
+    "price_msrp": 159,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 2,
       "blade_length": "26 inch",
+      "blade_type": "dual-action",
       "cut_capacity": "0.75 inch",
-      "battery_ah": 2.0,
       "motor_type": "brushless",
-      "blade_type": "dual-action"
+      "voltage": 40
     },
     "rating": 4.5,
     "review_count": 1800,
@@ -544,7 +640,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.5,
-    "retailers": ["homedepot"]
+    "retailers": [
+      "homedepot"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-HPW2105",
@@ -554,15 +653,16 @@
     "category": "outdoor-power",
     "subcategory": "pressure-washers",
     "tool_type": "pressure-washer",
-    "price_current": 449.00,
+    "price_current": 449,
+    "price_msrp": 449,
     "specs": {
-      "voltage": 56,
-      "psi": 2100,
+      "battery_ah": 6,
       "gpm": 1.2,
-      "battery_ah": 6.0,
-      "runtime_min": 30,
       "hose_length_ft": 25,
-      "motor_type": "brushless"
+      "motor_type": "brushless",
+      "psi": 2100,
+      "runtime_min": 30,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 1200,
@@ -576,7 +676,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 29.6,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "EGO-HPW3204-2",
@@ -586,15 +691,16 @@
     "category": "outdoor-power",
     "subcategory": "pressure-washers",
     "tool_type": "pressure-washer",
-    "price_current": 799.00,
+    "price_current": 799,
+    "price_msrp": 799,
     "specs": {
-      "voltage": 56,
-      "psi": 3200,
-      "gpm": 2.0,
-      "battery_ah": 6.0,
+      "battery_ah": 6,
       "battery_count": 2,
+      "gpm": 2,
+      "motor_type": "brushless",
+      "psi": 3200,
       "runtime_min": 60,
-      "motor_type": "brushless"
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -607,26 +713,32 @@
       "No gas, no fumes, no pull-start hassle"
     ],
     "is_cordless": true,
-    "weight_lbs": 52.0,
-    "retailers": ["amazon", "lowes", "acehardware"]
+    "weight_lbs": 52,
+    "retailers": [
+      "amazon",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   },
   {
     "sku": "DEW-DCCS677Y1",
     "name": "DeWalt FLEXVOLT 60V MAX 20\" Brushless Chainsaw Kit (4.0Ah)",
     "brand": "DeWalt",
-    "ecosystem": "dewalt-60v",
+    "ecosystem": "dewalt-flexvolt",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "chainsaw",
-    "price_current": 529.00,
+    "price_current": 529,
+    "price_msrp": 529,
     "specs": {
-      "voltage": 60,
+      "auto_oiler": true,
       "bar_length": "20 inch",
-      "hp_equivalent": 3.49,
-      "battery_ah": 4.0,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "chain_brake": true,
-      "auto_oiler": true
+      "hp_equivalent": 3.49,
+      "motor_type": "brushless",
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 1600,
@@ -640,6 +752,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 14.8,
-    "retailers": ["amazon", "homedepot", "lowes", "acehardware"]
+    "retailers": [
+      "amazon",
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
+    "image_url": ""
   }
 ]

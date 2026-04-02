@@ -1,6 +1,4 @@
 {
-  "category": "cutting",
-  "last_updated": "2026-04-02",
   "products": [
     {
       "sku": "MIL-2834-20",
@@ -10,16 +8,17 @@
       "category": "cutting",
       "subcategory": "circular-saws",
       "tool_type": "7-1/4-circular-saw",
-      "price_current": 279.00,
+      "price_current": 279,
+      "price_msrp": 279,
       "specs": {
-        "voltage": 18,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 6000,
+        "arbor": "5/8 inch",
         "bevel_capacity_deg": 57,
-        "cut_depth_90_in": 2.625,
-        "cut_depth_45_in": 1.875,
+        "blade_size": "7-1/4 inch",
         "brushless": true,
-        "arbor": "5/8 inch"
+        "cut_depth_45_in": 1.875,
+        "cut_depth_90_in": 2.625,
+        "max_rpm": 6000,
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 500,
@@ -33,7 +32,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.9,
-      "retailers": ["homedepot", "amazon", "acmetools", "acehardware"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "acehardware"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DCS570B",
@@ -43,17 +48,18 @@
       "category": "cutting",
       "subcategory": "circular-saws",
       "tool_type": "7-1/4-circular-saw",
-      "price_current": 199.00,
+      "price_current": 199,
+      "price_msrp": 199,
       "specs": {
-        "voltage": 20,
+        "arbor": "5/8 inch",
+        "bevel_capacity_deg": 57,
         "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "cut_depth_45_in": 1.625,
+        "cut_depth_90_in": 2.5625,
         "max_rpm": 5200,
         "max_watts_out": 900,
-        "bevel_capacity_deg": 57,
-        "cut_depth_90_in": 2.5625,
-        "cut_depth_45_in": 1.625,
-        "brushless": true,
-        "arbor": "5/8 inch"
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 3800,
@@ -67,7 +73,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.3,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XSH06Z",
@@ -77,17 +89,18 @@
       "category": "cutting",
       "subcategory": "circular-saws",
       "tool_type": "7-1/4-circular-saw",
-      "price_current": 199.00,
+      "price_current": 199,
+      "price_msrp": 199,
       "specs": {
-        "voltage": 36,
-        "voltage_note": "Uses two 18V LXT batteries for 36V total",
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 6000,
+        "arbor": "5/8 inch",
         "bevel_capacity_deg": 56,
-        "cut_depth_90_in": 2.625,
-        "cut_depth_45_in": 1.8125,
+        "blade_size": "7-1/4 inch",
         "brushless": true,
-        "arbor": "5/8 inch"
+        "cut_depth_45_in": 1.8125,
+        "cut_depth_90_in": 2.625,
+        "max_rpm": 6000,
+        "voltage": 36,
+        "voltage_note": "Uses two 18V LXT batteries for 36V total"
       },
       "rating": 4.7,
       "review_count": 2200,
@@ -101,7 +114,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 10.5,
-      "retailers": ["amazon", "homedepot", "acmetools", "toolnut"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLCS300B",
@@ -111,16 +130,17 @@
       "category": "cutting",
       "subcategory": "circular-saws",
       "tool_type": "7-1/4-circular-saw",
-      "price_current": 129.00,
+      "price_current": 129,
+      "price_msrp": 129,
       "specs": {
-        "voltage": 18,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 4300,
+        "arbor": "5/8 inch",
         "bevel_capacity_deg": 56,
-        "cut_depth_90_in": 2.4375,
-        "cut_depth_45_in": 1.75,
+        "blade_size": "7-1/4 inch",
         "brushless": true,
-        "arbor": "5/8 inch"
+        "cut_depth_45_in": 1.75,
+        "cut_depth_90_in": 2.4375,
+        "max_rpm": 4300,
+        "voltage": 18
       },
       "rating": 4.5,
       "review_count": 1800,
@@ -133,8 +153,13 @@
         "Compatible with all Ryobi ONE+ 18V batteries (over 300+ tools in the system)"
       ],
       "is_cordless": true,
-      "weight_lbs": 7.0,
-      "retailers": ["homedepot", "amazon", "directtoolsoutlet"]
+      "weight_lbs": 7,
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "directtoolsoutlet"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-2821-20",
@@ -144,12 +169,13 @@
       "category": "cutting",
       "subcategory": "reciprocating-saws",
       "tool_type": "reciprocating-saw",
-      "price_current": 199.00,
+      "price_current": 199,
+      "price_msrp": 199,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
         "max_spm": 3000,
         "stroke_length_in": 1.25,
-        "brushless": true
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 2500,
@@ -163,7 +189,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.9,
-      "retailers": ["homedepot", "amazon", "acmetools", "ohiopowertool"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "ohiopowertool"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DCS382B",
@@ -173,13 +205,14 @@
       "category": "cutting",
       "subcategory": "reciprocating-saws",
       "tool_type": "reciprocating-saw",
-      "price_current": 149.00,
+      "price_current": 149,
+      "price_msrp": 149,
       "specs": {
-        "voltage": 20,
+        "brushless": true,
         "max_spm": 3200,
         "stroke_length_in": 1.125,
-        "brushless": true,
-        "tool_length_in": 15.5
+        "tool_length_in": 15.5,
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 2800,
@@ -193,7 +226,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.1,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XRJ05Z",
@@ -203,18 +242,19 @@
       "category": "cutting",
       "subcategory": "reciprocating-saws",
       "tool_type": "reciprocating-saw",
-      "price_current": 173.00,
+      "price_current": 173,
+      "price_msrp": 173,
       "specs": {
-        "voltage": 18,
-        "max_spm": 3000,
-        "stroke_length_in": 1.25,
         "brushless": true,
-        "variable_speed": true,
-        "speed_settings": 2,
-        "low_spm": 2300,
         "high_spm": 3000,
+        "low_spm": 2300,
+        "max_cut_pipe_in": 5.125,
         "max_cut_wood_in": 10,
-        "max_cut_pipe_in": 5.125
+        "max_spm": 3000,
+        "speed_settings": 2,
+        "stroke_length_in": 1.25,
+        "variable_speed": true,
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 1500,
@@ -228,7 +268,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.2,
-      "retailers": ["amazon", "homedepot", "acmetools", "toolnut"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLRS01B",
@@ -238,12 +284,13 @@
       "category": "cutting",
       "subcategory": "reciprocating-saws",
       "tool_type": "reciprocating-saw",
-      "price_current": 99.00,
+      "price_current": 99,
+      "price_msrp": 99,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
         "max_spm": 3200,
         "stroke_length_in": 1.25,
-        "brushless": true
+        "voltage": 18
       },
       "rating": 4.3,
       "review_count": 1200,
@@ -257,7 +304,12 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.6,
-      "retailers": ["homedepot", "amazon", "directtoolsoutlet"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "directtoolsoutlet"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-2737-20",
@@ -267,15 +319,16 @@
       "category": "cutting",
       "subcategory": "jigsaws",
       "tool_type": "jigsaw",
-      "price_current": 235.00,
+      "price_current": 235,
+      "price_msrp": 235,
       "specs": {
-        "voltage": 18,
-        "max_spm": 3500,
-        "stroke_length_in": 1.0,
         "bevel_capacity_deg": 45,
-        "max_cut_wood_in": 5.5,
         "brushless": true,
-        "orbital_settings": 4
+        "max_cut_wood_in": 5.5,
+        "max_spm": 3500,
+        "orbital_settings": 4,
+        "stroke_length_in": 1,
+        "voltage": 18
       },
       "rating": 4.6,
       "review_count": 900,
@@ -289,7 +342,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.25,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DCS334B",
@@ -299,14 +358,15 @@
       "category": "cutting",
       "subcategory": "jigsaws",
       "tool_type": "jigsaw",
-      "price_current": 179.00,
+      "price_current": 179,
+      "price_msrp": 179,
       "specs": {
-        "voltage": 20,
-        "max_spm": 3200,
-        "stroke_length_in": 1.0,
         "bevel_capacity_deg": 45,
         "brushless": true,
-        "orbital_settings": 4
+        "max_spm": 3200,
+        "orbital_settings": 4,
+        "stroke_length_in": 1,
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 2100,
@@ -320,7 +380,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.6,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XVJ02Z",
@@ -330,17 +396,18 @@
       "category": "cutting",
       "subcategory": "jigsaws",
       "tool_type": "jigsaw",
-      "price_current": 269.00,
+      "price_current": 269,
+      "price_msrp": 269,
       "specs": {
-        "voltage": 18,
-        "max_spm": 3500,
-        "stroke_length_in": 1.0,
         "bevel_capacity_deg": 45,
         "bevel_left_right": true,
-        "max_cut_wood_in": 5.3125,
-        "max_cut_steel_in": 0.375,
         "brushless": true,
-        "orbital_settings": 3
+        "max_cut_steel_in": 0.375,
+        "max_cut_wood_in": 5.3125,
+        "max_spm": 3500,
+        "orbital_settings": 3,
+        "stroke_length_in": 1,
+        "voltage": 18
       },
       "rating": 4.6,
       "review_count": 700,
@@ -354,7 +421,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.8,
-      "retailers": ["amazon", "homedepot", "acmetools", "toolnut"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLJS01B",
@@ -364,15 +437,16 @@
       "category": "cutting",
       "subcategory": "jigsaws",
       "tool_type": "jigsaw",
-      "price_current": 129.00,
+      "price_current": 129,
+      "price_msrp": 129,
       "specs": {
-        "voltage": 18,
-        "max_spm": 3400,
-        "stroke_length_in": 1.0,
         "bevel_capacity_deg": 45,
         "bevel_left_right": true,
         "brushless": true,
-        "orbital_settings": 4
+        "max_spm": 3400,
+        "orbital_settings": 4,
+        "stroke_length_in": 1,
+        "voltage": 18
       },
       "rating": 4.5,
       "review_count": 800,
@@ -385,8 +459,13 @@
         "Includes T-shank wood cutting blade and non-marring shoe"
       ],
       "is_cordless": true,
-      "weight_lbs": 4.0,
-      "retailers": ["homedepot", "amazon", "directtoolsoutlet"]
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "directtoolsoutlet"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-2836-20",
@@ -396,15 +475,16 @@
       "category": "cutting",
       "subcategory": "oscillating-multi-tools",
       "tool_type": "oscillating-multi-tool",
-      "price_current": 229.00,
+      "price_current": 229,
+      "price_msrp": 229,
       "specs": {
-        "voltage": 18,
-        "min_opm": 10000,
-        "max_opm": 20000,
-        "oscillation_angle_deg": 4.2,
+        "auto_load": true,
         "brushless": true,
+        "max_opm": 20000,
+        "min_opm": 10000,
+        "oscillation_angle_deg": 4.2,
         "speed_settings": 10,
-        "auto_load": true
+        "voltage": 18
       },
       "rating": 4.7,
       "review_count": 1600,
@@ -418,7 +498,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.58,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DCS354B",
@@ -428,12 +514,13 @@
       "category": "cutting",
       "subcategory": "oscillating-multi-tools",
       "tool_type": "oscillating-multi-tool",
-      "price_current": 99.00,
+      "price_current": 99,
+      "price_msrp": 99,
       "specs": {
-        "voltage": 20,
-        "max_opm": 18000,
         "brushless": true,
-        "tool_length_in": 11.2
+        "max_opm": 18000,
+        "tool_length_in": 11.2,
+        "voltage": 20
       },
       "rating": 4.6,
       "review_count": 3200,
@@ -447,7 +534,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XMT03Z",
@@ -457,14 +550,15 @@
       "category": "cutting",
       "subcategory": "oscillating-multi-tools",
       "tool_type": "oscillating-multi-tool",
-      "price_current": 129.00,
+      "price_current": 129,
+      "price_msrp": 129,
       "specs": {
-        "voltage": 18,
-        "min_opm": 6000,
-        "max_opm": 20000,
-        "oscillation_angle_deg": 3.2,
         "brushless": false,
-        "grip_diameter_in": 2.375
+        "grip_diameter_in": 2.375,
+        "max_opm": 20000,
+        "min_opm": 6000,
+        "oscillation_angle_deg": 3.2,
+        "voltage": 18
       },
       "rating": 4.5,
       "review_count": 1400,
@@ -478,7 +572,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.9,
-      "retailers": ["amazon", "homedepot", "acmetools", "toolnut"]
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLMT50B",
@@ -488,12 +588,13 @@
       "category": "cutting",
       "subcategory": "oscillating-multi-tools",
       "tool_type": "oscillating-multi-tool",
-      "price_current": 129.00,
+      "price_current": 129,
+      "price_msrp": 129,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
         "max_opm": 20000,
         "oscillation_angle_deg": 3.6,
-        "brushless": true
+        "voltage": 18
       },
       "rating": 4.5,
       "review_count": 900,
@@ -507,7 +608,12 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.25,
-      "retailers": ["homedepot", "amazon", "directtoolsoutlet"]
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "directtoolsoutlet"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DWS779",
@@ -517,20 +623,21 @@
       "category": "cutting",
       "subcategory": "miter-saws",
       "tool_type": "12-inch-sliding-compound-miter-saw",
-      "price_current": 399.00,
+      "price_current": 399,
+      "price_msrp": 399,
       "specs": {
         "amps": 15,
-        "blade_size": "12 inch",
-        "max_rpm": 3800,
-        "miter_range_left_deg": 50,
-        "miter_range_right_deg": 60,
         "bevel_capacity_deg": 49,
         "bevel_type": "double",
-        "max_crosscut_90_2x": "2x14",
-        "max_crosscut_45_2x": "2x10",
-        "max_crown_nested_in": 7.5,
+        "blade_size": "12 inch",
         "brushless": false,
-        "dust_collection_pct": 75
+        "dust_collection_pct": 75,
+        "max_crosscut_45_2x": "2x10",
+        "max_crosscut_90_2x": "2x14",
+        "max_crown_nested_in": 7.5,
+        "max_rpm": 3800,
+        "miter_range_left_deg": 50,
+        "miter_range_right_deg": 60
       },
       "rating": 4.8,
       "review_count": 8500,
@@ -543,8 +650,14 @@
         "Dust collection system captures over 75% of dust generated"
       ],
       "is_cordless": false,
-      "weight_lbs": 56.0,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "weight_lbs": 56,
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DWS780",
@@ -554,18 +667,19 @@
       "category": "cutting",
       "subcategory": "miter-saws",
       "tool_type": "12-inch-sliding-compound-miter-saw",
-      "price_current": 649.00,
+      "price_current": 649,
+      "price_msrp": 649,
       "specs": {
         "amps": 15,
+        "bevel_capacity_deg": 49,
+        "bevel_type": "double",
         "blade_size": "12 inch",
+        "brushless": false,
+        "max_crosscut_90_2x": "2x16",
+        "max_crown_nested_in": 7.5,
         "max_rpm": 3800,
         "miter_range_left_deg": 50,
         "miter_range_right_deg": 60,
-        "bevel_capacity_deg": 49,
-        "bevel_type": "double",
-        "max_crosscut_90_2x": "2x16",
-        "max_crown_nested_in": 7.5,
-        "brushless": false,
         "xps_cutline_indicator": true
       },
       "rating": 4.8,
@@ -579,8 +693,14 @@
         "Compact 56 lb design for easier transport between job locations"
       ],
       "is_cordless": false,
-      "weight_lbs": 56.0,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "weight_lbs": 56,
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MH-C10FCGS",
@@ -590,16 +710,17 @@
       "category": "cutting",
       "subcategory": "miter-saws",
       "tool_type": "10-inch-compound-miter-saw",
-      "price_current": 119.00,
+      "price_current": 119,
+      "price_msrp": 119,
       "specs": {
         "amps": 15,
-        "blade_size": "10 inch",
-        "max_rpm": 5000,
-        "miter_range_left_deg": 52,
-        "miter_range_right_deg": 52,
         "bevel_capacity_deg": 45,
         "bevel_type": "single",
-        "brushless": false
+        "blade_size": "10 inch",
+        "brushless": false,
+        "max_rpm": 5000,
+        "miter_range_left_deg": 52,
+        "miter_range_right_deg": 52
       },
       "rating": 4.5,
       "review_count": 4200,
@@ -613,7 +734,13 @@
       ],
       "is_cordless": false,
       "weight_lbs": 24.2,
-      "retailers": ["amazon", "lowes", "walmart", "acmetools"]
+      "retailers": [
+        "amazon",
+        "lowes",
+        "walmart",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DWE7491RS",
@@ -623,18 +750,19 @@
       "category": "cutting",
       "subcategory": "table-saws",
       "tool_type": "portable-jobsite-table-saw",
-      "price_current": 649.00,
+      "price_current": 649,
+      "price_msrp": 649,
       "specs": {
         "amps": 15,
-        "blade_size": "10 inch",
-        "max_rpm": 4800,
-        "rip_capacity_in": 32.5,
-        "cut_depth_90_in": 3.125,
-        "cut_depth_45_in": 2.25,
         "bevel_capacity_deg": 47,
+        "blade_size": "10 inch",
         "brushless": false,
+        "cut_depth_45_in": 2.25,
+        "cut_depth_90_in": 3.125,
+        "dust_port_in": 2.5,
         "includes_stand": true,
-        "dust_port_in": 2.5
+        "max_rpm": 4800,
+        "rip_capacity_in": 32.5
       },
       "rating": 4.7,
       "review_count": 9500,
@@ -647,8 +775,14 @@
         "Telescoping fence retracts for transport and flips over for narrow rip cuts"
       ],
       "is_cordless": false,
-      "weight_lbs": 110.0,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "weight_lbs": 110,
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DW-DWE7485",
@@ -658,17 +792,18 @@
       "category": "cutting",
       "subcategory": "table-saws",
       "tool_type": "compact-jobsite-table-saw",
-      "price_current": 399.00,
+      "price_current": 399,
+      "price_msrp": 399,
       "specs": {
         "amps": 15,
-        "blade_size": "8-1/4 inch",
-        "max_rpm": 5800,
-        "rip_capacity_in": 24.5,
-        "cut_depth_90_in": 2.5625,
-        "cut_depth_45_in": 1.75,
         "bevel_range_deg": "-2 to 47",
+        "blade_size": "8-1/4 inch",
         "brushless": false,
-        "dust_port_in": 2.5
+        "cut_depth_45_in": 1.75,
+        "cut_depth_90_in": 2.5625,
+        "dust_port_in": 2.5,
+        "max_rpm": 5800,
+        "rip_capacity_in": 24.5
       },
       "rating": 4.6,
       "review_count": 3800,
@@ -681,8 +816,14 @@
         "Power-loss reset prevents accidental restarts after power disruption"
       ],
       "is_cordless": false,
-      "weight_lbs": 46.0,
-      "retailers": ["amazon", "homedepot", "lowes", "acmetools"]
+      "weight_lbs": 46,
+      "retailers": [
+        "amazon",
+        "homedepot",
+        "lowes",
+        "acmetools"
+      ],
+      "image_url": ""
     }
   ]
 }

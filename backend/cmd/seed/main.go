@@ -142,11 +142,21 @@ func loadFile(path string) ([]SeedProduct, error) {
 		return nil, err
 	}
 
+	// Try flat array first: [{"sku": ...}, ...]
 	var products []SeedProduct
-	if err := json.Unmarshal(data, &products); err != nil {
-		return nil, fmt.Errorf("parse JSON: %w", err)
+	if err := json.Unmarshal(data, &products); err == nil {
+		return products, nil
 	}
-	return products, nil
+
+	// Try wrapped format: {"products": [{"sku": ...}, ...]}
+	var wrapped struct {
+		Products []SeedProduct `json:"products"`
+	}
+	if err := json.Unmarshal(data, &wrapped); err == nil && len(wrapped.Products) > 0 {
+		return wrapped.Products, nil
+	}
+
+	return nil, fmt.Errorf("unrecognized JSON format in %s", filepath.Base(path))
 }
 
 func buildAffiliateLinks(retailers []string, sku string) map[string]string {

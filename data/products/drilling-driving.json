@@ -1,7 +1,4 @@
 {
-  "category": "drilling-driving",
-  "last_updated": "2026-04-02",
-  "source_note": "Prices reflect approximate US street pricing as of early 2026. Prices fluctuate; check retailer sites for current deals.",
   "products": [
     {
       "sku": "MIL-2903-20",
@@ -11,16 +8,19 @@
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver",
-      "price_current": 219.00,
-      "price_msrp": 219.00,
+      "price_current": 219,
+      "price_msrp": 219,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 2000,
         "max_torque_in_lbs": 1200,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          550,
+          2000
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [550, 2000]
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 1200,
@@ -34,11 +34,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.2,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MIL-2903-22",
-      "kit_price": 329.00,
-      "kit_includes": "Tool, (2) M18 XC 5.0Ah batteries, charger, hard case"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-2953-20",
@@ -48,16 +50,16 @@
       "category": "drilling-driving",
       "subcategory": "impact-drivers",
       "tool_type": "impact-driver",
-      "price_current": 149.00,
-      "price_msrp": 149.00,
+      "price_current": 149,
+      "price_msrp": 149,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "max_ipm": 4400,
         "max_rpm": 3900,
         "max_torque_in_lbs": 2000,
-        "chuck_size": "1/4 inch hex",
-        "brushless": true,
         "speeds": 4,
-        "max_ipm": 4400
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 2800,
@@ -71,11 +73,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.2,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MIL-2953-22",
-      "kit_price": 299.00,
-      "kit_includes": "Tool, (2) M18 XC 5.0Ah batteries, charger, hard case"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-2904-20",
@@ -85,17 +89,20 @@
       "category": "drilling-driving",
       "subcategory": "hammer-drills",
       "tool_type": "hammer-drill",
-      "price_current": 229.00,
-      "price_msrp": 229.00,
+      "price_current": 229,
+      "price_msrp": 229,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "max_bpm": 33000,
         "max_rpm": 2100,
         "max_torque_in_lbs": 1400,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          550,
+          2100
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [550, 2100],
-        "max_bpm": 33000
+        "voltage": 18
       },
       "rating": 4.7,
       "review_count": 1489,
@@ -109,11 +116,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MIL-2904-22",
-      "kit_price": 349.00,
-      "kit_includes": "Tool, (2) M18 XC 5.0Ah batteries, charger, hard case"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MIL-3697-22",
@@ -123,13 +132,16 @@
       "category": "drilling-driving",
       "subcategory": "combo-kits",
       "tool_type": "combo-kit",
-      "price_current": 399.00,
-      "price_msrp": 399.00,
+      "price_current": 399,
+      "price_msrp": 399,
       "specs": {
-        "voltage": 18,
-        "includes_tools": ["2904-20 Hammer Drill", "2953-20 Impact Driver"],
         "batteries_included": "2x M18 REDLITHIUM XC 5.0Ah",
-        "brushless": true
+        "brushless": true,
+        "includes_tools": [
+          "2904-20 Hammer Drill",
+          "2953-20 Impact Driver"
+        ],
+        "voltage": 18
       },
       "rating": 4.9,
       "review_count": 950,
@@ -143,28 +155,36 @@
       ],
       "is_cordless": true,
       "weight_lbs": 16.2,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut", "acehardware"],
-      "kit_available": false,
-      "combo_savings_vs_separate": 80.00
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut",
+        "acehardware"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DEW-DCD800B",
       "name": "DeWalt 20V MAX XR 1/2\" Brushless Drill/Driver (Tool Only)",
       "brand": "DeWalt",
-      "ecosystem": "dewalt-20v",
+      "ecosystem": "dewalt-20v-max",
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver",
-      "price_current": 159.00,
-      "price_msrp": 179.00,
+      "price_current": 159,
+      "price_msrp": 179,
       "specs": {
-        "voltage": 20,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 2000,
         "max_torque_in_lbs": 800,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          650,
+          2000
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [650, 2000]
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 1800,
@@ -178,30 +198,32 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.8,
-      "retailers": ["homedepot", "lowes", "amazon", "acmetools"],
-      "kit_available": true,
-      "kit_sku": "DEW-DCD800P1",
-      "kit_price": 249.00,
-      "kit_includes": "Tool, (1) 20V MAX 5.0Ah battery, charger"
+      "retailers": [
+        "homedepot",
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DEW-DCF850B",
       "name": "DeWalt 20V MAX ATOMIC 1/4\" 3-Speed Brushless Impact Driver (Tool Only)",
       "brand": "DeWalt",
-      "ecosystem": "dewalt-20v",
+      "ecosystem": "dewalt-20v-max",
       "category": "drilling-driving",
       "subcategory": "impact-drivers",
       "tool_type": "impact-driver",
-      "price_current": 149.00,
-      "price_msrp": 149.00,
+      "price_current": 149,
+      "price_msrp": 149,
       "specs": {
-        "voltage": 20,
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "max_ipm": 3800,
         "max_rpm": 3250,
         "max_torque_in_lbs": 1825,
-        "chuck_size": "1/4 inch hex",
-        "brushless": true,
         "speeds": 3,
-        "max_ipm": 3800
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 1500,
@@ -215,30 +237,32 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.1,
-      "retailers": ["homedepot", "lowes", "amazon", "acmetools"],
-      "kit_available": true,
-      "kit_sku": "DEW-DCF850P1",
-      "kit_price": 199.00,
-      "kit_includes": "Tool, (1) 20V MAX 5.0Ah battery, charger, bag"
+      "retailers": [
+        "homedepot",
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DEW-DCF845B",
       "name": "DeWalt 20V MAX XR 1/4\" 3-Speed Impact Driver (Tool Only)",
       "brand": "DeWalt",
-      "ecosystem": "dewalt-20v",
+      "ecosystem": "dewalt-20v-max",
       "category": "drilling-driving",
       "subcategory": "impact-drivers",
       "tool_type": "impact-driver",
-      "price_current": 129.00,
-      "price_msrp": 149.00,
+      "price_current": 129,
+      "price_msrp": 149,
       "specs": {
-        "voltage": 20,
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "max_ipm": 4200,
         "max_rpm": 3400,
         "max_torque_in_lbs": 1825,
-        "chuck_size": "1/4 inch hex",
-        "brushless": true,
         "speeds": 3,
-        "max_ipm": 4200
+        "voltage": 20
       },
       "rating": 4.7,
       "review_count": 127,
@@ -251,33 +275,39 @@
         "Part of the XR professional-grade lineup"
       ],
       "is_cordless": true,
-      "weight_lbs": 2.0,
-      "retailers": ["homedepot", "lowes", "amazon", "acmetools"],
-      "kit_available": true,
-      "kit_sku": "DEW-DCF845P1",
-      "kit_price": 229.00,
-      "kit_includes": "Tool, (1) 20V MAX 5.0Ah battery, charger, bag"
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot",
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DEW-DCD999B",
       "name": "DeWalt 20V MAX 1/2\" Hammer Drill/Driver with FLEXVOLT ADVANTAGE (Tool Only)",
       "brand": "DeWalt",
-      "ecosystem": "dewalt-20v",
+      "ecosystem": "dewalt-20v-max",
       "category": "drilling-driving",
       "subcategory": "hammer-drills",
       "tool_type": "hammer-drill",
-      "price_current": 195.00,
-      "price_msrp": 239.00,
+      "price_current": 195,
+      "price_msrp": 239,
       "specs": {
-        "voltage": 20,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "flexvolt_advantage": true,
+        "max_bpm": 38250,
         "max_rpm": 2000,
         "max_torque_in_lbs": 991,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          450,
+          1400,
+          2000
+        ],
         "speeds": 3,
-        "speed_ranges_rpm": [450, 1400, 2000],
-        "max_bpm": 38250,
-        "flexvolt_advantage": true
+        "voltage": 20
       },
       "rating": 4.6,
       "review_count": 680,
@@ -291,27 +321,32 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.6,
-      "retailers": ["homedepot", "lowes", "amazon", "acmetools"],
-      "kit_available": true,
-      "kit_sku": "DEW-DCD999T1",
-      "kit_price": 329.00,
-      "kit_includes": "Tool, (1) FLEXVOLT 6.0Ah battery, charger, hard case"
+      "retailers": [
+        "homedepot",
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "DEW-DCK2050M2",
       "name": "DeWalt 20V MAX XR Hammer Drill and ATOMIC Impact Driver 2-Tool Combo Kit",
       "brand": "DeWalt",
-      "ecosystem": "dewalt-20v",
+      "ecosystem": "dewalt-20v-max",
       "category": "drilling-driving",
       "subcategory": "combo-kits",
       "tool_type": "combo-kit",
-      "price_current": 259.00,
-      "price_msrp": 349.00,
+      "price_current": 259,
+      "price_msrp": 349,
       "specs": {
-        "voltage": 20,
-        "includes_tools": ["DCD805 XR Hammer Drill", "DCF850 ATOMIC Impact Driver"],
         "batteries_included": "2x 20V MAX 4.0Ah",
-        "brushless": true
+        "brushless": true,
+        "includes_tools": [
+          "DCD805 XR Hammer Drill",
+          "DCF850 ATOMIC Impact Driver"
+        ],
+        "voltage": 20
       },
       "rating": 4.6,
       "review_count": 773,
@@ -325,9 +360,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 14.5,
-      "retailers": ["homedepot", "lowes", "amazon", "acmetools"],
-      "kit_available": false,
-      "combo_savings_vs_separate": 120.00
+      "retailers": [
+        "homedepot",
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XFD131",
@@ -337,16 +376,19 @@
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver",
-      "price_current": 159.00,
-      "price_msrp": 199.00,
+      "price_current": 159,
+      "price_msrp": 199,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 1900,
         "max_torque_in_lbs": 440,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          500,
+          1900
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [500, 1900]
+        "voltage": 18
       },
       "rating": 4.9,
       "review_count": 2400,
@@ -360,9 +402,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.8,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": false,
-      "kit_note": "This product is sold as a kit; bare tool not typically available separately in this model"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XFD14Z",
@@ -372,16 +418,19 @@
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver",
-      "price_current": 199.00,
-      "price_msrp": 219.00,
+      "price_current": 199,
+      "price_msrp": 219,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 2100,
         "max_torque_in_lbs": 1250,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          550,
+          2100
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [550, 2100]
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 450,
@@ -395,11 +444,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.9,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MAK-XFD14T",
-      "kit_price": 299.00,
-      "kit_includes": "Tool, (1) 18V LXT 5.0Ah battery, charger, tool bag"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XDT19Z",
@@ -409,17 +460,22 @@
       "category": "drilling-driving",
       "subcategory": "impact-drivers",
       "tool_type": "impact-driver",
-      "price_current": 179.00,
-      "price_msrp": 219.00,
+      "price_current": 179,
+      "price_msrp": 219,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "max_ipm": 3800,
         "max_rpm": 3600,
         "max_torque_in_lbs": 1590,
-        "chuck_size": "1/4 inch hex",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          1100,
+          2100,
+          3200,
+          3600
+        ],
         "speeds": 4,
-        "speed_ranges_rpm": [1100, 2100, 3200, 3600],
-        "max_ipm": 3800
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 800,
@@ -433,11 +489,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.6,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MAK-XDT19T",
-      "kit_price": 299.00,
-      "kit_includes": "Tool, (1) 18V LXT 5.0Ah battery, charger, tool bag"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XPH14Z",
@@ -447,17 +505,20 @@
       "category": "drilling-driving",
       "subcategory": "hammer-drills",
       "tool_type": "hammer-drill",
-      "price_current": 149.00,
-      "price_msrp": 179.00,
+      "price_current": 149,
+      "price_msrp": 179,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "max_bpm": 31500,
         "max_rpm": 2100,
         "max_torque_in_lbs": 1250,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          550,
+          2100
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [550, 2100],
-        "max_bpm": 31500
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 600,
@@ -471,11 +532,13 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.2,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": true,
-      "kit_sku": "MAK-XPH14T",
-      "kit_price": 269.00,
-      "kit_includes": "Tool, (1) 18V LXT 5.0Ah battery, charger, tool bag"
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "MAK-XT288T",
@@ -485,13 +548,16 @@
       "category": "drilling-driving",
       "subcategory": "combo-kits",
       "tool_type": "combo-kit",
-      "price_current": 349.00,
-      "price_msrp": 449.00,
+      "price_current": 349,
+      "price_msrp": 449,
       "specs": {
-        "voltage": 18,
-        "includes_tools": ["XPH14 Hammer Driver-Drill", "XDT19 4-Speed Impact Driver"],
         "batteries_included": "2x 18V LXT 5.0Ah",
-        "brushless": true
+        "brushless": true,
+        "includes_tools": [
+          "XPH14 Hammer Driver-Drill",
+          "XDT19 4-Speed Impact Driver"
+        ],
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 1100,
@@ -504,10 +570,14 @@
         "Star Protection and XPT for durability in harsh conditions"
       ],
       "is_cordless": true,
-      "weight_lbs": 15.0,
-      "retailers": ["homedepot", "amazon", "acmetools", "toolnut"],
-      "kit_available": false,
-      "combo_savings_vs_separate": 100.00
+      "weight_lbs": 15,
+      "retailers": [
+        "homedepot",
+        "amazon",
+        "acmetools",
+        "toolnut"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLDD01B",
@@ -517,16 +587,19 @@
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver",
-      "price_current": 99.00,
-      "price_msrp": 99.00,
+      "price_current": 99,
+      "price_msrp": 99,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 2100,
         "max_torque_in_lbs": 750,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          500,
+          2100
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [500, 2100]
+        "voltage": 18
       },
       "rating": 4.6,
       "review_count": 972,
@@ -540,12 +613,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.4,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": true,
-      "kit_sku": "RYO-PBLDD01K",
-      "kit_price": 149.00,
-      "kit_includes": "Tool, (2) 2.0Ah HIGH PERFORMANCE batteries, charger, bag"
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PSBDD01B",
@@ -555,16 +626,19 @@
       "category": "drilling-driving",
       "subcategory": "drill-drivers",
       "tool_type": "drill-driver-compact",
-      "price_current": 69.00,
-      "price_msrp": 69.00,
+      "price_current": 69,
+      "price_msrp": 69,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
         "max_rpm": 1700,
         "max_torque_in_lbs": 400,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          450,
+          1700
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [450, 1700]
+        "voltage": 18
       },
       "rating": 4.6,
       "review_count": 850,
@@ -578,12 +652,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.6,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": true,
-      "kit_sku": "RYO-PSBDD01K",
-      "kit_price": 129.00,
-      "kit_includes": "Tool, (2) 1.5Ah batteries, charger, bag"
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLID02B",
@@ -593,16 +665,16 @@
       "category": "drilling-driving",
       "subcategory": "impact-drivers",
       "tool_type": "impact-driver",
-      "price_current": 119.00,
-      "price_msrp": 119.00,
+      "price_current": 119,
+      "price_msrp": 119,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "max_ipm": 4000,
         "max_rpm": 2900,
         "max_torque_in_lbs": 2200,
-        "chuck_size": "1/4 inch hex",
-        "brushless": true,
         "speeds": 4,
-        "max_ipm": 4000
+        "voltage": 18
       },
       "rating": 4.8,
       "review_count": 650,
@@ -616,12 +688,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": true,
-      "kit_sku": "RYO-PBLID02K",
-      "kit_price": 159.00,
-      "kit_includes": "Tool, (1) 2.0Ah HIGH PERFORMANCE battery, charger, bag"
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLHM101B",
@@ -631,17 +701,20 @@
       "category": "drilling-driving",
       "subcategory": "hammer-drills",
       "tool_type": "hammer-drill",
-      "price_current": 119.00,
-      "price_msrp": 119.00,
+      "price_current": 119,
+      "price_msrp": 119,
       "specs": {
-        "voltage": 18,
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "max_bpm": 31000,
         "max_rpm": 2100,
         "max_torque_in_lbs": 750,
-        "chuck_size": "1/2 inch",
-        "brushless": true,
+        "speed_ranges_rpm": [
+          500,
+          2100
+        ],
         "speeds": 2,
-        "speed_ranges_rpm": [500, 2100],
-        "max_bpm": 31000
+        "voltage": 18
       },
       "rating": 4.6,
       "review_count": 520,
@@ -654,13 +727,11 @@
         "LED worklight illuminates the work area"
       ],
       "is_cordless": true,
-      "weight_lbs": 3.0,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": true,
-      "kit_sku": "RYO-PBLHM101K",
-      "kit_price": 179.00,
-      "kit_includes": "Tool, (1) 4.0Ah HIGH PERFORMANCE battery, charger, bag"
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PBLCK02K",
@@ -670,13 +741,16 @@
       "category": "drilling-driving",
       "subcategory": "combo-kits",
       "tool_type": "combo-kit",
-      "price_current": 229.00,
-      "price_msrp": 229.00,
+      "price_current": 229,
+      "price_msrp": 229,
       "specs": {
-        "voltage": 18,
-        "includes_tools": ["PBLHM101 Hammer Drill", "PBLID02 4-Mode Impact Driver"],
         "batteries_included": "1x 4.0Ah + 1x 2.0Ah HIGH PERFORMANCE",
-        "brushless": true
+        "brushless": true,
+        "includes_tools": [
+          "PBLHM101 Hammer Drill",
+          "PBLID02 4-Mode Impact Driver"
+        ],
+        "voltage": 18
       },
       "rating": 4.7,
       "review_count": 480,
@@ -690,10 +764,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 12.5,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": false,
-      "combo_savings_vs_separate": 60.00
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     },
     {
       "sku": "RYO-PSBCK01K",
@@ -703,13 +777,16 @@
       "category": "drilling-driving",
       "subcategory": "combo-kits",
       "tool_type": "combo-kit",
-      "price_current": 149.00,
-      "price_msrp": 179.00,
+      "price_current": 149,
+      "price_msrp": 179,
       "specs": {
-        "voltage": 18,
-        "includes_tools": ["PSBDD01 Compact Drill/Driver", "PSBID01 Compact Impact Driver"],
         "batteries_included": "2x 1.5Ah compact",
-        "brushless": true
+        "brushless": true,
+        "includes_tools": [
+          "PSBDD01 Compact Drill/Driver",
+          "PSBID01 Compact Impact Driver"
+        ],
+        "voltage": 18
       },
       "rating": 4.7,
       "review_count": 1200,
@@ -723,72 +800,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.5,
-      "retailers": ["homedepot"],
-      "exclusive_retailer": "homedepot",
-      "kit_available": false,
-      "combo_savings_vs_separate": 40.00
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
     }
-  ],
-  "ecosystem_summary": {
-    "milwaukee-m18": {
-      "brand": "Milwaukee",
-      "platform": "M18 FUEL",
-      "voltage_nominal": 18,
-      "target_audience": "Professionals and serious DIYers",
-      "price_tier": "premium",
-      "exclusive_retailer": null,
-      "products_in_category": 4,
-      "drill_driver_price_range": "$219",
-      "impact_driver_price_range": "$149",
-      "hammer_drill_price_range": "$229",
-      "combo_kit_price_range": "$399",
-      "strengths": "Highest torque specs, most compact designs, excellent build quality",
-      "weaknesses": "Most expensive ecosystem, tool-only pricing does not include batteries"
-    },
-    "dewalt-20v": {
-      "brand": "DeWalt",
-      "platform": "20V MAX / XR / ATOMIC",
-      "voltage_nominal": 20,
-      "target_audience": "Professionals and DIYers",
-      "price_tier": "mid-to-premium",
-      "exclusive_retailer": null,
-      "products_in_category": 5,
-      "drill_driver_price_range": "$159",
-      "impact_driver_price_range": "$129-$149",
-      "hammer_drill_price_range": "$195",
-      "combo_kit_price_range": "$259",
-      "strengths": "Widest retail availability, FLEXVOLT cross-compatibility, competitive combo kit pricing",
-      "weaknesses": "Multiple confusing sub-brands (ATOMIC, XR, MAX), torque specs sometimes listed in UWO instead of in-lbs"
-    },
-    "makita-18v-lxt": {
-      "brand": "Makita",
-      "platform": "18V LXT",
-      "voltage_nominal": 18,
-      "target_audience": "Professionals and enthusiast DIYers",
-      "price_tier": "mid-to-premium",
-      "exclusive_retailer": null,
-      "products_in_category": 5,
-      "drill_driver_price_range": "$159-$199",
-      "impact_driver_price_range": "$179",
-      "hammer_drill_price_range": "$149",
-      "combo_kit_price_range": "$349",
-      "strengths": "Fastest battery charging, excellent build quality, Smart features like Quick-Shift Mode",
-      "weaknesses": "Slightly lower peak torque than Milwaukee, less retail presence than DeWalt"
-    },
-    "ryobi-one-plus": {
-      "brand": "Ryobi",
-      "platform": "ONE+ / ONE+ HP",
-      "voltage_nominal": 18,
-      "target_audience": "DIY homeowners and beginners",
-      "price_tier": "budget-to-mid",
-      "exclusive_retailer": "homedepot",
-      "products_in_category": 6,
-      "drill_driver_price_range": "$69-$99",
-      "impact_driver_price_range": "$119",
-      "hammer_drill_price_range": "$119",
-      "combo_kit_price_range": "$149-$229",
-      "strengths": "Best value, largest tool ecosystem (300+ tools), Home Depot exclusive means easy support",
-      "weaknesses": "Lower torque than pro brands, Home Depot exclusive limits shopping options"
-    }
-  }
+  ]
 }
