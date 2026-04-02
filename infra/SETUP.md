@@ -1,66 +1,183 @@
-# Serverless Setup Guide
+# AWS Serverless Setup Guide
 
-## 1. Create Managed Database Accounts (Free Tiers)
+Everything runs on AWS. One account, one bill, one console.
 
-### ClickHouse Cloud
-1. Go to https://clickhouse.cloud
-2. Sign up, select AWS us-east-1
-3. Create a serverless service
-4. Note the connection string: `clickhouse://default:PASSWORD@HOST:8443/litp?secure=true`
-5. Run `database/schemas/clickhouse-init.sql` and `database/schemas/clickhouse-analytics.sql`
-6. Run `database/scripts/seed-clickhouse.sql`
+## Prerequisites
+- AWS CLI configured (`aws configure`)
+- Go 1.22+
+- Node.js 20+
+- An AWS account with us-east-1 access
 
-### Qdrant Cloud
-1. Go to https://cloud.qdrant.io
-2. Sign up, create a free cluster on AWS us-east-1
-3. Note the host and API key
-4. Run `database/schemas/qdrant-init.sh HOST PORT`
+## 1. Create DynamoDB Tables
 
-### Neo4j Aura
-1. Go to https://neo4j.com/cloud/aura-free
-2. Create a free instance (AWS)
-3. Save the connection URI, username, and password
-4. Run `database/schemas/neo4j-init.cypher` via the Neo4j Browser
-
-### Upstash Redis
-1. Go to https://upstash.com
-2. Create a Redis database in AWS us-east-1
-3. Enable TLS, note the `rediss://` connection URL
-
-## 2. AWS Setup
-
-### Create IAM Role for Lambda
 ```bash
+# Products table
+aws dynamodb create-table \
+  --table-name litp-products \
+  --attribute-definitions \
+    AttributeName=sku,AttributeType=S \
+    AttributeName=slug,AttributeType=S \
+    AttributeName=ecosystem,AttributeType=S \
+    AttributeName=category,AttributeType=S \
+    AttributeName=subcategory,AttributeType=S \
+    AttributeName=rating,AttributeType=N \
+  --key-schema AttributeName=sku,KeyType=HASH \
+  --global-secondary-indexes \
+    '[{"IndexName":"slug-index","KeySchema":[{"AttributeName":"slug","KeyType":"HASH"}],"Projection":{"ProjectionType":"ALL"}},
+      {"IndexName":"ecosystem-category-index","KeySchema":[{"AttributeName":"ecosystem","KeyType":"HASH"},{"AttributeName":"category","KeyType":"RANGE"}],"Projection":{"ProjectionType":"ALL"}},
+      {"IndexName":"subcategory-rating-index","KeySchema":[{"AttributeName":"subcategory","KeyType":"HASH"},{"AttributeName":"rating","KeyType":"RANGE"}],"Projection":{"ProjectionType":"ALL"}}]' \
+  --billing-mode PAY_PER_REQUEST \
+  --region us-east-1
+
+# Content table (projects, ecosystems, categories, relationships)
+aws dynamodb create-table \
+  --table-name litp-content \
+  --attribute-definitions \
+    AttributeName=pk,AttributeType=S \
+    AttributeName=sk,AttributeType=S \
+    AttributeName=content_type,AttributeType=S \
+  --key-schema \
+    AttributeName=pk,KeyType=HASH \
+    AttributeName=sk,KeyType=RANGE \
+  --global-secondary-indexes \
+    '[{"IndexName":"type-index","KeySchema":[{"AttributeName":"content_type","KeyType":"HASH"}],"Projection":{"ProjectionType":"ALL"}}]' \
+  --billing-mode PAY_PER_REQUEST \
+  --region us-east-1
+
+# Cache table (with TTL)
+aws dynamodb create-table \
+  --table-name litp-cache \
+  --attribute-definitions AttributeName=cache_key,AttributeType=S \
+  --key-schema AttributeName=cache_key,KeyType=HASH \
+  --billing-mode PAY_PER_REQUEST \
+  --region us-east-1
+
+aws dynamodb update-time-to-live \
+  --table-name litp-cache \
+  --time-to-live-specification Enabled=true,AttributeName=expires_at
+
+# Price history table
+aws dynamodb create-table \
+  --table-name litp-prices \
+  --attribute-definitions \
+    AttributeName=sku,AttributeType=S \
+    AttributeName=timestamp_retailer,AttributeType=S \
+  --key-schema \
+    AttributeName=sku,KeyType=HASH \
+    AttributeName=timestamp_retailer,KeyType=RANGE \
+  --billing-mode PAY_PER_REQUEST \
+  --region us-east-1
+```
+
+## 2. Create OpenSearch Serverless Collection
+
+```bash
+# Create encryption policy
+aws opensearchserverless create-security-policy \
+  --name litp-encryption \
+  --type encryption \
+  --policy '{"Rules":[{"ResourceType":"collection","Resource":["collection/litp-vectors"]}],"AWSOwnedKey":true}'
+
+# Create network policy (public access)
+aws opensearchserverless create-security-policy \
+  --name litp-network \
+  --type network \
+  --policy '[{"Rules":[{"ResourceType":"collection","Resource":["collection/litp-vectors"]},{"ResourceType":"dashboard","Resource":["collection/litp-vectors"]}],"AllowFromPublic":true}]'
+
+# Create data access policy (replace ACCOUNT_ID and ROLE_ARN)
+aws opensearchserverless create-access-policy \
+  --name litp-access \
+  --type data \
+  --policy '[{"Rules":[{"ResourceType":"collection","Resource":["collection/litp-vectors"],"Permission":["aoss:*"]},{"ResourceType":"index","Resource":["index/litp-vectors/*"],"Permission":["aoss:*"]}],"Principal":["arn:aws:iam::ACCOUNT_ID:role/litp-lambda-role"]}]'
+
+# Create collection
+aws opensearchserverless create-collection \
+  --name litp-vectors \
+  --type VECTORSEARCH \
+  --region us-east-1
+```
+
+After collection is ACTIVE, create the k-NN index:
+```bash
+# Get collection endpoint from:
+aws opensearchserverless batch-get-collection --names litp-vectors
+
+# Create tools index with k-NN vector field
+curl -X PUT "$COLLECTION_ENDPOINT/tools" \
+  -H "Content-Type: application/json" \
+  --aws-sigv4 "aws:amz:us-east-1:aoss" \
+  -d '{
+    "settings": {"index": {"knn": true}},
+    "mappings": {
+      "properties": {
+        "embedding": {"type": "knn_vector", "dimension": 1024, "method": {"name": "hnsw", "engine": "faiss"}},
+        "sku": {"type": "keyword"},
+        "name": {"type": "text"},
+        "brand": {"type": "keyword"},
+        "ecosystem": {"type": "keyword"},
+        "category": {"type": "keyword"},
+        "price": {"type": "float"},
+        "is_cordless": {"type": "boolean"}
+      }
+    }
+  }'
+```
+
+## 3. Create Analytics Pipeline (Firehose → S3 → Athena)
+
+```bash
+# Create S3 bucket for analytics
+aws s3 mb s3://litp-analytics-ACCOUNT_ID --region us-east-1
+
+# Create Firehose delivery stream
+aws firehose create-delivery-stream \
+  --delivery-stream-name litp-analytics \
+  --delivery-stream-type DirectPut \
+  --extended-s3-destination-configuration '{
+    "RoleARN": "arn:aws:iam::ACCOUNT_ID:role/litp-firehose-role",
+    "BucketARN": "arn:aws:s3:::litp-analytics-ACCOUNT_ID",
+    "Prefix": "events/year=!{timestamp:yyyy}/month=!{timestamp:MM}/day=!{timestamp:dd}/",
+    "ErrorOutputPrefix": "errors/",
+    "BufferingHints": {"SizeInMBs": 5, "IntervalInSeconds": 60},
+    "CompressionFormat": "GZIP"
+  }' \
+  --region us-east-1
+
+# Create Athena workgroup
+aws athena create-work-group \
+  --name litp \
+  --configuration "ResultConfiguration={OutputLocation=s3://litp-analytics-ACCOUNT_ID/athena-results/}" \
+  --region us-east-1
+
+# Run Athena table creation (see infra/athena-tables.sql)
+```
+
+## 4. Create Lambda + API Gateway
+
+```bash
+# Create IAM role
 aws iam create-role \
   --role-name litp-lambda-role \
   --assume-role-policy-document '{
-    "Version": "2012-10-17",
-    "Statement": [{
-      "Effect": "Allow",
-      "Principal": {"Service": "lambda.amazonaws.com"},
-      "Action": "sts:AssumeRole"
-    }]
+    "Version":"2012-10-17",
+    "Statement":[{"Effect":"Allow","Principal":{"Service":"lambda.amazonaws.com"},"Action":"sts:AssumeRole"}]
   }'
 
-# Attach basic execution policy (CloudWatch logs)
-aws iam attach-role-policy \
-  --role-name litp-lambda-role \
+# Attach policies
+aws iam attach-role-policy --role-name litp-lambda-role \
   --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
-
-# Attach Bedrock access
-aws iam attach-role-policy \
-  --role-name litp-lambda-role \
+aws iam attach-role-policy --role-name litp-lambda-role \
+  --policy-arn arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+aws iam attach-role-policy --role-name litp-lambda-role \
   --policy-arn arn:aws:iam::aws:policy/AmazonBedrockFullAccess
-```
+aws iam attach-role-policy --role-name litp-lambda-role \
+  --policy-arn arn:aws:iam::aws:policy/AmazonKinesisFirehoseFullAccess
 
-### Create Lambda Function
-```bash
-# Build
+# Build and deploy Lambda
 cd backend
 GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go build -tags lambda.norpc -o bootstrap cmd/lambda/main.go
 zip -j lambda.zip bootstrap
 
-# Create
 aws lambda create-function \
   --function-name litp-api \
   --runtime provided.al2023 \
@@ -72,101 +189,73 @@ aws lambda create-function \
   --timeout 30 \
   --region us-east-1 \
   --environment "Variables={
-    CLICKHOUSE_DSN=clickhouse://...,
-    QDRANT_HOST=...,
-    QDRANT_PORT=6334,
-    NEO4J_URI=neo4j+s://...,
-    NEO4J_USER=neo4j,
-    NEO4J_PASSWORD=...,
-    REDIS_URL=rediss://...,
-    COHERE_API_KEY=...,
+    AWS_REGION=us-east-1,
+    OPENSEARCH_ENDPOINT=https://xxx.us-east-1.aoss.amazonaws.com,
+    FIREHOSE_STREAM=litp-analytics,
+    COHERE_API_KEY=your-key-here,
     BEDROCK_MODEL=anthropic.claude-sonnet-4-6-20250514-v1:0
   }"
-```
 
-### Create API Gateway (HTTP API)
-```bash
 # Create HTTP API
-aws apigatewayv2 create-api \
-  --name litp-api \
-  --protocol-type HTTP \
-  --region us-east-1
-
-# Create Lambda integration
-aws apigatewayv2 create-integration \
-  --api-id API_ID \
+API_ID=$(aws apigatewayv2 create-api --name litp-api --protocol-type HTTP --query 'ApiId' --output text)
+INTEGRATION_ID=$(aws apigatewayv2 create-integration --api-id $API_ID \
   --integration-type AWS_PROXY \
   --integration-uri arn:aws:lambda:us-east-1:ACCOUNT_ID:function:litp-api \
-  --payload-format-version 2.0
+  --payload-format-version 2.0 --query 'IntegrationId' --output text)
+aws apigatewayv2 create-route --api-id $API_ID --route-key '$default' --target integrations/$INTEGRATION_ID
+aws apigatewayv2 create-stage --api-id $API_ID --stage-name '$default' --auto-deploy
+aws lambda add-permission --function-name litp-api --statement-id apigw \
+  --action lambda:InvokeFunction --principal apigateway.amazonaws.com \
+  --source-arn "arn:aws:execute-api:us-east-1:ACCOUNT_ID:$API_ID/*"
 
-# Create catch-all route
-aws apigatewayv2 create-route \
-  --api-id API_ID \
-  --route-key '$default' \
-  --target integrations/INTEGRATION_ID
-
-# Create stage with auto-deploy
-aws apigatewayv2 create-stage \
-  --api-id API_ID \
-  --stage-name '$default' \
-  --auto-deploy
-
-# Grant API Gateway permission to invoke Lambda
-aws lambda add-permission \
-  --function-name litp-api \
-  --statement-id apigateway-invoke \
-  --action lambda:InvokeFunction \
-  --principal apigateway.amazonaws.com \
-  --source-arn "arn:aws:execute-api:us-east-1:ACCOUNT_ID:API_ID/*"
+echo "API URL: https://$API_ID.execute-api.us-east-1.amazonaws.com"
 ```
 
-The API will be available at: `https://API_ID.execute-api.us-east-1.amazonaws.com`
-
-### Optional: Custom Domain
-```bash
-# Add custom domain to API Gateway
-aws apigatewayv2 create-domain-name \
-  --domain-name api.lostinthetoolpool.com \
-  --domain-name-configurations CertificateArn=ACM_CERT_ARN
-
-# Map to API
-aws apigatewayv2 create-api-mapping \
-  --api-id API_ID \
-  --domain-name api.lostinthetoolpool.com \
-  --stage '$default'
-```
-
-## 3. Frontend Deployment (Cloudflare Pages)
+## 5. Frontend: CloudFront + S3
 
 ```bash
+# Create S3 bucket for frontend
+aws s3 mb s3://lostinthetoolpool-frontend --region us-east-1
+
+# Build frontend
 cd frontend
 npm install
-npm run build
+VITE_API_URL=https://API_ID.execute-api.us-east-1.amazonaws.com npm run build
 
-# Connect to Cloudflare Pages via dashboard or Wrangler
-npx wrangler pages deploy .svelte-kit/cloudflare --project-name lostinthetoolpool
+# Upload
+aws s3 sync .svelte-kit/cloudflare s3://lostinthetoolpool-frontend --delete
+
+# Create CloudFront distribution
+aws cloudfront create-distribution \
+  --origin-domain-name lostinthetoolpool-frontend.s3.amazonaws.com \
+  --default-root-object index.html
 ```
 
-Set environment variable in Cloudflare Pages dashboard:
-- `VITE_API_URL` = `https://api.lostinthetoolpool.com` (or the API Gateway URL)
+## 6. Route 53 DNS
 
-## 4. PostHog Setup
-
-1. Go to https://eu.posthog.com (EU instance)
-2. Create project
-3. Get project API key
-4. Set in Cloudflare Pages env: `VITE_POSTHOG_KEY` = your key
-5. `VITE_POSTHOG_HOST` = `https://eu.posthog.com`
-
-## 5. Cohere API Key
-
-1. Go to https://dashboard.cohere.com
-2. Create API key
-3. Set in Lambda env: `COHERE_API_KEY` = your key
-
-## 6. DNS (Cloudflare)
-
+```bash
+aws route53 create-hosted-zone --name lostinthetoolpool.com --caller-reference $(date +%s)
+# Point domain to CloudFront distribution
+# Point api.lostinthetoolpool.com to API Gateway custom domain
 ```
-lostinthetoolpool.com     → Cloudflare Pages
-api.lostinthetoolpool.com → API Gateway custom domain
+
+## 7. Seed Data
+
+```bash
+# Run seed script to populate DynamoDB with initial products, projects, ecosystems
+go run cmd/seed/main.go
 ```
+
+## Cost Summary
+
+| Service | Launch (free tier) | Growth (10K/day) |
+|---|---|---|
+| DynamoDB | $0 | ~$15 |
+| Lambda + API Gateway | $0 | ~$15 |
+| CloudFront + S3 | $0 | ~$5 |
+| OpenSearch Serverless | ~$25 | ~$50 |
+| Firehose + S3 | $0-2 | ~$10 |
+| Athena | $0-2 | ~$5 |
+| Bedrock (Claude) | ~$5-20 | ~$50-150 |
+| Route 53 | $0.50 | $0.50 |
+| **Total** | **~$30-50/mo** | **~$150-250/mo** |
