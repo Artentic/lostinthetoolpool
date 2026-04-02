@@ -80,12 +80,9 @@
 				<span class="text-ember font-mono text-xs tracking-widest uppercase">AI-Powered Tool Advisor</span>
 			</div>
 
-			<h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-[0.95] tracking-tight mb-8">
+			<h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.1] tracking-tight mb-8">
 				Tell us your project.
-				<br />
-				<span class="text-gradient">We'll tell you</span>
-				<br />
-				<span class="text-gradient">what tools you need.</span>
+				<span class="text-gradient"> We'll tell you what tools you need.</span>
 			</h1>
 
 			<p class="text-steel text-lg sm:text-xl max-w-xl mb-12 leading-relaxed font-light">
