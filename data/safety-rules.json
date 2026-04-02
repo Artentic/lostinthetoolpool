@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "description": "Safety rules enforced by the AI advisor and rendered on all recommendation pages",
+
+  "always_show_disclaimer": "Tool recommendations are for informational purposes only. Always follow manufacturer safety instructions. Wear appropriate PPE. When in doubt, hire a licensed professional.",
+
+  "hire_a_pro_triggers": {
+    "description": "When ANY of these keywords appear in a user query, the AI MUST recommend hiring a licensed professional first, before any tool recommendations.",
+    "triggers": [
+      {"keyword": "electrical panel", "reason": "Working inside an electrical panel can cause electrocution or fire. Requires a licensed electrician in most jurisdictions."},
+      {"keyword": "breaker box", "reason": "Same as electrical panel."},
+      {"keyword": "main disconnect", "reason": "Working on main electrical disconnects is extremely dangerous."},
+      {"keyword": "gas line", "reason": "Gas leaks can cause explosions. Requires a licensed plumber or gas fitter."},
+      {"keyword": "gas pipe", "reason": "Same as gas line."},
+      {"keyword": "load-bearing wall", "reason": "Removing or modifying a load-bearing wall can cause structural collapse. Requires a structural engineer."},
+      {"keyword": "structural", "reason": "Structural modifications require engineering approval and permits."},
+      {"keyword": "roof", "reason": "Roofing work has high fall risk. Consider hiring a professional roofer."},
+      {"keyword": "asbestos", "reason": "Asbestos removal requires licensed abatement professionals. Do NOT disturb suspected asbestos."},
+      {"keyword": "mold removal", "reason": "Large-scale mold remediation should be done by certified professionals."},
+      {"keyword": "sewer", "reason": "Sewer line work typically requires permits and licensed plumbers."},
+      {"keyword": "tree removal", "reason": "Felling trees is extremely dangerous without training. Hire a certified arborist."},
+      {"keyword": "tree fell", "reason": "Same as tree removal."},
+      {"keyword": "foundation", "reason": "Foundation work requires engineering and professional contractors."},
+      {"keyword": "hvac", "reason": "HVAC work often requires licensing and permits. Refrigerant handling requires EPA certification."},
+      {"keyword": "furnace", "reason": "Furnace work involves gas and electrical — hire a licensed HVAC technician."},
+      {"keyword": "water heater", "reason": "Water heater installation involves gas/electrical and plumbing — typically requires permits."},
+      {"keyword": "permit", "reason": "If you're asking about permits, the work likely requires professional oversight."}
+    ]
+  },
+
+  "permit_likely_required": {
+    "description": "Projects that typically require building permits in most US jurisdictions. The AI should mention this.",
+    "projects": [
+      "build-a-deck",
+      "build-a-shed",
+      "build-a-fence",
+      "finish-a-basement",
+      "bathroom-renovation",
+      "kitchen-renovation",
+      "basic-electrical-work",
+      "basic-plumbing-repairs",
+      "concrete-work"
+    ]
+  },
+
+  "per_tool_warnings": {
+    "circular-saw": "Keep both hands on the saw. Never remove the blade guard. Watch for kickback. Secure your workpiece with clamps.",
+    "miter-saw": "Keep hands away from the blade path. Wait for the blade to stop before lifting. Secure small pieces with clamps, never hold them by hand.",
+    "table-saw": "Use a push stick for narrow cuts. Never reach over the blade. Use the riving knife and blade guard. Table saws cause more woodworking injuries than any other tool.",
+    "reciprocating-saw": "Be aware of what's behind the material you're cutting. In walls, check for wires, pipes, and plumbing before cutting.",
+    "chainsaw": "Wear chaps, helmet with face shield, hearing protection, and steel-toe boots. Never cut above shoulder height. Watch for kickback zone at the tip of the bar.",
+    "angle-grinder": "Always use the side handle and guard. Wear face shield, not just safety glasses. Discs can shatter — use the correct disc for the material.",
+    "nail-gun": "Never point at anyone. Keep your finger off the trigger when not driving a nail. Use sequential trigger mode, not bump-fire, for beginners.",
+    "rotary-hammer": "Wear hearing protection — these are very loud. Dust from concrete contains silica — wear a respirator.",
+    "pressure-washer": "Never point at people or animals. Can cause serious injection injuries. Start with lowest pressure setting.",
+    "ladder": "Follow the 4:1 rule (1 foot out for every 4 feet up). Three points of contact. Never stand on the top two rungs."
+  },
+
+  "wall_cutting_safety": {
+    "description": "Special rules for any task involving cutting into walls, floors, or ceilings",
+    "rules": [
+      "ALWAYS use a stud finder with wire detection before cutting into any wall",
+      "TURN OFF electricity to the area at the breaker before cutting into walls",
+      "Check both sides of the wall before cutting",
+      "In older homes (pre-1978), test for lead paint before disturbing surfaces",
+      "In older homes (pre-1980), be aware of potential asbestos in walls, ceilings, and flooring",
+      "Know where your plumbing runs before cutting into walls near kitchens and bathrooms",
+      "When in doubt about what's inside a wall, hire a professional"
+    ]
+  },
+
+  "ppe_by_task": {
+    "cutting_wood": ["safety glasses", "hearing protection", "dust mask"],
+    "cutting_metal": ["safety glasses", "face shield", "hearing protection", "gloves"],
+    "cutting_concrete": ["safety glasses", "N95 respirator", "hearing protection", "gloves"],
+    "sanding": ["safety glasses", "N95 dust mask", "hearing protection for power sanders"],
+    "painting": ["safety glasses", "respirator for spray painting", "gloves"],
+    "demolition": ["safety glasses", "hearing protection", "N95 respirator", "hard hat", "gloves", "steel-toe boots"],
+    "working_at_height": ["hard hat", "fall protection harness above 6 feet"],
+    "chainsaw_work": ["chainsaw chaps", "helmet with face shield", "hearing protection", "steel-toe boots", "gloves"],
+    "pressure_washing": ["safety glasses", "hearing protection", "closed-toe shoes"],
+    "welding": ["welding helmet", "welding gloves", "fire-resistant clothing", "ventilation"]
+  },
+
+  "ai_system_prompt_safety_rules": [
+    "ALWAYS mention relevant safety equipment for any task you recommend tools for.",
+    "If a project typically requires a building permit, mention this BEFORE recommending tools.",
+    "If a task involves electrical, gas, or structural work, ALWAYS recommend consulting a licensed professional FIRST.",
+    "Never recommend removing safety guards from tools.",
+    "When recommending cutting into walls, ALWAYS mention checking for wires and pipes first.",
+    "For tree work beyond simple branch trimming, recommend hiring a certified arborist.",
+    "For any task rated difficulty 4-5, mention that hiring a professional is a valid option.",
+    "Never minimize the danger of power tools. A drill is safe; a table saw can change your life in a second.",
+    "If the user seems to be a complete beginner, recommend starting with a simpler project first.",
+    "ALWAYS end tool recommendations with a safety reminder appropriate to the task."
+  ]
+}
