@@ -21,13 +21,34 @@ func NewEcosystemService(neo4j *database.Neo4jClient, c *cache.Memory) *Ecosyste
 	return &EcosystemService{neo4j: neo4j, cache: c}
 }
 
-func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) {
-	if data, ok := s.cache.Get("ecosystems:all"); ok {
-		var ecosystems []model.Ecosystem
-		if json.Unmarshal(data, &ecosystems) == nil {
-			return ecosystems, nil
-		}
+func (s *EcosystemService) ListRaw(ctx context.Context) ([]byte, error) {
+	if data, ok := s.cache.Get("eco:all"); ok {
+		return data, nil
 	}
+
+	ecosystems, err := s.queryAllEcosystems(ctx)
+	if err != nil {
+		return nil, err
+	}
+	data, err := json.Marshal(ecosystems)
+	if err != nil {
+		return nil, err
+	}
+	s.cache.Set("eco:all", data, 1*time.Hour)
+	return data, nil
+}
+
+func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) {
+	raw, err := s.ListRaw(ctx)
+	if err != nil {
+		return nil, err
+	}
+	var ecosystems []model.Ecosystem
+	json.Unmarshal(raw, &ecosystems)
+	return ecosystems, nil
+}
+
+func (s *EcosystemService) queryAllEcosystems(ctx context.Context) ([]model.Ecosystem, error) {
 
 	session := s.neo4j.ReadSession(ctx)
 	defer session.Close(ctx)
@@ -63,11 +84,7 @@ func (s *EcosystemService) List(ctx context.Context) ([]model.Ecosystem, error) 
 		return nil, fmt.Errorf("list ecosystems: %w", err)
 	}
 
-	ecosystems := result.([]model.Ecosystem)
-	if data, err := json.Marshal(ecosystems); err == nil {
-		s.cache.Set("ecosystems:all", data, 1*time.Hour)
-	}
-	return ecosystems, nil
+	return result.([]model.Ecosystem), nil
 }
 
 func (s *EcosystemService) GetBySlug(ctx context.Context, slug string) (*model.Ecosystem, error) {

@@ -24,13 +24,13 @@ func (h *ToolHandler) GetBySlug(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	product, err := h.productSvc.GetBySlug(r.Context(), slug)
+	// Serve pre-serialized JSON directly from cache — zero marshal on hit
+	data, err := h.productSvc.GetBySlugRaw(r.Context(), slug)
 	if err != nil {
 		writeError(w, http.StatusNotFound, "tool not found")
 		return
 	}
-
-	writeJSON(w, http.StatusOK, product)
+	writeCached(w, http.StatusOK, data)
 }
 
 // GET /api/v1/tools/compare?ids=SKU1,SKU2,SKU3
@@ -56,7 +56,6 @@ func (h *ToolHandler) Compare(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusInternalServerError, "comparison failed")
 		return
 	}
-
 	writeJSON(w, http.StatusOK, result)
 }
 
@@ -74,6 +73,5 @@ func (h *ToolHandler) GetPriceHistory(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusInternalServerError, "failed to get price history")
 		return
 	}
-
 	writeJSON(w, http.StatusOK, history)
 }

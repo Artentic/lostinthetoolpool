@@ -21,58 +21,50 @@ func NewProductService(ch *database.ClickHouseClient, c *cache.Memory) *ProductS
 	return &ProductService{ch: ch, cache: c}
 }
 
-func (s *ProductService) GetBySlug(ctx context.Context, slug string) (*model.Product, error) {
-	cacheKey := "product:" + slug
+// GetBySlugRaw returns pre-serialized JSON bytes on cache hit.
+// This avoids marshal→unmarshal→marshal round-trips for cached responses.
+func (s *ProductService) GetBySlugRaw(ctx context.Context, slug string) ([]byte, error) {
+	cacheKey := "p:" + slug
 	if data, ok := s.cache.Get(cacheKey); ok {
-		var p model.Product
-		if json.Unmarshal(data, &p) == nil {
-			return &p, nil
-		}
+		return data, nil
 	}
 
-	row := s.ch.Conn().QueryRow(ctx, `
-		SELECT sku, name, brand, ecosystem, category, subcategory, tool_type, slug,
-		       price_current, price_msrp, specs, rating, review_count, image_url,
-		       affiliate_links, description, features, is_cordless, weight_lbs,
-		       in_stock, updated_at
-		FROM products FINAL
-		WHERE slug = ? AND is_active = 1
-		LIMIT 1
-	`, slug)
-
-	p, err := scanProduct(row)
+	p, err := s.queryProductBySlug(ctx, slug)
 	if err != nil {
-		return nil, fmt.Errorf("query product: %w", err)
+		return nil, err
 	}
 
-	if data, err := json.Marshal(p); err == nil {
-		s.cache.Set(cacheKey, data, 15*time.Minute)
+	data, err := json.Marshal(p)
+	if err != nil {
+		return nil, err
 	}
-	return p, nil
+	s.cache.Set(cacheKey, data, 15*time.Minute)
+	return data, nil
+}
+
+func (s *ProductService) GetBySlug(ctx context.Context, slug string) (*model.Product, error) {
+	raw, err := s.GetBySlugRaw(ctx, slug)
+	if err != nil {
+		return nil, err
+	}
+	var p model.Product
+	if err := json.Unmarshal(raw, &p); err != nil {
+		return nil, err
+	}
+	return &p, nil
 }
 
 func (s *ProductService) GetBySKU(ctx context.Context, sku string) (*model.Product, error) {
-	cacheKey := "product:sku:" + sku
+	cacheKey := "ps:" + sku
 	if data, ok := s.cache.Get(cacheKey); ok {
 		var p model.Product
-		if json.Unmarshal(data, &p) == nil {
-			return &p, nil
-		}
+		json.Unmarshal(data, &p)
+		return &p, nil
 	}
 
-	row := s.ch.Conn().QueryRow(ctx, `
-		SELECT sku, name, brand, ecosystem, category, subcategory, tool_type, slug,
-		       price_current, price_msrp, specs, rating, review_count, image_url,
-		       affiliate_links, description, features, is_cordless, weight_lbs,
-		       in_stock, updated_at
-		FROM products FINAL
-		WHERE sku = ? AND is_active = 1
-		LIMIT 1
-	`, sku)
-
-	p, err := scanProduct(row)
+	p, err := s.queryProductBySKU(ctx, sku)
 	if err != nil {
-		return nil, fmt.Errorf("query product by sku: %w", err)
+		return nil, err
 	}
 
 	if data, err := json.Marshal(p); err == nil {
@@ -81,24 +73,13 @@ func (s *ProductService) GetBySKU(ctx context.Context, sku string) (*model.Produ
 	return p, nil
 }
 
-func (s *ProductService) ListByEcosystem(ctx context.Context, ecosystem string) ([]model.Product, error) {
-	cacheKey := "products:eco:" + ecosystem
+func (s *ProductService) ListByEcosystemRaw(ctx context.Context, ecosystem string) ([]byte, error) {
+	cacheKey := "pe:" + ecosystem
 	if data, ok := s.cache.Get(cacheKey); ok {
-		var products []model.Product
-		if json.Unmarshal(data, &products) == nil {
-			return products, nil
-		}
+		return data, nil
 	}
 
-	rows, err := s.ch.Conn().Query(ctx, `
-		SELECT sku, name, brand, ecosystem, category, subcategory, tool_type, slug,
-		       price_current, price_msrp, specs, rating, review_count, image_url,
-		       affiliate_links, description, features, is_cordless, weight_lbs,
-		       in_stock, updated_at
-		FROM products FINAL
-		WHERE ecosystem = ? AND is_active = 1
-		ORDER BY rating DESC, review_count DESC
-	`, ecosystem)
+	rows, err := s.ch.Conn().Query(ctx, productQuery+` WHERE ecosystem = ? AND is_active = 1 ORDER BY rating DESC, review_count DESC`, ecosystem)
 	if err != nil {
 		return nil, fmt.Errorf("query products by ecosystem: %w", err)
 	}
@@ -109,28 +90,36 @@ func (s *ProductService) ListByEcosystem(ctx context.Context, ecosystem string) 
 		return nil, err
 	}
 
-	if data, err := json.Marshal(products); err == nil {
-		s.cache.Set(cacheKey, data, 10*time.Minute)
+	data, err := json.Marshal(products)
+	if err != nil {
+		return nil, err
 	}
+	s.cache.Set(cacheKey, data, 10*time.Minute)
+	return data, nil
+}
+
+func (s *ProductService) ListByEcosystem(ctx context.Context, ecosystem string) ([]model.Product, error) {
+	raw, err := s.ListByEcosystemRaw(ctx, ecosystem)
+	if err != nil {
+		return nil, err
+	}
+	var products []model.Product
+	json.Unmarshal(raw, &products)
 	return products, nil
 }
 
 func (s *ProductService) Compare(ctx context.Context, skus []string) (*model.ComparisonResult, error) {
-	cacheKey := "compare:" + strings.Join(skus, ",")
+	cacheKey := "cmp:" + strings.Join(skus, ",")
 	if data, ok := s.cache.Get(cacheKey); ok {
 		var result model.ComparisonResult
-		if json.Unmarshal(data, &result) == nil {
-			return &result, nil
-		}
+		json.Unmarshal(data, &result)
+		return &result, nil
 	}
 
-	var products []model.Product
-	for _, sku := range skus {
-		p, err := s.GetBySKU(ctx, sku)
-		if err != nil {
-			continue
-		}
-		products = append(products, *p)
+	// Batch fetch all products in one query
+	products, err := s.batchGetBySKUs(ctx, skus)
+	if err != nil {
+		return nil, err
 	}
 
 	specs := buildSpecComparison(products)
@@ -145,22 +134,20 @@ func (s *ProductService) Compare(ctx context.Context, skus []string) (*model.Com
 func (s *ProductService) GetPriceHistory(ctx context.Context, sku string) ([]model.PriceHistory, error) {
 	rows, err := s.ch.Conn().Query(ctx, `
 		SELECT sku, price, retailer, in_stock, recorded_at
-		FROM price_history
-		WHERE sku = ?
-		ORDER BY recorded_at DESC
-		LIMIT 90
-	`, sku)
+		FROM price_history WHERE sku = ?
+		ORDER BY recorded_at DESC LIMIT 90`, sku)
 	if err != nil {
 		return nil, fmt.Errorf("query price history: %w", err)
 	}
 	defer rows.Close()
 
-	var history []model.PriceHistory
+	// Pre-allocate — 90 is max
+	history := make([]model.PriceHistory, 0, 90)
 	for rows.Next() {
 		var ph model.PriceHistory
 		var stock uint8
 		if err := rows.Scan(&ph.SKU, &ph.Price, &ph.Retailer, &stock, &ph.RecordedAt); err != nil {
-			return nil, fmt.Errorf("scan price history: %w", err)
+			return nil, err
 		}
 		ph.InStock = stock == 1
 		history = append(history, ph)
@@ -171,11 +158,41 @@ func (s *ProductService) GetPriceHistory(ctx context.Context, sku string) ([]mod
 func (s *ProductService) TrackAffiliateClick(ctx context.Context, click model.AffiliateClick) error {
 	return s.ch.Conn().Exec(ctx, `
 		INSERT INTO affiliate_clicks (session_id, sku, retailer, destination_url, referrer_page, referrer_query)
-		VALUES (?, ?, ?, ?, ?, ?)
-	`, click.SessionID, click.SKU, click.Retailer, click.DestinationURL, click.ReferrerPage, click.ReferrerQuery)
+		VALUES (?, ?, ?, ?, ?, ?)`,
+		click.SessionID, click.SKU, click.Retailer, click.DestinationURL, click.ReferrerPage, click.ReferrerQuery)
 }
 
-// scanProduct scans a single row into a Product.
+// batchGetBySKUs fetches multiple products in a single ClickHouse query.
+func (s *ProductService) batchGetBySKUs(ctx context.Context, skus []string) ([]model.Product, error) {
+	if len(skus) == 0 {
+		return nil, nil
+	}
+
+	rows, err := s.ch.Conn().Query(ctx, productQuery+` WHERE sku IN (?) AND is_active = 1`, skus)
+	if err != nil {
+		return nil, fmt.Errorf("batch get products: %w", err)
+	}
+	defer rows.Close()
+	return scanProducts(rows)
+}
+
+// Shared query — avoids string allocation on every call.
+const productQuery = `SELECT sku, name, brand, ecosystem, category, subcategory, tool_type, slug,
+	price_current, price_msrp, specs, rating, review_count, image_url,
+	affiliate_links, description, features, is_cordless, weight_lbs,
+	in_stock, updated_at
+FROM products FINAL`
+
+func (s *ProductService) queryProductBySlug(ctx context.Context, slug string) (*model.Product, error) {
+	row := s.ch.Conn().QueryRow(ctx, productQuery+` WHERE slug = ? AND is_active = 1 LIMIT 1`, slug)
+	return scanProduct(row)
+}
+
+func (s *ProductService) queryProductBySKU(ctx context.Context, sku string) (*model.Product, error) {
+	row := s.ch.Conn().QueryRow(ctx, productQuery+` WHERE sku = ? AND is_active = 1 LIMIT 1`, sku)
+	return scanProduct(row)
+}
+
 func scanProduct(row interface{ Scan(dest ...any) error }) (*model.Product, error) {
 	var p model.Product
 	var specsStr, linksStr string
@@ -196,9 +213,8 @@ func scanProduct(row interface{ Scan(dest ...any) error }) (*model.Product, erro
 	return &p, nil
 }
 
-// scanProducts scans multiple rows into a slice of Products.
 func scanProducts(rows interface{ Next() bool; Scan(dest ...any) error }) ([]model.Product, error) {
-	var products []model.Product
+	products := make([]model.Product, 0, 32) // Pre-allocate reasonable capacity
 	for rows.Next() {
 		p, err := scanProduct(rows)
 		if err != nil {
@@ -209,14 +225,13 @@ func scanProducts(rows interface{ Next() bool; Scan(dest ...any) error }) ([]mod
 	return products, nil
 }
 
-// buildSpecComparison extracts specs from products into a comparison table.
 func buildSpecComparison(products []model.Product) []model.SpecRow {
-	allSpecs := make(map[string]bool)
+	allSpecs := make(map[string]bool, 16)
 	parsed := make([]map[string]interface{}, len(products))
 
 	for i, p := range products {
 		var specs map[string]interface{}
-		if err := json.Unmarshal(p.Specs, &specs); err == nil {
+		if json.Unmarshal(p.Specs, &specs) == nil {
 			parsed[i] = specs
 			for k := range specs {
 				allSpecs[k] = true
@@ -224,9 +239,21 @@ func buildSpecComparison(products []model.Product) []model.SpecRow {
 		}
 	}
 
-	var rows []model.SpecRow
+	rows := make([]model.SpecRow, 0, len(allSpecs)+3)
+
+	// Add price/rating/weight first
+	priceRow := model.SpecRow{Label: "price", Values: make(map[string]string, len(products)), Unit: "USD"}
+	ratingRow := model.SpecRow{Label: "rating", Values: make(map[string]string, len(products))}
+	weightRow := model.SpecRow{Label: "weight", Values: make(map[string]string, len(products)), Unit: "lbs"}
+	for _, p := range products {
+		priceRow.Values[p.SKU] = fmt.Sprintf("%.2f", p.PriceCurrent)
+		ratingRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.Rating)
+		weightRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.WeightLbs)
+	}
+	rows = append(rows, priceRow, ratingRow, weightRow)
+
 	for key := range allSpecs {
-		row := model.SpecRow{Label: key, Values: make(map[string]string)}
+		row := model.SpecRow{Label: key, Values: make(map[string]string, len(products))}
 		for i, p := range products {
 			if parsed[i] != nil {
 				if v, ok := parsed[i][key]; ok {
@@ -237,14 +264,5 @@ func buildSpecComparison(products []model.Product) []model.SpecRow {
 		rows = append(rows, row)
 	}
 
-	priceRow := model.SpecRow{Label: "price", Values: make(map[string]string), Unit: "USD"}
-	ratingRow := model.SpecRow{Label: "rating", Values: make(map[string]string)}
-	weightRow := model.SpecRow{Label: "weight", Values: make(map[string]string), Unit: "lbs"}
-	for _, p := range products {
-		priceRow.Values[p.SKU] = fmt.Sprintf("%.2f", p.PriceCurrent)
-		ratingRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.Rating)
-		weightRow.Values[p.SKU] = fmt.Sprintf("%.1f", p.WeightLbs)
-	}
-
-	return append([]model.SpecRow{priceRow, ratingRow, weightRow}, rows...)
+	return rows
 }

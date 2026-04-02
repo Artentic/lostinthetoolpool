@@ -5,53 +5,74 @@ import (
 	"time"
 )
 
-// Memory is an in-process cache that lives as long as the Lambda instance.
-// On warm invocations (~5-15 min), cached data is reused. On cold starts,
-// it refetches from the database. Thread-safe via sync.RWMutex.
+// Memory is a high-performance in-process cache. Zero external dependencies.
+// Uses sharded locks to reduce contention under concurrent access.
+const shardCount = 16
+
 type Memory struct {
+	shards [shardCount]shard
+}
+
+type shard struct {
 	mu    sync.RWMutex
 	items map[string]entry
 }
 
 type entry struct {
 	data      []byte
-	expiresAt time.Time
+	expiresAt int64 // unix nano — faster than time.Time comparison
 }
 
 func New() *Memory {
-	return &Memory{
-		items: make(map[string]entry),
+	m := &Memory{}
+	for i := range m.shards {
+		m.shards[i].items = make(map[string]entry, 64)
 	}
+	return m
+}
+
+func (m *Memory) getShard(key string) *shard {
+	// FNV-1a inspired hash — fast, no allocation
+	h := uint32(2166136261)
+	for i := 0; i < len(key); i++ {
+		h ^= uint32(key[i])
+		h *= 16777619
+	}
+	return &m.shards[h%shardCount]
 }
 
 func (m *Memory) Get(key string) ([]byte, bool) {
-	m.mu.RLock()
-	e, ok := m.items[key]
-	m.mu.RUnlock()
+	s := m.getShard(key)
+	s.mu.RLock()
+	e, ok := s.items[key]
+	s.mu.RUnlock()
 
-	if !ok || time.Now().After(e.expiresAt) {
-		if ok {
-			// Expired — clean up
-			m.mu.Lock()
-			delete(m.items, key)
-			m.mu.Unlock()
-		}
+	if !ok {
+		return nil, false
+	}
+
+	if time.Now().UnixNano() > e.expiresAt {
+		s.mu.Lock()
+		delete(s.items, key)
+		s.mu.Unlock()
 		return nil, false
 	}
 	return e.data, true
 }
 
 func (m *Memory) Set(key string, data []byte, ttl time.Duration) {
-	m.mu.Lock()
-	m.items[key] = entry{
+	s := m.getShard(key)
+	s.mu.Lock()
+	s.items[key] = entry{
 		data:      data,
-		expiresAt: time.Now().Add(ttl),
+		expiresAt: time.Now().Add(ttl).UnixNano(),
 	}
-	m.mu.Unlock()
+	s.mu.Unlock()
 }
 
 func (m *Memory) Delete(key string) {
-	m.mu.Lock()
-	delete(m.items, key)
-	m.mu.Unlock()
+	s := m.getShard(key)
+	s.mu.Lock()
+	delete(s.items, key)
+	s.mu.Unlock()
 }
