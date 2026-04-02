@@ -1,0 +1,6047 @@
+[
+  {
+    "sku": "MIL-2953-20",
+    "name": "Milwaukee M18 FUEL 1/4\" Hex Impact Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "max_ipm": 4300,
+      "max_rpm": 3600,
+      "max_torque_in_lbs": 2000,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 6500,
+    "description": "The fastest driving and most powerful 1/4\" hex impact driver, featuring POWERSTATE Brushless Motor for maximum performance.",
+    "features": [
+      "FUEL brushless motor",
+      "REDLINK PLUS intelligence",
+      "4-mode DRIVE CONTROL",
+      "ONE-KEY compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2903-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 1400,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 4200,
+    "description": "The industry's most powerful and most compact cordless drill driver. POWERSTATE Brushless Motor delivers 1,400 in-lbs of torque.",
+    "features": [
+      "FUEL brushless motor",
+      "REDLINK PLUS intelligence",
+      "All-metal chuck",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2904-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Hammer Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "bpm": 32000,
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 1400,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 5800,
+    "description": "The most powerful and compact 18V cordless hammer drill/driver. Delivers 1,400 in-lbs of torque with hammer drilling capability.",
+    "features": [
+      "FUEL brushless motor",
+      "REDLINK PLUS intelligence",
+      "All-metal ratcheting chuck",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2905-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Drill/Driver w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 269,
+    "price_msrp": 269,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 1400,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "M18 FUEL Drill/Driver with ONE-KEY for customizable tool settings, tracking, and reporting.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Customizable settings",
+      "Tool tracking"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2906-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Hammer Drill/Driver w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 1400,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "M18 FUEL Hammer Drill/Driver with ONE-KEY for customizable settings and tool tracking.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Hammer drilling mode",
+      "Customizable settings"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2866-20",
+    "name": "Milwaukee M18 FUEL Drywall Screw Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "screw-guns",
+    "tool_type": "drywall-screw-gun",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "depth_sensitive_nose": true,
+      "max_rpm": 4500,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "Dedicated drywall screw gun with depth-sensitive nose for consistent screw depth. Drives screws faster than corded alternatives.",
+    "features": [
+      "FUEL brushless motor",
+      "Depth-sensitive nose piece",
+      "4500 RPM",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2807-20",
+    "name": "Milwaukee M18 FUEL Hole Hawg 1/2\" Right Angle Drill",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 1500,
+      "max_torque_ft_lbs": 150,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "FUEL Hole Hawg right angle drill delivers corded power in a compact form factor for drilling in tight spaces between studs and joists.",
+    "features": [
+      "FUEL brushless motor",
+      "Compact right-angle design",
+      "150 ft-lbs torque",
+      "Anti-rotation handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2808-20",
+    "name": "Milwaukee M18 FUEL Hole Hawg Right Angle Drill w/ QUIK-LOK",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "QUIK-LOK",
+      "max_rpm": 1500,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "FUEL Hole Hawg with QUIK-LOK interchangeable chuck system for quick switching between different chuck types.",
+    "features": [
+      "FUEL brushless motor",
+      "QUIK-LOK chuck system",
+      "Right-angle design",
+      "Anti-rotation handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2809-20",
+    "name": "Milwaukee M18 FUEL SUPER HAWG 1/2\" Right Angle Drill",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 1500,
+      "max_torque_ft_lbs": 200,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 900,
+    "description": "The most powerful cordless right angle drill on the market. SUPER HAWG delivers 200 ft-lbs of torque for heavy-duty applications.",
+    "features": [
+      "FUEL brushless motor",
+      "SUPER HAWG design",
+      "200 ft-lbs torque",
+      "QUIK-LOK compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2811-20",
+    "name": "Milwaukee M18 FUEL SUPER HAWG Right Angle Drill w/ QUIK-LOK",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "QUIK-LOK",
+      "max_rpm": 1500,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "SUPER HAWG right angle drill with QUIK-LOK for interchangeable chuck system. Maximum drilling power in tight spaces.",
+    "features": [
+      "FUEL brushless motor",
+      "SUPER HAWG design",
+      "QUIK-LOK chuck system",
+      "Anti-rotation handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2810-20",
+    "name": "Milwaukee M18 FUEL Mud Mixer w/ 180-Degree Handle",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "mixers",
+    "tool_type": "mud-mixer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "handle_rotation": 180,
+      "max_rpm": 550,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 950,
+    "description": "Cordless mud mixer with 180-degree rotating handle for mixing drywall mud, thinset, and other materials.",
+    "features": [
+      "FUEL brushless motor",
+      "180-degree rotating handle",
+      "Drywall mud mixing",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2615-20",
+    "name": "Milwaukee M18 Right Angle Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": false,
+      "chuck_size_in": 0.375,
+      "max_rpm": 1500,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 2500,
+    "description": "Compact right angle drill/driver for tight spaces. Standard M18 motor with 3/8\" chuck.",
+    "features": [
+      "Right-angle design",
+      "3/8\" keyless chuck",
+      "LED light",
+      "Variable speed trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2967-20",
+    "name": "Milwaukee M18 FUEL 1/2\" High Torque Impact Wrench w/ Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "high-torque-impact-wrench",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_fastening_torque_ft_lbs": 1200,
+      "max_nut_busting_torque_ft_lbs": 1600,
+      "voltage": 18
+    },
+    "rating": 4.9,
+    "review_count": 7500,
+    "description": "Delivers up to 1,200 ft-lbs fastening torque and 1,600 ft-lbs nut-busting torque. Compact at only 7.6\" in length.",
+    "features": [
+      "FUEL brushless motor",
+      "Friction ring anvil",
+      "4-mode DRIVE CONTROL",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2962-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Mid-Torque Impact Wrench w/ Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "mid-torque-impact-wrench",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_fastening_torque_ft_lbs": 650,
+      "max_nut_busting_torque_ft_lbs": 800,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 5200,
+    "description": "Mid-torque impact wrench delivering 650 ft-lbs fastening torque in a compact design. Perfect for automotive and assembly work.",
+    "features": [
+      "FUEL brushless motor",
+      "Friction ring anvil",
+      "4-mode DRIVE CONTROL",
+      "Compact 6.1\" length"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2960-20",
+    "name": "Milwaukee M18 FUEL 3/8\" Mid-Torque Impact Wrench w/ Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "mid-torque-impact-wrench",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_fastening_torque_ft_lbs": 600,
+      "max_nut_busting_torque_ft_lbs": 600,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3800,
+    "description": "3/8\" mid-torque impact wrench with 600 ft-lbs of torque in a compact, lightweight design.",
+    "features": [
+      "FUEL brushless motor",
+      "Friction ring anvil",
+      "4-mode DRIVE CONTROL",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2855-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Compact Impact Wrench w/ Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "compact-impact-wrench",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_fastening_torque_ft_lbs": 250,
+      "max_nut_busting_torque_ft_lbs": 350,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3500,
+    "description": "Compact 1/2\" impact wrench designed for tight spaces. 250 ft-lbs fastening torque in a small form factor.",
+    "features": [
+      "FUEL brushless motor",
+      "Friction ring anvil",
+      "3-mode DRIVE CONTROL",
+      "Compact 5.1\" length"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2854-20",
+    "name": "Milwaukee M18 FUEL 3/8\" Compact Impact Wrench w/ Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "compact-impact-wrench",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_fastening_torque_ft_lbs": 250,
+      "max_nut_busting_torque_ft_lbs": 350,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "Compact 3/8\" impact wrench for tight spaces and automotive work. Lightweight and powerful.",
+    "features": [
+      "FUEL brushless motor",
+      "Friction ring anvil",
+      "3-mode DRIVE CONTROL",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2863-20",
+    "name": "Milwaukee M18 FUEL 1/2\" High Torque Impact Wrench w/ ONE-KEY \u0026 Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "high-torque-impact-wrench",
+    "price_current": 379,
+    "price_msrp": 379,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_fastening_torque_ft_lbs": 1400,
+      "max_nut_busting_torque_ft_lbs": 2100,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 2500,
+    "description": "ONE-KEY enabled high torque impact wrench with customizable settings and tool tracking. Up to 2,100 ft-lbs nut-busting torque.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Friction ring anvil",
+      "Customizable torque settings"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2864-20",
+    "name": "Milwaukee M18 FUEL 3/4\" High Torque Impact Wrench w/ ONE-KEY \u0026 Friction Ring",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "high-torque-impact-wrench",
+    "price_current": 429,
+    "price_msrp": 429,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.75,
+      "max_fastening_torque_ft_lbs": 1500,
+      "max_nut_busting_torque_ft_lbs": 2400,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 1500,
+    "description": "3/4\" drive high torque impact wrench with ONE-KEY. Delivers up to 2,400 ft-lbs nut-busting torque for heavy-duty applications.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "3/4\" friction ring anvil",
+      "Bolt removal mode"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2867-20",
+    "name": "Milwaukee M18 FUEL 1\" High Torque Impact Wrench w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "high-torque-impact-wrench",
+    "price_current": 799,
+    "price_msrp": 799,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 1,
+      "max_nut_busting_torque_ft_lbs": 2000,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 600,
+    "description": "1\" drive high torque impact wrench with ONE-KEY for the most demanding fastening applications.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "1\" drive",
+      "D-handle design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2769-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Ext. Anvil Controlled Torque Impact Wrench w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "controlled-torque-impact-wrench",
+    "price_current": 429,
+    "price_msrp": 429,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "extended_anvil": true,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1100,
+    "description": "Controlled torque impact wrench with extended anvil and ONE-KEY for precise torque settings in assembly applications.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Extended anvil",
+      "Controlled torque technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2732-20",
+    "name": "Milwaukee M18 FUEL 7-1/4\" Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "cut_depth_at_90": 2.5,
+      "max_rpm": 5800,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 4500,
+    "description": "Delivers the power of a 15A corded circular saw. Cuts faster than corded and delivers up to 750 cuts per charge.",
+    "features": [
+      "FUEL brushless motor",
+      "15A corded power",
+      "Electric brake",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2834-20",
+    "name": "Milwaukee M18 FUEL 7-1/4\" Circular Saw (Gen 2)",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "cut_depth_at_90": 2.5,
+      "max_rpm": 5800,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3200,
+    "description": "Next-generation 7-1/4\" circular saw with improved ergonomics and cutting performance.",
+    "features": [
+      "FUEL brushless motor",
+      "Improved ergonomics",
+      "Electric brake",
+      "Rafter hook"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2833-20",
+    "name": "Milwaukee M18 FUEL 6-1/2\" Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "blade_size_in": 6.5,
+      "brushless": true,
+      "max_rpm": 5800,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2100,
+    "description": "Compact 6-1/2\" circular saw for lighter cutting applications. More portable than the 7-1/4\" model.",
+    "features": [
+      "FUEL brushless motor",
+      "Compact design",
+      "Electric brake",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2930-20",
+    "name": "Milwaukee M18 FUEL 7-1/4\" Rear Handle Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "rear-handle-circular-saw",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "max_rpm": 5800,
+      "style": "rear-handle",
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 2800,
+    "description": "Rear handle circular saw design preferred by framers and professionals. Delivers corded cutting performance.",
+    "features": [
+      "FUEL brushless motor",
+      "Rear handle design",
+      "Magnesium upper guard",
+      "Electric brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2782-20",
+    "name": "Milwaukee M18 FUEL 5-3/8\" Metal Cutting Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "metal-cutting-circular-saw",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "blade_size_in": 5.375,
+      "brushless": true,
+      "material": "metal",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Metal cutting circular saw designed for cutting steel, stainless steel, and aluminum. Cold-cut technology for cool, burr-free cuts.",
+    "features": [
+      "FUEL brushless motor",
+      "Metal cutting",
+      "Chip collection",
+      "Adjustable shoe"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2982-20",
+    "name": "Milwaukee M18 FUEL 8\" Metal Cutting Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "metal-cutting-circular-saw",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "blade_size_in": 8,
+      "brushless": true,
+      "material": "metal",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 600,
+    "description": "Large-capacity metal cutting circular saw for cutting up to 2-1/2\" material. Cold-cut technology.",
+    "features": [
+      "FUEL brushless motor",
+      "8\" blade capacity",
+      "Cold-cut technology",
+      "Chip deflector"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2831-20",
+    "name": "Milwaukee M18 FUEL 6-1/2\" Plunge Track Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "track-saws",
+    "tool_type": "plunge-track-saw",
+    "price_current": 429,
+    "price_msrp": 429,
+    "specs": {
+      "blade_size_in": 6.5,
+      "brushless": true,
+      "plunge_depth": 2.125,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 2400,
+    "description": "Cordless plunge track saw delivering accurate, splinter-free cuts. 2-1/8\" plunge depth capacity.",
+    "features": [
+      "FUEL brushless motor",
+      "Anti-kickback",
+      "Splinter guard",
+      "Dust collection port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2733-20",
+    "name": "Milwaukee M18 FUEL 7-1/4\" Dual Bevel Sliding Compound Miter Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "sliding-compound-miter-saw",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "bevel_type": "dual",
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "crosscut_capacity_in": 8,
+      "max_rpm": 5000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2000,
+    "description": "Compact miter saw delivering the power to cut 2x12 dimensional lumber at 90 degrees. Dual bevel for angled cuts in both directions.",
+    "features": [
+      "FUEL brushless motor",
+      "Dual bevel",
+      "Sliding compound",
+      "LED cut line indicator"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 28,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2734-20",
+    "name": "Milwaukee M18 FUEL 10\" Dual Bevel Sliding Compound Miter Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "sliding-compound-miter-saw",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "bevel_type": "dual",
+      "blade_size_in": 10,
+      "brushless": true,
+      "crosscut_capacity_in": 12,
+      "max_rpm": 4000,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3500,
+    "description": "10\" miter saw for cutting crown molding and large stock. Dual bevel sliding compound with shadow line cut guide.",
+    "features": [
+      "FUEL brushless motor",
+      "Dual bevel",
+      "10\" blade",
+      "Shadow line cut guide"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 36,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2739-20",
+    "name": "Milwaukee M18 FUEL 12\" Dual Bevel Sliding Compound Miter Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "sliding-compound-miter-saw",
+    "price_current": 799,
+    "price_msrp": 799,
+    "specs": {
+      "bevel_type": "dual",
+      "blade_size_in": 12,
+      "brushless": true,
+      "crosscut_capacity_in": 16,
+      "max_rpm": 3600,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "Professional-grade 12\" miter saw with the largest crosscut capacity. Cuts 6-1/2\" crown nested, 6-1/2\" base vertically.",
+    "features": [
+      "FUEL brushless motor",
+      "Dual bevel",
+      "12\" blade",
+      "Largest cordless crosscut"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 52,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2736-20",
+    "name": "Milwaukee M18 FUEL 8-1/4\" Table Saw w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "table-saws",
+    "tool_type": "table-saw",
+    "price_current": 549,
+    "price_msrp": 549,
+    "specs": {
+      "blade_size_in": 8.25,
+      "brushless": true,
+      "one_key": true,
+      "rip_capacity_in": 24.5,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "Cordless table saw delivering the power to rip 3-1/2\" thick hardwood. ONE-KEY enabled with 24-1/2\" rip capacity.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Rack and pinion fence",
+      "Guard and riving knife"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 48,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2737-20",
+    "name": "Milwaukee M18 FUEL D-Handle Jig Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3500,
+      "stroke_length_in": 1,
+      "style": "d-handle",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "FUEL D-handle jig saw with 3,500 SPM for fast, accurate curved and straight cuts in wood, metal, and plastic.",
+    "features": [
+      "FUEL brushless motor",
+      "D-handle design",
+      "Tool-free blade change",
+      "5-position orbital action"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2737B-20",
+    "name": "Milwaukee M18 FUEL Barrel Grip Jig Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3500,
+      "stroke_length_in": 1,
+      "style": "barrel-grip",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Barrel grip jig saw offering enhanced control for precise cutting. Same power as D-handle version.",
+    "features": [
+      "FUEL brushless motor",
+      "Barrel grip design",
+      "Tool-free blade change",
+      "5-position orbital action"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2722-20",
+    "name": "Milwaukee M18 FUEL SUPER SAWZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "orbital_action": true,
+      "stroke_length_in": 1.25,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3200,
+    "description": "The fastest cutting cordless reciprocating saw. Orbital action and 1-1/4\" stroke length for aggressive demo cutting.",
+    "features": [
+      "FUEL brushless motor",
+      "SUPER SAWZALL orbital action",
+      "Constant Power Technology",
+      "Anti-vibration"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2821-20",
+    "name": "Milwaukee M18 FUEL SAWZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length_in": 1.25,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 5500,
+    "description": "FUEL SAWZALL reciprocating saw with fastest cutting speed in class. Adjustable shoe and keyless blade clamp.",
+    "features": [
+      "FUEL brushless motor",
+      "3000 SPM",
+      "1-1/4\" stroke length",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2822-20",
+    "name": "Milwaukee M18 FUEL SAWZALL Reciprocating Saw w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "one_key": true,
+      "stroke_length_in": 1.25,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "FUEL SAWZALL with ONE-KEY for tool tracking and customizable settings.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "Tool tracking",
+      "Customizable speed settings"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2719-20",
+    "name": "Milwaukee M18 FUEL HACKZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "compact-reciprocating-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length_in": 0.875,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 6200,
+    "description": "Compact one-handed reciprocating saw for cutting in tight spaces. 7/8\" stroke length for controlled cuts.",
+    "features": [
+      "FUEL brushless motor",
+      "One-handed operation",
+      "Compact design",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2621-20",
+    "name": "Milwaukee M18 SAWZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_spm": 3000,
+      "stroke_length_in": 1.125,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 4500,
+    "description": "Standard M18 SAWZALL reciprocating saw. Versatile cutting tool for demolition and remodeling.",
+    "features": [
+      "FIXTEC blade clamp",
+      "Variable speed trigger",
+      "LED light",
+      "Anti-vibration"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2625-20",
+    "name": "Milwaukee M18 HACKZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "compact-reciprocating-saw",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_spm": 3000,
+      "stroke_length_in": 0.75,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 3800,
+    "description": "Standard M18 HACKZALL for one-handed cutting in tight spaces. Budget alternative to the FUEL version.",
+    "features": [
+      "One-handed operation",
+      "Compact design",
+      "LED light",
+      "FIXTEC blade clamp"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2829-20",
+    "name": "Milwaukee M18 FUEL Compact Band Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "portable-band-saw",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "blade_speed_sfm": 380,
+      "brushless": true,
+      "cutting_capacity_in": 3.25,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 2600,
+    "description": "Compact band saw with the largest cutting capacity (3-1/4\" x 3-1/4\") in its class. Lightweight balanced design.",
+    "features": [
+      "FUEL brushless motor",
+      "3-1/4\" x 3-1/4\" cutting capacity",
+      "Dual-trigger",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2836-20",
+    "name": "Milwaukee M18 FUEL Oscillating Multi-Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "max_opm": 20000,
+      "oscillation_angle": 3.6,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 4200,
+    "description": "FUEL oscillating multi-tool with OPEN-LOK accessory system for the fastest accessory changes in the industry.",
+    "features": [
+      "FUEL brushless motor",
+      "OPEN-LOK accessory change",
+      "Variable speed",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2626-20",
+    "name": "Milwaukee M18 Multi-Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_opm": 18000,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 3200,
+    "description": "Standard M18 oscillating multi-tool for sanding, cutting, scraping, and grinding tasks.",
+    "features": [
+      "Variable speed",
+      "Universal accessory adapter",
+      "LED light",
+      "Dust extraction port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.9,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2786-20",
+    "name": "Milwaukee M18 FUEL 9\" Cut-Off Saw w/ ONE-KEY",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cutting",
+    "subcategory": "cut-off-saws",
+    "tool_type": "cut-off-saw",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "blade_size_in": 9,
+      "brushless": true,
+      "max_rpm": 6600,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "9\" cut-off saw for cutting concrete, masonry, and metal. ONE-KEY enabled with corded cutting performance.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "9\" diamond blade",
+      "Wet/dry cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2880-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Grinder w/ Paddle Switch, No-Lock",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "max_rpm": 8500,
+      "switch_type": "paddle-no-lock",
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 7200,
+    "description": "Generates 11A corded grinding power. Fastest cutting and up to 135 cuts per charge. Paddle switch with no lock-on.",
+    "features": [
+      "FUEL brushless motor",
+      "11A corded power",
+      "Paddle switch no-lock",
+      "RAPIDSTOP braking"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2881-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Grinder w/ Slide Switch, Lock-On",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "max_rpm": 8500,
+      "switch_type": "slide-lock-on",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3500,
+    "description": "FUEL 5\" grinder with slide switch and lock-on for extended grinding operations.",
+    "features": [
+      "FUEL brushless motor",
+      "Slide switch lock-on",
+      "11A corded power",
+      "Anti-vibration"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2882-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Braking Grinder w/ ONE-KEY, Paddle Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "max_rpm": 8500,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "Braking grinder with ONE-KEY for customizable settings and RAPIDSTOP braking technology.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "RAPIDSTOP braking",
+      "Paddle switch no-lock"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2883-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Braking Grinder w/ ONE-KEY, Slide Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "max_rpm": 8500,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Braking grinder with ONE-KEY and slide switch with lock-on for extended use.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "RAPIDSTOP braking",
+      "Slide switch lock-on"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2886-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Flathead Braking Grinder w/ Paddle Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "style": "flathead",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "Flathead design grinder with low profile gear case for flush grinding applications.",
+    "features": [
+      "FUEL brushless motor",
+      "Flathead design",
+      "RAPIDSTOP braking",
+      "Low profile gear case"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2887-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Flathead Braking Grinder w/ Slide Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "style": "flathead",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 700,
+    "description": "Flathead braking grinder with slide switch and lock-on for extended grinding.",
+    "features": [
+      "FUEL brushless motor",
+      "Flathead design",
+      "RAPIDSTOP braking",
+      "Slide switch lock-on"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2888-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Variable Speed Braking Grinder w/ Paddle Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "variable_speed": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Variable speed braking grinder for adjustable grinding, cutting, and polishing performance.",
+    "features": [
+      "FUEL brushless motor",
+      "Variable speed dial",
+      "RAPIDSTOP braking",
+      "Paddle switch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2785-20",
+    "name": "Milwaukee M18 FUEL 7\"/9\" Large Angle Grinder",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "large-angle-grinder",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 9,
+      "max_rpm": 6600,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "World's first 18V large angle grinder generating 15A corded power. Up to 2 lbs lighter than corded alternatives.",
+    "features": [
+      "FUEL brushless motor",
+      "15A corded power",
+      "7\" or 9\" disc capacity",
+      "RAPIDSTOP braking"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3670-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"-6\" Braking Grinder, Paddle Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 6,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 600,
+    "description": "Next-gen 4-1/2\" to 6\" grinder with braking technology and paddle switch for safe, controlled grinding.",
+    "features": [
+      "FUEL brushless motor",
+      "RAPIDSTOP braking",
+      "Paddle switch",
+      "Up to 6\" disc"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2986-20",
+    "name": "Milwaukee M18 FUEL 4-1/2\"/5\" Dual-Trigger Braking Grinder",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "braking": true,
+      "brushless": true,
+      "disc_size_in": 5,
+      "dual_trigger": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "Dual-trigger braking grinder requiring both triggers for activation, providing maximum operator safety.",
+    "features": [
+      "FUEL brushless motor",
+      "Dual-trigger safety",
+      "RAPIDSTOP braking",
+      "Paddle switch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2686-20",
+    "name": "Milwaukee M18 Brushless 4-1/2\"/5\" Cut-Off Grinder w/ Paddle Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 3200,
+    "description": "Brushless cut-off grinder at a more affordable price point. Great for general grinding and cutting.",
+    "features": [
+      "Brushless motor",
+      "Paddle switch no-lock",
+      "Electronic clutch",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2939-20",
+    "name": "Milwaukee M18 FUEL Braking Die Grinder w/ Slide Switch",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "die-grinders",
+    "tool_type": "die-grinder",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "collet_size_in": 0.25,
+      "max_rpm": 25000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "Cordless die grinder with braking technology for precise grinding, deburring, and finishing work.",
+    "features": [
+      "FUEL brushless motor",
+      "25,000 RPM",
+      "RAPIDSTOP braking",
+      "1/4\" collet"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2648-20",
+    "name": "Milwaukee M18 5\" Random Orbit Sander",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "random-orbit-sander",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_opm": 12000,
+      "pad_size_in": 5,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 3500,
+    "description": "5\" random orbit sander with variable speed from 7,000-12,000 OPM. Hook and loop pad for easy paper changes.",
+    "features": [
+      "Variable speed dial",
+      "Hook and loop pad",
+      "Dust collection bag",
+      "Ergonomic grip"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2832-20",
+    "name": "Milwaukee M18 FUEL 3\" x 18\" Belt Sander",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "belt-sander",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "belt_size": "3x18",
+      "brushless": true,
+      "max_sfpm": 1400,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Cordless belt sander with 3\" x 18\" belt and variable speed for aggressive stock removal and fine finishing.",
+    "features": [
+      "FUEL brushless motor",
+      "Variable speed",
+      "Tool-free belt change",
+      "Dust collection bag"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2723-20",
+    "name": "Milwaukee M18 FUEL Compact Router",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "woodworking",
+    "subcategory": "routers",
+    "tool_type": "compact-router",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "collet_size_in": 0.25,
+      "max_rpm": 31000,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 5500,
+    "description": "Compact router with variable speed from 10,000-31,000 RPM. 1/4\" collet for edge profiling, trimming, and routing.",
+    "features": [
+      "FUEL brushless motor",
+      "Variable speed",
+      "Depth adjustment ring",
+      "Sub-base LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2838-20",
+    "name": "Milwaukee M18 FUEL 1/2\" Router",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "woodworking",
+    "subcategory": "routers",
+    "tool_type": "router",
+    "price_current": 369,
+    "price_msrp": 369,
+    "specs": {
+      "brushless": true,
+      "collet_size_in": 0.5,
+      "max_rpm": 25000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Full-size 1/2\" collet router for heavy-duty routing applications. Variable speed for different materials.",
+    "features": [
+      "FUEL brushless motor",
+      "1/2\" collet",
+      "Variable speed",
+      "Plunge base compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2745-20",
+    "name": "Milwaukee M18 FUEL 30-Degree Framing Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "framing-nailer",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "magazine_capacity": 55,
+      "nail_angle": 30,
+      "nail_length_range": "2-3.5 in",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "30-degree framing nailer that drives nails up to 3-1/2\" into engineered lumber. No gas cartridges or compressor needed.",
+    "features": [
+      "FUEL brushless motor",
+      "30-degree magazine",
+      "Dry fire lockout",
+      "Contact/sequential actuation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2744-20",
+    "name": "Milwaukee M18 FUEL 21-Degree Framing Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "framing-nailer",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "magazine_capacity": 60,
+      "nail_angle": 21,
+      "nail_length_range": "2-3.5 in",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "21-degree framing nailer for full round head nails. Drives nails up to 3-1/2\" into engineered lumber.",
+    "features": [
+      "FUEL brushless motor",
+      "21-degree magazine",
+      "Dry fire lockout",
+      "No gas cartridge"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2746-20",
+    "name": "Milwaukee M18 FUEL 18-Gauge Brad Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "brad-nailer",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "brushless": true,
+      "nail_gauge": 18,
+      "nail_length_range": "5/8-2-1/8 in",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "18-gauge brad nailer for trim and finish work. Fires 5/8\" to 2-1/8\" brad nails without a compressor.",
+    "features": [
+      "FUEL brushless motor",
+      "Sequential actuation",
+      "Dry fire lockout",
+      "Tool-free depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2839-20",
+    "name": "Milwaukee M18 FUEL 15-Gauge Finish Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "finish-nailer",
+    "price_current": 379,
+    "price_msrp": 379,
+    "specs": {
+      "brushless": true,
+      "nail_gauge": 15,
+      "nail_length_range": "1-1/4 to 2-1/2 in",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "15-gauge angled finish nailer for heavy trim, crown molding, and cabinetry. Fires 1-1/4\" to 2-1/2\" nails.",
+    "features": [
+      "FUEL brushless motor",
+      "15-gauge nails",
+      "Sequential actuation",
+      "Tool-free depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2749-20",
+    "name": "Milwaukee M18 FUEL 18-Gauge 1/4\" Narrow Crown Stapler",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "fastening",
+    "subcategory": "staplers",
+    "tool_type": "crown-stapler",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "crown_width_in": 0.25,
+      "staple_gauge": 18,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "18-gauge narrow crown stapler for cabinet backs, upholstery, and trim work. No compressor needed.",
+    "features": [
+      "FUEL brushless motor",
+      "Narrow crown design",
+      "Sequential actuation",
+      "Tool-free depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2912-20",
+    "name": "Milwaukee M18 FUEL 1\" SDS-Plus Rotary Hammer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "concrete",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 379,
+    "price_msrp": 379,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "SDS-Plus",
+      "impact_energy_ft_lbs": 2,
+      "max_bpm": 4800,
+      "max_rpm": 1330,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3200,
+    "description": "Fastest drilling rotary hammer in its class with 2 ft-lbs impact energy. AutoStop Control for enhanced safety.",
+    "features": [
+      "FUEL brushless motor",
+      "AutoStop Control",
+      "SDS-Plus chuck",
+      "Anti-vibration system"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2908-20",
+    "name": "Milwaukee M18 FUEL 5/8\" SDS-Plus Rotary Hammer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "concrete",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "SDS-Plus",
+      "drilling_capacity_in": 0.625,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Compact 5/8\" SDS-Plus rotary hammer delivering maximum power and fastest 3/8\" drilling speed.",
+    "features": [
+      "FUEL brushless motor",
+      "Compact design",
+      "SDS-Plus chuck",
+      "3-mode operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2717-20",
+    "name": "Milwaukee M18 FUEL 1-9/16\" SDS-Max Rotary Hammer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "concrete",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-max-rotary-hammer",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "SDS-Max",
+      "impact_energy_ft_lbs": 3.6,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 900,
+    "description": "SDS-Max rotary hammer delivering corded power. 3.6 ft-lbs of impact energy for heavy concrete drilling.",
+    "features": [
+      "FUEL brushless motor",
+      "SDS-Max chuck",
+      "Active vibration control",
+      "Anti-rotation protection"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2918-20",
+    "name": "Milwaukee M18 FUEL 1-3/4\" SDS-Max Rotary Hammer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "concrete",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-max-rotary-hammer",
+    "price_current": 849,
+    "price_msrp": 849,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "SDS-Max",
+      "impact_energy_ft_lbs": 4,
+      "one_key": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "Largest M18 SDS-Max rotary hammer with ONE-KEY. 4.0 ft-lbs impact energy for maximum concrete drilling.",
+    "features": [
+      "FUEL brushless motor",
+      "ONE-KEY enabled",
+      "SDS-Max chuck",
+      "Active vibration control"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 15,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2727-20",
+    "name": "Milwaukee M18 FUEL 16\" Chainsaw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "chainsaws",
+    "tool_type": "chainsaw",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "bar_length_in": 16,
+      "brushless": true,
+      "chain_speed_fps": 32,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 4200,
+    "description": "16\" chainsaw that cuts faster than gas and delivers up to 150 cuts per charge. Full wrap handle for all-position cutting.",
+    "features": [
+      "FUEL brushless motor",
+      "16\" Oregon bar",
+      "Variable speed trigger",
+      "Auto-oiler"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3004-20",
+    "name": "Milwaukee M18 FUEL HATCHET 8\" Pruning Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "chainsaws",
+    "tool_type": "pruning-saw",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "bar_length_in": 8,
+      "brushless": true,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "Compact 8\" pruning saw for overhead cutting and tree trimming. Lightweight and easy to handle with one hand.",
+    "features": [
+      "FUEL brushless motor",
+      "8\" bar",
+      "Compact design",
+      "Overhead cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2825-20ST",
+    "name": "Milwaukee M18 FUEL String Trimmer w/ QUIK-LOK",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "cutting_swath_in": 16,
+      "quik_lok": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 5500,
+    "description": "String trimmer with QUIK-LOK attachment capability. Full throttle in under 1 second, up to 1 hour of runtime.",
+    "features": [
+      "FUEL brushless motor",
+      "QUIK-LOK attachment system",
+      "Variable speed trigger",
+      "Bump head"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3046-20",
+    "name": "Milwaukee M18 FUEL 16\" String Trimmer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "cutting_swath_in": 16,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Next-generation string trimmer with improved power and runtime. Dedicated unit without QUIK-LOK.",
+    "features": [
+      "FUEL brushless motor",
+      "16\" cutting swath",
+      "Variable speed",
+      "Easy line advance"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2726-20",
+    "name": "Milwaukee M18 FUEL 24\" Hedge Trimmer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "blade_length_in": 24,
+      "brushless": true,
+      "cut_capacity_in": 0.75,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "24\" hedge trimmer with power to cut 3/4\" branches. 30% faster cutting and up to 2 hours runtime.",
+    "features": [
+      "FUEL brushless motor",
+      "24\" blade",
+      "3/4\" cut capacity",
+      "2 hour runtime"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3001-20",
+    "name": "Milwaukee M18 FUEL 18\" Hedge Trimmer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "blade_length_in": 18,
+      "brushless": true,
+      "cut_capacity_in": 0.75,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Compact 18\" hedge trimmer for smaller hedges and detail work. Lighter weight than the 24\" model.",
+    "features": [
+      "FUEL brushless motor",
+      "18\" blade",
+      "3/4\" cut capacity",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2724-20",
+    "name": "Milwaukee M18 FUEL Blower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "blowers",
+    "tool_type": "leaf-blower",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "cfm": 450,
+      "mph": 120,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 5800,
+    "description": "Handheld blower delivering 450 CFM and 120 MPH. Full throttle in under 1 second for quick cleanups.",
+    "features": [
+      "FUEL brushless motor",
+      "450 CFM / 120 MPH",
+      "Variable speed trigger",
+      "Lock-on button"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2824-20",
+    "name": "Milwaukee M18 FUEL Dual Battery Blower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "blowers",
+    "tool_type": "leaf-blower",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "cfm": 600,
+      "dual_battery": true,
+      "mph": 145,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "Dual battery blower delivering 600 CFM and 145 MPH. Backpack-level power in a handheld form factor.",
+    "features": [
+      "FUEL brushless motor",
+      "600 CFM / 145 MPH",
+      "Dual battery",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0884-20",
+    "name": "Milwaukee M18 Compact Blower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "blowers",
+    "tool_type": "leaf-blower",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": false,
+      "cfm": 160,
+      "mph": 100,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 6500,
+    "description": "Compact, lightweight blower for light-duty cleanups. Budget-friendly option for workshop and garage use.",
+    "features": [
+      "Compact design",
+      "160 CFM / 100 MPH",
+      "3 speed settings",
+      "Lock-on button"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0887-20",
+    "name": "Milwaukee M18 Brushless 570 MPH Precision Blower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "blowers",
+    "tool_type": "precision-blower",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "mph": 570,
+      "precision_nozzle": true,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "High-velocity precision blower generating 570 MPH for targeted cleaning of debris from surfaces and equipment.",
+    "features": [
+      "Brushless motor",
+      "570 MPH air speed",
+      "Precision nozzle",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2823-20",
+    "name": "Milwaukee M18 FUEL 21\" Self-Propelled Dual Battery Lawn Mower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "lawn-mowers",
+    "tool_type": "push-mower",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "brushless": true,
+      "deck_size_in": 21,
+      "dual_battery": true,
+      "self_propelled": true,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2200,
+    "description": "Self-propelled 21\" lawn mower running on two M18 batteries. Up to 60 minutes of runtime. Steel deck.",
+    "features": [
+      "FUEL brushless motor",
+      "Self-propelled",
+      "21\" steel deck",
+      "Mulch/bag/side discharge"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 72,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2646-20",
+    "name": "Milwaukee M18 2-Speed Grease Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "grease-guns",
+    "tool_type": "grease-gun",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "flow_rate_oz_min": 10,
+      "max_psi": 10000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 4800,
+    "description": "2-speed grease gun delivering 10,000 PSI operating pressure and 10 oz/min flow rate. For automotive and industrial lubrication.",
+    "features": [
+      "2-speed design",
+      "10,000 PSI",
+      "LED light",
+      "Air bleeder valve"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2688-20",
+    "name": "Milwaukee M18 Compact Heat Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "heat-guns",
+    "tool_type": "heat-gun",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "airflow_cfm": 7,
+      "brushless": false,
+      "max_temp_f": 875,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2500,
+    "description": "Compact cordless heat gun reaching up to 875 degrees F. For heat shrink, paint removal, and thawing.",
+    "features": [
+      "Compact design",
+      "875 deg F max temp",
+      "Variable speed",
+      "Overheat protection"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2848-20",
+    "name": "Milwaukee M18 Compact Tire Inflator",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "inflators",
+    "tool_type": "tire-inflator",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "max_psi": 150,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "Digital tire inflator with auto-shutoff at the preset PSI. Inflates a flat car tire in under 1 minute.",
+    "features": [
+      "Digital gauge",
+      "Auto shut-off",
+      "150 PSI max",
+      "Presta/Schrader compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2840-20",
+    "name": "Milwaukee M18 FUEL 2-Gallon Compact Quiet Compressor",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "compressors",
+    "tool_type": "air-compressor",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": true,
+      "max_psi": 135,
+      "noise_db": 68,
+      "tank_gallons": 2,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1800,
+    "description": "Compact 2-gallon quiet compressor at 68 dBA. Cordless operation for pneumatic brad nailers and inflation.",
+    "features": [
+      "FUEL brushless motor",
+      "2-gallon tank",
+      "135 PSI max",
+      "68 dBA quiet operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 24,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2846-20",
+    "name": "Milwaukee M18 TOP-OFF 175W Power Supply",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "power-supplies",
+    "tool_type": "power-supply",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": false,
+      "outlets": 1,
+      "voltage": 18,
+      "watts": 175
+    },
+    "rating": 4.6,
+    "review_count": 2500,
+    "description": "Portable power supply providing 175W continuous power from M18 batteries. Powers phones, laptops, and lights.",
+    "features": [
+      "175W continuous power",
+      "AC outlet",
+      "USB-A port",
+      "USB-C port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2771-20",
+    "name": "Milwaukee M18 Water Transfer Pump",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "specialty",
+    "subcategory": "pumps",
+    "tool_type": "transfer-pump",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": false,
+      "flow_rate_gpm": 480,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 1200,
+    "description": "Cordless water transfer pump for draining water heaters, pools, and flooded areas.",
+    "features": [
+      "480 GPH flow rate",
+      "Self-priming",
+      "3/4\" garden hose compatible",
+      "Runs on M18 batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0970-20",
+    "name": "Milwaukee M18 FUEL PACKOUT 2.5-Gallon Wet/Dry Vacuum",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cleaning",
+    "subcategory": "vacuums",
+    "tool_type": "wet-dry-vacuum",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "hepa_filter": true,
+      "tank_gallons": 2.5,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "PACKOUT compatible wet/dry vacuum with HEPA filtration. 2.5-gallon capacity for jobsite cleanup.",
+    "features": [
+      "FUEL brushless motor",
+      "PACKOUT compatible",
+      "HEPA filter",
+      "Wet/dry operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0880-20",
+    "name": "Milwaukee M18 Wet/Dry Vacuum",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "cleaning",
+    "subcategory": "vacuums",
+    "tool_type": "wet-dry-vacuum",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": false,
+      "tank_gallons": 2,
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 4200,
+    "description": "2-gallon wet/dry vacuum for quick cleanup on the jobsite. Lightweight and portable.",
+    "features": [
+      "2-gallon capacity",
+      "Wet/dry operation",
+      "HEPA filter compatible",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2131-20",
+    "name": "Milwaukee M18 ROCKET 2500-Lumen Tower Light",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "lighting",
+    "subcategory": "tower-lights",
+    "tool_type": "tower-light",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": false,
+      "lumens": 2500,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2800,
+    "description": "Telescoping tower light with 2,500 lumens output. Also runs on AC power via built-in cord.",
+    "features": [
+      "2500 lumens",
+      "Telescoping tower",
+      "AC/DC operation",
+      "TRUEVIEW HD light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2136-20",
+    "name": "Milwaukee M18 ROCKET 6000-Lumen Tower Light/Charger",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "lighting",
+    "subcategory": "tower-lights",
+    "tool_type": "tower-light",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "brushless": false,
+      "charger_built_in": true,
+      "lumens": 6000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Massive 6,000 lumen tower light with built-in battery charger. The brightest cordless tower light available.",
+    "features": [
+      "6000 lumens",
+      "Built-in M18 charger",
+      "AC/DC operation",
+      "3 independently adjustable heads"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 16,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2354-20",
+    "name": "Milwaukee M18 1250-Lumen Search Light",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "lighting",
+    "subcategory": "flashlights",
+    "tool_type": "search-light",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": false,
+      "lumens": 1250,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 1800,
+    "description": "High-output search light with 1,250 lumens for long-distance illumination.",
+    "features": [
+      "1250 lumens",
+      "Spot/flood modes",
+      "Long throw beam",
+      "TRUEVIEW HD light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2950-20",
+    "name": "Milwaukee M18 PACKOUT Radio + Charger",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "jobsite",
+    "subcategory": "radios",
+    "tool_type": "jobsite-radio",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "bluetooth": true,
+      "brushless": false,
+      "charger_built_in": true,
+      "speakers": 10,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2200,
+    "description": "PACKOUT compatible jobsite radio with 10 speakers and built-in M18 battery charger. Bluetooth 5.0.",
+    "features": [
+      "10 speakers",
+      "Bluetooth 5.0",
+      "Built-in M18 charger",
+      "PACKOUT compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 18,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2677-20",
+    "name": "Milwaukee M18 FORCELOGIC 6 Ton Knockout Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "electrical",
+    "subcategory": "knockout-tools",
+    "tool_type": "knockout-tool",
+    "price_current": 1299,
+    "price_msrp": 1299,
+    "specs": {
+      "brushless": false,
+      "max_hole_in": 4,
+      "tonnage": 6,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "FORCELOGIC 6-ton knockout tool punching up to 4\" holes in steel electrical boxes and panels.",
+    "features": [
+      "FORCELOGIC hydraulic",
+      "6 ton force",
+      "4\" max hole",
+      "Compact head design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2776R-21",
+    "name": "Milwaukee M18 FORCELOGIC 3\" Underground Cable Cutter w/ Wireless Remote",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "electrical",
+    "subcategory": "cable-cutters",
+    "tool_type": "cable-cutter",
+    "price_current": 4499,
+    "price_msrp": 4499,
+    "specs": {
+      "brushless": false,
+      "max_cable_mcm": 1500,
+      "voltage": 18,
+      "wireless_remote": true
+    },
+    "rating": 4.8,
+    "review_count": 100,
+    "description": "3\" underground cable cutter with wireless remote operation. Cuts up to 1500MCM copper 15kV.",
+    "features": [
+      "FORCELOGIC hydraulic",
+      "Wireless remote",
+      "3\" cutting capacity",
+      "Underground rated"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 25,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2674-20",
+    "name": "Milwaukee M18 Short Throw Press Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "plumbing",
+    "subcategory": "press-tools",
+    "tool_type": "press-tool",
+    "price_current": 799,
+    "price_msrp": 799,
+    "specs": {
+      "brushless": true,
+      "press_type": "short-throw",
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 600,
+    "description": "Short throw press tool for copper and stainless steel press fittings. Fastest press cycle in the industry.",
+    "features": [
+      "Brushless motor",
+      "Short throw mechanism",
+      "Auto-cycle",
+      "FORCELOGIC technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2773-20",
+    "name": "Milwaukee M18 FORCELOGIC Long Throw Press Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "plumbing",
+    "subcategory": "press-tools",
+    "tool_type": "press-tool",
+    "price_current": 1399,
+    "price_msrp": 1399,
+    "specs": {
+      "brushless": true,
+      "press_type": "long-throw",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 300,
+    "description": "Long throw press tool for larger diameter press fittings in commercial plumbing applications.",
+    "features": [
+      "FORCELOGIC technology",
+      "Long throw mechanism",
+      "Auto-cycle",
+      "LED indicator"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3469-20",
+    "name": "Milwaukee M18 FUEL 1/2\"-1\" Steel Pipe Cutter",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "plumbing",
+    "subcategory": "pipe-cutters",
+    "tool_type": "pipe-cutter",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "brushless": true,
+      "pipe_range": "1/2 to 1 in",
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 200,
+    "description": "Cordless steel pipe cutter delivering consistent, clean, square cuts on 1/2\" to 1\" steel pipe.",
+    "features": [
+      "FUEL brushless motor",
+      "Square cuts",
+      "Minimal burrs",
+      "Press/threading ready"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 11,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3453-20",
+    "name": "Milwaukee M12 FUEL 1/4\" Hex Impact Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 3300,
+      "max_torque_in_lbs": 1700,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 4500,
+    "description": "Most compact and fastest subcompact impact driver. 1,700 in-lbs of torque in a tiny package.",
+    "features": [
+      "FUEL brushless motor",
+      "Most compact design",
+      "3-mode DRIVE CONTROL",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3404-20",
+    "name": "Milwaukee M12 FUEL 1/2\" Hammer Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "length_in": 6,
+      "max_rpm": 1700,
+      "max_torque_in_lbs": 400,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 3800,
+    "description": "Most powerful subcompact drill at only 6\" in length. 400 in-lbs of torque with hammer drilling capability.",
+    "features": [
+      "FUEL brushless motor",
+      "6\" length",
+      "400 in-lbs torque",
+      "All-metal chuck"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3403-20",
+    "name": "Milwaukee M12 FUEL 1/2\" Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 139,
+    "price_msrp": 139,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 1700,
+      "max_torque_in_lbs": 400,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 2800,
+    "description": "Most powerful and most compact subcompact drill driver. 400 in-lbs of torque in a 6\" package.",
+    "features": [
+      "FUEL brushless motor",
+      "Compact 6\" length",
+      "400 in-lbs torque",
+      "All-metal chuck"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2526-20",
+    "name": "Milwaukee M12 FUEL Oscillating Multi-Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": true,
+      "max_opm": 20000,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "Fastest 12V cuts with lowest vibration. Compact multi-tool for cutting, sanding, scraping, and grinding.",
+    "features": [
+      "FUEL brushless motor",
+      "OPEN-LOK accessory system",
+      "Variable speed",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2520-20",
+    "name": "Milwaukee M12 FUEL HACKZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "compact-reciprocating-saw",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length_in": 0.625,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 5200,
+    "description": "Compact HACKZALL reciprocating saw for one-handed cutting in tight spaces. FUEL brushless motor for maximum speed.",
+    "features": [
+      "FUEL brushless motor",
+      "One-handed operation",
+      "Compact design",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2530-20",
+    "name": "Milwaukee M12 FUEL 5-3/8\" Circular Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "blade_size_in": 5.375,
+      "brushless": true,
+      "max_rpm": 4400,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 2200,
+    "description": "Compact 5-3/8\" circular saw for cutting 2x material. Lightweight at 5.35 lbs with battery.",
+    "features": [
+      "FUEL brushless motor",
+      "5-3/8\" blade",
+      "Bevel cuts to 50 degrees",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.35,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2529-20",
+    "name": "Milwaukee M12 FUEL Compact Band Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "portable-band-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "cutting_capacity_in": 1.625,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "Compact band saw for cutting pipe, conduit, and strut in tight spaces. 1-5/8\" cutting capacity.",
+    "features": [
+      "FUEL brushless motor",
+      "One-handed operation",
+      "Tool-free blade change",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2522-20",
+    "name": "Milwaukee M12 FUEL 3\" Compact Cut Off Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "cut-off-tools",
+    "tool_type": "cut-off-tool",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 3,
+      "max_rpm": 20000,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 7500,
+    "description": "Ultra-compact 3\" cut-off tool for cutting bolts, screws, and small stock. 20,000 RPM for fast cuts.",
+    "features": [
+      "FUEL brushless motor",
+      "3\" cutting disc",
+      "20,000 RPM",
+      "One-handed operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2557-20",
+    "name": "Milwaukee M12 FUEL 3/8\" Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "ratchet",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 55,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 8500,
+    "description": "Compact 3/8\" ratchet delivering 55 ft-lbs of torque. Replaces pneumatic ratchets for automotive work.",
+    "features": [
+      "FUEL brushless motor",
+      "55 ft-lbs torque",
+      "Compact head design",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2558-20",
+    "name": "Milwaukee M12 FUEL 1/2\" Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "ratchet",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 60,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 6200,
+    "description": "1/2\" drive ratchet delivering 60 ft-lbs of torque. Popular choice for automotive technicians.",
+    "features": [
+      "FUEL brushless motor",
+      "60 ft-lbs torque",
+      "Compact head design",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2560-20",
+    "name": "Milwaukee M12 FUEL 3/8\" Extended Reach Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "extended-reach-ratchet",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "extended_reach": true,
+      "max_torque_ft_lbs": 55,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "Extended reach 3/8\" ratchet for accessing fasteners in recessed areas.",
+    "features": [
+      "FUEL brushless motor",
+      "Extended reach design",
+      "55 ft-lbs torque",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2567-20",
+    "name": "Milwaukee M12 FUEL 3/8\" High Speed Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "high-speed-ratchet",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_rpm": 450,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 2500,
+    "description": "High speed 3/8\" ratchet spinning at 450 RPM for fast fastener removal and installation.",
+    "features": [
+      "FUEL brushless motor",
+      "450 RPM max speed",
+      "Compact head",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2555-20",
+    "name": "Milwaukee M12 FUEL Stubby 1/2\" Impact Wrench",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "stubby-impact-wrench",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 250,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 9200,
+    "description": "Ultra-compact 1/2\" stubby impact wrench with 250 ft-lbs torque. The most popular M12 tool for automotive work.",
+    "features": [
+      "FUEL brushless motor",
+      "250 ft-lbs torque",
+      "Stubby design",
+      "4-mode DRIVE CONTROL"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2554-20",
+    "name": "Milwaukee M12 FUEL Stubby 3/8\" Impact Wrench",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "stubby-impact-wrench",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 250,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 7800,
+    "description": "3/8\" stubby impact wrench delivering 250 ft-lbs torque in an incredibly compact package.",
+    "features": [
+      "FUEL brushless motor",
+      "250 ft-lbs torque",
+      "Stubby design",
+      "4-mode DRIVE CONTROL"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2541-20",
+    "name": "Milwaukee M12 FUEL 18-Gauge Compact Brad Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "brad-nailer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "nail_gauge": 18,
+      "nail_length_range": "5/8-2 in",
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 3800,
+    "description": "Compact 18-gauge brad nailer for trim and finish work. No compressor, no hose, no gas cartridge.",
+    "features": [
+      "FUEL brushless motor",
+      "18-gauge brads",
+      "Dry fire lockout",
+      "Tool-free depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2540-20",
+    "name": "Milwaukee M12 FUEL 23-Gauge Pin Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "pin-nailer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "nail_gauge": 23,
+      "nail_length_range": "1/2-2 in",
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 2500,
+    "description": "23-gauge pin nailer for delicate trim where you want no visible nail holes. Leaves virtually invisible holes.",
+    "features": [
+      "FUEL brushless motor",
+      "23-gauge pins",
+      "No visible nail holes",
+      "Dry fire lockout"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2564-20",
+    "name": "Milwaukee M12 FUEL 3/8\" Right Angle Impact Wrench",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "right-angle-impact-wrench",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 220,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "Right angle impact wrench for accessing fasteners in tight spaces where straight tools cannot reach.",
+    "features": [
+      "FUEL brushless motor",
+      "Right angle head",
+      "220 ft-lbs torque",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2505-20",
+    "name": "Milwaukee M12 FUEL Installation Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "installation-drill",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "interchangeable_chucks": true,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "Installation drill with interchangeable chuck system. Switch between drill, right-angle, and offset chucks.",
+    "features": [
+      "FUEL brushless motor",
+      "4-in-1 chuck system",
+      "Compact design",
+      "Right-angle capability"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2460-20",
+    "name": "Milwaukee M12 Rotary Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "rotary-tools",
+    "tool_type": "rotary-tool",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "max_rpm": 32000,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 2500,
+    "description": "Cordless rotary tool for engraving, grinding, polishing, and cutting. Variable speed from 5,000-32,000 RPM.",
+    "features": [
+      "Variable speed",
+      "32,000 RPM",
+      "Compatible with standard rotary accessories",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2485-20",
+    "name": "Milwaukee M12 FUEL Right Angle Die Grinder",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "die-grinders",
+    "tool_type": "right-angle-die-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 20000,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "Compact right angle die grinder for grinding, deburring, and finishing in tight spaces.",
+    "features": [
+      "FUEL brushless motor",
+      "Right angle design",
+      "20,000 RPM",
+      "Compact form factor"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2486-20",
+    "name": "Milwaukee M12 FUEL Straight Die Grinder",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "die-grinders",
+    "tool_type": "straight-die-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 25000,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "Straight die grinder with 25,000 RPM for grinding, deburring, and polishing operations.",
+    "features": [
+      "FUEL brushless motor",
+      "Straight design",
+      "25,000 RPM",
+      "1/4\" collet"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2460-22",
+    "name": "Milwaukee M12 FUEL Orbital Detail Sander",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "detail-sander",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "max_opm": 14000,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "Compact orbital detail sander for fine sanding in corners and tight areas.",
+    "features": [
+      "FUEL brushless motor",
+      "Orbital action",
+      "Hook and loop pad",
+      "Dust collection"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2471-20",
+    "name": "Milwaukee M12 Copper Tubing Cutter",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pipe-cutters",
+    "tool_type": "tubing-cutter",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_pipe_od_in": 1.125,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 3500,
+    "description": "Cordless copper tubing cutter for cutting 1/2\" to 1-1/8\" copper tubing. Clean cuts with no burrs.",
+    "features": [
+      "Close-quarters design",
+      "1-1/8\" max capacity",
+      "Clean burr-free cuts",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2479-20",
+    "name": "Milwaukee M12 Brushless 1-1/4\"-2\" Copper Tubing Cutter",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pipe-cutters",
+    "tool_type": "tubing-cutter",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": true,
+      "pipe_range": "1-1/4 to 2 in",
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "Large-capacity copper tubing cutter for 1-1/4\" to 2\" tubing. Brushless motor for faster cuts.",
+    "features": [
+      "Brushless motor",
+      "Large capacity",
+      "1-1/4\" to 2\" range",
+      "Close-quarters design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2488-20",
+    "name": "Milwaukee M12 Soldering Iron",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "electrical",
+    "subcategory": "soldering-tools",
+    "tool_type": "soldering-iron",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "heat_up_seconds": 18,
+      "max_temp_f": 900,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 2800,
+    "description": "Cordless soldering iron reaching operating temperature in 18 seconds. 900 degree F max temperature.",
+    "features": [
+      "18 second heat-up",
+      "900 deg F max",
+      "LED light",
+      "Pivoting head"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2472-20",
+    "name": "Milwaukee M12 600 MCM Cable Cutter",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "electrical",
+    "subcategory": "cable-cutters",
+    "tool_type": "cable-cutter",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": false,
+      "max_cable_mcm": 600,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Cordless cable cutter for cutting up to 600 MCM copper and aluminum cable. Clean cuts every time.",
+    "features": [
+      "600 MCM capacity",
+      "Clean cuts",
+      "One-handed operation",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2533-20",
+    "name": "Milwaukee M12 FUEL Pruning Shears",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "outdoor",
+    "subcategory": "pruning-tools",
+    "tool_type": "pruning-shears",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "cutting_capacity_in": 1.25,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1500,
+    "description": "Cordless pruning shears for landscaping and vineyard work. Cuts up to 1-1/4\" branches.",
+    "features": [
+      "FUEL brushless motor",
+      "1-1/4\" cut capacity",
+      "Progressive trigger",
+      "Belt clip"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2534-21",
+    "name": "Milwaukee M12 FUEL 8\" Hedge Trimmer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "outdoor",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "blade_length_in": 8,
+      "brushless": true,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "Ultra-compact 8\" hedge trimmer for detailed shaping and small hedge maintenance.",
+    "features": [
+      "FUEL brushless motor",
+      "8\" blade",
+      "Compact design",
+      "Light weight"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2527-20",
+    "name": "Milwaukee M12 FUEL HATCHET 6\" Pruning Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "outdoor",
+    "subcategory": "chainsaws",
+    "tool_type": "pruning-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "bar_length_in": 6,
+      "brushless": true,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "Compact 6\" pruning saw for one-handed operation. Perfect for overhead trimming and light chainsaw work.",
+    "features": [
+      "FUEL brushless motor",
+      "6\" bar",
+      "One-handed operation",
+      "Auto-oiler"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2535-20",
+    "name": "Milwaukee M12 1-Gallon Handheld Sprayer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "outdoor",
+    "subcategory": "sprayers",
+    "tool_type": "handheld-sprayer",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_psi": 80,
+      "spray_reach_ft": 17,
+      "tank_gallons": 1,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1800,
+    "description": "Pumpless 1-gallon handheld sprayer with consistent 80 PSI pressure and 17-foot reach.",
+    "features": [
+      "Pumpless design",
+      "80 PSI",
+      "17-foot reach",
+      "1-gallon tank"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2475-20",
+    "name": "Milwaukee M12 Compact Inflator",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "specialty",
+    "subcategory": "inflators",
+    "tool_type": "tire-inflator",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "max_psi": 120,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 4500,
+    "description": "Compact inflator for tires, sports balls, and inflatables. Digital gauge with auto-shutoff.",
+    "features": [
+      "Digital gauge",
+      "Auto shut-off",
+      "120 PSI max",
+      "Presta/Schrader compatible"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2444-20",
+    "name": "Milwaukee M12 Quart Caulk/Adhesive Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "specialty",
+    "subcategory": "caulk-guns",
+    "tool_type": "caulk-gun",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "capacity": "quart",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1800,
+    "description": "Cordless quart-size caulk and adhesive gun for construction adhesives and sealants.",
+    "features": [
+      "Variable speed",
+      "Anti-drip mechanism",
+      "Quart capacity",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2441-20",
+    "name": "Milwaukee M12 10oz Caulk/Adhesive Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "specialty",
+    "subcategory": "caulk-guns",
+    "tool_type": "caulk-gun",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": false,
+      "capacity": "10oz",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 2200,
+    "description": "Standard 10oz caulk gun for applying caulk and sealants. Variable speed trigger for precise dispensing.",
+    "features": [
+      "Variable speed",
+      "Anti-drip mechanism",
+      "10oz cartridge",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2446-20",
+    "name": "Milwaukee M12 Grease Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "specialty",
+    "subcategory": "grease-guns",
+    "tool_type": "grease-gun",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": false,
+      "max_psi": 8000,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 3200,
+    "description": "Compact cordless grease gun delivering 8,000 PSI max pressure. For automotive and equipment lubrication.",
+    "features": [
+      "8,000 PSI",
+      "LED battery gauge",
+      "Flexible hose",
+      "Grease gun coupler"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2313-20",
+    "name": "Milwaukee M12 M-SPECTOR FLEX Inspection Camera",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "inspection",
+    "subcategory": "inspection-cameras",
+    "tool_type": "inspection-camera",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "cable_length_ft": 3,
+      "camera_resolution": "640x480",
+      "screen_size_in": 2.7,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 2200,
+    "description": "3-foot inspection camera with pivoting cable and 2.7\" LCD screen. For plumbing, HVAC, and electrical inspections.",
+    "features": [
+      "3-foot pivoting cable",
+      "2.7\" LCD screen",
+      "4x digital zoom",
+      "Image/video capture"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2277-20",
+    "name": "Milwaukee M12 Infrared Temperature Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "inspection",
+    "subcategory": "temperature-tools",
+    "tool_type": "infrared-thermometer",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "distance_to_spot": "12:1",
+      "temp_range_f": "-22 to 1022",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1500,
+    "description": "Non-contact infrared temperature gun for HVAC, electrical, and industrial temperature measurements.",
+    "features": [
+      "12:1 distance-to-spot ratio",
+      "LCD display",
+      "-22 to 1022 deg F range",
+      "Min/max tracking"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 0.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3632-21",
+    "name": "Milwaukee M12 Green Cross Line \u0026 Plumb Points Laser",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "measuring-layout",
+    "subcategory": "laser-levels",
+    "tool_type": "cross-line-laser",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": false,
+      "laser_type": "green",
+      "plumb_points": true,
+      "visibility_ft": 125,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "Green cross line laser with plumb points for interior layout and alignment. 125-foot visibility.",
+    "features": [
+      "Green laser",
+      "Cross line and plumb points",
+      "125-foot range",
+      "Self-leveling"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3631-21",
+    "name": "Milwaukee M12 Green 360-Degree Cross Line Laser",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "measuring-layout",
+    "subcategory": "laser-levels",
+    "tool_type": "360-degree-laser",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": false,
+      "laser_type": "green",
+      "three_plane": true,
+      "visibility_ft": 250,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 500,
+    "description": "Three-plane laser with 250-foot visibility. Projects 360-degree horizontal and two vertical lines.",
+    "features": [
+      "Three-plane laser",
+      "Green laser",
+      "250-foot range",
+      "Rare earth magnets"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0852-20",
+    "name": "Milwaukee M12 Compact Vacuum",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cleaning",
+    "subcategory": "vacuums",
+    "tool_type": "hand-vacuum",
+    "price_current": 89,
+    "price_msrp": 89,
+    "specs": {
+      "brushless": false,
+      "voltage": 12
+    },
+    "rating": 4.3,
+    "review_count": 3500,
+    "description": "Compact hand vacuum for quick cleanup of debris on the jobsite. Lightweight and easy to carry.",
+    "features": [
+      "Compact design",
+      "Crevice nozzle included",
+      "Washable filter",
+      "1.5 gallon capacity"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0960-20",
+    "name": "Milwaukee M12 FUEL 1.6-Gallon Wet/Dry Vacuum",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cleaning",
+    "subcategory": "vacuums",
+    "tool_type": "wet-dry-vacuum",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "tank_gallons": 1.6,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1800,
+    "description": "Compact wet/dry vacuum with 1.6-gallon capacity. FUEL brushless motor for maximum suction.",
+    "features": [
+      "FUEL brushless motor",
+      "1.6-gallon tank",
+      "Wet/dry operation",
+      "HEPA filter"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2364-20",
+    "name": "Milwaukee M12 Jobsite Radio/Bluetooth Speaker",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "jobsite",
+    "subcategory": "radios",
+    "tool_type": "jobsite-radio",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "bluetooth": true,
+      "brushless": false,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 2800,
+    "description": "Compact jobsite radio with Bluetooth streaming. Runs on M12 batteries or AC power.",
+    "features": [
+      "Bluetooth",
+      "AM/FM radio",
+      "M12/AC dual power",
+      "Auxiliary input"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2951-20",
+    "name": "Milwaukee M12 Bluetooth Speaker",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "jobsite",
+    "subcategory": "speakers",
+    "tool_type": "bluetooth-speaker",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "bluetooth": true,
+      "brushless": false,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 3500,
+    "description": "Compact Bluetooth speaker for the jobsite. IP54 water and dust resistant.",
+    "features": [
+      "Bluetooth 5.0",
+      "IP54 water resistant",
+      "12-hour runtime",
+      "USB charging port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2457-20",
+    "name": "Milwaukee M12 3/8\" Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "ratchet",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": false,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 35,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 8200,
+    "description": "Original M12 3/8\" ratchet. 35 ft-lbs of torque. Budget-friendly entry into cordless ratchets.",
+    "features": [
+      "35 ft-lbs torque",
+      "3/8\" drive",
+      "Variable speed trigger",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2473-20",
+    "name": "Milwaukee M12 FORCE LOGIC Press Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "press-tools",
+    "tool_type": "press-tool",
+    "price_current": 799,
+    "price_msrp": 799,
+    "specs": {
+      "brushless": true,
+      "press_type": "compact",
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 600,
+    "description": "Compact press tool for copper and PEX press fittings. The most compact press tool in the industry.",
+    "features": [
+      "FORCE LOGIC hydraulic",
+      "Auto-cycle",
+      "Compact design",
+      "Multiple jaw sizes"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2476-20",
+    "name": "Milwaukee M12 FORCE LOGIC Pipe Expander",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pipe-expanders",
+    "tool_type": "pipe-expander",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "brushless": true,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 500,
+    "description": "Cordless PEX pipe expander for expanding PEX-A tubing. Fastest expansion in the industry.",
+    "features": [
+      "FORCE LOGIC hydraulic",
+      "Auto-rotate head",
+      "ProPEX compatible",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2572-21",
+    "name": "Milwaukee M12 Drain Snake 25' Bulb Cable Kit",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "drain-cleaning",
+    "tool_type": "drain-snake",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "cable_length_ft": 25,
+      "cable_size_in": 0.3125,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1500,
+    "description": "25-foot drain snake with bulb cable for clearing drain lines up to 2\" diameter.",
+    "features": [
+      "25-foot cable",
+      "Bulb head auger",
+      "Inner core cable",
+      "Cordless operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2415-20",
+    "name": "Milwaukee M12 3/8\" Right Angle Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "chuck_size_in": 0.375,
+      "max_rpm": 800,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 3200,
+    "description": "Compact right angle drill for drilling and driving in tight spaces between studs and joists.",
+    "features": [
+      "Right angle design",
+      "3/8\" keyless chuck",
+      "LED light",
+      "200 in-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2504-20",
+    "name": "Milwaukee M12 FUEL 1/2\" Hammer Drill (Gen 1)",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 1700,
+      "max_torque_in_lbs": 350,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 5500,
+    "description": "First-generation M12 FUEL hammer drill. Compact and powerful with 350 in-lbs of torque.",
+    "features": [
+      "FUEL brushless motor",
+      "Compact design",
+      "350 in-lbs torque",
+      "All-metal gear case"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2553-20",
+    "name": "Milwaukee M12 FUEL 1/4\" Hex Impact Driver (Gen 2)",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 3300,
+      "max_torque_in_lbs": 1300,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 6800,
+    "description": "Gen 2 compact impact driver with 1,300 in-lbs of torque. Replaced by the newer 3453-20.",
+    "features": [
+      "FUEL brushless motor",
+      "3-mode DRIVE CONTROL",
+      "Compact design",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.6,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2420-20",
+    "name": "Milwaukee M12 HACKZALL Reciprocating Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "compact-reciprocating-saw",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "max_spm": 3000,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 8500,
+    "description": "Original M12 HACKZALL. Budget-friendly compact reciprocating saw for one-handed cutting.",
+    "features": [
+      "One-handed operation",
+      "FIXTEC blade clamp",
+      "LED light",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3457-20",
+    "name": "Milwaukee M12 FUEL 2-Speed Screwdriver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "screwdrivers",
+    "tool_type": "screwdriver",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 500,
+      "max_torque_in_lbs": 350,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Precision 2-speed screwdriver for assembly and production applications. Low-profile clutch.",
+    "features": [
+      "FUEL brushless motor",
+      "2-speed transmission",
+      "Low-profile clutch",
+      "1/4\" hex chuck"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2456-20",
+    "name": "Milwaukee M12 1/4\" Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "ratchet",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": false,
+      "drive_size_in": 0.25,
+      "max_torque_ft_lbs": 30,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 5500,
+    "description": "1/4\" drive ratchet for working with smaller fasteners. 30 ft-lbs of torque.",
+    "features": [
+      "1/4\" drive",
+      "30 ft-lbs torque",
+      "Variable speed",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2447-20",
+    "name": "Milwaukee M12 Plastic Pipe Shear",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pipe-cutters",
+    "tool_type": "pipe-shear",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "max_pipe_od_in": 2.375,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "Cordless plastic pipe shear cutting PVC, PEX, and PE pipe up to 2-3/8\" OD. One-handed operation.",
+    "features": [
+      "2-3/8\" max capacity",
+      "One-handed operation",
+      "Clean square cuts",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2432-20",
+    "name": "Milwaukee M12 ProPEX Expansion Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pipe-expanders",
+    "tool_type": "pex-expansion-tool",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": false,
+      "pipe_range": "3/8 to 1 in",
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "ProPEX expansion tool for expanding PEX-A tubing from 3/8\" to 1\". Auto-rotating head.",
+    "features": [
+      "Auto-rotate head",
+      "3/8\" to 1\" capacity",
+      "Quick change heads",
+      "REDLINK electronics"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2538-20",
+    "name": "Milwaukee M12 FUEL Nibbler 16mm",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "metalworking",
+    "subcategory": "nibblers",
+    "tool_type": "nibbler",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "max_capacity_gauge": 16,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "Compact nibbler for cutting sheet metal, corrugated panels, and ductwork up to 16 gauge.",
+    "features": [
+      "FUEL brushless motor",
+      "16 gauge capacity",
+      "Tight radius cuts",
+      "Minimal distortion"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2439-20",
+    "name": "Milwaukee M12 Rivet Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "rivet-tools",
+    "tool_type": "rivet-tool",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "max_rivet_diameter_in": 0.1875,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "Cordless rivet tool for setting blind rivets up to 3/16\" diameter in steel and aluminum.",
+    "features": [
+      "3/16\" max rivet",
+      "4 rivet nosepieces included",
+      "Variable speed",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2485-22",
+    "name": "Milwaukee M12 FUEL Band File",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "metalworking",
+    "subcategory": "band-files",
+    "tool_type": "band-file",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "belt_size": "1/2x18",
+      "brushless": true,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 700,
+    "description": "Compact band file for deburring, blending, and finishing in tight spaces. 1/2\" x 18\" belt.",
+    "features": [
+      "FUEL brushless motor",
+      "1/2\" x 18\" belt",
+      "Variable speed",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2426-20",
+    "name": "Milwaukee M12 Cordless Multi-Tool",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "max_opm": 15000,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 4200,
+    "description": "Standard M12 oscillating multi-tool. Budget-friendly option for sanding, cutting, and scraping.",
+    "features": [
+      "15,000 OPM max",
+      "Universal accessory adapter",
+      "LED light",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2445-20",
+    "name": "Milwaukee M12 Sausage Caulk Gun",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "specialty",
+    "subcategory": "caulk-guns",
+    "tool_type": "sausage-caulk-gun",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": false,
+      "capacity": "20oz-sausage",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1000,
+    "description": "Sausage-style caulking gun for 20oz sausage packs. Aluminum barrel construction.",
+    "features": [
+      "20oz sausage capacity",
+      "Aluminum barrel",
+      "Variable speed",
+      "Anti-drip mechanism"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2407-20",
+    "name": "Milwaukee M12 3/8\" Drill/Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "brushless": false,
+      "chuck_size_in": 0.375,
+      "max_rpm": 1500,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 8800,
+    "description": "Entry-level M12 drill/driver. Compact, lightweight, and affordable for basic drilling and driving tasks.",
+    "features": [
+      "3/8\" keyless chuck",
+      "275 in-lbs torque",
+      "LED light",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2462-20",
+    "name": "Milwaukee M12 1/4\" Hex Impact Driver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "brushless": false,
+      "max_rpm": 2500,
+      "max_torque_in_lbs": 1000,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 7500,
+    "description": "Entry-level M12 impact driver. 1,000 in-lbs of torque at an affordable price point.",
+    "features": [
+      "1/4\" hex chuck",
+      "1,000 in-lbs torque",
+      "LED light",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.6,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2401-20",
+    "name": "Milwaukee M12 1/4\" Hex Screwdriver",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "drilling-driving",
+    "subcategory": "screwdrivers",
+    "tool_type": "screwdriver",
+    "price_current": 69,
+    "price_msrp": 69,
+    "specs": {
+      "brushless": false,
+      "max_rpm": 500,
+      "max_torque_in_lbs": 150,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 4200,
+    "description": "Compact cordless screwdriver for light-duty fastening. 150 in-lbs of torque.",
+    "features": [
+      "1/4\" hex chuck",
+      "150 in-lbs torque",
+      "LED light",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-0850-20",
+    "name": "Milwaukee M12 Compact Handheld Blower",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cleaning",
+    "subcategory": "blowers",
+    "tool_type": "handheld-blower",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "brushless": false,
+      "cfm": 110,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 2500,
+    "description": "Compact handheld blower for cleaning sawdust and debris from work surfaces and equipment.",
+    "features": [
+      "110 CFM",
+      "Compact design",
+      "Variable speed",
+      "Lock-on button"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2556-20",
+    "name": "Milwaukee M12 FUEL 1/4\" Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "ratchet",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.25,
+      "max_torque_ft_lbs": 40,
+      "voltage": 12
+    },
+    "rating": 4.8,
+    "review_count": 3800,
+    "description": "FUEL 1/4\" drive ratchet with 40 ft-lbs of torque. Replaces pneumatic ratchets for small fasteners.",
+    "features": [
+      "FUEL brushless motor",
+      "40 ft-lbs torque",
+      "Compact head",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2483-22",
+    "name": "Milwaukee M12 FUEL Low Speed Tire Buffer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "buffers-polishers",
+    "tool_type": "tire-buffer",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 3500,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "Low speed tire buffer for tire repair and buffing applications. Designed specifically for tire shops.",
+    "features": [
+      "FUEL brushless motor",
+      "3,500 RPM",
+      "Variable speed",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2533-22",
+    "name": "Milwaukee M12 FUEL Polisher/Sander",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "grinding-sanding",
+    "subcategory": "polishers",
+    "tool_type": "polisher",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 14200,
+      "pad_size_in": 3,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "Compact polisher/sander for automotive detailing and surface finishing. 3\" pad size.",
+    "features": [
+      "FUEL brushless motor",
+      "3\" pad",
+      "Variable speed",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2484-20",
+    "name": "Milwaukee M12 FUEL 1/2\" x 18\" Bandfile",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "metalworking",
+    "subcategory": "band-files",
+    "tool_type": "band-file",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "belt_size": "1/2x18",
+      "brushless": true,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 700,
+    "description": "1/2\" x 18\" band file for precision deburring, blending, and finishing work in tight spaces.",
+    "features": [
+      "FUEL brushless motor",
+      "1/2\" x 18\" belt",
+      "Variable speed",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2474-20",
+    "name": "Milwaukee M12 FUEL Variable Speed Nibbler",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "metalworking",
+    "subcategory": "nibblers",
+    "tool_type": "nibbler",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "max_capacity_gauge": 18,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 900,
+    "description": "Variable speed nibbler for cutting sheet metal up to 18 gauge. Creates tight-radius curves.",
+    "features": [
+      "Variable speed",
+      "18 gauge capacity",
+      "Tight radius cuts",
+      "Swivel head"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2505-22",
+    "name": "Milwaukee M12 FUEL SDS-Plus Rotary Hammer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "concrete",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "chuck_type": "SDS-Plus",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1500,
+    "description": "Compact SDS-Plus rotary hammer for drilling into concrete and masonry. Sub-compact design for tight spaces.",
+    "features": [
+      "FUEL brushless motor",
+      "SDS-Plus chuck",
+      "3-mode operation",
+      "Dust extraction capable"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2571-20",
+    "name": "Milwaukee M12 Toilet Auger 6ft",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "drain-cleaning",
+    "tool_type": "toilet-auger",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": false,
+      "cable_length_ft": 6,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "6-foot toilet auger for clearing toilet clogs without scratching porcelain. Cordless operation.",
+    "features": [
+      "6-foot cable",
+      "Drop head auger",
+      "Non-marring boot",
+      "Cordless operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2448-20",
+    "name": "Milwaukee M12 Cable Stripper",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "electrical",
+    "subcategory": "cable-strippers",
+    "tool_type": "cable-stripper",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "Cordless cable stripper for removing cable jacket without damaging conductors.",
+    "features": [
+      "Adjustable depth",
+      "Multiple cable sizes",
+      "LED light",
+      "One-handed operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2488-22",
+    "name": "Milwaukee M12 Palm Nailer",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "palm-nailer",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "nail_range": "4d-16d",
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 1200,
+    "description": "Cordless palm nailer for driving nails in tight spaces where a standard nailer won't fit.",
+    "features": [
+      "Palm design",
+      "4d to 16d nails",
+      "Magnetic nail holder",
+      "Cordless operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-49-16-2719",
+    "name": "Milwaukee M18 FUEL QUIK-LOK Articulating Hedge Trimmer Attachment",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "quik-lok-attachment",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "attachment_type": "QUIK-LOK",
+      "brushless": true,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "QUIK-LOK articulating hedge trimmer attachment for the M18 FUEL string trimmer power head.",
+    "features": [
+      "QUIK-LOK compatible",
+      "Articulating head",
+      "Hedge trimmer attachment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-49-16-2718",
+    "name": "Milwaukee M18 FUEL QUIK-LOK Edger Attachment",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "edgers",
+    "tool_type": "quik-lok-attachment",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "attachment_type": "QUIK-LOK",
+      "brushless": true,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1800,
+    "description": "QUIK-LOK edger attachment for the M18 FUEL string trimmer power head. Converts trimmer to edger.",
+    "features": [
+      "QUIK-LOK compatible",
+      "Edger blade",
+      "Guide wheel"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-49-16-2720",
+    "name": "Milwaukee M18 FUEL QUIK-LOK Pole Saw Attachment",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "pole-saws",
+    "tool_type": "quik-lok-attachment",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "attachment_type": "QUIK-LOK",
+      "bar_length_in": 10,
+      "brushless": true,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1500,
+    "description": "QUIK-LOK pole saw attachment with 10\" bar for overhead tree trimming without a ladder.",
+    "features": [
+      "QUIK-LOK compatible",
+      "10\" bar",
+      "Auto-oiler",
+      "Pole saw reach"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-49-16-2721",
+    "name": "Milwaukee M18 FUEL QUIK-LOK 3' Extension",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m18",
+    "category": "outdoor",
+    "subcategory": "accessories",
+    "tool_type": "quik-lok-attachment",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "attachment_type": "QUIK-LOK",
+      "extension_length_ft": 3,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "3-foot extension for QUIK-LOK attachments. Increases reach for pole saw and hedge trimmer.",
+    "features": [
+      "QUIK-LOK compatible",
+      "3-foot extension",
+      "Aluminum construction"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2528-20",
+    "name": "Milwaukee M12 FUEL Jig Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length_in": 0.625,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1500,
+    "description": "Compact FUEL jig saw for curved and intricate cuts. Sub-compact for one-handed operation.",
+    "features": [
+      "FUEL brushless motor",
+      "3000 SPM",
+      "5/8\" stroke",
+      "Tool-free blade change"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2429-20",
+    "name": "Milwaukee M12 Sub-Compact Band Saw",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "portable-band-saw",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "cutting_capacity_in": 1.625,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 3200,
+    "description": "Original M12 sub-compact band saw. Budget-friendly option for cutting pipe and conduit.",
+    "features": [
+      "Sub-compact design",
+      "1-5/8\" capacity",
+      "Tool-free blade change",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2408-20",
+    "name": "Milwaukee M12 3/8\" Impact Wrench",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": false,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 100,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 3500,
+    "description": "Entry-level M12 3/8\" impact wrench. 100 ft-lbs of torque for light-duty fastening.",
+    "features": [
+      "3/8\" drive",
+      "100 ft-lbs torque",
+      "Variable speed",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-3052-20",
+    "name": "Milwaukee M12 FUEL 1/4\" Insider Extended Reach Box Ratchet",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "ratchets",
+    "tool_type": "insider-ratchet",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.25,
+      "insider_design": true,
+      "voltage": 12
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Insider extended reach box ratchet accessing fasteners other ratchets cannot reach.",
+    "features": [
+      "FUEL brushless motor",
+      "Insider design",
+      "Extended reach",
+      "1/4\" and 3/8\" adapters"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2449-20",
+    "name": "Milwaukee M12 Cable Stapler",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "staplers",
+    "tool_type": "cable-stapler",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "voltage": 12
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "Cordless cable stapler for securing NM wire, coaxial, and data cables to wood framing.",
+    "features": [
+      "Cable-safe design",
+      "Multiple cable sizes",
+      "Sequential actuation",
+      "Depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2448-21",
+    "name": "Milwaukee M12 3/8\" Crown Stapler",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "fastening",
+    "subcategory": "staplers",
+    "tool_type": "crown-stapler",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": false,
+      "crown_width_in": 0.375,
+      "voltage": 12
+    },
+    "rating": 4.6,
+    "review_count": 1100,
+    "description": "3/8\" crown stapler for upholstery, insulation, and general construction stapling.",
+    "features": [
+      "3/8\" crown",
+      "Cordless operation",
+      "Depth adjustment",
+      "Dry fire lockout"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MIL-2494-22",
+    "name": "Milwaukee M12 Stick Transfer Pump",
+    "brand": "Milwaukee",
+    "ecosystem": "milwaukee-m12",
+    "category": "plumbing",
+    "subcategory": "pumps",
+    "tool_type": "transfer-pump",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "flow_rate_gph": 240,
+      "voltage": 12
+    },
+    "rating": 4.4,
+    "review_count": 1200,
+    "description": "Compact stick-style transfer pump for draining water heaters, clogged sinks, and small areas.",
+    "features": [
+      "240 GPH flow rate",
+      "Self-priming",
+      "Stick design",
+      "Cordless operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  }
+]

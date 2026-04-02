@@ -1,0 +1,4369 @@
+[
+  {
+    "sku": "DW-DCD771B",
+    "name": "DeWalt 20V MAX Compact Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 79,
+    "price_msrp": 79,
+    "specs": {
+      "brushless": false,
+      "chuck_size_in": 0.5,
+      "max_rpm": 1500,
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 12000,
+    "description": "Compact and lightweight 20V MAX drill/driver with high-performance motor and 2-speed transmission for a range of fastening and drilling applications.",
+    "features": [
+      "2-speed transmission",
+      "Compact design",
+      "Lightweight"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD777B",
+    "name": "DeWalt 20V MAX Brushless Compact Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 89,
+    "price_msrp": 89,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 1750,
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 6500,
+    "description": "Brushless motor delivers up to 57% more runtime over brushed. Compact and lightweight design fits into tight areas.",
+    "features": [
+      "Brushless motor",
+      "Compact design",
+      "2-speed transmission"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD791B",
+    "name": "DeWalt 20V MAX XR Brushless Compact Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "max_rpm": 2000,
+      "series": "XR",
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 8200,
+    "description": "XR brushless compact drill/driver with 6.9 in. front-to-back length and 3.4 lbs weight. High-performance brushless motor.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Compact 6.9 in. length",
+      "High-speed transmission"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD793B",
+    "name": "DeWalt 20V MAX Brushless Cordless 1/2 in. Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "Lightweight brushless compact drill/driver designed as a newer mid-range option in the DeWalt 20V MAX lineup.",
+    "features": [
+      "Brushless motor",
+      "Lightweight design",
+      "2-speed transmission"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD800B",
+    "name": "DeWalt 20V MAX XR Brushless Cordless 1/2 in. Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 139,
+    "price_msrp": 139,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "series": "XR",
+      "speeds": 2,
+      "uwo": 0,
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 3500,
+    "description": "Latest XR compact brushless drill/driver. Provides up to 40% more Unit Watts Out vs DCD791. Replacement for the DCD791.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "40% more power than DCD791",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD708B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless Compact 1/2 in. Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "series": "ATOMIC",
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 4800,
+    "description": "ATOMIC series compact brushless drill/driver with 2-speed transmission. Ultra-compact design for tight spaces.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Ultra-compact",
+      "2-speed transmission"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD778B",
+    "name": "DeWalt 20V MAX Brushless 1/2 in. Hammer Drill (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "speeds": 2,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "Compact brushless hammer drill for drilling into masonry, wood, and metal. Lightweight and ergonomic design.",
+    "features": [
+      "Brushless motor",
+      "Hammer drill function",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD996B",
+    "name": "DeWalt 20V MAX XR Brushless 3-Speed 1/2 in. Hammer Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "series": "XR",
+      "speeds": 3,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 5600,
+    "description": "High-performance XR 3-speed hammer drill/driver with brushless motor. Delivers maximum performance in demanding applications.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3-speed transmission",
+      "Heavy-duty metal ratcheting chuck"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD999B",
+    "name": "DeWalt 20V MAX XR Brushless 1/2 in. Hammer Drill/Driver with FLEXVOLT ADVANTAGE (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.5,
+      "flexvolt_advantage": true,
+      "series": "XR",
+      "speeds": 3,
+      "uwo": 1219,
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 2800,
+    "description": "Top-tier 3-speed hammer drill with FLEXVOLT ADVANTAGE technology. 1219 UWO output. More powerful with FLEXVOLT batteries.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "FLEXVOLT ADVANTAGE",
+      "3-speed transmission",
+      "1219 UWO"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD740B",
+    "name": "DeWalt 20V MAX 3/8 in. Cordless Right Angle Drill/Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "right-angle-drills",
+    "tool_type": "right-angle-drill",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": false,
+      "chuck_size_in": 0.375,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 2100,
+    "description": "Compact right angle drill for drilling and fastening in tight spaces between studs and joists.",
+    "features": [
+      "Right angle design",
+      "Compact head",
+      "Variable speed trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD803B",
+    "name": "DeWalt 20V MAX ATOMIC Multi-Head Drill (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "multi-head-drill",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "heads": 4,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 0,
+    "review_count": 0,
+    "description": "ATOMIC Multi-Head Drill with four quick-change heads: 1/2-inch chuck, 1/4-inch hex driver, right-angle, and offset attachments.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "4 quick-change heads",
+      "Versatile"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF885B",
+    "name": "DeWalt 20V MAX 1/4 in. Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 69,
+    "price_msrp": 69,
+    "specs": {
+      "brushless": false,
+      "ipm": 3200,
+      "max_rpm": 2800,
+      "max_torque_in_lbs": 1400,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 15000,
+    "description": "Compact and lightweight 20V MAX impact driver. 1/4 in. hex chuck for quick one-handed bit loading.",
+    "features": [
+      "Compact design",
+      "1/4 in. hex chuck",
+      "3 LED lights"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF809B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless Compact 1/4 in. Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": true,
+      "ipm": 3200,
+      "max_rpm": 2800,
+      "max_torque_in_lbs": 1700,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 5500,
+    "description": "ATOMIC series compact brushless impact driver delivering 1700 in-lbs of torque in an ultra-compact form factor.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Ultra-compact",
+      "1700 in-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF840B",
+    "name": "DeWalt 20V MAX Brushless 1/4 in. Cordless Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 99,
+    "price_msrp": 99,
+    "specs": {
+      "brushless": true,
+      "ipm": 4200,
+      "max_rpm": 3200,
+      "max_torque_in_lbs": 1700,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 7200,
+    "description": "Brushless impact driver delivering 1700 in-lbs max torque at 3200 RPM and 4200 IPM. Single speed.",
+    "features": [
+      "Brushless motor",
+      "1700 in-lbs torque",
+      "3-LED light ring"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF845B",
+    "name": "DeWalt 20V MAX XR 3-Speed 1/4 in. Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 111,
+    "price_msrp": 111,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 3250,
+      "max_torque_in_lbs": 1825,
+      "series": "XR",
+      "speeds": 3,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2400,
+    "description": "XR 3-speed impact driver delivering 1825 in-lbs of max torque. Compact design with premium user control. Replacement for DCF887.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3-speed control",
+      "1825 in-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF850B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 1/4 in. 3-Speed Compact Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": true,
+      "ipm": 3800,
+      "length_in": 3.97,
+      "max_rpm": 3250,
+      "max_torque_in_lbs": 1825,
+      "series": "ATOMIC",
+      "speeds": 3,
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 3100,
+    "description": "Most compact DeWalt impact driver at 3.97 in. length. 3-speed with 1825 in-lbs max torque. ATOMIC series.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "3-speed control",
+      "Ultra-compact 3.97 in.",
+      "1825 in-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF887B",
+    "name": "DeWalt 20V MAX XR Brushless 3-Speed 1/4 in. Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "ipm": 3600,
+      "max_rpm": 3250,
+      "max_torque_in_lbs": 1825,
+      "series": "XR",
+      "speeds": 3,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 11000,
+    "description": "XR brushless 3-speed impact driver. Long-running flagship model since 2015. 1825 in-lbs max torque.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3-speed control",
+      "Precision Drive"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF860B",
+    "name": "DeWalt 20V MAX XR High-Torque 1/4 in. Impact Driver (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "ipm": 4500,
+      "max_rpm": 3800,
+      "max_torque_in_lbs": 2500,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 800,
+    "description": "New flagship high-torque impact driver with 2500 in-lbs torque, 3800 RPM, and 4500 IPM. Major upgrade over DCF887.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "2500 in-lbs torque",
+      "High-speed 3800 RPM"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF894B",
+    "name": "DeWalt 20V MAX XR 1/2 in. Mid-Range Cordless Impact Wrench with Detent Pin Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "anvil_type": "detent-pin",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 330,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4200,
+    "description": "Mid-range 1/2 in. impact wrench with detent pin anvil. 330 ft-lbs max fastening torque.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Detent pin anvil",
+      "330 ft-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF899B",
+    "name": "DeWalt 20V MAX XR High Torque 1/2 in. Impact Wrench with Detent Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 269,
+    "price_msrp": 269,
+    "specs": {
+      "anvil_type": "detent-pin",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 700,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 7800,
+    "description": "High-torque 1/2 in. impact wrench delivering up to 700 ft-lbs max fastening torque. Detent pin anvil.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "700 ft-lbs torque",
+      "3-speed control"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF900B",
+    "name": "DeWalt 20V MAX XR 1/2 in. High Torque Impact Wrench with Hog Ring Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "anvil_type": "hog-ring",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 700,
+      "series": "XR",
+      "speeds": 4,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 3400,
+    "description": "High-torque 1/2 in. impact wrench with hog ring anvil and 4-mode speed control. 700 ft-lbs max fastening torque.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Hog ring anvil",
+      "4-mode speed",
+      "700 ft-lbs torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF911B",
+    "name": "DeWalt 20V MAX XR Brushless 1/2 in. Impact Wrench with Hog Ring Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "anvil_type": "hog-ring",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 400,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2900,
+    "description": "Compact 1/2 in. impact wrench with hog ring anvil. 400 ft-lbs max fastening torque in a compact form factor.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Hog ring anvil",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF921B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 1/2 in. Impact Wrench with Hog Ring Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "anvil_type": "hog-ring",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 300,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4100,
+    "description": "ATOMIC compact 1/2 in. impact wrench with hog ring anvil. 300 ft-lbs max fastening torque.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Hog ring anvil",
+      "Ultra-compact"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF922B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 1/2 in. Impact Wrench with Pin Detent (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "anvil_type": "pin-detent",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "max_torque_ft_lbs": 300,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2200,
+    "description": "ATOMIC compact 1/2 in. impact wrench with pin detent anvil. 300 ft-lbs max fastening torque.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Pin detent anvil",
+      "Ultra-compact"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF923B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 3/8 in. Impact Wrench with Hog Ring Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "anvil_type": "hog-ring",
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_torque_ft_lbs": 250,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "ATOMIC compact 3/8 in. impact wrench with hog ring anvil. Ideal for automotive and mechanical work.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Hog ring anvil",
+      "3/8 in. drive"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF961B",
+    "name": "DeWalt 20V MAX XR Brushless 1/2 in. High Torque Impact Wrench with Hog Ring Anvil (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "anvil_type": "hog-ring",
+      "brushless": true,
+      "drive_size_in": 0.5,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 500,
+    "description": "High-torque 1/2 in. impact wrench with hog ring anvil. Latest generation XR design.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Hog ring anvil",
+      "High torque"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF510B",
+    "name": "DeWalt 20V XR Brushless 3/8 in. and 1/2 in. Sealed Head Ratchet (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "ratchets",
+    "tool_type": "cordless-ratchet",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 300,
+      "max_torque_ft_lbs": 75,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 1600,
+    "description": "XR brushless sealed-head ratchet with 75 ft-lbs max torque and 300 RPM. Fits 3/8 in. and 1/2 in. drive.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Sealed head",
+      "Dual drive size"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF513B",
+    "name": "DeWalt ATOMIC 20V MAX 3/8 in. Cordless Ratchet (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "ratchets",
+    "tool_type": "cordless-ratchet",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "drive_size_in": 0.375,
+      "max_rpm": 250,
+      "max_torque_ft_lbs": 70,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "ATOMIC compact 3/8 in. cordless ratchet. 70 ft-lbs of max torque at 250 RPM.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Compact head",
+      "3/8 in. drive"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF622B",
+    "name": "DeWalt 20V MAX XR Versa-Clutch Adjustable Torque Screwgun (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "screw-guns",
+    "tool_type": "screw-gun",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "XR Versa-Clutch adjustable torque screw gun for precise fastening applications.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Adjustable torque",
+      "Versa-Clutch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCF630B",
+    "name": "DeWalt 20V MAX XR Brushless Drywall Screwgun (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "screw-guns",
+    "tool_type": "drywall-screw-gun",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "modes": 4,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "XR brushless drywall screwgun with 4 dedicated tool modes for various drywall hanging applications.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "4 operating modes",
+      "Electronic mode select"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS570B",
+    "name": "DeWalt 20V MAX XR Brushless 7-1/4 in. Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "cutting_depth_90_in": 2.5625,
+      "max_rpm": 5200,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 6500,
+    "description": "XR brushless 7-1/4 in. circular saw with 5200 RPM maintaining speed under load. 2-9/16 in. cutting capacity at 90 degrees.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "5200 RPM",
+      "Electric brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS565B",
+    "name": "DeWalt 20V MAX XR Brushless 6-1/2 in. Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "bevel_capacity_deg": 50,
+      "blade_size_in": 6.5,
+      "brushless": true,
+      "cutting_depth_90_in": 2.125,
+      "max_rpm": 4950,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4200,
+    "description": "XR brushless 6-1/2 in. circular saw with 4950 RPM no-load speed. 2-1/8 in. depth of cut at 90 degrees. Built-in LED and rafter hook.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "LED work light",
+      "Rafter hook",
+      "Electric brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS571B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 4-1/2 in. Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "blade_size_in": 4.5,
+      "brushless": true,
+      "max_rpm": 4500,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 3600,
+    "description": "ATOMIC compact 4-1/2 in. circular saw. Cuts up to 369 linear feet of 3/4 in. OSB per charge. Ultra-compact design.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Compact design",
+      "Rip fence included"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS391B",
+    "name": "DeWalt 20V MAX 6-1/2 in. Cordless Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "blade_size_in": 6.5,
+      "brushless": false,
+      "max_rpm": 5150,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 8900,
+    "description": "20V MAX 6-1/2 in. circular saw with 5150 RPM no-load speed. Lightweight and well-balanced for comfortable use.",
+    "features": [
+      "460 MWO of power",
+      "5150 RPM",
+      "Magnesium shoe"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS573B",
+    "name": "DeWalt 20V MAX 7-1/4 in. Brushless Circular Saw with FLEXVOLT ADVANTAGE (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "flexvolt_advantage": true,
+      "max_rpm": 5800,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 3800,
+    "description": "7-1/4 in. brushless circular saw with FLEXVOLT ADVANTAGE. More power with FLEXVOLT batteries.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT ADVANTAGE",
+      "5800 RPM",
+      "Electric brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS574B",
+    "name": "DeWalt 20V MAX XR 7-1/4 in. Brushless Circular Saw with POWER DETECT (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "max_rpm": 5500,
+      "power_detect": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2400,
+    "description": "XR brushless circular saw with POWER DETECT technology. Up to 54% more power than DCS570. Automatic power sensing.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "POWER DETECT",
+      "54% more power than DCS570"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS590B",
+    "name": "DeWalt 20V MAX XR Brushless 7-1/4 in. Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 300,
+    "description": "New flagship XR circular saw. Makes up to 368 cuts per charge with 8Ah PowerPack battery.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "PowerPack compatible",
+      "New flagship model"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS373B",
+    "name": "DeWalt 20V MAX 5-1/2 in. Metal Cutting Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "metal-cutting-circular-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "blade_size_in": 5.5,
+      "brushless": false,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "5-1/2 in. cordless metal cutting circular saw for cutting metal studs, conduit, and pipe.",
+    "features": [
+      "Metal cutting blade",
+      "5-1/2 in. blade",
+      "Spark-free cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS438B",
+    "name": "DeWalt 20V MAX XR Brushless 3 in. Cut-Off Tool (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "cut-off-tools",
+    "tool_type": "cut-off-tool",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "blade_size_in": 3,
+      "brushless": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2400,
+    "description": "XR brushless 3 in. cordless cut-off tool for cutting metal, wood, and plastic in tight spaces.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3 in. cutting wheel",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS380B",
+    "name": "DeWalt 20V MAX Cordless Reciprocating Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": false,
+      "spm": 3000,
+      "stroke_length_in": 1.125,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 9200,
+    "description": "20V MAX reciprocating saw with 1-1/8 in. stroke length and 0-3000 SPM variable speed. Keyless 4-position blade clamp.",
+    "features": [
+      "Variable speed trigger",
+      "4-position blade clamp",
+      "Pivoting shoe"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS387B",
+    "name": "DeWalt 20V MAX Compact Cordless Reciprocating Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "spm": 2900,
+      "stroke_length_in": 1.125,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 4500,
+    "description": "Compact reciprocating saw designed for overhead and tight-space work. Lightweight at 5 lbs.",
+    "features": [
+      "Compact design",
+      "Variable speed trigger",
+      "Tool-free blade change"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS367B",
+    "name": "DeWalt 20V MAX XR Brushless Compact Reciprocating Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "brushless": true,
+      "series": "XR",
+      "spm": 2900,
+      "stroke_length_in": 1.125,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 5100,
+    "description": "XR brushless compact reciprocating saw with variable speed trigger and 1-1/8 in. stroke length.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Compact design",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS369B",
+    "name": "DeWalt ATOMIC 20V MAX Cordless One-Handed Reciprocating Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "ATOMIC one-handed compact reciprocating saw for cutting in tight spaces. Designed for one-handed operation.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "One-handed design",
+      "Compact"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS364B",
+    "name": "DeWalt 20V MAX XR Brushless Cordless Reciprocating Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "series": "XR",
+      "spm": 3000,
+      "stroke_length_in": 1.125,
+      "voltage": 20
+    },
+    "rating": 4.9,
+    "review_count": 400,
+    "description": "DeWalt's fastest-cutting reciprocating saw with 1-1/8 in. stroke at 3000 SPM. Up to 102 cuts per charge.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Fastest cutting",
+      "102 cuts per charge"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS331B",
+    "name": "DeWalt 20V MAX Cordless Jigsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "jigsaws",
+    "tool_type": "jigsaw",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "spm": 3000,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 3200,
+    "description": "20V MAX cordless jigsaw with variable speed up to 3000 SPM. Keyless blade clamp for quick blade changes.",
+    "features": [
+      "Variable speed",
+      "Keyless blade clamp",
+      "Dust blower"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS334B",
+    "name": "DeWalt 20V MAX XR Brushless Cordless Top-Handle Jigsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "jigsaws",
+    "tool_type": "jigsaw",
+    "price_current": 239,
+    "price_msrp": 239,
+    "specs": {
+      "brushless": true,
+      "series": "XR",
+      "spm": 3200,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4800,
+    "description": "XR brushless top-handle jigsaw with 4-position orbital action. Variable speed up to 3200 SPM.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "4-position orbital action",
+      "Top-handle design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS335B",
+    "name": "DeWalt 20V MAX XR Brushless Cordless Barrel Grip Jigsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "jigsaws",
+    "tool_type": "jigsaw",
+    "price_current": 239,
+    "price_msrp": 239,
+    "specs": {
+      "brushless": true,
+      "series": "XR",
+      "spm": 3200,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2600,
+    "description": "XR brushless barrel grip jigsaw with 4-position orbital action. Variable speed up to 3200 SPM.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Barrel grip design",
+      "4-position orbital action"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS361B",
+    "name": "DeWalt 20V MAX 7-1/4 in. Cordless Sliding Miter Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "sliding-miter-saw",
+    "price_current": 369,
+    "price_msrp": 369,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": false,
+      "crosscut_capacity_in": 8,
+      "max_rpm": 3750,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 3800,
+    "description": "20V MAX 7-1/4 in. cordless sliding miter saw with 8 in. horizontal crosscut capacity. Compact and portable.",
+    "features": [
+      "Sliding design",
+      "7-1/4 in. blade",
+      "Adjustable stainless steel miter detent plate"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 25,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS374B",
+    "name": "DeWalt 20V MAX XR Brushless Deep Cut Band Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "portable-band-saw",
+    "price_current": 359,
+    "price_msrp": 359,
+    "specs": {
+      "brushless": true,
+      "cutting_capacity_in": 5,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2100,
+    "description": "XR brushless deep cut portable band saw with 5 in. cutting capacity. Variable speed for cutting various materials.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "5 in. deep cut capacity",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS491B",
+    "name": "DeWalt 20V MAX 18 Gauge Cordless Swivel Head Shear (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "shears-nibblers",
+    "tool_type": "metal-shear",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "gauge": 18,
+      "spm": 2700,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "18 gauge swivel head shear for cutting sheet metal. 360-degree swivel head for easy maneuvering.",
+    "features": [
+      "Swivel head",
+      "18 gauge capacity",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS494B",
+    "name": "DeWalt 20V MAX 14 Gauge Swivel Head Double Cut Shears (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "shears-nibblers",
+    "tool_type": "metal-shear",
+    "price_current": 279,
+    "price_msrp": 279,
+    "specs": {
+      "gauge": 14,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "14 gauge double cut shears with swivel head. For heavier-gauge sheet metal cutting.",
+    "features": [
+      "Swivel head",
+      "Double cut",
+      "14 gauge capacity"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS350B",
+    "name": "DeWalt 20V MAX Cordless Threaded Rod Cutter (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "specialty-cutting",
+    "tool_type": "threaded-rod-cutter",
+    "price_current": 359,
+    "price_msrp": 359,
+    "specs": {
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 900,
+    "description": "Cordless threaded rod cutter for clean cuts on threaded rod. Eliminates the need for a hacksaw.",
+    "features": [
+      "Clean cut on threaded rod",
+      "No deburring needed",
+      "One-handed operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG412B",
+    "name": "DeWalt 20V MAX 4-1/2 in. to 5 in. Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": false,
+      "disc_size_in": 4.5,
+      "max_rpm": 8000,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 4800,
+    "description": "20V MAX 4-1/2 to 5 in. grinder with 8000 RPM. Quick-Change wheel release for tool-free wheel changes.",
+    "features": [
+      "8000 RPM",
+      "Quick-Change wheel release",
+      "2-position side handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG405B",
+    "name": "DeWalt 20V MAX XR Brushless 4-1/2 in. Slide Switch Angle Grinder with Kickback Brake (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 4.5,
+      "max_rpm": 9000,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 3400,
+    "description": "XR brushless 4-1/2 in. angle grinder with slide switch and electronic kickback brake for added safety.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Kickback brake",
+      "Slide switch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG413B",
+    "name": "DeWalt 20V MAX XR Brushless 4-1/2 in. Paddle Switch Angle Grinder with Kickback Brake (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 4.5,
+      "max_rpm": 9000,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 3100,
+    "description": "XR brushless 4-1/2 in. angle grinder with paddle switch and electronic kickback brake.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Kickback brake",
+      "Paddle switch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG415B",
+    "name": "DeWalt 20V MAX XR 4-1/2 in. to 5 in. Brushless Angle Grinder with POWER DETECT (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "power_detect": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "XR brushless angle grinder with POWER DETECT technology. Automatically senses battery capacity for maximum output.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "POWER DETECT",
+      "Kickback brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG416B",
+    "name": "DeWalt 20V MAX 4-1/2 in. to 5 in. Brushless Angle Grinder with FLEXVOLT ADVANTAGE (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "flexvolt_advantage": true,
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 2200,
+    "description": "Brushless angle grinder with FLEXVOLT ADVANTAGE for more power with FLEXVOLT batteries. Paddle switch design.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT ADVANTAGE",
+      "Paddle switch",
+      "Kickback brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG408B",
+    "name": "DeWalt 20V MAX Brushless 4-1/2 in. Paddle Switch Angle Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 4.5,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1600,
+    "description": "Brushless 4-1/2 in. paddle switch angle grinder. Compact and lightweight for various grinding applications.",
+    "features": [
+      "Brushless motor",
+      "Paddle switch",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG426B",
+    "name": "DeWalt 20V MAX Brushless 1-1/2 in. Variable Speed Die Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "die-grinders",
+    "tool_type": "die-grinder",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "collet_size_in": 0.25,
+      "max_rpm": 25000,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 900,
+    "description": "Brushless variable speed die grinder with 1/4 in. and 6mm collets. 25,000 RPM for precision grinding.",
+    "features": [
+      "Brushless motor",
+      "Variable speed",
+      "25,000 RPM",
+      "Dual collets"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG422B",
+    "name": "DeWalt 20V MAX ATOMIC Right Angle Die Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "die-grinders",
+    "tool_type": "right-angle-die-grinder",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "ATOMIC right angle die grinder for grinding, sanding, and polishing in tight spaces.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Right angle design",
+      "Compact"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCW210B",
+    "name": "DeWalt 20V MAX XR Brushless 5 in. Random Orbital Sander (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "sanding-finishing",
+    "subcategory": "random-orbital-sanders",
+    "tool_type": "random-orbital-sander",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "opm_range": "8000-12000",
+      "pad_size_in": 5,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 5200,
+    "description": "XR brushless 5 in. random orbital sander with variable speed control from 8000 to 12000 OPM.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Variable speed 8000-12000 OPM",
+      "Dust-sealed switch"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCW220B",
+    "name": "DeWalt 20V MAX XR 3 in. x 21 in. Brushless Belt Sander (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "sanding-finishing",
+    "subcategory": "belt-sanders",
+    "tool_type": "belt-sander",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "belt_size": "3x21",
+      "brushless": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 1400,
+    "description": "XR brushless 3 in. x 21 in. cordless belt sander for aggressive material removal.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3x21 in. belt",
+      "Dust collection bag"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCW600B",
+    "name": "DeWalt 20V MAX XR Brushless Cordless Compact Router (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "woodworking",
+    "subcategory": "routers",
+    "tool_type": "compact-router",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "collet_size_in": 0.25,
+      "max_rpm": 25500,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 6800,
+    "description": "XR brushless compact router with variable speed up to 25,500 RPM. Dual LEDs for illumination. Electronic brake.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Variable speed",
+      "Dual LEDs",
+      "Electronic brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCW620B",
+    "name": "DeWalt 20V MAX XR 2-1/4 Peak HP Brushless Plunge Router (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "woodworking",
+    "subcategory": "routers",
+    "tool_type": "plunge-router",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "peak_hp": 2.25,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "XR brushless plunge router with 2-1/4 peak HP. Variable speed control for a range of routing applications.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "2-1/4 HP",
+      "Plunge base",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCP580B",
+    "name": "DeWalt 20V MAX XR Brushless 3-1/4 in. Cordless Planer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "woodworking",
+    "subcategory": "planers",
+    "tool_type": "hand-planer",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "brushless": true,
+      "cuts_per_minute": 30000,
+      "series": "XR",
+      "voltage": 20,
+      "width_capacity_in": 3.25
+    },
+    "rating": 4.6,
+    "review_count": 1600,
+    "description": "XR brushless 3-1/4 in. cordless planer delivering 30,000 cuts per minute. Depth adjustment at 1/256 in. increments.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "30,000 CPM",
+      "Precision depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS356B",
+    "name": "DeWalt 20V MAX XR Brushless 3-Speed Oscillating Multi-Tool (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "opm_range": "0-20000",
+      "series": "XR",
+      "speeds": 3,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 6200,
+    "description": "XR brushless 3-speed oscillating multi-tool. Universal accessory adapter for use with most oscillating tool accessories.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "3-speed control",
+      "Quick-Change accessory system"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS354B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless Oscillating Multi-Tool (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "cutting",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": true,
+      "opm": 18000,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 4400,
+    "description": "ATOMIC brushless oscillating multi-tool with 18,000 OPM. Quick-Change accessory system with universal adapter.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Quick-Change system",
+      "Universal accessory adapter"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH133B",
+    "name": "DeWalt 20V MAX XR Brushless 1 in. SDS Plus D-Handle Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1,
+      "chuck_type": "SDS-Plus",
+      "impact_energy_j": 2.6,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4600,
+    "description": "XR brushless 1 in. SDS Plus D-Handle rotary hammer delivering 2.6 Joules of impact energy. For drilling into concrete and masonry.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "D-Handle design",
+      "2.6 Joules impact energy",
+      "SDS Plus"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH172B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 5/8 in. SDS Plus Ultra-Compact Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 0.625,
+      "chuck_type": "SDS-Plus",
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2400,
+    "description": "ATOMIC ultra-compact rotary hammer for overhead and tight-space work. 5/8 in. capacity with SDS Plus chuck.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Ultra-compact",
+      "SDS Plus",
+      "Overhead work"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH273B",
+    "name": "DeWalt 20V MAX XR Brushless 1 in. SDS Plus L-Shape Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1,
+      "chuck_type": "SDS-Plus",
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 3200,
+    "description": "XR brushless 1 in. SDS Plus L-shape rotary hammer with vibration control. Compact design for working in tight spaces.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "L-Shape design",
+      "Vibration control",
+      "SDS Plus"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH293B",
+    "name": "DeWalt 20V MAX XR Brushless 1-1/8 in. SDS Plus L-Shape Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1.125,
+      "chuck_type": "SDS-Plus",
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1400,
+    "description": "XR brushless 1-1/8 in. SDS Plus rotary hammer with electronic clutch and active vibration control.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Electronic clutch",
+      "Active vibration control",
+      "SDS Plus"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN680B",
+    "name": "DeWalt 20V MAX XR 18 Gauge Brushless Brad Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "brad-nailer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "gauge": 18,
+      "nail_length_range": "5/8 to 2-1/8 in.",
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 8500,
+    "description": "XR brushless 18 gauge brad nailer. Drives 5/8 in. to 2-1/8 in. brads. No compressor, hose, or gas cartridges needed.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "18 gauge",
+      "Tool-free jam release",
+      "No compressor needed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN660B",
+    "name": "DeWalt 20V MAX XR 16 Gauge Angled Finish Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "finish-nailer",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": true,
+      "gauge": 16,
+      "nail_length_range": "1-1/4 to 2-1/2 in.",
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 5200,
+    "description": "XR 16 gauge angled finish nailer driving 1-1/4 in. to 2-1/2 in. finish nails. Ideal for crown molding, casing, baseboards.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "16 gauge angled",
+      "Tool-free jam release"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN650B",
+    "name": "DeWalt 20V MAX XR 15 Gauge Angled Finish Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "finish-nailer",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": true,
+      "gauge": 15,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 3800,
+    "description": "XR 15 gauge angled finish nailer. For heavier trim work including door and window casing.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "15 gauge angled",
+      "Tool-free jam release"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN692B",
+    "name": "DeWalt 20V MAX XR Brushless Dual Speed Framing Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "framing-nailer",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "nail_angle_deg": 33,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 4200,
+    "description": "XR brushless dual speed 33-degree framing nailer. For framing, sheathing, and other structural applications.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Dual speed",
+      "33-degree nail strips"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN21PLB",
+    "name": "DeWalt 20V MAX XR Brushless 21 Degree Plastic Collated Framing Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "framing-nailer",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "nail_angle_deg": 21,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "XR brushless 21-degree plastic collated framing nailer. Takes 21-degree nail strips.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "21-degree plastic collated",
+      "Selectable trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN623B",
+    "name": "DeWalt 20V MAX ATOMIC Brushless 23 Gauge Pin Nailer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "pin-nailer",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "gauge": 23,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1600,
+    "description": "ATOMIC brushless 23 gauge cordless pin nailer. For delicate trim and woodworking where minimal hole size is needed.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "23 gauge",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCN701B",
+    "name": "DeWalt 20V MAX Cordless Electrician Cable Stapler (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "staplers",
+    "tool_type": "cable-stapler",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "Cordless electrician cable stapler for driving cable staples into wood studs. Designed for electrical wiring installation.",
+    "features": [
+      "Cable stapler",
+      "For electrical work",
+      "One-handed operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCCS623B",
+    "name": "DeWalt 20V MAX XR Brushless 8 in. Pruning Chainsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "pruning-chainsaw",
+    "price_current": 189,
+    "price_msrp": 189,
+    "specs": {
+      "bar_length_in": 8,
+      "brushless": true,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 4200,
+    "description": "XR brushless 8 in. pruning chainsaw. 61% lighter and 3x more compact than full-size saws. Auto-oiling and tool-free tensioning.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "8 in. bar",
+      "Auto-oiling",
+      "Tool-free chain tensioning"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCBL722B",
+    "name": "DeWalt 20V MAX XR Brushless 125 MPH 450 CFM Handheld Blower (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "blowers",
+    "tool_type": "handheld-blower",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": true,
+      "max_air_speed_mph": 125,
+      "max_cfm": 450,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 5600,
+    "description": "XR brushless handheld axial blower delivering up to 450 CFM and 125 MPH with concentrator nozzle.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "450 CFM",
+      "125 MPH",
+      "Variable speed trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCST925B",
+    "name": "DeWalt 20V MAX 13 in. Cordless String Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": false,
+      "cutting_swath_in": 13,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 6200,
+    "description": "20V MAX 13 in. string trimmer with bump feed head. Lightweight and easy to use for lawn edging and trimming.",
+    "features": [
+      "13 in. cutting swath",
+      "Bump feed head",
+      "Lightweight"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCST922B",
+    "name": "DeWalt 20V MAX 14 in. Folding String Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "cutting_swath_in": 14,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 3800,
+    "description": "20V MAX 14 in. folding string trimmer with brushless motor. Folds for compact storage.",
+    "features": [
+      "Brushless motor",
+      "14 in. cutting swath",
+      "Folding design",
+      "Compact storage"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCPH820B",
+    "name": "DeWalt 20V MAX Pole Hedge Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "pole-hedge-trimmer",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "max_reach_ft": 12,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 2200,
+    "description": "20V MAX pole hedge trimmer head reaching up to 12 ft. Articulating head for various cutting angles.",
+    "features": [
+      "Pole-mounted",
+      "12 ft. reach",
+      "Articulating head"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCPS620B",
+    "name": "DeWalt 20V MAX XR Cordless Pole Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "pole-saw",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "bar_length_in": 8,
+      "brushless": true,
+      "max_reach_ft": 15,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 3400,
+    "description": "XR brushless cordless pole saw with 15 ft. max reach and 8 in. bar. Auto-oiling and tool-free chain tensioning.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "15 ft. reach",
+      "Auto-oiling",
+      "Tool-free chain tensioning"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCPR320B",
+    "name": "DeWalt 20V MAX 1-1/2 in. Cordless Pruner (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "pruners",
+    "tool_type": "cordless-pruner",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "cutting_capacity_in": 1.5,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "20V MAX cordless pruner for cutting branches up to 1-1/2 in. diameter. Great for light yard work and garden maintenance.",
+    "features": [
+      "1-1/2 in. cutting capacity",
+      "One-handed operation",
+      "Bypass blade design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCPW550B",
+    "name": "DeWalt 20V MAX 550 PSI Cordless Power Cleaner (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "pressure-washers",
+    "tool_type": "power-cleaner",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "max_psi": 550,
+      "voltage": 20
+    },
+    "rating": 4.4,
+    "review_count": 4800,
+    "description": "20V MAX 550 PSI cordless power cleaner for cleaning outdoor furniture, grills, cars, and more. Not a full pressure washer.",
+    "features": [
+      "550 PSI",
+      "Portable",
+      "No garden hose needed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DXSP190681B",
+    "name": "DeWalt 20V MAX 4-Gallon Backpack Sprayer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "sprayers",
+    "tool_type": "backpack-sprayer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "capacity_gal": 4,
+      "voltage": 20
+    },
+    "rating": 4.4,
+    "review_count": 1200,
+    "description": "20V MAX 4-gallon cordless backpack sprayer for applying herbicides, pesticides, and fertilizer.",
+    "features": [
+      "4-gallon capacity",
+      "Backpack design",
+      "Variable spray patterns"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 11.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE100B",
+    "name": "DeWalt 20V MAX Cordless Compact Jobsite Blower (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "outdoor-power",
+    "subcategory": "blowers",
+    "tool_type": "compact-blower",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "max_cfm": 100,
+      "voltage": 20
+    },
+    "rating": 4.3,
+    "review_count": 2600,
+    "description": "Compact jobsite blower for clearing debris from work surfaces. Lightweight and easy to control.",
+    "features": [
+      "Compact design",
+      "Variable speed",
+      "Lightweight"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCC020IB",
+    "name": "DeWalt 20V MAX Corded/Cordless Air Inflator (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "automotive",
+    "subcategory": "inflators",
+    "tool_type": "air-inflator",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "max_psi": 160,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 3400,
+    "description": "20V MAX corded/cordless air inflator capable of inflating tires, sports equipment, and inflatables. Dual power source.",
+    "features": [
+      "Dual power: cordless or AC",
+      "160 PSI max",
+      "Digital gauge",
+      "Auto shut-off"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCGG571B",
+    "name": "DeWalt 20V MAX Cordless Grease Gun (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "automotive",
+    "subcategory": "grease-guns",
+    "tool_type": "grease-gun",
+    "price_current": 289,
+    "price_msrp": 289,
+    "specs": {
+      "max_psi": 10000,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "20V MAX cordless grease gun delivering up to 10,000 PSI max operating pressure. For automotive and industrial lubrication.",
+    "features": [
+      "10,000 PSI max",
+      "14 oz. cartridge capacity",
+      "Variable speed trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE400B",
+    "name": "DeWalt 20V MAX 1 in. PEX Expander (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "plumbing",
+    "subcategory": "pex-tools",
+    "tool_type": "pex-expander",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "max_pex_size_in": 1,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 1400,
+    "description": "20V MAX 1 in. PEX expander for expanding PEX tubing connections. For plumbing installations.",
+    "features": [
+      "1 in. max PEX size",
+      "Quick connection",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE150B",
+    "name": "DeWalt 20V MAX Cordless Cable Cutting Tool (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "electrical",
+    "subcategory": "cable-cutting",
+    "tool_type": "cable-cutter",
+    "price_current": 999,
+    "price_msrp": 999,
+    "specs": {
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 400,
+    "description": "20V MAX cordless cable cutting tool for cutting copper and aluminum cables. For electrical work.",
+    "features": [
+      "Heavy-duty cable cutting",
+      "One-handed operation",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE560B",
+    "name": "DeWalt 20V MAX 10 oz. Cordless Adhesive Gun (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "adhesive-guns",
+    "tool_type": "caulk-adhesive-gun",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "cartridge_size_oz": 10,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 600,
+    "description": "20V MAX 10 oz. cordless adhesive gun for dispensing construction adhesive, caulk, and sealant.",
+    "features": [
+      "10 oz. cartridge",
+      "Variable speed trigger",
+      "Anti-drip feature"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE570B",
+    "name": "DeWalt 20V MAX 29 oz. Cordless Adhesive Gun (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "fastening",
+    "subcategory": "adhesive-guns",
+    "tool_type": "caulk-adhesive-gun",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "cartridge_size_oz": 29,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 500,
+    "description": "20V MAX 29 oz. cordless adhesive gun for larger cartridges. For high-volume adhesive and sealant work.",
+    "features": [
+      "29 oz. cartridge",
+      "Variable speed trigger",
+      "Anti-drip feature"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCE592B",
+    "name": "DeWalt 20V MAX GRABO Vacuum Lifter (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lifting",
+    "subcategory": "vacuum-lifters",
+    "tool_type": "vacuum-lifter",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "max_lift_lbs": 265,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 400,
+    "description": "20V MAX GRABO vacuum lifter capable of lifting up to 265 lbs. For handling tile, glass, drywall, and other flat materials.",
+    "features": [
+      "265 lbs lift capacity",
+      "Works on porous surfaces",
+      "Battery powered suction"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCV581H",
+    "name": "DeWalt 20V MAX Cordless/Corded Wet-Dry Vacuum",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "dust-management",
+    "subcategory": "vacuums",
+    "tool_type": "wet-dry-vacuum",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "capacity_gal": 2,
+      "dual_power": true,
+      "voltage": 20
+    },
+    "rating": 4.4,
+    "review_count": 5600,
+    "description": "Runs on 20V MAX battery or AC power. 2-gallon wet/dry vac for jobsite cleanup.",
+    "features": [
+      "Dual power source",
+      "2-gallon capacity",
+      "HEPA-compatible filter"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCV501HB",
+    "name": "DeWalt 20V MAX Cordless HEPA Handheld Stick Vacuum (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "dust-management",
+    "subcategory": "vacuums",
+    "tool_type": "stick-vacuum",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "hepa": true,
+      "voltage": 20
+    },
+    "rating": 4.3,
+    "review_count": 1800,
+    "description": "20V MAX cordless HEPA handheld stick vacuum for jobsite and workshop cleanup.",
+    "features": [
+      "HEPA filtration",
+      "Cordless convenience",
+      "Crevice tool included"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCV517B",
+    "name": "DeWalt 20V MAX 1/2 Gallon Wet/Dry Portable Vacuum (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "dust-management",
+    "subcategory": "vacuums",
+    "tool_type": "portable-vacuum",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "capacity_gal": 0.5,
+      "voltage": 20
+    },
+    "rating": 4.3,
+    "review_count": 1200,
+    "description": "Compact 1/2 gallon wet and dry portable vacuum for quick cleanups on the jobsite.",
+    "features": [
+      "1/2 gallon capacity",
+      "Wet and dry use",
+      "Portable design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCL040",
+    "name": "DeWalt 20V MAX LED Work Light/Flashlight",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lighting",
+    "subcategory": "work-lights",
+    "tool_type": "flashlight",
+    "price_current": 84,
+    "price_msrp": 84,
+    "specs": {
+      "lumens": 110,
+      "voltage": 20
+    },
+    "rating": 4.6,
+    "review_count": 4800,
+    "description": "20V MAX LED work light/flashlight with 110 lumens output. Compact and lightweight for jobsite illumination.",
+    "features": [
+      "110 lumens",
+      "LED technology",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 0.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCL043",
+    "name": "DeWalt 20V MAX 1500-Lumen LED Spotlight",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lighting",
+    "subcategory": "work-lights",
+    "tool_type": "spotlight",
+    "price_current": 118,
+    "price_msrp": 118,
+    "specs": {
+      "lumens": 1500,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "20V MAX LED pivoting work light with 1500 lumens. Pivoting head for directional lighting.",
+    "features": [
+      "1500 lumens",
+      "Pivoting head",
+      "LED technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCL044",
+    "name": "DeWalt 20V MAX 160-Lumen LED Handheld Worklight",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lighting",
+    "subcategory": "work-lights",
+    "tool_type": "handheld-worklight",
+    "price_current": 76,
+    "price_msrp": 76,
+    "specs": {
+      "lumens": 160,
+      "voltage": 20
+    },
+    "rating": 4.5,
+    "review_count": 1400,
+    "description": "20V MAX 160-lumen LED handheld worklight with magnetic base for hands-free use.",
+    "features": [
+      "160 lumens",
+      "Magnetic base",
+      "LED technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 0.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCL050",
+    "name": "DeWalt 20V MAX 500-Lumen LED Hand Held Area Light (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lighting",
+    "subcategory": "work-lights",
+    "tool_type": "area-light",
+    "price_current": 89,
+    "price_msrp": 89,
+    "specs": {
+      "lumens": 500,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 6400,
+    "description": "20V MAX 500-lumen LED hand held area light for illuminating large work areas.",
+    "features": [
+      "500 lumens",
+      "Pivoting head",
+      "Hook and magnet mount"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCL079B",
+    "name": "DeWalt 20V MAX Cordless 3000-Lumen Tripod Light (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "lighting",
+    "subcategory": "work-lights",
+    "tool_type": "tripod-light",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "lumens": 3000,
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 2000,
+    "description": "20V MAX 3000-lumen tripod light for illuminating large jobsites and work areas. Adjustable tripod.",
+    "features": [
+      "3000 lumens",
+      "Adjustable tripod",
+      "Cordless operation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS578B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 7-1/4 in. Circular Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "max_rpm": 5800,
+      "voltage": 60
+    },
+    "rating": 4.8,
+    "review_count": 5200,
+    "description": "FLEXVOLT 60V MAX brushless 7-1/4 in. circular saw with 5800 RPM. Power of corded with cordless convenience.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "5800 RPM",
+      "Electric brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS577B",
+    "name": "DeWalt FLEXVOLT 60V MAX 7-1/4 in. Worm Drive Style Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "worm-drive-saw",
+    "price_current": 342,
+    "price_msrp": 342,
+    "specs": {
+      "blade_size_in": 7.25,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 2800,
+    "description": "FLEXVOLT 60V MAX worm drive style circular saw. Delivers the power and torque of a corded worm drive saw.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "Worm drive style",
+      "Magnesium shoe"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS520B",
+    "name": "DeWalt FLEXVOLT 60V MAX 6-1/2 in. Cordless Track Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "track-saws",
+    "tool_type": "track-saw",
+    "price_current": 429,
+    "price_msrp": 429,
+    "specs": {
+      "blade_size_in": 6.5,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.8,
+    "review_count": 3600,
+    "description": "FLEXVOLT 60V MAX 6-1/2 in. cordless track saw for precise, straight cuts. Compatible with DeWalt track system.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "Track-guided cuts",
+      "Anti-kickback"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS7485B",
+    "name": "DeWalt FLEXVOLT 60V MAX 8-1/4 in. Table Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "table-saws",
+    "tool_type": "table-saw",
+    "price_current": 630,
+    "price_msrp": 630,
+    "specs": {
+      "blade_size_in": 8.25,
+      "brushless": true,
+      "rip_capacity_in": 24.5,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 4200,
+    "description": "FLEXVOLT 60V MAX 8-1/4 in. cordless table saw. 24-1/2 in. rip capacity. Power of corded, freedom of cordless.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "24.5 in. rip capacity",
+      "Rack and pinion fence"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 48,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS781B",
+    "name": "DeWalt FLEXVOLT 60V MAX 12 in. Double Bevel Sliding Miter Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "sliding-miter-saw",
+    "price_current": 699,
+    "price_msrp": 699,
+    "specs": {
+      "blade_size_in": 12,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.8,
+    "review_count": 1800,
+    "description": "FLEXVOLT 60V MAX 12 in. double bevel sliding miter saw. Cordless with the power to handle demanding cuts.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "12 in. blade",
+      "Double bevel",
+      "Sliding design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 56,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCS692B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 9 in. Cut-Off Saw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "cutting",
+    "subcategory": "cut-off-saws",
+    "tool_type": "cut-off-saw",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "blade_size_in": 9,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "FLEXVOLT 60V MAX brushless 9 in. cut-off saw for cutting concrete, metal, and masonry.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "9 in. blade",
+      "Concrete and metal cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCCS670B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 16 in. Chainsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "chainsaw",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "bar_length_in": 16,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 3800,
+    "description": "FLEXVOLT 60V MAX brushless 16 in. chainsaw for felling trees, cutting firewood, and storm cleanup.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "16 in. bar",
+      "Auto-oiling",
+      "Tool-free chain tensioning"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCCS672B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 18 in. Chainsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "chainsaw",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "bar_length_in": 18,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 2200,
+    "description": "FLEXVOLT 60V MAX brushless 18 in. chainsaw. Longer bar for larger cutting jobs.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "18 in. bar",
+      "Auto-oiling",
+      "Tool-free chain tensioning"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCCS677B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 20 in. Chainsaw (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "chainsaw",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "bar_length_in": 20,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "FLEXVOLT 60V MAX brushless 20 in. chainsaw. Top-of-line battery chainsaw for heavy-duty cutting.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "20 in. bar",
+      "Auto-oiling"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 13.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCBL772B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless Handheld Axial 600 CFM Blower (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "blowers",
+    "tool_type": "handheld-blower",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "brushless": true,
+      "max_air_speed_mph": 125,
+      "max_cfm": 600,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 3600,
+    "description": "FLEXVOLT 60V MAX brushless 600 CFM handheld axial blower. High output for clearing heavy debris.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "600 CFM",
+      "125 MPH",
+      "Variable speed trigger"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCBL770B",
+    "name": "DeWalt FLEXVOLT 60V MAX Handheld Blower (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "blowers",
+    "tool_type": "handheld-blower",
+    "price_current": 252,
+    "price_msrp": 252,
+    "specs": {
+      "brushless": true,
+      "max_cfm": 600,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 2400,
+    "description": "FLEXVOLT 60V MAX handheld blower. High-performance brushless motor for demanding outdoor cleanup.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "600 CFM",
+      "Variable speed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCST970B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless String Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 239,
+    "price_msrp": 239,
+    "specs": {
+      "brushless": true,
+      "cutting_swath_in": 15,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 2800,
+    "description": "FLEXVOLT 60V MAX brushless 15 in. string trimmer. Heavy-duty for thick grass and overgrowth.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "15 in. cutting swath",
+      "Dual-line bump feed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCST972B",
+    "name": "DeWalt FLEXVOLT 60V MAX 17 in. Brushless Attachment Capable String Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 269,
+    "price_msrp": 269,
+    "specs": {
+      "attachment_capable": true,
+      "brushless": true,
+      "cutting_swath_in": 17,
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 1600,
+    "description": "FLEXVOLT 60V MAX 17 in. attachment capable string trimmer. Accepts various attachments for versatility.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "17 in. cutting swath",
+      "Attachment capable"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 11.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCED472B",
+    "name": "DeWalt FLEXVOLT 60V MAX 7-1/2 in. Brushless Attachment Capable Edger (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "edgers",
+    "tool_type": "edger",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "attachment_capable": true,
+      "blade_size_in": 7.5,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 900,
+    "description": "FLEXVOLT 60V MAX 7-1/2 in. attachment capable edger. For professional lawn edging results.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "7-1/2 in. blade",
+      "Attachment capable"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCHT870B",
+    "name": "DeWalt FLEXVOLT 60V MAX 26 in. Brushless Hedge Trimmer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 249,
+    "price_msrp": 249,
+    "specs": {
+      "blade_length_in": 26,
+      "brushless": true,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 1400,
+    "description": "FLEXVOLT 60V MAX 26 in. brushless hedge trimmer. High-performance for heavy-duty hedge trimming.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "26 in. blade",
+      "Laser-cut blades"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCPW1000B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 1000 PSI Power Cleaner (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "outdoor-power",
+    "subcategory": "pressure-washers",
+    "tool_type": "power-cleaner",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": true,
+      "max_psi": 1000,
+      "voltage": 60
+    },
+    "rating": 4.5,
+    "review_count": 1800,
+    "description": "FLEXVOLT 60V MAX 1000 PSI brushless power cleaner for heavy-duty outdoor cleaning.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "1000 PSI",
+      "No gas needed"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH481B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 1-9/16 in. SDS MAX Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-max-rotary-hammer",
+    "price_current": 559,
+    "price_msrp": 559,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1.5625,
+      "chuck_type": "SDS-MAX",
+      "voltage": 60
+    },
+    "rating": 4.8,
+    "review_count": 2600,
+    "description": "FLEXVOLT 60V MAX 1-9/16 in. SDS MAX combination rotary hammer. Cordless power for heavy concrete drilling and chipping.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "SDS MAX",
+      "1-9/16 in. capacity"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 15.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH614B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 1-3/4 in. SDS MAX Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-max-rotary-hammer",
+    "price_current": 639,
+    "price_msrp": 639,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1.75,
+      "chuck_type": "SDS-MAX",
+      "voltage": 60
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "FLEXVOLT 60V MAX 1-3/4 in. SDS MAX combination rotary hammer. Heavy-duty concrete drilling.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "SDS MAX",
+      "1-3/4 in. capacity"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 19,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG418B",
+    "name": "DeWalt FLEXVOLT 60V MAX Brushless 4-1/2 to 6 in. Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 6,
+      "voltage": 60
+    },
+    "rating": 4.8,
+    "review_count": 2400,
+    "description": "FLEXVOLT 60V MAX brushless 4-1/2 to 6 in. grinder with kickback brake. Power of corded in a cordless grinder.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "Up to 6 in. disc",
+      "Kickback brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD130B",
+    "name": "DeWalt FLEXVOLT 60V MAX Mixer/Drill with E-Clutch System (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "drilling-driving",
+    "subcategory": "mixers",
+    "tool_type": "mixer-drill",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "e_clutch": true,
+      "voltage": 60
+    },
+    "rating": 4.6,
+    "review_count": 1400,
+    "description": "FLEXVOLT 60V MAX mixer/drill with E-Clutch system for mixing mortar, thinset, and mud. Electronic clutch prevents kickback.",
+    "features": [
+      "Brushless motor",
+      "FLEXVOLT 60V",
+      "E-Clutch system",
+      "Mixing and drilling"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCV585B",
+    "name": "DeWalt FLEXVOLT 60V MAX Cordless HEPA Dust Extractor (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-flexvolt",
+    "category": "dust-management",
+    "subcategory": "dust-extractors",
+    "tool_type": "dust-extractor",
+    "price_current": 594,
+    "price_msrp": 594,
+    "specs": {
+      "brushless": true,
+      "hepa": true,
+      "voltage": 60
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "FLEXVOLT 60V MAX HEPA dust extractor for silica dust compliance. Pairs with rotary hammers and grinders.",
+    "features": [
+      "FLEXVOLT 60V",
+      "HEPA filtration",
+      "Cordless operation",
+      "Silica dust compliant"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 23,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG400B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 4 in. Angle Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 4,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 300,
+    "description": "DeWalt's first cordless 4-inch angle grinder. ATOMIC series delivering up to 44% more power than a 0.7 HP pneumatic grinder.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "4 in. disc",
+      "44% more power than pneumatic"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG402B",
+    "name": "DeWalt ATOMIC 20V MAX Brushless 4-1/2 in. Angle Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 139,
+    "price_msrp": 139,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 4.5,
+      "series": "ATOMIC",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 200,
+    "description": "ATOMIC lightweight 4-1/2 in. angle grinder. Compact and lightweight brushless design.",
+    "features": [
+      "Brushless motor",
+      "ATOMIC series",
+      "Lightweight",
+      "Compact design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCG410B",
+    "name": "DeWalt 20V MAX XR Brushless 4-1/2 in. to 5 in. Angle Grinder (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "grinding-polishing",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "disc_size_in": 5,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.8,
+    "review_count": 400,
+    "description": "Latest XR brushless 4-1/2 to 5 in. angle grinder. New generation with improved performance.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Up to 5 in. disc",
+      "New generation design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCH798B",
+    "name": "DeWalt 20V MAX XR Brushless 1 in. SDS Plus Rotary Hammer (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "sds-plus-rotary-hammer",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "capacity_in": 1,
+      "chuck_type": "SDS-Plus",
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 600,
+    "description": "New XR brushless 1 in. SDS Plus rotary hammer. Updated design with improved ergonomics.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "SDS Plus",
+      "Updated design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "DW-DCD447B",
+    "name": "DeWalt 20V MAX XR Brushless 7/16 in. Quick Change Compact Stud and Joist Drill (Tool Only)",
+    "brand": "DeWalt",
+    "ecosystem": "dewalt-20v-max",
+    "category": "drilling-driving",
+    "subcategory": "stud-joist-drills",
+    "tool_type": "stud-joist-drill",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": true,
+      "chuck_size_in": 0.4375,
+      "series": "XR",
+      "voltage": 20
+    },
+    "rating": 4.7,
+    "review_count": 800,
+    "description": "XR brushless compact stud and joist drill with 7/16 in. quick change chuck. For drilling through studs and joists.",
+    "features": [
+      "Brushless motor",
+      "XR series",
+      "Quick change chuck",
+      "Compact for tight spaces"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "lowes"
+    ],
+    "image_url": ""
+  }
+]

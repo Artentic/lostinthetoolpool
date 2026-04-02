@@ -1,0 +1,3038 @@
+[
+  {
+    "sku": "MAK-XFD15Z",
+    "name": "Makita 18V LXT Sub-Compact Brushless 1/2\" Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "length_in": 5.875,
+      "max_rpm": 1700,
+      "max_torque_in_lbs": 350,
+      "speeds": 2,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 950,
+    "description": "Makita's sub-compact drill driver is tiny at under 6 inches long, making it the go-to choice for work in tight spaces. It weighs just 2.8 lbs with a battery, so your arm won't fatigue on a full day of drilling. Despite its size, the brushless motor still delivers 350 in-lbs of torque -- plenty for most DIY tasks.",
+    "features": [
+      "Only 5-7/8 inches long -- fits in tight joist bays and cabinets",
+      "Brushless motor for up to 50% longer run time vs brushed models",
+      "2-speed transmission: 0-500 / 0-1,700 RPM",
+      "Weighs only 2.8 lbs with 2.0Ah battery",
+      "Compatible with all Makita 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XFD12Z",
+    "name": "Makita 18V LXT Brushless 1/2\" Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "length_in": 7.25,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 530,
+      "speeds": 2,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 2100,
+    "description": "The standard-size brushless drill driver in Makita's LXT lineup. It hits a sweet spot of power, size, and price for most drilling and driving tasks around the house or jobsite.",
+    "features": [
+      "Brushless motor delivers 530 in-lbs of max torque",
+      "2-speed all-metal transmission: 0-500 / 0-2,000 RPM",
+      "Compact 7-1/4 inch length",
+      "LED light with afterglow illuminates the work area",
+      "Compatible with all Makita 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XPH15Z",
+    "name": "Makita 18V LXT Sub-Compact Brushless 1/2\" Hammer Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 139,
+    "price_msrp": 139,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "length_in": 6.5,
+      "max_rpm": 1700,
+      "max_torque_in_lbs": 350,
+      "speeds": 2,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 680,
+    "description": "The sub-compact hammer drill adds a hammer function for drilling into masonry and concrete while staying compact enough for tight spaces. At 6-1/2 inches long, it's one of the smallest hammer drills you can buy.",
+    "features": [
+      "Compact 6-1/2 inch length for tight quarters",
+      "Hammer mode for drilling into concrete and masonry",
+      "Brushless motor for longer run time and tool life",
+      "2-speed transmission: 0-500 / 0-1,700 RPM",
+      "Compatible with all Makita 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XPH12Z",
+    "name": "Makita 18V LXT Brushless 1/2\" Hammer Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "bpm_max": 30000,
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "length_in": 7.5,
+      "max_rpm": 2000,
+      "max_torque_in_lbs": 530,
+      "speeds": 2,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1800,
+    "description": "Makita's full-size brushless hammer drill has the power to handle demanding drilling and fastening in wood, metal, and masonry. Its three-mode selector lets you switch between drill, hammer drill, and drive modes.",
+    "features": [
+      "Brushless motor delivers 530 in-lbs of max torque",
+      "3-mode selection: drilling, hammer drilling, driving",
+      "2-speed all-metal transmission: 0-500 / 0-2,000 RPM",
+      "LED light with afterglow",
+      "Extreme Protection Technology (XPT) for dust and water resistance"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XDT16Z",
+    "name": "Makita 18V LXT Brushless 4-Speed Impact Driver (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 159,
+    "price_msrp": 159,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/4 inch hex",
+      "max_ipm": 3800,
+      "max_rpm": 3600,
+      "max_torque_in_lbs": 1600,
+      "speeds": 4,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 2400,
+    "description": "Makita's top 18V impact driver features Quick-Shift Mode that reduces impacting during fastening to help prevent overdriving and damage to work surfaces. The 4-speed selector gives you precise control from delicate fastening to max power.",
+    "features": [
+      "Quick-Shift Mode reduces rotation and impact speed for less overdriving",
+      "4-speed power selection: 0-1,100 / 0-2,100 / 0-3,200 / 0-3,600 RPM",
+      "1,600 in-lbs of max torque",
+      "Compact at 4-5/8 inches long",
+      "Dual LED lights eliminate shadows"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XDT18Z",
+    "name": "Makita 18V LXT Sub-Compact Brushless Impact Driver (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 119,
+    "price_msrp": 119,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/4 inch hex",
+      "length_in": 5.25,
+      "max_ipm": 3600,
+      "max_rpm": 3000,
+      "max_torque_in_lbs": 1240,
+      "speeds": 2,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 900,
+    "description": "The sub-compact impact driver is incredibly small at 5-1/4 inches and weighs just 2.6 lbs. Perfect for cabinet work, furniture assembly, and anywhere space is tight. Still delivers 1,240 in-lbs of torque -- enough for most fastening tasks.",
+    "features": [
+      "Only 5-1/4 inches long -- the most compact in its class",
+      "Variable 2-speed for a wide range of fastening",
+      "1,240 in-lbs max torque",
+      "Weighs only 2.6 lbs with 2.0Ah battery",
+      "One-touch bit holder for quick bit changes"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XDT14Z",
+    "name": "Makita 18V LXT Brushless 3-Speed Impact Driver (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/4 inch hex",
+      "max_ipm": 3600,
+      "max_rpm": 3400,
+      "max_torque_in_lbs": 1550,
+      "speeds": 3,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "The mid-range 18V LXT impact driver with 3-speed selection delivers excellent performance for general fastening. It sits between the sub-compact and Quick-Shift models in the lineup.",
+    "features": [
+      "3-speed power selection for precise fastening control",
+      "1,550 in-lbs of max torque",
+      "Brushless motor for longer runtime and tool life",
+      "Compact design with LED light",
+      "Compatible with all Makita 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XWT08Z",
+    "name": "Makita 18V LXT High Torque 1/2\" Impact Wrench (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "breakaway_torque_ft_lbs": 1180,
+      "brushless": true,
+      "drive_size": "1/2 inch",
+      "fastening_torque_ft_lbs": 740,
+      "max_ipm": 2700,
+      "max_rpm": 2200,
+      "speeds": 3,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1100,
+    "description": "The big 1/2-inch impact wrench for automotive work and heavy fastening. It delivers 740 ft-lbs of fastening torque and 1,180 ft-lbs of breakaway torque, enough to handle lug nuts, suspension bolts, and most automotive work.",
+    "features": [
+      "740 ft-lbs fastening / 1,180 ft-lbs breakaway torque",
+      "3-speed power selection",
+      "1/2-inch square drive with friction ring",
+      "Brushless motor for maximum power",
+      "LED light with afterglow"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XWT06Z",
+    "name": "Makita 18V LXT 3/8\" Impact Wrench (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": false,
+      "drive_size": "3/8 inch",
+      "max_ipm": 3200,
+      "max_rpm": 2100,
+      "max_torque_ft_lbs": 155,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 700,
+    "description": "A compact 3/8-inch impact wrench ideal for lighter automotive tasks, plumbing, and mechanical work where the 1/2-inch model would be overkill.",
+    "features": [
+      "155 ft-lbs max torque",
+      "3/8-inch square drive",
+      "4-pole motor with 2,100 RPM",
+      "Forward/reverse rotation",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XRH01Z",
+    "name": "Makita 18V LXT 1\" SDS-Plus Rotary Hammer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "rotary-hammer",
+    "price_current": 389,
+    "price_msrp": 389,
+    "specs": {
+      "bpm_max": 4800,
+      "brushless": true,
+      "chuck_type": "SDS-Plus",
+      "impact_energy_ft_lbs": 2,
+      "max_rpm": 1200,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 800,
+    "description": "A cordless rotary hammer for drilling into concrete, masonry, and stone without a cord. Uses SDS-Plus bits and has three modes: hammer drill, rotation only, and hammer only for chipping.",
+    "features": [
+      "3-mode operation: hammer drill, rotation only, hammer only",
+      "SDS-Plus chuck for quick bit changes",
+      "Anti-vibration technology reduces fatigue",
+      "Brushless motor for extended runtime",
+      "Dust extraction capability"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSH03Z",
+    "name": "Makita 18V LXT Brushless 6-1/2\" Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 235,
+    "price_msrp": 235,
+    "specs": {
+      "bevel_capacity": 50,
+      "blade_size": "6-1/2 inch",
+      "brushless": true,
+      "cutting_depth_90": 2.25,
+      "max_rpm": 5000,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 3200,
+    "description": "The most popular cordless circular saw in Makita's LXT lineup. The 6-1/2-inch blade handles 2x lumber at 90 degrees and the brushless motor delivers 5,000 RPM for clean, fast cuts. Electric brake stops the blade quickly for safety.",
+    "features": [
+      "6-1/2 inch blade cuts 2x lumber at 90 degrees",
+      "Brushless motor delivers 5,000 RPM",
+      "Electric brake for quick blade stops",
+      "Magnesium shoe and blade guards for lightweight durability",
+      "Built-in LED light illuminates the cut line"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSS02Z",
+    "name": "Makita 18V LXT 6-1/2\" Lightweight Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "bevel_capacity": 50,
+      "blade_size": "6-1/2 inch",
+      "brushless": false,
+      "cutting_depth_90": 2.25,
+      "max_rpm": 3700,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 2500,
+    "description": "The budget-friendly cordless circular saw in Makita's lineup. It uses a standard brushed motor but still delivers clean cuts in 2x lumber. At under $150 (tool only), it's a solid choice for occasional use.",
+    "features": [
+      "6-1/2 inch blade for cutting 2x lumber",
+      "Lightweight at 6.8 lbs with battery",
+      "50-degree bevel capacity",
+      "Positive stop at 45 degrees",
+      "Built-in dust blower clears cut line"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSS03Z",
+    "name": "Makita 18V LXT 5-3/8\" Circular Trim Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "trim-saw",
+    "price_current": 129,
+    "price_msrp": 129,
+    "specs": {
+      "bevel_capacity": 50,
+      "blade_size": "5-3/8 inch",
+      "brushless": false,
+      "cutting_depth_90": 2,
+      "max_rpm": 4000,
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 600,
+    "description": "A compact circular trim saw for lighter cutting tasks. The 5-3/8-inch blade won't cut through a 2x4 in one pass, but it's great for plywood, paneling, and trim work where a full-size saw is too bulky.",
+    "features": [
+      "5-3/8 inch blade for trim and sheet goods",
+      "Lightweight and compact design",
+      "2-inch max cutting depth at 90 degrees",
+      "50-degree bevel capacity",
+      "Compatible with all 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSH01Z",
+    "name": "Makita 18V X2 LXT (36V) Brushless 7-1/4\" Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "batteries_required": 2,
+      "bevel_capacity": 53,
+      "blade_size": "7-1/4 inch",
+      "brushless": true,
+      "cutting_depth_90": 2.5,
+      "max_rpm": 4800,
+      "voltage": 36
+    },
+    "rating": 4.7,
+    "review_count": 2100,
+    "description": "Uses two 18V batteries for 36V of power, giving you a full-size 7-1/4-inch cordless circular saw that rivals corded models. This is the saw to get if you need to cut through 2x lumber all day without plugging in.",
+    "features": [
+      "Uses two 18V LXT batteries for 36V power",
+      "7-1/4 inch blade cuts 2-1/2 inches deep at 90 degrees",
+      "Brushless motor delivers 4,800 RPM",
+      "Magnesium base for lightweight strength",
+      "Electric brake and LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XRJ05Z",
+    "name": "Makita 18V LXT Brushless Reciprocating Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 189,
+    "price_msrp": 189,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length": 1.25,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1800,
+    "description": "Makita's brushless recip saw delivers fast, aggressive cutting for demolition, remodeling, and pruning. Variable speed trigger and shoe adjust give you control for precision cuts too.",
+    "features": [
+      "Brushless motor for up to 50% longer runtime",
+      "Variable speed: 0-3,000 SPM",
+      "1-1/4 inch stroke length",
+      "Tool-less blade change",
+      "Shoe adjusts for longer blade life"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XRJ04Z",
+    "name": "Makita 18V LXT Reciprocating Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 139,
+    "price_msrp": 139,
+    "specs": {
+      "brushless": false,
+      "max_spm": 2800,
+      "stroke_length": 1.125,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 2200,
+    "description": "The budget reciprocating saw in the LXT lineup. It uses a brushed motor so runtime is shorter, but the lower price makes it a great entry point for occasional demolition and pruning work.",
+    "features": [
+      "Variable speed: 0-2,800 SPM",
+      "1-1/8 inch stroke length",
+      "Tool-less blade change",
+      "Adjustable shoe",
+      "Built-in LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XVJ03Z",
+    "name": "Makita 18V LXT Jig Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": false,
+      "cutting_depth_metal": 0.375,
+      "cutting_depth_wood": 5.375,
+      "max_spm": 2600,
+      "stroke_length": 1,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 950,
+    "description": "A versatile cordless jig saw for curved cuts in wood, metal, and plastic. The D-handle design gives solid control and the orbital action lets you adjust cutting aggressiveness.",
+    "features": [
+      "Variable speed: 0-2,600 SPM",
+      "3-orbital setting plus straight cutting",
+      "Tool-less blade change",
+      "Built-in dust blower",
+      "LED light illuminates the cut line"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XVJ05Z",
+    "name": "Makita 18V LXT Barrel Grip Jig Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": true,
+      "cutting_depth_wood": 5.375,
+      "max_spm": 3500,
+      "stroke_length": 1,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 500,
+    "description": "The barrel-grip jig saw offers better visibility and control than D-handle models. Preferred by pros for detail work and countertop cutouts. Brushless motor and variable speed up to 3,500 SPM.",
+    "features": [
+      "Barrel grip design for superior control",
+      "Brushless motor: 0-3,500 SPM",
+      "3-orbital settings plus straight cutting",
+      "Tool-less blade change",
+      "On-board dust port connects to vacuum"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XBP04Z",
+    "name": "Makita 18V LXT Compact Brushless Band Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "band-saw",
+    "price_current": 345,
+    "price_msrp": 345,
+    "specs": {
+      "blade_length": "32-7/8 inch",
+      "brushless": true,
+      "cutting_capacity_round": 2.5,
+      "max_sfpm": 630,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 400,
+    "description": "A portable band saw for clean, burr-free cuts in pipe, conduit, threaded rod, and other materials. Much cleaner than a recip saw for plumbing and metalwork.",
+    "features": [
+      "Compact one-hand design for tight spaces",
+      "Brushless motor for longer runtime",
+      "Variable speed: 275-630 SFPM",
+      "Cuts 2-1/2 inch round capacity",
+      "Tool-less blade change"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XBP02Z",
+    "name": "Makita 18V LXT Portable Band Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "band-saws",
+    "tool_type": "band-saw",
+    "price_current": 425,
+    "price_msrp": 425,
+    "specs": {
+      "blade_length": "35-3/8 inch",
+      "brushless": false,
+      "cutting_capacity_round": 4.75,
+      "max_sfpm": 630,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 350,
+    "description": "A larger portable band saw with 4-3/4 inch round cutting capacity for heavier pipe and structural material. Two-hand design for stability on bigger cuts.",
+    "features": [
+      "4-3/4 inch round cutting capacity",
+      "Variable speed for different materials",
+      "Tool-less blade change",
+      "LED cut light",
+      "Rubberized handles for comfort"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XDS01Z",
+    "name": "Makita 18V LXT Cut-Out Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "cut-out-tools",
+    "tool_type": "cut-out-saw",
+    "price_current": 255,
+    "price_msrp": 255,
+    "specs": {
+      "brushless": true,
+      "collet_size": "1/4 inch",
+      "max_rpm": 30000,
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 300,
+    "description": "A cordless rotary cut-out tool for drywall, plywood, and thin paneling. Spins at 30,000 RPM for clean cuts when installing outlets, switches, and fixtures.",
+    "features": [
+      "30,000 RPM brushless motor",
+      "1/4-inch collet for standard bits",
+      "Depth adjustment for different materials",
+      "Dust-sealed construction",
+      "LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSL06Z",
+    "name": "Makita 18V X2 LXT (36V) Brushless 10\" Dual-Bevel Sliding Compound Miter Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "miter-saw",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "batteries_required": 2,
+      "bevel_range": 48,
+      "blade_size": "10 inch",
+      "brushless": true,
+      "crosscut_capacity_90": 12,
+      "max_rpm": 4400,
+      "miter_range_left": 60,
+      "miter_range_right": 60,
+      "voltage": 36
+    },
+    "rating": 4.7,
+    "review_count": 1500,
+    "description": "A full-size cordless miter saw powered by two 18V batteries. It cuts up to 12 inches wide at 90 degrees and features Automatic Speed Change technology that adjusts speed and torque under load.",
+    "features": [
+      "Direct-drive gearbox and guard system",
+      "Automatic Speed Change adjusts under load",
+      "Up to 334 crosscuts per charge in 2x4 SPF",
+      "Dual-bevel with positive stops",
+      "Built-in laser guide"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 55.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSL07Z",
+    "name": "Makita 18V X2 LXT (36V) Brushless 12\" Dual-Bevel Sliding Compound Miter Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "miter-saws",
+    "tool_type": "miter-saw",
+    "price_current": 579,
+    "price_msrp": 579,
+    "specs": {
+      "batteries_required": 2,
+      "blade_size": "12 inch",
+      "brushless": true,
+      "crosscut_capacity_90": 15,
+      "crown_molding_capacity": 8,
+      "max_rpm": 3600,
+      "voltage": 36
+    },
+    "rating": 4.7,
+    "review_count": 900,
+    "description": "The largest cordless miter saw in the LXT lineup. The 12-inch blade handles wide boards and crown molding up to 8 inches nested. Uses two 18V batteries for 36V of sustained power.",
+    "features": [
+      "12 inch blade for 15 inch crosscuts at 90 degrees",
+      "8 inch crown molding capacity (nested)",
+      "6-3/4 inch vertical cutting capacity",
+      "Automatic Speed Change technology",
+      "AWS compatible for dust extraction sync"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 60,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XPS01Z",
+    "name": "Makita 18V X2 LXT (36V) Brushless 6-1/2\" Plunge Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "cutting",
+    "subcategory": "track-saws",
+    "tool_type": "track-saw",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "batteries_required": 2,
+      "bevel_capacity": 48,
+      "blade_size": "6-1/2 inch",
+      "brushless": true,
+      "cutting_depth_90": 2.1875,
+      "max_rpm": 6300,
+      "voltage": 36
+    },
+    "rating": 4.7,
+    "review_count": 1200,
+    "description": "A cordless plunge-cut track saw for ultra-precise, splinter-free cuts in plywood, MDF, and solid wood. When paired with a guide rail, it replaces a table saw for sheet goods with cleaner results.",
+    "features": [
+      "Plunge-cutting design for mid-panel starts",
+      "Variable speed: 2,500-6,300 RPM",
+      "Works with Makita guide rail system (sold separately)",
+      "Bevel capacity from -1 to 48 degrees",
+      "Splinter guard for chip-free cuts"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XAG04Z",
+    "name": "Makita 18V LXT Brushless 4-1/2\" / 5\" Cut-Off/Angle Grinder (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": true,
+      "disc_size": "4-1/2 / 5 inch",
+      "max_rpm": 8500,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2800,
+    "description": "The standard cordless angle grinder for cutting and grinding metal, tile, and concrete. The brushless motor delivers 8,500 RPM and the slide switch prevents accidental starts.",
+    "features": [
+      "Brushless motor: 8,500 RPM",
+      "Slide switch prevents accidental starts",
+      "Automatic Speed Change adjusts under load",
+      "Electric brake stops wheel in 2 seconds",
+      "Active Feedback Sensing shuts off motor if rotation is stopped"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XAG26Z",
+    "name": "Makita 18V LXT Brushless 4-1/2\" Paddle Switch Angle Grinder (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 169,
+    "price_msrp": 169,
+    "specs": {
+      "brushless": true,
+      "disc_size": "4-1/2 inch",
+      "max_rpm": 8500,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "A paddle-switch angle grinder that shuts off when you release the trigger -- the safer choice for grinding and cutting tasks. Same motor as the slide-switch model.",
+    "features": [
+      "Paddle switch shuts off when released for safety",
+      "Brushless motor: 8,500 RPM",
+      "Electric brake stops disc quickly",
+      "Anti-restart function",
+      "Compatible with all 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XOB01Z",
+    "name": "Makita 18V LXT 5\" Random Orbit Sander (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "random-orbit-sander",
+    "price_current": 125,
+    "price_msrp": 125,
+    "specs": {
+      "brushless": false,
+      "max_opm": 11000,
+      "orbit_diameter": 0.125,
+      "pad_size": "5 inch",
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 1400,
+    "description": "A cordless random orbit sander for smoothing wood surfaces before finishing. Produces a swirl-free finish and connects to a dust bag or vacuum for clean sanding.",
+    "features": [
+      "5-inch pad for standard sanding discs",
+      "Variable speed: 7,000-11,000 OPM",
+      "1/8 inch orbit for fine finish",
+      "Hook-and-loop pad for quick disc changes",
+      "Dust collection bag included"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSB01Z",
+    "name": "Makita 18V LXT Brushless 3/8\" x 21\" Detail Belt Sander (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "belt-sander",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "belt_size": "3/8 x 21 inch",
+      "brushless": true,
+      "max_sfpm": 1378,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 200,
+    "description": "A detail belt sander for precision sanding in tight spots. The narrow 3/8-inch belt gets into corners and contours where random orbit sanders can't reach.",
+    "features": [
+      "3/8 inch x 21 inch belt for detail work",
+      "Brushless motor: up to 1,378 SFPM",
+      "Variable speed control",
+      "Front roller for flush sanding",
+      "Dust collection port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XLS01ZX1",
+    "name": "Makita 18V LXT Brushless Drywall Sander (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "grinding-sanding",
+    "subcategory": "sanders",
+    "tool_type": "drywall-sander",
+    "price_current": 599,
+    "price_msrp": 599,
+    "specs": {
+      "brushless": true,
+      "max_rpm": 1600,
+      "pad_size": "9 inch",
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 250,
+    "description": "A cordless drywall sander that eliminates the need for a cord on the ceiling. The 9-inch sanding head covers large areas quickly, and AWS compatibility lets it auto-start a connected dust extractor.",
+    "features": [
+      "9-inch sanding head for fast coverage",
+      "Brushless motor with variable speed",
+      "AWS compatible for auto-start dust extraction",
+      "Adjustable handle length",
+      "LED light ring around sanding pad"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XTR01Z",
+    "name": "Makita 18V LXT Brushless Compact Router (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "routing-shaping",
+    "subcategory": "routers",
+    "tool_type": "compact-router",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "brushless": true,
+      "collet_size": "1/4 inch",
+      "max_rpm": 30000,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3500,
+    "description": "One of the most popular cordless routers on the market. The brushless motor delivers 30,000 RPM for clean edge profiles, dado cuts, and decorative routing. Compatible with standard router bases and guides.",
+    "features": [
+      "Variable speed: 10,000-30,000 RPM",
+      "Brushless motor for extended runtime",
+      "Accepts standard 1/4-inch shank bits",
+      "Fine depth adjustment with micro dial",
+      "LED light illuminates work area"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XPK01Z",
+    "name": "Makita 18V LXT 3-1/4\" Cordless Planer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "routing-shaping",
+    "subcategory": "planers",
+    "tool_type": "planer",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "brushless": false,
+      "cutting_width": 3.25,
+      "max_depth": 0.09375,
+      "max_rpm": 14000,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 750,
+    "description": "A cordless planer for smoothing and dimensioning lumber. The 3-1/4-inch wide cutting head handles standard lumber widths and the depth adjustment lets you take fine shavings.",
+    "features": [
+      "3-1/4 inch cutting width",
+      "Max 3/32 inch cutting depth",
+      "14,000 RPM for smooth finish",
+      "Kickstand locks up for stable placement",
+      "Dust port for chip collection"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XMT03Z",
+    "name": "Makita 18V LXT Multi-Tool (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "multi-tools",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "brushless": false,
+      "max_opm": 20000,
+      "oscillation_angle": 3.2,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 2000,
+    "description": "An oscillating multi-tool for cutting, sanding, scraping, and grinding in tight spots. Accepts OIS and Starlock accessories. Essential for remodeling work.",
+    "features": [
+      "Variable speed: 6,000-20,000 OPM",
+      "3.2-degree oscillation angle",
+      "Accepts OIS and Starlock accessories",
+      "Tool-less accessory change",
+      "LED light illuminates work area"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.6,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XMT04ZB",
+    "name": "Makita 18V LXT Sub-Compact Brushless StarlockMax Multi-Tool (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "multi-tools",
+    "subcategory": "oscillating-tools",
+    "tool_type": "oscillating-multi-tool",
+    "price_current": 235,
+    "price_msrp": 235,
+    "specs": {
+      "brushless": true,
+      "max_opm": 20000,
+      "oscillation_angle": 3.4,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 500,
+    "description": "The premium multi-tool in the LXT lineup. The brushless motor and StarlockMax interface accept the largest oscillating accessories for more aggressive cutting. Sub-compact design fits into tight spaces.",
+    "features": [
+      "StarlockMax interface for largest accessories",
+      "Brushless motor for longer runtime",
+      "Variable speed: 6,000-20,000 OPM",
+      "Sub-compact design for tight quarters",
+      "Soft-start for controlled plunge cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XNB01Z",
+    "name": "Makita 18V LXT 2\" Brad Nailer 18 Gauge (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "brad-nailer",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "magazine_capacity": 100,
+      "nail_gauge": 18,
+      "nail_length_max": 2,
+      "nail_length_min": 0.625,
+      "nails_per_charge": 1660,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 1200,
+    "description": "A cordless brad nailer that fires 18-gauge brads up to 2 inches long. No compressor, no hose -- just point and shoot. Drives up to 1,660 nails per charge with a 5.0Ah battery.",
+    "features": [
+      "Drives 18-gauge brads from 5/8 to 2 inches",
+      "Magazine holds up to 100 nails",
+      "1,660 nails per charge (5.0Ah battery)",
+      "Tool-less depth adjustment",
+      "No compressor required"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XNB04Z",
+    "name": "Makita 18V LXT Brushless 2\" Brad Nailer 18 Gauge (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "brad-nailer",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "magazine_capacity": 100,
+      "nail_gauge": 18,
+      "nail_length_max": 2,
+      "nail_length_min": 0.625,
+      "nails_per_charge": 4250,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "The upgraded brushless brad nailer fires 2x faster than the previous model and drives up to 4,250 nails per charge. The brushless motor also runs cooler and lasts longer.",
+    "features": [
+      "2x faster nailing speed vs previous model",
+      "4,250 nails per charge (5.0Ah battery)",
+      "Drives 18-gauge brads from 5/8 to 2 inches",
+      "Brushless motor for extended life",
+      "Anti-dry fire mechanism prevents blank shots"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XBN05Z",
+    "name": "Makita 18V LXT 2-1/2\" Straight Finish Nailer 16 Gauge (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "finish-nailer",
+    "price_current": 379,
+    "price_msrp": 379,
+    "specs": {
+      "brushless": true,
+      "nail_gauge": 16,
+      "nail_length_max": 2.5,
+      "nail_length_min": 1,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 300,
+    "description": "A cordless 16-gauge straight finish nailer for trim work, baseboards, and crown molding. Delivers 1.5x faster nailing than previous models and sinks nails sub-flush in hardwood.",
+    "features": [
+      "16-gauge straight finish nails, 1 to 2-1/2 inches",
+      "1.5x faster nailing speed",
+      "Sub-flush driving in hardwood",
+      "Tool-less depth adjustment",
+      "Sequential and contact firing modes"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XNB06Z",
+    "name": "Makita 18V LXT 2-1/2\" Angled Finish Nailer 16 Gauge (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "finish-nailer",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "brushless": true,
+      "nail_angle": 34,
+      "nail_gauge": 16,
+      "nail_length_max": 2.5,
+      "nail_length_min": 1,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 200,
+    "description": "An angled 16-gauge finish nailer for getting into tight corners where a straight nailer won't fit. The 34-degree magazine angle is perfect for inside corners and toe-nailing.",
+    "features": [
+      "34-degree angled magazine for tight corners",
+      "16-gauge finish nails, 1 to 2-1/2 inches",
+      "1.5x faster nailing speed",
+      "Sequential and contact firing modes",
+      "No compressor required"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XNB03Z",
+    "name": "Makita 18V LXT Brushless 21-Degree 3-1/2\" Framing Nailer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "framing-nailer",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "nail_angle": 21,
+      "nail_length_max": 3.5,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 350,
+    "description": "A cordless framing nailer that drives 3-1/2-inch full round head nails without a compressor. The 21-degree magazine accepts widely available nail strips for framing, sheathing, and deck building.",
+    "features": [
+      "21-degree full round head 3-1/2 inch nails",
+      "Brushless motor for consistent driving power",
+      "Sequential and bump-fire modes",
+      "No compressor, hose, or gas cartridge",
+      "Tool-less depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XTS02Z",
+    "name": "Makita 18V LXT 1/4\" Narrow Crown Stapler 18 Gauge (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "staplers",
+    "tool_type": "crown-stapler",
+    "price_current": 329,
+    "price_msrp": 329,
+    "specs": {
+      "brushless": true,
+      "crown_width": 0.25,
+      "staple_gauge": 18,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 150,
+    "description": "A cordless narrow crown stapler for upholstery, cabinet backs, and light trim. Fires 18-gauge 1/4-inch crown staples with 1.25x faster stapling than pneumatic competitors.",
+    "features": [
+      "18-gauge 1/4-inch narrow crown staples",
+      "1.25x faster stapling speed",
+      "Brushless motor for extended life",
+      "No compressor required",
+      "Tool-less depth adjustment"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XTP02Z",
+    "name": "Makita 18V LXT 23 Gauge 1-3/8\" Pin Nailer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "nailers",
+    "tool_type": "pin-nailer",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "brushless": false,
+      "nail_gauge": 23,
+      "nail_length_max": 1.375,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 400,
+    "description": "A 23-gauge pin nailer for delicate trim work where you need nearly invisible fastener holes. Pin nails are headless, so they leave a tiny hole that's easy to fill or often invisible entirely.",
+    "features": [
+      "23-gauge headless pins up to 1-3/8 inches",
+      "Nearly invisible nail holes",
+      "Ideal for thin trim, picture frames, and delicate moldings",
+      "No compressor required",
+      "Adjustable depth of drive"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XGC01ZB",
+    "name": "Makita 18V LXT Cordless Caulk and Adhesive Gun (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "caulk-guns",
+    "tool_type": "caulk-gun",
+    "price_current": 309,
+    "price_msrp": 309,
+    "specs": {
+      "brushless": false,
+      "cartridge_size": "10 oz / 20 oz",
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 350,
+    "description": "A powered caulk gun for applying sealants, adhesives, and caulk without hand fatigue. Variable speed trigger gives you precise bead control. Handles both 10 oz and 20 oz cartridges.",
+    "features": [
+      "Variable speed trigger for bead control",
+      "Handles 10 oz and 20 oz cartridges",
+      "Anti-drip feature stops flow when trigger is released",
+      "Puncher and cutter built into base",
+      "Eliminates hand fatigue on large caulking jobs"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XPG01Z",
+    "name": "Makita 18V LXT Cordless Grease Gun (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "fastening",
+    "subcategory": "specialty-tools",
+    "tool_type": "grease-gun",
+    "price_current": 285,
+    "price_msrp": 285,
+    "specs": {
+      "brushless": false,
+      "max_psi": 10000,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 500,
+    "description": "A cordless grease gun for automotive and equipment maintenance. Delivers up to 10,000 PSI of pressure and dispenses a full 14 oz cartridge per charge with a 2.0Ah battery.",
+    "features": [
+      "10,000 PSI max pressure",
+      "Variable speed trigger for flow control",
+      "Uses standard 14 oz grease cartridges",
+      "LED light for dark access points",
+      "Over-pressure shut-off for safety"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XCV11Z",
+    "name": "Makita 18V LXT Brushless 2 Gal. HEPA Filter Portable Wet/Dry Dust Extractor/Vacuum (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "dust-extraction",
+    "subcategory": "vacuums",
+    "tool_type": "dust-extractor",
+    "price_current": 235,
+    "price_msrp": 235,
+    "specs": {
+      "brushless": true,
+      "capacity_gal": 2,
+      "hepa_filter": true,
+      "voltage": 18,
+      "wet_dry": true
+    },
+    "rating": 4.6,
+    "review_count": 1200,
+    "description": "A portable HEPA dust extractor that runs on a single 18V battery. Perfect for capturing fine dust from sanders, saws, and grinders. The HEPA filter captures 99.97% of particles.",
+    "features": [
+      "HEPA filter captures 99.97% of particles 0.3 microns and larger",
+      "2-gallon capacity for portable use",
+      "Wet and dry pickup",
+      "Brushless motor for extended runtime",
+      "AWS compatible for auto-start with tools"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.1,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XLC02ZB",
+    "name": "Makita 18V LXT Compact Cordless Vacuum (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "dust-extraction",
+    "subcategory": "vacuums",
+    "tool_type": "compact-vacuum",
+    "price_current": 89,
+    "price_msrp": 89,
+    "specs": {
+      "brushless": false,
+      "suction_aw": 27,
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 2500,
+    "description": "A compact stick vacuum for quick cleanups in the shop, truck, or around the house. Lightweight and portable with a nozzle attachment for getting into tight spaces.",
+    "features": [
+      "Compact and lightweight design",
+      "3 nozzle attachments for different surfaces",
+      "Reusable cloth filter",
+      "One-touch lock-on for continuous operation",
+      "Works with 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-DMP180ZX",
+    "name": "Makita 18V LXT Cordless Inflator (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "specialty",
+    "subcategory": "inflators",
+    "tool_type": "inflator",
+    "price_current": 135,
+    "price_msrp": 135,
+    "specs": {
+      "brushless": false,
+      "max_psi": 120,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1800,
+    "description": "A cordless inflator for car tires, bike tires, sports balls, and air mattresses. Digital gauge with preset pressure and auto-shutoff makes it easy to inflate to the exact pressure you need.",
+    "features": [
+      "Digital pressure gauge with preset feature",
+      "Auto-shutoff at preset pressure",
+      "120 PSI max pressure",
+      "Multiple nozzle adapters included",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-DML812",
+    "name": "Makita 18V LXT LED Flashlight/Spotlight",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "lighting",
+    "subcategory": "flashlights",
+    "tool_type": "flashlight",
+    "price_current": 115,
+    "price_msrp": 115,
+    "specs": {
+      "lumens": 1250,
+      "modes": 4,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 400,
+    "description": "A powerful LED flashlight/spotlight that runs on 18V LXT batteries. Delivers up to 1,250 lumens with four brightness modes. Perfect for working in dark areas or as an emergency light.",
+    "features": [
+      "1,250 lumens on high setting",
+      "4 brightness modes",
+      "Spotlight and flood modes",
+      "Impact resistant construction",
+      "Up to 18 hours runtime on low setting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-DML801",
+    "name": "Makita 18V LXT LED Flashlight",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "lighting",
+    "subcategory": "flashlights",
+    "tool_type": "flashlight",
+    "price_current": 75,
+    "price_msrp": 75,
+    "specs": {
+      "lumens": 750,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 800,
+    "description": "A compact LED flashlight that runs on 18V LXT batteries. At $75 it's one of the cheapest ways to add lighting to your Makita battery collection.",
+    "features": [
+      "750 lumens output",
+      "Compact design",
+      "Pivoting head for directional lighting",
+      "Impact-resistant housing",
+      "Compatible with all 18V LXT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.4,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-DCF201Z",
+    "name": "Makita 18V LXT Cordless 9\" Fan (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "jobsite-equipment",
+    "subcategory": "fans",
+    "tool_type": "jobsite-fan",
+    "price_current": 125,
+    "price_msrp": 125,
+    "specs": {
+      "blade_diameter": 9,
+      "speeds": 3,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 600,
+    "description": "A cordless fan for keeping cool on the jobsite or in the garage. Three speed settings and a pivoting head let you direct airflow where you need it.",
+    "features": [
+      "9-inch fan blade with 3 speed settings",
+      "Pivoting head adjusts airflow direction",
+      "Runs up to 13.5 hours on low (5.0Ah battery)",
+      "Compact and portable",
+      "Also runs on AC power"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XRM11",
+    "name": "Makita 18V LXT Cordless Bluetooth Job Site Speaker",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "jobsite-equipment",
+    "subcategory": "speakers",
+    "tool_type": "bluetooth-speaker",
+    "price_current": 149,
+    "price_msrp": 149,
+    "specs": {
+      "bluetooth": true,
+      "voltage": 18,
+      "water_resistant": true
+    },
+    "rating": 4.4,
+    "review_count": 700,
+    "description": "A rugged Bluetooth speaker that runs on 18V LXT batteries. IP65-rated for dust and water resistance, so it can handle the jobsite. Good sound quality for its size.",
+    "features": [
+      "Bluetooth connectivity",
+      "IP65 dust and water resistant",
+      "USB charging port for devices",
+      "Runs on 18V LXT batteries or AC power",
+      "Up to 20 hours playback on 5.0Ah battery"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XBU03Z",
+    "name": "Makita 18V LXT Brushless Cordless Blower (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "blowers",
+    "tool_type": "handheld-blower",
+    "price_current": 165,
+    "price_msrp": 165,
+    "specs": {
+      "brushless": true,
+      "cfm": 476,
+      "mph": 116,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2000,
+    "description": "A compact cordless blower for clearing leaves, grass clippings, and debris. Not as powerful as 36V or 56V models but lighter and good enough for small to medium yards.",
+    "features": [
+      "476 CFM and 116 MPH",
+      "Brushless motor for extended runtime",
+      "Variable speed trigger with cruise control",
+      "Lightweight at 4.4 lbs with battery",
+      "Low noise: 60 dB(A)"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XHU09Z",
+    "name": "Makita 18V LXT Brushless 24\" Hedge Trimmer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 199,
+    "price_msrp": 199,
+    "specs": {
+      "blade_length": 24,
+      "brushless": true,
+      "cut_capacity_in": 0.75,
+      "spm": 4000,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 900,
+    "description": "A cordless hedge trimmer for maintaining hedges and bushes. The 24-inch dual-action blade cuts branches up to 3/4-inch thick with 4,000 strokes per minute.",
+    "features": [
+      "24-inch dual-action blade",
+      "4,000 SPM for clean cuts",
+      "Cuts branches up to 3/4 inch",
+      "Brushless motor for extended runtime",
+      "Rotating rear handle for comfortable cutting"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XHU08Z",
+    "name": "Makita 18V LXT Brushless 30\" Hedge Trimmer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 229,
+    "price_msrp": 229,
+    "specs": {
+      "blade_length": 30,
+      "brushless": true,
+      "cut_capacity_in": 0.75,
+      "spm": 4000,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 600,
+    "description": "The longer 30-inch version of Makita's cordless hedge trimmer. The extra blade length covers more with each pass, making it faster for large hedges.",
+    "features": [
+      "30-inch dual-action blade for wider coverage",
+      "4,000 SPM cutting speed",
+      "Cuts branches up to 3/4 inch",
+      "Brushless motor for extended runtime",
+      "5-position rotating rear handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XRU23Z",
+    "name": "Makita 18V LXT Brushless 13\" String Trimmer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "string-trimmers",
+    "tool_type": "string-trimmer",
+    "price_current": 179,
+    "price_msrp": 179,
+    "specs": {
+      "brushless": true,
+      "cutting_width": 13,
+      "max_rpm": 5500,
+      "voltage": 18
+    },
+    "rating": 4.4,
+    "review_count": 700,
+    "description": "A compact cordless string trimmer powered by a single 18V battery. The 13-inch cutting width is sufficient for small to medium yards. Lighter than 36V and 56V trimmers.",
+    "features": [
+      "13-inch cutting width",
+      "Brushless motor: 3,500-5,500 RPM",
+      "Bump-feed head for easy line loading",
+      "Telescoping shaft adjusts to user height",
+      "Converts to edger with accessory (sold separately)"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XCU14Z",
+    "name": "Makita 18V LXT Brushless 6\" Pruning Chainsaw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "pruning-chainsaw",
+    "price_current": 219,
+    "price_msrp": 219,
+    "specs": {
+      "bar_length": 6,
+      "brushless": true,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 1100,
+    "description": "A compact pruning chainsaw for small limb removal and yard cleanup. The 6-inch bar is ideal for branches up to about 5 inches. One-hand operation and top-handle design make it easy to use overhead.",
+    "features": [
+      "6-inch bar for pruning and limb removal",
+      "Brushless motor for fast chain speed",
+      "Tool-less chain adjustment",
+      "Automatic chain oiler",
+      "Top-handle design for one-hand use"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 4.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XCU10Z",
+    "name": "Makita 18V LXT Brushless 12\" Top Handle Chainsaw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "chainsaws",
+    "tool_type": "chainsaw",
+    "price_current": 299,
+    "price_msrp": 299,
+    "specs": {
+      "bar_length": 12,
+      "brushless": true,
+      "chain_speed_fpm": 3940,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 500,
+    "description": "A 12-inch chainsaw for moderate cutting tasks. The top-handle design and single-battery power make it lighter and more maneuverable than larger saws, ideal for firewood and storm cleanup.",
+    "features": [
+      "12-inch bar and chain",
+      "Brushless motor: 3,940 FPM chain speed",
+      "Tool-less chain tensioning",
+      "Automatic chain oiler",
+      "Front hand guard with chain brake"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XHU07Z",
+    "name": "Makita 18V LXT Brushless 24\" Hedge Trimmer Kit",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "outdoor-power",
+    "subcategory": "hedge-trimmers",
+    "tool_type": "hedge-trimmer",
+    "price_current": 435,
+    "price_msrp": 435,
+    "specs": {
+      "battery_included": true,
+      "blade_length": 24,
+      "brushless": true,
+      "cut_capacity_in": 0.875,
+      "spm": 4200,
+      "voltage": 18
+    },
+    "rating": 4.7,
+    "review_count": 1100,
+    "description": "A premium 24-inch hedge trimmer kit that includes a 5.0Ah battery and rapid charger. The enhanced blade design cuts branches up to 7/8 inch, and the shear blade design makes clean cuts.",
+    "features": [
+      "24-inch shear blade design for clean cuts",
+      "4,200 SPM cutting speed",
+      "Cuts branches up to 7/8 inch",
+      "Includes 5.0Ah battery and rapid charger",
+      "5-position rotating rear handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XT269M",
+    "name": "Makita 18V LXT Brushless 2-Tool Combo Kit (Hammer Drill + Impact Driver)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "combo-kits",
+    "subcategory": "combo-kits",
+    "tool_type": "2-tool-combo",
+    "price_current": 295,
+    "price_msrp": 295,
+    "specs": {
+      "batteries_included": 2,
+      "battery_ah": 4,
+      "brushless": true,
+      "tools_included": 2,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 4500,
+    "description": "Makita's most popular combo kit includes the XPH12Z hammer drill and XDT14Z impact driver with two 4.0Ah batteries, dual-port charger, and bag. Everything you need to get started in the Makita ecosystem.",
+    "features": [
+      "Includes hammer drill (530 in-lbs) and impact driver (1,550 in-lbs)",
+      "Two 4.0Ah batteries included",
+      "Dual-port rapid charger included",
+      "Contractor bag included",
+      "Both tools are brushless for long life and runtime"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 15,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XT288T",
+    "name": "Makita 18V LXT Brushless 2-Tool Combo Kit (5.0Ah)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "combo-kits",
+    "subcategory": "combo-kits",
+    "tool_type": "2-tool-combo",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "batteries_included": 2,
+      "battery_ah": 5,
+      "brushless": true,
+      "tools_included": 2,
+      "voltage": 18
+    },
+    "rating": 4.8,
+    "review_count": 3200,
+    "description": "The premium 2-piece combo with larger 5.0Ah batteries for extended runtime. Includes Makita's top hammer drill and impact driver with Quick-Shift Mode.",
+    "features": [
+      "Premium hammer drill and Quick-Shift impact driver",
+      "Two 5.0Ah batteries for longer runtime",
+      "Dual-port rapid charger",
+      "Hard case included",
+      "Best entry point for serious Makita users"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 17,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XT505",
+    "name": "Makita 18V LXT 5-Tool Combo Kit (3.0Ah)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "combo-kits",
+    "subcategory": "combo-kits",
+    "tool_type": "5-tool-combo",
+    "price_current": 399,
+    "price_msrp": 399,
+    "specs": {
+      "batteries_included": 2,
+      "battery_ah": 3,
+      "brushless": false,
+      "tools_included": 5,
+      "voltage": 18
+    },
+    "rating": 4.6,
+    "review_count": 2800,
+    "description": "A 5-tool starter kit that covers the basics: drill/driver, impact driver, reciprocating saw, circular saw, and flashlight. Uses brushed motors to keep the price down, making it a great budget entry into the Makita ecosystem.",
+    "features": [
+      "Includes drill/driver, impact driver, recip saw, circ saw, flashlight",
+      "Two 3.0Ah batteries and rapid charger",
+      "Tool bag included",
+      "All tools share the same 18V LXT batteries",
+      "Best value for getting started with Makita"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 25,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-XSA01Z",
+    "name": "Makita 18V LXT Brushless High Speed Blower/Inflator (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-18v-lxt",
+    "category": "specialty",
+    "subcategory": "blower-inflators",
+    "tool_type": "blower-inflator",
+    "price_current": 195,
+    "price_msrp": 195,
+    "specs": {
+      "brushless": true,
+      "cfm": 33,
+      "max_psi": 12,
+      "voltage": 18
+    },
+    "rating": 4.5,
+    "review_count": 350,
+    "description": "A dual-purpose blower and inflator for cleaning workshop surfaces and inflating air mattresses, pool toys, and small tires. Not to be confused with the outdoor leaf blower -- this is a precision shop tool.",
+    "features": [
+      "High-speed blower mode for cleaning",
+      "Inflator mode with multiple nozzles",
+      "Brushless motor",
+      "Variable speed trigger",
+      "Compact and lightweight design"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 2.8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GPH02Z",
+    "name": "Makita 40V max XGT Brushless 1/2\" Hammer Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "hammer-drills",
+    "tool_type": "hammer-drill",
+    "price_current": 209,
+    "price_msrp": 209,
+    "specs": {
+      "bpm_max": 31500,
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "max_rpm": 2100,
+      "max_torque_in_lbs": 530,
+      "speeds": 2,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 500,
+    "description": "The compact XGT hammer drill delivers impressive power in a small package. The 40V battery provides more sustained torque than 18V models, making it ideal for heavy-duty drilling in concrete and masonry.",
+    "features": [
+      "Compact design for tight spaces",
+      "530 in-lbs max torque",
+      "3-mode: drill, hammer drill, drive",
+      "2-speed transmission: 0-600 / 0-2,100 RPM",
+      "XPT extreme protection for dust and water"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GFD01Z",
+    "name": "Makita 40V max XGT Brushless 1/2\" Driver-Drill (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "drill-drivers",
+    "tool_type": "drill-driver",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/2 inch",
+      "max_rpm": 2100,
+      "max_torque_in_lbs": 1240,
+      "speeds": 2,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 300,
+    "description": "The high-output XGT driver-drill delivers 1,240 in-lbs of torque -- more than double most 18V drills. Built for demanding applications like self-feed bits and mixing compounds.",
+    "features": [
+      "1,240 in-lbs max torque",
+      "All-metal 1/2 inch chuck",
+      "2-speed transmission with variable speed trigger",
+      "LED light with afterglow",
+      "Compatible with all XGT 40V batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GDT01Z",
+    "name": "Makita 40V max XGT Brushless 4-Speed Impact Driver (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "impact-drivers",
+    "tool_type": "impact-driver",
+    "price_current": 234,
+    "price_msrp": 234,
+    "specs": {
+      "brushless": true,
+      "chuck_size": "1/4 inch hex",
+      "max_ipm": 4400,
+      "max_rpm": 3700,
+      "max_torque_in_lbs": 1770,
+      "speeds": 4,
+      "voltage": 40
+    },
+    "rating": 4.8,
+    "review_count": 450,
+    "description": "The XGT impact driver delivers 1,770 in-lbs of torque with 4-speed power selection. The 40V platform provides consistent power even under heavy load.",
+    "features": [
+      "1,770 in-lbs max torque",
+      "4-speed power selection",
+      "Quick-Shift Mode reduces overdriving",
+      "Compact design at 4-3/4 inches",
+      "Tri-LED illumination"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GRH01Z",
+    "name": "Makita 40V max XGT Brushless 1-1/8\" SDS-Plus Rotary Hammer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "rotary-hammer",
+    "price_current": 619,
+    "price_msrp": 619,
+    "specs": {
+      "bpm_max": 5000,
+      "brushless": true,
+      "chuck_type": "SDS-Plus",
+      "impact_energy_ft_lbs": 2.5,
+      "max_rpm": 980,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 350,
+    "description": "The XGT rotary hammer delivers 2.5 ft-lbs of impact energy for serious concrete work. The 40V battery provides the sustained power needed for long drilling sessions in hard materials.",
+    "features": [
+      "2.5 ft-lbs impact energy",
+      "3-mode: hammer drill, rotation only, hammer only",
+      "Anti-vibration technology",
+      "AWS compatible for dust extraction sync",
+      "SDS-Plus chuck for quick bit changes"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GRH05Z",
+    "name": "Makita 40V max XGT Brushless 1-9/16\" SDS-Max Rotary Hammer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "rotary-hammers",
+    "tool_type": "rotary-hammer",
+    "price_current": 699,
+    "price_msrp": 699,
+    "specs": {
+      "bpm_max": 3000,
+      "brushless": true,
+      "chuck_type": "SDS-Max",
+      "impact_energy_ft_lbs": 5.5,
+      "max_rpm": 580,
+      "voltage": 40
+    },
+    "rating": 4.6,
+    "review_count": 200,
+    "description": "The heavy-duty SDS-Max rotary hammer for large-diameter holes and demolition. Delivers 5.5 ft-lbs of impact energy, making it the most powerful cordless rotary hammer in Makita's lineup.",
+    "features": [
+      "5.5 ft-lbs impact energy for heavy-duty work",
+      "SDS-Max chuck for large-diameter bits",
+      "Anti-vibration technology reduces fatigue",
+      "Soft-start for precise hole starts",
+      "Constant speed control under load"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GWT04Z",
+    "name": "Makita 40V max XGT Brushless 4-Speed 1/2\" Impact Wrench (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 369,
+    "price_msrp": 369,
+    "specs": {
+      "breakaway_torque_ft_lbs": 1050,
+      "brushless": true,
+      "drive_size": "1/2 inch",
+      "fastening_torque_ft_lbs": 700,
+      "max_rpm": 2600,
+      "speeds": 4,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 300,
+    "description": "A 40V impact wrench with 1/2-inch drive and friction ring anvil. The 4-speed selector covers everything from careful bolt snugging to maximum breakaway torque.",
+    "features": [
+      "700 ft-lbs fastening / 1,050 ft-lbs breakaway torque",
+      "4-speed power selection",
+      "1/2-inch square drive with friction ring",
+      "Brushless motor",
+      "LED light with afterglow"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GWT01Z",
+    "name": "Makita 40V max XGT Brushless 4-Speed 3/4\" High-Torque Impact Wrench (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "impact-wrenches",
+    "tool_type": "impact-wrench",
+    "price_current": 499,
+    "price_msrp": 499,
+    "specs": {
+      "breakaway_torque_ft_lbs": 1510,
+      "brushless": true,
+      "drive_size": "3/4 inch",
+      "fastening_torque_ft_lbs": 1330,
+      "max_rpm": 1800,
+      "speeds": 4,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 200,
+    "description": "The heavy-duty 3/4-inch impact wrench for industrial and heavy automotive work. Delivers 1,330 ft-lbs of fastening torque and 1,510 ft-lbs of breakaway torque.",
+    "features": [
+      "1,330 ft-lbs fastening / 1,510 ft-lbs breakaway",
+      "3/4-inch square drive",
+      "4-speed power selection",
+      "Tightening mode with auto-stop",
+      "LED light with afterglow"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GSH01Z",
+    "name": "Makita 40V max XGT Brushless 7-1/4\" Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 269,
+    "price_msrp": 269,
+    "specs": {
+      "bevel_capacity": 53,
+      "blade_size": "7-1/4 inch",
+      "brushless": true,
+      "cutting_depth_90": 2.5,
+      "max_rpm": 5100,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 600,
+    "description": "A full-size 7-1/4-inch cordless circular saw powered by a single 40V battery (vs. the 18V model that needs two batteries). Delivers 5,100 RPM for fast, clean cuts through 2x lumber.",
+    "features": [
+      "Full-size 7-1/4 inch blade on a single battery",
+      "5,100 RPM brushless motor",
+      "2-1/2 inch cutting depth at 90 degrees",
+      "53-degree bevel capacity",
+      "Electric brake and LED light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 7.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GSR01Z",
+    "name": "Makita 40V max XGT Brushless 7-1/4\" Rear Handle Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 369,
+    "price_msrp": 369,
+    "specs": {
+      "bevel_capacity": 53,
+      "blade_size": "7-1/4 inch",
+      "brushless": true,
+      "cutting_depth_90": 2.5625,
+      "max_rpm": 5500,
+      "voltage": 40
+    },
+    "rating": 4.8,
+    "review_count": 400,
+    "description": "A rear-handle (worm-drive style) circular saw with the ergonomics preferred by framers and pros. The XGT motor delivers 5,500 RPM for aggressive cutting through framing lumber.",
+    "features": [
+      "Rear-handle design preferred by framers",
+      "5,500 RPM for fast cutting",
+      "2-9/16 inch cutting depth at 90 degrees",
+      "Automatic Speed Change technology",
+      "Magnesium shoe and blade guards"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GSR02Z",
+    "name": "Makita 40V max XGT Brushless 10-1/4\" Rear Handle Circular Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "circular-saws",
+    "tool_type": "circular-saw",
+    "price_current": 414,
+    "price_msrp": 414,
+    "specs": {
+      "bevel_capacity": 56,
+      "blade_size": "10-1/4 inch",
+      "brushless": true,
+      "cutting_depth_90": 3.875,
+      "max_rpm": 4400,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 250,
+    "description": "A massive 10-1/4-inch cordless circular saw that can cut through 4x material in a single pass. The rear-handle design keeps the weight balanced for accurate cuts even at this size.",
+    "features": [
+      "10-1/4 inch blade cuts 3-7/8 inches deep at 90 degrees",
+      "Cuts through 4x material in one pass",
+      "4,400 RPM brushless motor",
+      "Rear-handle design for balance",
+      "Automatic Speed Change technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 11.2,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GRJ01Z",
+    "name": "Makita 40V max XGT Brushless Reciprocating Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 259,
+    "price_msrp": 259,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "stroke_length": 1.25,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "The XGT reciprocating saw delivers more sustained power than 18V models for heavy-duty demolition and remodeling. The 40V motor maintains cutting speed even in thick materials.",
+    "features": [
+      "Brushless motor: 0-3,000 SPM",
+      "1-1/4 inch stroke length",
+      "Tool-less blade change",
+      "Variable speed trigger",
+      "LED work light"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.4,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GRJ02Z",
+    "name": "Makita 40V max XGT Brushless Orbital Reciprocating Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "reciprocating-saws",
+    "tool_type": "reciprocating-saw",
+    "price_current": 324,
+    "price_msrp": 324,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3000,
+      "orbital_action": true,
+      "stroke_length": 1.25,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 250,
+    "description": "The premium XGT recip saw with orbital action for faster cutting in wood. The orbital setting makes the blade move in an elliptical pattern for more aggressive material removal.",
+    "features": [
+      "Orbital action for faster wood cutting",
+      "Brushless motor: 0-3,000 SPM",
+      "1-1/4 inch stroke length",
+      "Tool-less blade change with shoe pivot",
+      "AWS compatible for dust extraction"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GVJ02Z",
+    "name": "Makita 40V max XGT Brushless Jig Saw (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "cutting",
+    "subcategory": "jig-saws",
+    "tool_type": "jig-saw",
+    "price_current": 354,
+    "price_msrp": 354,
+    "specs": {
+      "brushless": true,
+      "max_spm": 3500,
+      "stroke_length": 1,
+      "voltage": 40
+    },
+    "rating": 4.6,
+    "review_count": 200,
+    "description": "The XGT jig saw combines precision and power with the efficiency of a 40V brushless motor. Variable speed and orbital settings give you control over cut quality and speed.",
+    "features": [
+      "Variable speed: 800-3,500 SPM",
+      "4 orbital settings plus straight cutting",
+      "Brushless motor for extended runtime",
+      "Tool-less blade change",
+      "LED light with afterglow"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GAG04Z",
+    "name": "Makita 40V max XGT Brushless 4-1/2\" / 5\" Angle Grinder with AWS (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 319,
+    "price_msrp": 319,
+    "specs": {
+      "brushless": true,
+      "disc_size": "4-1/2 / 5 inch",
+      "max_rpm": 8500,
+      "variable_speed": true,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "The XGT angle grinder with AWS (Auto-Start Wireless System) auto-starts a connected dust extractor when you pull the trigger. Variable speed from 3,000-8,500 RPM for different materials.",
+    "features": [
+      "Variable speed: 3,000-8,500 RPM",
+      "AWS compatible for auto-start dust extraction",
+      "Electric brake stops disc quickly",
+      "Active Feedback Sensing for safety",
+      "Up to 60% faster cutting vs 18V models"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 5.7,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GAG10Z",
+    "name": "Makita 40V max XGT Brushless 7\" / 9\" Angle Grinder (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "grinding-sanding",
+    "subcategory": "angle-grinders",
+    "tool_type": "angle-grinder",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "disc_size": "7 / 9 inch",
+      "max_rpm": 6600,
+      "voltage": 40
+    },
+    "rating": 4.6,
+    "review_count": 150,
+    "description": "A large-format angle grinder for heavy grinding and cutting in metal and concrete. The 7 or 9-inch disc handles jobs that smaller grinders can't, like cutting rebar or grinding welds on structural steel.",
+    "features": [
+      "Accepts 7-inch and 9-inch discs",
+      "6,600 RPM brushless motor",
+      "Soft-start for controlled startup",
+      "Paddle switch for safety",
+      "Anti-vibration technology"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 10.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GPK01Z",
+    "name": "Makita 40V max XGT Brushless 3-1/4\" Planer with AWS (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "routing-shaping",
+    "subcategory": "planers",
+    "tool_type": "planer",
+    "price_current": 354,
+    "price_msrp": 354,
+    "specs": {
+      "brushless": true,
+      "cutting_width": 3.25,
+      "max_depth": 0.09375,
+      "max_rpm": 15000,
+      "voltage": 40
+    },
+    "rating": 4.6,
+    "review_count": 200,
+    "description": "The XGT planer delivers 15,000 RPM for the smoothest possible finish. AWS capability auto-starts a connected dust extractor for clean chip collection.",
+    "features": [
+      "15,000 RPM for ultra-smooth finish",
+      "3-1/4 inch cutting width",
+      "AWS compatible for auto-start dust extraction",
+      "Kickstand for stable placement",
+      "Reversible blades"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 6.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GTR01Z",
+    "name": "Makita 40V max XGT Brushless Compact Router (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "routing-shaping",
+    "subcategory": "routers",
+    "tool_type": "compact-router",
+    "price_current": 289,
+    "price_msrp": 289,
+    "specs": {
+      "brushless": true,
+      "collet_size": "1/4 inch",
+      "max_rpm": 31000,
+      "voltage": 40
+    },
+    "rating": 4.6,
+    "review_count": 250,
+    "description": "The XGT compact router delivers 31,000 RPM with more sustained power than the 18V model. Ideal for edge profiling, dado cuts, and decorative work with longer runtime.",
+    "features": [
+      "Variable speed: 10,000-31,000 RPM",
+      "Brushless motor for extended runtime",
+      "1/4-inch collet",
+      "Fine depth adjustment dial",
+      "LED light and dust port"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 3.8,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GCV01Z",
+    "name": "Makita 40V max XGT Brushless 2.1 Gal. Wet/Dry Dust Extractor/Vacuum (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "dust-extraction",
+    "subcategory": "vacuums",
+    "tool_type": "dust-extractor",
+    "price_current": 349,
+    "price_msrp": 349,
+    "specs": {
+      "brushless": true,
+      "capacity_gal": 2.1,
+      "voltage": 40,
+      "wet_dry": true
+    },
+    "rating": 4.5,
+    "review_count": 200,
+    "description": "A compact XGT dust extractor for use with grinders, saws, and sanders. The 40V battery provides more suction and longer runtime than the 18V equivalent.",
+    "features": [
+      "2.1 gallon capacity",
+      "Wet and dry pickup",
+      "Brushless motor for strong suction",
+      "AWS compatible for auto-start",
+      "HEPA filter available"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 9.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GCV03Z",
+    "name": "Makita 40V max XGT Brushless 4 Gal. Wet/Dry Dust Extractor/Vacuum (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "dust-extraction",
+    "subcategory": "vacuums",
+    "tool_type": "dust-extractor",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "brushless": true,
+      "capacity_gal": 4,
+      "voltage": 40,
+      "wet_dry": true
+    },
+    "rating": 4.5,
+    "review_count": 150,
+    "description": "The larger XGT dust extractor with 4-gallon capacity. Ideal for sustained dust collection on larger jobs without frequent emptying.",
+    "features": [
+      "4 gallon capacity for larger jobs",
+      "Wet and dry pickup",
+      "AWS compatible for auto-start with tools",
+      "Brushless motor",
+      "Portable with carrying handle"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-ML002G",
+    "name": "Makita 40V max XGT LED Lantern/Flashlight",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "lighting",
+    "subcategory": "flashlights",
+    "tool_type": "lantern-flashlight",
+    "price_current": 69,
+    "price_msrp": 69,
+    "specs": {
+      "lumens": 700,
+      "modes": 3,
+      "voltage": 40
+    },
+    "rating": 4.5,
+    "review_count": 200,
+    "description": "A versatile LED lantern and flashlight combo that runs on XGT 40V batteries. The lantern mode provides 360-degree area lighting while the flashlight mode offers directional illumination.",
+    "features": [
+      "700 lumens on high",
+      "Lantern and flashlight modes",
+      "3 brightness settings",
+      "Pivoting head",
+      "Compatible with all XGT batteries"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 1.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GRM02",
+    "name": "Makita 40V max XGT Bluetooth Job Site Radio",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "jobsite-equipment",
+    "subcategory": "radios",
+    "tool_type": "jobsite-radio",
+    "price_current": 209,
+    "price_msrp": 209,
+    "specs": {
+      "bluetooth": true,
+      "voltage": 40,
+      "water_resistant": true
+    },
+    "rating": 4.4,
+    "review_count": 150,
+    "description": "A rugged Bluetooth-enabled job site radio that runs on XGT 40V batteries. Dust and water resistant for construction environments.",
+    "features": [
+      "Bluetooth and Aux input",
+      "AM/FM radio with presets",
+      "Dust and water resistant",
+      "USB charging port for devices",
+      "Also runs on AC power"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 8.5,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GMH01Z",
+    "name": "Makita 40V max XGT Brushless 15 lb SDS-Max Demolition Hammer (Tool Only)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "drilling-driving",
+    "subcategory": "demolition-hammers",
+    "tool_type": "demolition-hammer",
+    "price_current": 799,
+    "price_msrp": 799,
+    "specs": {
+      "bpm_max": 2650,
+      "brushless": true,
+      "chuck_type": "SDS-Max",
+      "impact_energy_ft_lbs": 8.3,
+      "voltage": 40
+    },
+    "rating": 4.5,
+    "review_count": 100,
+    "description": "A cordless demolition hammer for breaking up concrete, tile, and masonry. Delivers 8.3 ft-lbs of impact energy -- serious power for a battery-powered tool.",
+    "features": [
+      "8.3 ft-lbs impact energy",
+      "SDS-Max chuck",
+      "Anti-vibration technology",
+      "Soft-start and variable speed",
+      "12-angle bit rotation"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 15,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  },
+  {
+    "sku": "MAK-GT200D",
+    "name": "Makita 40V max XGT Brushless 2-Piece Combo Kit (2.5Ah)",
+    "brand": "Makita",
+    "ecosystem": "makita-40v-xgt",
+    "category": "combo-kits",
+    "subcategory": "combo-kits",
+    "tool_type": "2-tool-combo",
+    "price_current": 449,
+    "price_msrp": 449,
+    "specs": {
+      "batteries_included": 2,
+      "battery_ah": 2.5,
+      "brushless": true,
+      "tools_included": 2,
+      "voltage": 40
+    },
+    "rating": 4.7,
+    "review_count": 400,
+    "description": "The entry point into the XGT ecosystem: hammer drill and impact driver with two 2.5Ah batteries and rapid charger. Everything you need to start building your 40V collection.",
+    "features": [
+      "Hammer drill and impact driver",
+      "Two 2.5Ah batteries and charger",
+      "Hard case included",
+      "Both tools are brushless",
+      "Best value XGT starter kit"
+    ],
+    "is_cordless": true,
+    "weight_lbs": 14,
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "acmetools",
+      "toolnut"
+    ],
+    "image_url": ""
+  }
+]

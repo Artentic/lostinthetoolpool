@@ -1,0 +1,4835 @@
+{
+  "products": [
+    {
+      "sku": "RYO-PCL201B",
+      "name": "Ryobi ONE+ 18V 3/8\" Drill (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "drill-drivers",
+      "tool_type": "drill-driver",
+      "price_current": 29,
+      "price_msrp": 29,
+      "specs": {
+        "brushless": false,
+        "chuck_size": "3/8 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "The most affordable entry into the Ryobi ONE+ ecosystem. This compact 3/8-inch drill handles light-duty drilling and driving tasks around the house. Perfect for hanging pictures, assembling furniture, and basic repairs. Uses the same battery as all 300+ ONE+ tools.",
+      "features": [
+        "Compact and lightweight design for easy handling",
+        "3/8-inch keyless chuck for quick bit changes",
+        "24-position clutch for precise torque control",
+        "2-speed gearbox for drilling and driving",
+        "Compatible with all Ryobi ONE+ 18V batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL206B",
+      "name": "Ryobi ONE+ 18V 1/2\" Drill/Driver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "drill-drivers",
+      "tool_type": "drill-driver",
+      "price_current": 49,
+      "price_msrp": 49,
+      "specs": {
+        "brushless": false,
+        "chuck_size": "1/2 inch",
+        "hp": false,
+        "max_rpm": 1500,
+        "max_torque_in_lbs": 515,
+        "speeds": 2,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 2500,
+      "description": "Ryobi's workhorse drill/driver for everyday DIY projects. The 1/2-inch chuck handles larger drill bits for wood and metal, and the 2-speed gearbox lets you switch between high-torque driving and high-speed drilling. An excellent starter drill for new homeowners.",
+      "features": [
+        "1/2-inch single-sleeve keyless chuck",
+        "2-speed gearbox for versatile drilling and driving",
+        "24-position clutch for precise torque control",
+        "LED work light illuminates dark work areas",
+        "Compatible with all Ryobi ONE+ 18V batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBDD02B",
+      "name": "Ryobi ONE+ HP Compact Brushless 1/2\" Drill/Driver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "drill-drivers",
+      "tool_type": "drill-driver",
+      "price_current": 79,
+      "price_msrp": 79,
+      "specs": {
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "hp": true,
+        "max_rpm": 1700,
+        "max_torque_in_lbs": 600,
+        "speeds": 2,
+        "voltage": 18
+      },
+      "rating": 4.8,
+      "review_count": 3200,
+      "description": "The compact HP brushless drill/driver is Ryobi's best-selling drill for a reason. The brushless motor delivers more power and longer runtime than standard models, and the compact size fits easily into tight spaces. Great for anyone ready to step up from a basic drill.",
+      "features": [
+        "HP Brushless motor for more power, speed, and runtime",
+        "25% more compact than standard Ryobi drills",
+        "1/2-inch single-sleeve keyless chuck",
+        "24-position clutch with dual-speed gearbox",
+        "LED work light with 20-second afterglow"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLDD02B",
+      "name": "Ryobi ONE+ HP Brushless 1/2\" Drill/Driver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "drill-drivers",
+      "tool_type": "drill-driver",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "hp": true,
+        "max_rpm": 2000,
+        "max_torque_in_lbs": 750,
+        "speeds": 2,
+        "voltage": 18
+      },
+      "rating": 4.8,
+      "review_count": 1800,
+      "description": "Ryobi's full-size HP brushless drill/driver for serious DIYers. More torque than the compact model, making it better for demanding tasks like drilling through hardwood, metal, or masonry with the right bit. The brushless motor gives it near-pro-level performance at a DIY price.",
+      "features": [
+        "HP Brushless motor for maximum power and efficiency",
+        "750 in-lbs of torque for demanding applications",
+        "2-speed gearbox with 24-position clutch",
+        "LED work light with afterglow feature",
+        "All-metal chuck for durability"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLHM102B",
+      "name": "Ryobi ONE+ HP Brushless 1/2\" Hammer Drill (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "hammer-drills",
+      "tool_type": "hammer-drill",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "chuck_size": "1/2 inch",
+        "hp": true,
+        "max_rpm": 2000,
+        "max_torque_in_lbs": 750,
+        "speeds": 2,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 900,
+      "description": "This HP brushless hammer drill adds a hammering mode for drilling into concrete, brick, and masonry. Essential for any project involving anchor bolts in concrete walls or floors. The brushless motor keeps it efficient while delivering the power needed to punch through tough materials.",
+      "features": [
+        "HP Brushless motor for superior power and runtime",
+        "Hammer mode for drilling into concrete and masonry",
+        "2-speed gearbox with 24-position clutch",
+        "1/2-inch all-metal keyless chuck",
+        "LED work light with afterglow"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBID02B",
+      "name": "Ryobi ONE+ HP Compact Brushless 1/4\" Hex Impact Driver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-drivers",
+      "tool_type": "impact-driver",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "hp": true,
+        "max_rpm": 3200,
+        "max_torque_in_lbs": 1800,
+        "speeds": 3,
+        "voltage": 18
+      },
+      "rating": 4.8,
+      "review_count": 4000,
+      "description": "Ryobi's compact brushless impact driver is the perfect companion to any drill. Impact drivers make driving screws dramatically easier -- especially long screws and lag bolts. This compact model fits into tight spots and has 3 speed settings so you can dial back the power for delicate work like cabinet hinges.",
+      "features": [
+        "HP Brushless motor for more power and longer runtime",
+        "1,800 in-lbs of torque for heavy-duty fastening",
+        "3-speed selection for precision control",
+        "25% more compact than standard models",
+        "1/4-inch hex quick-connect chuck"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLID04B",
+      "name": "Ryobi ONE+ HP Brushless 4-Mode 1/4\" Hex Impact Driver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-drivers",
+      "tool_type": "impact-driver",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "chuck_size": "1/4 inch hex",
+        "hp": true,
+        "max_rpm": 3600,
+        "max_torque_in_lbs": 2300,
+        "speeds": 4,
+        "voltage": 18
+      },
+      "rating": 4.8,
+      "review_count": 1500,
+      "description": "Ryobi's most powerful impact driver with 2,300 in-lbs of torque and 4-mode speed control. This puts it in the same performance neighborhood as many pro-level drivers. The self-tapping screw mode automatically reduces speed when the screw is seated to prevent over-driving.",
+      "features": [
+        "2,300 in-lbs of torque -- Ryobi's most powerful",
+        "4-mode drive control including self-tapping screw mode",
+        "HP Brushless motor for maximum efficiency",
+        "Tri-beam LED work light",
+        "1/4-inch hex quick-connect chuck"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.6,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL212B",
+      "name": "Ryobi ONE+ 18V 1/4\" Hex Screwdriver (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "screwdrivers",
+      "tool_type": "screwdriver",
+      "price_current": 39,
+      "price_msrp": 39,
+      "specs": {
+        "brushless": false,
+        "chuck_size": "1/4 inch hex",
+        "hp": false,
+        "max_rpm": 430,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 600,
+      "description": "A dedicated electric screwdriver in the ONE+ ecosystem. Lighter and more compact than a full drill, it is ideal for furniture assembly, switch plate installation, and light-duty fastening. The inline design gives you excellent control for precision work.",
+      "features": [
+        "Compact inline design for precision work",
+        "6-position clutch prevents over-tightening",
+        "LED work light for visibility",
+        "Forward and reverse switch",
+        "1/4-inch hex quick-connect"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL265B",
+      "name": "Ryobi ONE+ 18V 1/2\" Impact Wrench (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-wrenches",
+      "tool_type": "impact-wrench",
+      "price_current": 79,
+      "price_msrp": 79,
+      "specs": {
+        "brushless": false,
+        "drive_size": "1/2 inch",
+        "hp": false,
+        "max_torque_ft_lbs": 300,
+        "speeds": 4,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1400,
+      "description": "A 1/2-inch impact wrench for automotive and heavy fastening work. Use it for lug nuts, suspension bolts, and other large fasteners. The 4-mode speed control lets you dial in the right amount of power so you do not over-torque wheel nuts.",
+      "features": [
+        "1,170 ft-lbs of breakaway torque",
+        "4-mode speed control",
+        "1/2-inch detent pin anvil",
+        "LED work light",
+        "Compatible with all ONE+ 18V batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBIW25B",
+      "name": "Ryobi ONE+ HP Compact Brushless 4-Mode 1/2\" Impact Wrench (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-wrenches",
+      "tool_type": "impact-wrench",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "brushless": true,
+        "drive_size": "1/2 inch",
+        "hp": true,
+        "speeds": 4,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 800,
+      "description": "The compact HP brushless impact wrench delivers serious torque in a smaller package. Great for automotive work, deck building, and any project with large bolts. The brushless motor means more power per battery charge.",
+      "features": [
+        "HP Brushless motor for superior performance",
+        "4-mode speed control for precise torque management",
+        "Compact design for working in tight engine bays",
+        "1/2-inch detent pin anvil",
+        "LED work light with afterglow"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLIW01B",
+      "name": "Ryobi ONE+ HP Brushless 4-Mode 1/2\" High Torque Impact Wrench (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-wrenches",
+      "tool_type": "impact-wrench",
+      "price_current": 219,
+      "price_msrp": 219,
+      "specs": {
+        "brushless": true,
+        "drive_size": "1/2 inch",
+        "hp": true,
+        "speeds": 4,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 600,
+      "description": "Ryobi's most powerful impact wrench for heavy-duty automotive and construction work. This high-torque model handles stubborn lug nuts, rusted bolts, and structural fasteners that standard impact wrenches cannot budge.",
+      "features": [
+        "High torque brushless motor for maximum breakaway force",
+        "4-mode speed control",
+        "1/2-inch anvil with hog ring",
+        "LED work light",
+        "Rubberized grip for comfort"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBIW01B",
+      "name": "Ryobi ONE+ HP Compact Brushless 4-Mode 3/8\" Impact Wrench (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "impact-wrenches",
+      "tool_type": "impact-wrench",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "drive_size": "3/8 inch",
+        "hp": true,
+        "speeds": 4,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 500,
+      "description": "A 3/8-inch compact brushless impact wrench ideal for automotive work where a 1/2-inch is too bulky. Perfect for spark plugs, alternator bolts, and under-hood fasteners that need finesse rather than brute force.",
+      "features": [
+        "HP Brushless motor in compact form factor",
+        "3/8-inch drive for common automotive fasteners",
+        "4-mode speed control",
+        "LED work light",
+        "Compact size for tight engine bays"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P344",
+      "name": "Ryobi ONE+ 18V 3/8\" Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 89,
+      "price_msrp": 89,
+      "specs": {
+        "brushless": false,
+        "drive_size": "3/8 inch",
+        "hp": false,
+        "max_rpm": 260,
+        "max_torque_ft_lbs": 35,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1200,
+      "description": "A cordless power ratchet for automotive and mechanical work. Speeds up bolt removal and installation in tight spaces where a regular ratchet takes forever. Essential for brake jobs, engine work, and anywhere you need to spin fasteners quickly.",
+      "features": [
+        "35 ft-lbs of torque for common fasteners",
+        "260 RPM for fast bolt spinning",
+        "3/8-inch drive for standard sockets",
+        "LED work light",
+        "Slim profile head for tight spaces"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PRC01B",
+      "name": "Ryobi ONE+ 18V 1/4\" Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "drive_size": "1/4 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 400,
+      "description": "A 1/4-inch cordless power ratchet for smaller fasteners and precision work. The slim profile gets into spaces where even a 3/8-inch ratchet will not fit. Great for dashboard bolts, interior trim fasteners, and small engine work.",
+      "features": [
+        "1/4-inch drive for small fastener work",
+        "Ultra-slim profile head",
+        "LED work light for visibility",
+        "Variable speed trigger",
+        "Forward/reverse switch"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL280B",
+      "name": "Ryobi ONE+ 18V Multi-Size Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 119,
+      "price_msrp": 119,
+      "specs": {
+        "brushless": false,
+        "drive_size": "1/4 inch and 3/8 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 500,
+      "description": "A unique dual-drive ratchet that accepts both 1/4-inch and 3/8-inch sockets without an adapter. One tool handles both sizes, reducing what you need to carry to a job. Clever design that is uniquely Ryobi.",
+      "features": [
+        "Dual 1/4-inch and 3/8-inch drive capability",
+        "No adapter needed to switch sizes",
+        "LED work light",
+        "Variable speed trigger",
+        "Slim head profile"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBRC02B",
+      "name": "Ryobi ONE+ HP Compact Brushless 1/4\" High Speed Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "drive_size": "1/4 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 300,
+      "description": "A high-speed brushless ratchet for the serious home mechanic. The brushless motor spins fasteners significantly faster than the standard model, saving time on repetitive bolt removal and installation tasks.",
+      "features": [
+        "HP Brushless motor for faster operation",
+        "High-speed fastener spinning",
+        "1/4-inch drive",
+        "Compact brushless design",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBRC26B",
+      "name": "Ryobi ONE+ HP Compact Brushless 3/8\" High Speed Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "brushless": true,
+        "drive_size": "3/8 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 300,
+      "description": "The 3/8-inch version of Ryobi's HP brushless high-speed ratchet. Handles larger fasteners than the 1/4-inch model while retaining the compact design and fast spinning speed that makes automotive work so much quicker.",
+      "features": [
+        "HP Brushless motor for faster operation",
+        "3/8-inch drive for common automotive sockets",
+        "Compact design for tight spaces",
+        "LED work light",
+        "Variable speed trigger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.1,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLRC01B",
+      "name": "Ryobi ONE+ HP Brushless 1/4\" Extended Reach Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 179,
+      "price_msrp": 179,
+      "specs": {
+        "brushless": true,
+        "drive_size": "1/4 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 200,
+      "description": "An extended-reach ratchet for getting to fasteners deep in engine compartments or behind components. The longer neck reaches where standard ratchets cannot, eliminating the need for extension bars in many situations.",
+      "features": [
+        "Extended reach design for deep access",
+        "HP Brushless motor",
+        "1/4-inch drive",
+        "LED work light",
+        "Variable speed trigger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLRC25B",
+      "name": "Ryobi ONE+ HP Brushless 3/8\" Extended Reach Ratchet (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "drilling-driving",
+      "subcategory": "ratchets",
+      "tool_type": "ratchet",
+      "price_current": 169,
+      "price_msrp": 169,
+      "specs": {
+        "brushless": true,
+        "drive_size": "3/8 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 200,
+      "description": "The 3/8-inch extended reach ratchet for deep-access fastener work. Pairs with larger sockets for suspension work, exhaust components, and other hard-to-reach automotive applications.",
+      "features": [
+        "Extended reach for deep access applications",
+        "HP Brushless motor",
+        "3/8-inch drive",
+        "LED work light",
+        "Variable speed trigger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.6,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBDG01B",
+      "name": "Ryobi ONE+ HP Compact Brushless 1/4\" Right Angle Die Grinder (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "grinders",
+      "tool_type": "die-grinder",
+      "price_current": 169,
+      "price_msrp": 169,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 300,
+      "description": "A compact right-angle die grinder for deburring, grinding, polishing, and surface preparation in tight spaces. Essential for metalwork, rust removal, and weld cleanup. The right-angle head gets into areas a straight grinder cannot.",
+      "features": [
+        "HP Brushless motor for sustained power",
+        "1/4-inch collet for standard accessories",
+        "Right angle head for tight access",
+        "Variable speed for different materials",
+        "Compact design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL445B",
+      "name": "Ryobi ONE+ 18V 4-1/2\" Angle Grinder (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "grinders",
+      "tool_type": "angle-grinder",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "disc_size": "4-1/2 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 900,
+      "description": "A versatile 4-1/2 inch angle grinder for cutting metal, grinding welds, sharpening blades, and removing rust. One of the most useful tools to have in a workshop -- handles everything from cutting rebar to polishing surfaces with the right wheel.",
+      "features": [
+        "4-1/2-inch grinding/cutting disc capacity",
+        "Tool-free adjustable guard",
+        "Spindle lock for easy wheel changes",
+        "3-position side handle for comfort",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.1,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLAG02B",
+      "name": "Ryobi ONE+ HP Brushless 4-1/2\" Angle Grinder/Cut-Off Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "grinders",
+      "tool_type": "angle-grinder",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": true,
+        "disc_size": "4-1/2 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 700,
+      "description": "Ryobi's premium angle grinder with a brushless motor for more power and longer runtime. Also functions as a cut-off tool for slicing through metal, tile, and masonry. The brushless motor delivers consistent power even as the battery drains.",
+      "features": [
+        "HP Brushless motor for sustained cutting power",
+        "4-1/2-inch disc for grinding and cutting",
+        "Electronic brake stops disc quickly for safety",
+        "Anti-vibration side handle",
+        "Tool-free guard adjustment"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBCS02B",
+      "name": "Ryobi ONE+ HP Compact Brushless Cut-Off Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "cut-off-tools",
+      "tool_type": "cut-off-tool",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 400,
+      "description": "A compact cut-off tool for precision metal cutting in tight spaces. Smaller and more maneuverable than a full angle grinder, it excels at cutting bolts, pipes, rebar, and sheet metal where access is limited.",
+      "features": [
+        "HP Brushless motor",
+        "Compact design for tight spaces",
+        "Electronic brake for quick stop",
+        "Spindle lock for easy disc changes",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P592",
+      "name": "Ryobi ONE+ 18V Bolt Cutter (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "bolt-cutters",
+      "tool_type": "bolt-cutter",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 300,
+      "description": "A cordless bolt cutter -- one of those unique Ryobi tools that other brands do not make in battery-powered form. Cuts through padlocks, chain, threaded rod, and bolts without the arm fatigue of manual bolt cutters. A specialty tool but incredibly useful when you need it.",
+      "features": [
+        "Cuts up to 3/8-inch mild steel",
+        "No manual effort required",
+        "One-handed operation",
+        "LED work light",
+        "Uses standard ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLCS302B",
+      "name": "Ryobi ONE+ HP Brushless 7-1/4\" Circular Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "circular-saws",
+      "tool_type": "circular-saw",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "bevel_capacity_deg": 56,
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "cutting_depth_at_90": "2-7/16 inch",
+        "hp": true,
+        "max_rpm": 5500,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1500,
+      "description": "Ryobi's full-size 7-1/4 inch brushless circular saw handles standard framing lumber, plywood, and sheet goods just like a corded saw. The brushless motor delivers enough power for most residential cutting tasks. Essential for deck building, framing, and any project requiring straight cuts in lumber.",
+      "features": [
+        "HP Brushless motor for corded-like cutting power",
+        "7-1/4-inch blade for full 2x material capacity",
+        "56-degree bevel capacity for angled cuts",
+        "Electric brake for blade stop safety",
+        "LED work light for cut line visibility"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 7,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL400B",
+      "name": "Ryobi ONE+ 18V 4-1/2\" Circular Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "circular-saws",
+      "tool_type": "circular-saw",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "blade_size": "4-1/2 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 400,
+      "description": "A compact 4-1/2 inch circular saw for lighter cutting tasks. Not for framing lumber, but excellent for cutting plywood, thin boards, and trim work. The smaller blade makes it easier to handle with one hand and less intimidating for beginners.",
+      "features": [
+        "Compact 4-1/2-inch blade for light cutting",
+        "Lightweight one-hand operation",
+        "Adjustable depth and bevel",
+        "LED work light",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL525B",
+      "name": "Ryobi ONE+ 18V Jig Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "jig-saws",
+      "tool_type": "jig-saw",
+      "price_current": 49,
+      "price_msrp": 79,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_spm": 3000,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1800,
+      "description": "The go-to saw for curved and irregular cuts. A jig saw cuts shapes that a circular saw cannot -- curves, circles, notches, and intricate patterns. Essential for countertop sink cutouts, decorative woodwork, and any project requiring non-straight cuts.",
+      "features": [
+        "Variable speed trigger up to 3,000 SPM",
+        "4-position orbital action for different materials",
+        "Tool-free blade change system",
+        "Adjustable shoe for bevel cuts",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLJS01B",
+      "name": "Ryobi ONE+ HP Brushless Jig Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "jig-saws",
+      "tool_type": "jig-saw",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_spm": 3200,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 1200,
+      "description": "The HP brushless jig saw cuts 36% faster and runs 78% longer than the standard model. If you are doing a lot of curved cutting -- like for a kitchen countertop or decorative project -- the upgrade is worth it. Smoother operation and less vibration make for cleaner cuts.",
+      "features": [
+        "HP Brushless motor: 36% faster cutting",
+        "78% longer runtime than standard model",
+        "4-position orbital action",
+        "Tool-free blade change",
+        "Adjustable shoe for bevel cuts"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBJS01B",
+      "name": "Ryobi ONE+ HP Compact Brushless Barrel Grip Jig Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "jig-saws",
+      "tool_type": "jig-saw",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 600,
+      "description": "A barrel-grip jig saw preferred by many woodworkers for its more direct control over the cut line. The grip design puts your hand closer to the blade for better visibility and precision. Ideal for fine woodworking and detailed pattern cutting.",
+      "features": [
+        "Barrel grip design for precision control",
+        "HP Brushless motor",
+        "Compact form factor",
+        "Tool-free blade change",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL515B",
+      "name": "Ryobi ONE+ 18V Reciprocating Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "reciprocating-saws",
+      "tool_type": "reciprocating-saw",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_spm": 3100,
+        "stroke_length": "7/8 inch",
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1500,
+      "description": "The reciprocating saw (a.k.a. sawzall) is the demolition king. It cuts through wood, metal, plastic, drywall, and even tree branches with the right blade. Essential for demolition, remodeling, and pruning. Not for precision cuts -- this is for tearing stuff apart.",
+      "features": [
+        "Variable speed trigger up to 3,100 SPM",
+        "7/8-inch stroke length",
+        "Tool-free blade change",
+        "Pivoting shoe for blade life",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL510B",
+      "name": "Ryobi ONE+ 18V One-Handed Reciprocating Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "reciprocating-saws",
+      "tool_type": "reciprocating-saw",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 500,
+      "description": "A compact one-handed reciprocating saw for lighter demolition and cutting tasks. Easier to control than a full-size recip saw, making it great for cutting PVC pipe, trimming small branches, and cutting drywall during remodeling. Use one hand while holding your work with the other.",
+      "features": [
+        "One-handed operation for easier control",
+        "Compact and lightweight design",
+        "Tool-free blade change",
+        "Variable speed trigger",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLRS02B",
+      "name": "Ryobi ONE+ HP Brushless Reciprocating Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "reciprocating-saws",
+      "tool_type": "reciprocating-saw",
+      "price_current": 119,
+      "price_msrp": 139,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 800,
+      "description": "The HP brushless reciprocating saw delivers more power and longer runtime for serious demolition and cutting work. When you are tearing out a bathroom or cutting through studs for a remodel, the brushless motor makes a real difference in how many cuts you get per battery charge.",
+      "features": [
+        "HP Brushless motor for more cuts per charge",
+        "Variable speed trigger",
+        "Tool-free blade change",
+        "Pivoting shoe",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBRS02B",
+      "name": "Ryobi ONE+ HP Compact Brushless One-Handed Reciprocating Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "reciprocating-saws",
+      "tool_type": "reciprocating-saw",
+      "price_current": 119,
+      "price_msrp": 119,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 500,
+      "description": "The compact brushless one-handed recip saw combines the one-hand convenience with brushless power. Great for plumbing work where you need to cut pipes in tight spaces, or for pruning branches from a ladder where you need one hand free.",
+      "features": [
+        "HP Brushless motor in compact form",
+        "One-handed operation",
+        "Tool-free blade change",
+        "Variable speed trigger",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P553",
+      "name": "Ryobi ONE+ 18V 7-1/4\" Compound Miter Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "miter-saws",
+      "tool_type": "miter-saw",
+      "price_current": 199,
+      "price_msrp": 199,
+      "specs": {
+        "blade_size": "7-1/4 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 1000,
+      "description": "A cordless 7-1/4 inch miter saw for trim work and crosscutting lumber. Being cordless means you can set it up anywhere -- on a deck, in a garage, at a job site -- without needing an outlet. Handles baseboard, crown molding, and crosscuts in 2x4s. Not a replacement for a full-size 10 or 12 inch miter saw, but perfect for trim carpentry.",
+      "features": [
+        "7-1/4-inch blade for trim and light framing cuts",
+        "Miter detents at common angles (0, 15, 22.5, 31.6, 45 degrees)",
+        "Cordless portability -- set up anywhere",
+        "Includes 40T carbide blade",
+        "Dust port for debris collection"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 22,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBT01B",
+      "name": "Ryobi ONE+ 18V 7-1/4\" Sliding Compound Miter Saw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "miter-saws",
+      "tool_type": "miter-saw",
+      "price_current": 219,
+      "price_msrp": 219,
+      "specs": {
+        "blade_size": "7-1/4 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "A sliding compound miter saw adds crosscut width to the standard miter saw. The sliding rails let you cut wider boards and sheet goods that a non-sliding model cannot handle. Still cordless and portable, making it a great choice for deck building and trim installation work.",
+      "features": [
+        "Sliding design for wider crosscuts",
+        "10 precision miter detents",
+        "Common crown molding angle stops",
+        "Cordless portability",
+        "Includes carbide-tipped blade"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 28,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P343B",
+      "name": "Ryobi ONE+ 18V Multi-Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "multi-tools",
+      "tool_type": "oscillating-multi-tool",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_opm": 20000,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 2000,
+      "description": "The oscillating multi-tool is the Swiss Army knife of power tools. With different blades, it can cut wood, metal, drywall, grout, and caulk in tight spaces. It also sands, scrapes, and grinds. Essential for remodeling work -- cutting door jambs for new flooring, removing grout, trimming nails flush.",
+      "features": [
+        "Up to 20,000 OPM for fast cutting",
+        "Universal blade fitting system",
+        "Variable speed dial",
+        "Cuts, sands, scrapes, and grinds",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLMT51B",
+      "name": "Ryobi ONE+ HP Brushless Multi-Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cutting",
+      "subcategory": "multi-tools",
+      "tool_type": "oscillating-multi-tool",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 900,
+      "description": "The HP brushless multi-tool cuts faster and runs longer than the standard model. When you are doing a full bathroom reno and need to cut dozens of door jambs and remove yards of grout, the brushless motor pays for itself in battery life alone.",
+      "features": [
+        "HP Brushless motor for superior cutting",
+        "Starlock blade interface for fast changes",
+        "Variable speed control",
+        "LED work light",
+        "Compatible with universal accessories"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P321",
+      "name": "Ryobi ONE+ 18V AirStrike 18GA Brad Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "brad-nailer",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": false,
+        "gauge": 18,
+        "hp": false,
+        "nail_length_range": "5/8 to 2 inches",
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 5000,
+      "description": "The AirStrike brad nailer is one of Ryobi's most popular tools, and for good reason. No compressor, no hose, no gas cartridges -- just pop in a battery and start nailing. Perfect for baseboards, crown molding, chair rail, and any trim work. This single tool eliminates hundreds of dollars in compressor equipment.",
+      "features": [
+        "AirStrike technology -- no compressor needed",
+        "Shoots 18-gauge brad nails from 5/8\" to 2\"",
+        "Depth adjustment dial for precise nail setting",
+        "Dry-fire lockout prevents damage",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P322",
+      "name": "Ryobi ONE+ HP Brushless AirStrike 18GA Brad Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "brad-nailer",
+      "price_current": 199,
+      "price_msrp": 199,
+      "specs": {
+        "brushless": true,
+        "gauge": 18,
+        "hp": true,
+        "nail_length_range": "5/8 to 2-1/8 inches",
+        "voltage": 18
+      },
+      "rating": 4.8,
+      "review_count": 2000,
+      "description": "The HP brushless version of Ryobi's legendary brad nailer. Faster firing, more nails per charge, and handles slightly longer nails than the standard model. If you are installing trim throughout an entire house, the brushless motor means fewer battery swaps.",
+      "features": [
+        "HP Brushless AirStrike technology",
+        "Shoots 18-gauge brads up to 2-1/8\"",
+        "Faster firing rate than standard model",
+        "Depth adjustment for precise setting",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P325",
+      "name": "Ryobi ONE+ 18V AirStrike 16GA Straight Finish Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "finish-nailer",
+      "price_current": 179,
+      "price_msrp": 179,
+      "specs": {
+        "brushless": false,
+        "gauge": 16,
+        "hp": false,
+        "nail_length_range": "3/4 to 2-1/2 inches",
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 2500,
+      "description": "The 16-gauge finish nailer drives heavier nails than a brad nailer, providing more holding power. Use it for door and window casings, thicker trim, cabinet installation, and anywhere you need the nail to actually hold weight. The bigger nail leaves a slightly larger hole but grips much better.",
+      "features": [
+        "AirStrike technology -- no compressor needed",
+        "16-gauge nails from 3/4\" to 2-1/2\"",
+        "Depth adjustment dial",
+        "Dry-fire lockout",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBL370B",
+      "name": "Ryobi ONE+ HP Brushless 16GA Straight Finish Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "finish-nailer",
+      "price_current": 179,
+      "price_msrp": 259,
+      "specs": {
+        "brushless": true,
+        "gauge": 16,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 500,
+      "description": "The HP brushless 16-gauge finish nailer brings brushless efficiency to heavier finish nailing. More nails per charge and more consistent driving depth make this the premium choice for extensive trim installation projects.",
+      "features": [
+        "HP Brushless motor for consistent performance",
+        "16-gauge nails for superior holding power",
+        "Depth adjustment dial",
+        "Dry-fire lockout",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBL375B",
+      "name": "Ryobi ONE+ HP Brushless 15GA Angled Finish Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "finish-nailer",
+      "price_current": 279,
+      "price_msrp": 279,
+      "specs": {
+        "brushless": true,
+        "gauge": 15,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 400,
+      "description": "The 15-gauge angled finish nailer is for the most demanding finish carpentry. The angled magazine reaches into tight corners that straight nailers cannot access. The 15-gauge nail provides the strongest holding power of any finish nail, making it ideal for heavy trim, stair treads, and hardwood installation.",
+      "features": [
+        "HP Brushless motor",
+        "15-gauge angled nails for maximum holding power",
+        "Angled magazine for tight corner access",
+        "Depth adjustment dial",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL310B",
+      "name": "Ryobi ONE+ 18V AirStrike 23GA Pin Nailer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "nailers",
+      "tool_type": "pin-nailer",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": false,
+        "gauge": 23,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "The 23-gauge pin nailer drives the thinnest nails available, leaving virtually invisible holes. Perfect for delicate trim, picture frame assembly, and anywhere you do not want visible nail holes. The pins hold pieces in place while glue dries, then disappear without filling.",
+      "features": [
+        "23-gauge headless pins for invisible fastening",
+        "AirStrike technology -- no compressor",
+        "Ideal for delicate trim and woodworking",
+        "Depth adjustment",
+        "Dry-fire lockout"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBL324B",
+      "name": "Ryobi ONE+ HP Brushless 18GA Narrow Crown Stapler (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "staplers",
+      "tool_type": "stapler",
+      "price_current": 229,
+      "price_msrp": 229,
+      "specs": {
+        "brushless": true,
+        "gauge": 18,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 300,
+      "description": "A narrow crown stapler for upholstery, insulation, house wrap, and other applications where a staple provides better holding than a nail. The narrow crown minimizes surface damage while providing excellent grip strength.",
+      "features": [
+        "HP Brushless motor",
+        "18-gauge narrow crown staples",
+        "Depth adjustment dial",
+        "Dry-fire lockout",
+        "Tool-free jam release"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL336B",
+      "name": "Ryobi ONE+ 18V Cable Stapler (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "finishing-fastening",
+      "subcategory": "staplers",
+      "tool_type": "cable-stapler",
+      "price_current": 219,
+      "price_msrp": 219,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 100,
+      "description": "A specialty cable stapler for securing NM (Romex) electrical wire and low-voltage cables to studs and joists. Speeds up electrical rough-in work dramatically compared to hand-driving cable staples. A unique tool in the ONE+ ecosystem that electricians and serious DIYers appreciate.",
+      "features": [
+        "Drives insulated cable staples for NM wire",
+        "Cordless operation for ceiling and wall work",
+        "Depth adjustment",
+        "Compatible with standard cable staples",
+        "Battery powered for jobsite convenience"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL406B",
+      "name": "Ryobi ONE+ 18V 5\" Random Orbit Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "random-orbit-sander",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_opm": 10000,
+        "pad_size": "5 inch",
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1800,
+      "description": "The 5-inch random orbit sander is the most commonly needed sander for DIY projects. It handles everything from furniture refinishing to deck prep to paint removal. The random orbit pattern prevents swirl marks that ruin finishes. Use standard 5-inch hook-and-loop sandpaper discs.",
+      "features": [
+        "10,000 OPM for fast material removal",
+        "5-inch hook-and-loop sanding pad",
+        "Dust-sealed switch for longevity",
+        "Dust collection port",
+        "Ergonomic palm grip"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLSD01B",
+      "name": "Ryobi ONE+ HP Brushless 5\" Random Orbit Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "random-orbit-sander",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "pad_size": "5 inch",
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 800,
+      "description": "The HP brushless random orbit sander delivers more aggressive sanding action and longer runtime. When you are refinishing a deck or an entire set of cabinets, the brushless motor means fewer battery swaps and faster results.",
+      "features": [
+        "HP Brushless motor for superior sanding performance",
+        "5-inch hook-and-loop pad",
+        "Variable speed control",
+        "Dust collection bag included",
+        "Low vibration for comfortable extended use"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL416B",
+      "name": "Ryobi ONE+ 18V Corner Cat Finish Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "detail-sander",
+      "price_current": 49,
+      "price_msrp": 49,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 600,
+      "description": "A detail sander with a pointed pad that reaches into corners and tight spots where a round orbital sander cannot go. Essential for sanding window frames, door frames, furniture details, and any inside corner. The pointed tip gets right into the 90-degree angle.",
+      "features": [
+        "Pointed pad for corner sanding",
+        "Hook-and-loop pad for quick paper changes",
+        "Dust collection port",
+        "Compact and lightweight",
+        "Perfect for detail and trim work"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL401B",
+      "name": "Ryobi ONE+ 18V 1/4 Sheet Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "sheet-sander",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 500,
+      "description": "A 1/4 sheet sander uses standard sandpaper sheets cut to size, so you always have abrasive available. Good for flat surface sanding on furniture, doors, and tabletops. Less aggressive than a random orbit sander, which makes it better for fine finishing work.",
+      "features": [
+        "Uses standard 1/4 sheet sandpaper",
+        "Clamp system for paper attachment",
+        "Dust collection port",
+        "Flat pad for even sanding",
+        "Lightweight and easy to control"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSD101B",
+      "name": "Ryobi ONE+ 18V 1/2\" x 18\" Belt Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "belt-sander",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "belt_size": "1/2 x 18 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 400,
+      "description": "A compact cordless belt sander for aggressive material removal. Belt sanders strip paint, smooth rough lumber, and shape wood faster than any orbital sander. This compact size handles detail work and gets into tighter spots than a full-size belt sander.",
+      "features": [
+        "1/2\" x 18\" belt for compact sanding",
+        "Aggressive material removal",
+        "Variable speed control",
+        "Cordless convenience",
+        "Tracking adjustment for belt alignment"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P450",
+      "name": "Ryobi ONE+ 18V Brushless Belt Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "sanders",
+      "tool_type": "belt-sander",
+      "price_current": 166,
+      "price_msrp": 166,
+      "specs": {
+        "brushless": true,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 500,
+      "description": "A full-size cordless brushless belt sander for serious material removal. Strips paint from doors, levels rough lumber, and shapes wood quickly. The brushless motor provides consistent power for sustained sanding sessions.",
+      "features": [
+        "Brushless motor for power and runtime",
+        "Full-size belt sanding surface",
+        "Variable speed control",
+        "Dust collection bag",
+        "Belt tracking adjustment"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBF100B",
+      "name": "Ryobi ONE+ 18V 5\" Variable Speed Dual Action Polisher (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "polishers",
+      "tool_type": "polisher",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "pad_size": "5 inch",
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A dual-action polisher for automotive detailing, countertop polishing, and surface finishing. The dual-action motion prevents burn-through on clear coat, making it safe for beginners to polish their car without damaging the paint.",
+      "features": [
+        "Dual-action motion prevents swirl marks",
+        "Variable speed for different materials",
+        "5-inch pad for cars and surfaces",
+        "Cordless convenience for garage work",
+        "Multiple position side handle"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBF102B",
+      "name": "Ryobi ONE+ 18V 3\" Variable Speed Detail Polisher/Sander (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "polishers",
+      "tool_type": "detail-polisher",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "pad_size": "3 inch",
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 400,
+      "description": "A 3-inch detail polisher/sander for working on small surfaces, headlight restoration, and tight areas where a 5-inch polisher is too large. Also good for sanding detailed woodworking pieces.",
+      "features": [
+        "3-inch pad for detail work",
+        "Variable speed control",
+        "Dual-action polishing and sanding",
+        "Cordless operation",
+        "Compact size for tight areas"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P435",
+      "name": "Ryobi ONE+ 18V 10\" Orbital Buffer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "sanding-finishing",
+      "subcategory": "buffers",
+      "tool_type": "orbital-buffer",
+      "price_current": 44,
+      "price_msrp": 44,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "pad_size": "10 inch",
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 700,
+      "description": "A large 10-inch orbital buffer for waxing and polishing cars, boats, and large surfaces. The gentle orbital motion applies wax evenly and buffs out haze without scratching. An affordable way to keep your car looking showroom fresh.",
+      "features": [
+        "10-inch pad covers large surfaces quickly",
+        "Gentle orbital motion for safe polishing",
+        "Cordless convenience in the garage",
+        "Lightweight for overhead use",
+        "Includes bonnet and applicator"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL424B",
+      "name": "Ryobi ONE+ 18V Compact Router (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "woodworking",
+      "subcategory": "routers",
+      "tool_type": "compact-router",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "collet_size": "1/4 inch",
+        "hp": false,
+        "max_rpm": 29000,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1200,
+      "description": "A cordless compact router for edge profiling, trimming laminate, making grooves, and decorative woodworking. Routers transform plain boards into professional-looking furniture and trim. The cordless design gives you freedom to route edges on a deck or workbench without a cord.",
+      "features": [
+        "29,000 RPM for clean cuts",
+        "1/4-inch collet for standard router bits",
+        "Adjustable depth for precise routing",
+        "Spindle lock for easy bit changes",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLRR01B",
+      "name": "Ryobi ONE+ HP Brushless Compact Router (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "woodworking",
+      "subcategory": "routers",
+      "tool_type": "compact-router",
+      "price_current": 129,
+      "price_msrp": 129,
+      "specs": {
+        "brushless": true,
+        "collet_size": "1/4 inch",
+        "hp": true,
+        "max_rpm": 31000,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 700,
+      "description": "The HP brushless compact router delivers more consistent speed under load, meaning cleaner cuts in harder woods. The variable speed allows you to slow down for larger bits and speed up for detail work. A significant upgrade for anyone doing serious woodworking.",
+      "features": [
+        "HP Brushless motor for consistent speed under load",
+        "Variable speed from 10,000 to 31,000 RPM",
+        "1/4-inch collet",
+        "Micro-depth adjustment",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P611",
+      "name": "Ryobi ONE+ 18V 3-1/4\" Planer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "woodworking",
+      "subcategory": "planers",
+      "tool_type": "hand-planer",
+      "price_current": 83,
+      "price_msrp": 83,
+      "specs": {
+        "brushless": false,
+        "cutting_width": "3-1/4 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 600,
+      "description": "A cordless hand planer for trimming doors, smoothing rough lumber, and creating chamfers. When a door sticks after humidity swells the wood, a planer shaves it down to fit. Also useful for leveling uneven joints in woodworking projects.",
+      "features": [
+        "3-1/4-inch cutting width",
+        "Reversible carbide blades",
+        "Adjustable cutting depth",
+        "Dust ejection port",
+        "Rabbeting guide included"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLMM01B",
+      "name": "Ryobi ONE+ HP Brushless 1/2\" Mud Mixer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "prep-maintenance",
+      "subcategory": "mixers",
+      "tool_type": "mud-mixer",
+      "price_current": 179,
+      "price_msrp": 179,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A cordless mud mixer for mixing drywall compound, thinset mortar, grout, and paint. Takes the arm-aching effort out of mixing 5-gallon buckets of compound. Essential for tile work and drywall finishing projects.",
+      "features": [
+        "HP Brushless motor for heavy mixing",
+        "1/2-inch hex drive for mixing paddles",
+        "Variable speed trigger",
+        "Cordless -- mix anywhere without extension cords",
+        "Ergonomic handle design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL901B",
+      "name": "Ryobi ONE+ 18V 10 oz. Caulk and Adhesive Gun (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "prep-maintenance",
+      "subcategory": "caulk-guns",
+      "tool_type": "caulk-gun",
+      "price_current": 49,
+      "price_msrp": 49,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 800,
+      "description": "A power caulk gun that squeezes caulk tubes and adhesive with consistent, even pressure. No more hand fatigue from squeezing a manual caulk gun on a long bathroom or window sealing job. Variable speed trigger gives you precise bead control.",
+      "features": [
+        "Fits standard 10 oz. caulk tubes",
+        "Variable speed trigger for bead control",
+        "Anti-drip mechanism",
+        "Easy-load carriage",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P3150",
+      "name": "Ryobi ONE+ 18V Heat Gun (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "prep-maintenance",
+      "subcategory": "heat-guns",
+      "tool_type": "heat-gun",
+      "price_current": 84,
+      "price_msrp": 84,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 500,
+      "description": "A cordless heat gun for paint stripping, heat shrink tubing, thawing frozen pipes, loosening adhesives, and bending PVC. The cordless design is especially useful for outdoor paint stripping where running an extension cord is impractical.",
+      "features": [
+        "Dual temperature settings",
+        "Cordless portability",
+        "Nozzle attachments for directed heat",
+        "Built-in stand for hands-free use",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL916B",
+      "name": "Ryobi ONE+ 18V Heat Pen (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "prep-maintenance",
+      "subcategory": "heat-guns",
+      "tool_type": "heat-pen",
+      "price_current": 44,
+      "price_msrp": 44,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 200,
+      "description": "A compact heat pen for precision heat application. More targeted than a full heat gun, it is perfect for heat shrink tubing on electrical connections, loosening small adhesive patches, and craft work. Heats up in seconds.",
+      "features": [
+        "Compact pen design for precision",
+        "Fast heat-up time",
+        "Targeted heat application",
+        "Cordless operation",
+        "Built-in stand"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P3100",
+      "name": "Ryobi ONE+ 18V 45W Hybrid Soldering Station (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "hobby-craft",
+      "subcategory": "soldering",
+      "tool_type": "soldering-station",
+      "price_current": 62,
+      "price_msrp": 62,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18,
+        "wattage": 45
+      },
+      "rating": 4.3,
+      "review_count": 400,
+      "description": "A hybrid soldering station that runs on battery or AC power. Unique to the ONE+ ecosystem -- most brands do not offer a battery-powered soldering iron. Great for electronics repair, jewelry making, and stained glass work. Take it to the garage, workshop, or wherever you need to solder.",
+      "features": [
+        "45-watt soldering iron",
+        "Hybrid: runs on battery OR AC power",
+        "Adjustable temperature",
+        "Integrated stand with sponge",
+        "Quick heat-up time"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL921B",
+      "name": "Ryobi ONE+ 18V Glue Gun (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "hobby-craft",
+      "subcategory": "glue-guns",
+      "tool_type": "glue-gun",
+      "price_current": 29,
+      "price_msrp": 29,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1000,
+      "description": "A cordless hot glue gun powered by the ONE+ battery system. No cord means total freedom to glue wherever you need to. Great for crafts, quick repairs, and hobby projects. Uses standard full-size glue sticks available everywhere.",
+      "features": [
+        "Uses standard full-size glue sticks",
+        "Cordless -- no outlet needed",
+        "Dual temperature (high and low)",
+        "Anti-drip nozzle",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P460",
+      "name": "Ryobi ONE+ 18V Rotary Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "hobby-craft",
+      "subcategory": "rotary-tools",
+      "tool_type": "rotary-tool",
+      "price_current": 49,
+      "price_msrp": 49,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_rpm": 35000,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 800,
+      "description": "A cordless rotary tool (similar to a Dremel) for engraving, polishing, grinding, cutting small objects, and detailed work. Uses standard rotary tool accessories. Essential for hobbyists and anyone doing detailed metalwork, jewelry, or model building.",
+      "features": [
+        "Variable speed up to 35,000 RPM",
+        "Uses standard rotary tool accessories",
+        "Compact inline design",
+        "Cordless freedom",
+        "LED work light"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL480B",
+      "name": "Ryobi ONE+ 18V Rotary Tool Station (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "hobby-craft",
+      "subcategory": "rotary-tools",
+      "tool_type": "rotary-tool-station",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_rpm": 35000,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 500,
+      "description": "A rotary tool with an integrated flex shaft and station base for hands-free precision work. The flex shaft gives you pen-like control for engraving, carving, and polishing detailed pieces. Better ergonomics than a standard rotary tool for extended sessions.",
+      "features": [
+        "Integrated flex shaft for precision control",
+        "Variable speed dial 5,000-35,000 RPM",
+        "Station base for stable operation",
+        "Uses standard rotary accessories",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL001B",
+      "name": "Ryobi ONE+ 18V High Pressure Digital Inflator (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "inflators",
+      "tool_type": "inflator",
+      "price_current": 39,
+      "price_msrp": 39,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_psi": 160,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 2000,
+      "description": "A high-pressure digital inflator for car tires, bike tires, sports balls, and inflatables. Set your target PSI and it stops automatically -- no more guessing. Keep this in your car trunk with a battery and you will never need a gas station air pump again.",
+      "features": [
+        "Digital gauge with auto-shutoff at target PSI",
+        "Up to 160 PSI maximum pressure",
+        "Multiple nozzle attachments included",
+        "Built-in pressure gauge",
+        "Cordless -- inflate anywhere"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL031B",
+      "name": "Ryobi ONE+ 18V Dual Function Digital Inflator/Deflator (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "inflators",
+      "tool_type": "inflator-deflator",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "An inflator AND deflator in one tool. The deflate function is clutch for air mattresses, pool floats, and adjusting tire pressure for off-road driving. The inflate function handles tires, sports balls, and inflatables. Two tools in one.",
+      "features": [
+        "Inflates AND deflates",
+        "Digital pressure gauge with auto-shutoff",
+        "High-volume mode for air mattresses",
+        "High-pressure mode for tires",
+        "Multiple nozzle attachments"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P739",
+      "name": "Ryobi ONE+ 18V 1 Gallon Air Compressor (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "compressors",
+      "tool_type": "air-compressor",
+      "price_current": 169,
+      "price_msrp": 169,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_psi": 120,
+        "tank_size_gal": 1,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 700,
+      "description": "A portable 1-gallon air compressor powered by ONE+ batteries. Runs pneumatic nailers, inflates tires, and powers air tools without needing a wall outlet. Not as powerful as a corded compressor, but the portability is unbeatable for small jobs.",
+      "features": [
+        "1-gallon tank for sustained air delivery",
+        "Up to 120 PSI",
+        "Cordless portability",
+        "Regulated and unregulated outputs",
+        "Lightweight and compact"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 15,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P7110",
+      "name": "Ryobi ONE+ 18V Jump Starter Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "jump-starters",
+      "tool_type": "jump-starter",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 600,
+      "description": "A battery-powered jump starter that uses your ONE+ batteries to jump-start a dead car. No more jumper cables or calling AAA. Keep a charged ONE+ battery in your car and you have emergency jump-start capability whenever you need it. One of those unique tools that makes the ONE+ ecosystem invaluable.",
+      "features": [
+        "Jump-starts most 12V car batteries",
+        "Uses standard ONE+ 18V batteries",
+        "Reverse polarity protection",
+        "LED status indicator",
+        "Compact storage in vehicle"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P3410",
+      "name": "Ryobi ONE+ 18V Grease Gun (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "grease-guns",
+      "tool_type": "grease-gun",
+      "price_current": 169,
+      "price_msrp": 169,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_psi": 8000,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 400,
+      "description": "A cordless grease gun for lubricating equipment, vehicles, and machinery. Delivers up to 8,000 PSI of grease pressure for stubborn fittings. Essential for trailer maintenance, tractor/lawn mower servicing, and any equipment with grease fittings.",
+      "features": [
+        "Up to 8,000 PSI grease pressure",
+        "Uses standard grease cartridges",
+        "LED work light for finding fittings",
+        "Cordless operation",
+        "Lock-on coupler included"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL692B",
+      "name": "Ryobi ONE+ 18V Dual Function Lighted Creeper/Seat (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "automotive",
+      "subcategory": "creepers",
+      "tool_type": "creeper-seat",
+      "price_current": 189,
+      "price_msrp": 189,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A battery-powered lighted creeper and rolling seat combo for under-car work. The integrated LED lights illuminate the underside of your vehicle while you work. Converts from a creeper (lying down) to a rolling seat (sitting up) in seconds. A unique tool that other brands simply do not offer.",
+      "features": [
+        "Integrated LED lighting powered by ONE+ battery",
+        "Converts from creeper to rolling seat",
+        "6 smooth-rolling casters",
+        "Padded surface for comfort",
+        "Built-in tool trays"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 25,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P661",
+      "name": "Ryobi ONE+ 18V PEX Crimp Ring Press Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "plumbing",
+      "subcategory": "pex-tools",
+      "tool_type": "pex-crimp-tool",
+      "price_current": 249,
+      "price_msrp": 249,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 200,
+      "description": "A cordless PEX crimp ring press tool for plumbing installations and repairs. Creates secure PEX connections without hand fatigue from manual crimping. Essential for bathroom and kitchen plumbing projects using PEX tubing, which has largely replaced copper pipe in residential construction.",
+      "features": [
+        "Powers through PEX crimp rings effortlessly",
+        "Multiple jaw sizes for common PEX sizes",
+        "Cordless operation for in-wall work",
+        "LED work light",
+        "Calibration check system"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P660",
+      "name": "Ryobi ONE+ 18V PEX Pinch Clamp Tool (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "plumbing",
+      "subcategory": "pex-tools",
+      "tool_type": "pex-clamp-tool",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 150,
+      "description": "A cordless PEX pinch clamp tool for an alternative PEX connection method. Pinch clamps are easier for beginners than crimp rings and provide equally reliable connections. If you are doing your own plumbing, this tool makes PEX connections fast and foolproof.",
+      "features": [
+        "Pinch clamp method for easy PEX connections",
+        "Cordless operation",
+        "LED work light",
+        "One-handed operation possible",
+        "Compatible with standard PEX pinch clamps"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL456B",
+      "name": "Ryobi ONE+ 18V 25' Drain Auger (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "plumbing",
+      "subcategory": "drain-augers",
+      "tool_type": "drain-auger",
+      "price_current": 89,
+      "price_msrp": 89,
+      "specs": {
+        "brushless": false,
+        "cable_length_ft": 25,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 400,
+      "description": "A cordless drain auger for clearing clogged sinks, tubs, and shower drains. Saves you from calling a plumber for basic clogs. The 25-foot cable reaches most residential drain blockages. Feed the cable in, hit the trigger, and the spinning cable breaks through the clog.",
+      "features": [
+        "25-foot cable for residential drains",
+        "Cordless -- no outlet needed near drains",
+        "Forward and reverse rotation",
+        "Inner drum for clean operation",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL457B",
+      "name": "Ryobi ONE+ 18V 35' Drain Auger (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "plumbing",
+      "subcategory": "drain-augers",
+      "tool_type": "drain-auger",
+      "price_current": 179,
+      "price_msrp": 179,
+      "specs": {
+        "brushless": false,
+        "cable_length_ft": 35,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 200,
+      "description": "The extended 35-foot drain auger reaches deeper clogs in longer drain runs. Better for main line connections and floor drains that are further from the fixture. When the 25-foot model is not long enough, this one reaches the blockage.",
+      "features": [
+        "35-foot cable for deeper clogs",
+        "Cordless operation",
+        "Forward and reverse rotation",
+        "Inner drum design",
+        "Auto-feed mechanism"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 10,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P3020",
+      "name": "Ryobi ONE+ 18V 20 GPM Submersible Water Transfer Pump (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "plumbing",
+      "subcategory": "pumps",
+      "tool_type": "transfer-pump",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": false,
+        "flow_rate_gpm": 20,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 300,
+      "description": "A submersible water transfer pump for draining flooded basements, emptying hot tubs, dewatering window wells, and transferring water between containers. Drop it in the water, connect a hose, and it pumps at 20 gallons per minute. A lifesaver during flooding emergencies.",
+      "features": [
+        "20 GPM flow rate",
+        "Submersible design -- drop it in and go",
+        "Cordless operation for emergencies",
+        "Standard garden hose connection",
+        "Compatible with all ONE+ batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL811B",
+      "name": "Ryobi ONE+ 18V Hybrid Whisper Series 7-1/2\" Fan (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "fans",
+      "tool_type": "portable-fan",
+      "price_current": 49,
+      "price_msrp": 49,
+      "specs": {
+        "brushless": false,
+        "fan_diameter": "7-1/2 inch",
+        "hp": false,
+        "hybrid": true,
+        "speeds": 3,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 3000,
+      "description": "A portable hybrid fan that runs on battery or plugs into AC power. One of Ryobi's most beloved tools -- people use it in the garage, at the workbench, camping, or anywhere they need airflow. The Whisper Series design is 44% quieter than previous models with 24% more airflow.",
+      "features": [
+        "Hybrid: runs on battery OR AC power",
+        "Whisper Series -- 44% quieter",
+        "3 speed settings",
+        "160-degree pivoting head",
+        "Runtime up to 18 hours on battery"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PAD01B",
+      "name": "Ryobi ONE+ 18V Speaker with Bluetooth Wireless Technology (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "speakers",
+      "tool_type": "bluetooth-speaker",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "bluetooth_range_ft": 125,
+        "brushless": false,
+        "hp": false,
+        "hybrid": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1500,
+      "description": "A rugged Bluetooth speaker powered by your ONE+ battery. Dual 3-inch speakers deliver surprisingly good sound on job sites, in the garage, or at a cookout. Built to handle workshop dust and bumps. Also has a USB charging port to keep your phone charged.",
+      "features": [
+        "Dual 3-inch speakers for powerful sound",
+        "125-foot Bluetooth range",
+        "USB charging port (2.1 Amp)",
+        "Over 10 hours runtime on 4.0 Ah battery",
+        "Rugged workshop-ready design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL660B",
+      "name": "Ryobi ONE+ 18V LED Light (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "lighting",
+      "tool_type": "flashlight",
+      "price_current": 29,
+      "price_msrp": 29,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "lumens": 280,
+        "runtime_hours": 22,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1200,
+      "description": "A compact LED flashlight that runs on your ONE+ battery. Up to 280 lumens and 22 hours of runtime. Perfect for power outages, camping, garage work, and under-sink plumbing repairs. At $30, it is one of the cheapest tools in the ONE+ ecosystem.",
+      "features": [
+        "280 lumens output",
+        "Up to 22 hours runtime",
+        "Compact and lightweight",
+        "Rotating head for angle adjustment",
+        "Uses any ONE+ 18V battery"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 0.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL661B",
+      "name": "Ryobi ONE+ 18V LED Spotlight (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "lighting",
+      "tool_type": "spotlight",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "beam_distance_yards": 650,
+        "brushless": false,
+        "hp": false,
+        "lumens": 3000,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 800,
+      "description": "A powerful LED spotlight with 3,000 lumens and 650-yard beam distance. Illuminates large outdoor areas, campsite perimeters, and backyard work areas. The focused beam also works as an emergency signal or search light.",
+      "features": [
+        "3,000 lumens of focused light",
+        "650-yard beam distance",
+        "Multiple brightness modes",
+        "Cordless battery operation",
+        "Comfortable pistol grip"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL662B",
+      "name": "Ryobi ONE+ 18V LED Area Light with USB (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "lighting",
+      "tool_type": "area-light",
+      "price_current": 39,
+      "price_msrp": 39,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "lumens": 850,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1000,
+      "description": "An LED area light that floods a workspace with 850 lumens. Includes a USB charging port for your phone. The wide beam pattern is perfect for illuminating a work area under a car, inside a cabinet, or in a tent while camping.",
+      "features": [
+        "850 lumens wide-area illumination",
+        "USB charging port included",
+        "Multiple mounting options",
+        "Adjustable light head",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL632B",
+      "name": "Ryobi ONE+ 18V 360-Degree LED Light (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "lighting",
+      "tool_type": "area-light",
+      "price_current": 114,
+      "price_msrp": 114,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 400,
+      "description": "A 360-degree LED light that illuminates an entire room or work area from a central point. Mount it on a tripod or hang it from a hook to light up a whole garage, basement, or outdoor area. Great for power outages and camping.",
+      "features": [
+        "360-degree light output",
+        "Multiple brightness settings",
+        "Tripod and hang mount compatible",
+        "Cordless battery operation",
+        "Compact and portable"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL633B",
+      "name": "Ryobi ONE+ 18V Hybrid LED Work Light (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "lighting",
+      "tool_type": "work-light",
+      "price_current": 84,
+      "price_msrp": 84,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "hybrid": true,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 500,
+      "description": "A hybrid LED work light that runs on battery or AC power. Bright enough to light up a whole workspace, and the hybrid design means you can plug it in for continuous operation or go cordless when you need portability.",
+      "features": [
+        "Hybrid: battery or AC power",
+        "High-output LED panel",
+        "Adjustable head angle",
+        "Multiple brightness settings",
+        "Folds flat for storage"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P743",
+      "name": "Ryobi ONE+ 18V Portable Power Source (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "lifestyle",
+      "subcategory": "power-sources",
+      "tool_type": "power-source",
+      "price_current": 29,
+      "price_msrp": 29,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "usb_ports": 2,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 2000,
+      "description": "A portable USB power source that turns any ONE+ battery into a phone charger. Pop in a battery and charge two devices simultaneously via USB. Essential for camping, power outages, or anytime you need to charge your phone without an outlet. At $29, it is one of the cheapest and most useful ONE+ accessories.",
+      "features": [
+        "Two USB-A charging ports",
+        "Works with any ONE+ 18V battery",
+        "Compact pocket-sized design",
+        "LED power indicator",
+        "Charges phones, tablets, and other USB devices"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 0.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P4510",
+      "name": "Ryobi ONE+ 18V Vortex Power Scrubber (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "power-scrubbers",
+      "tool_type": "power-scrubber",
+      "price_current": 59,
+      "price_msrp": 59,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1200,
+      "description": "A power scrubber for cleaning tile, grout, bathtubs, sinks, and outdoor surfaces. Multiple brush attachments let you tackle everything from shower grout to grill grates. Saves your arms and knees from hours of manual scrubbing.",
+      "features": [
+        "Multiple brush head attachments",
+        "Variable speed for different surfaces",
+        "Water-resistant design",
+        "Cordless convenience",
+        "Interchangeable brushes"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P4500",
+      "name": "Ryobi ONE+ 18V Vortex Telescoping Power Scrubber (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "power-scrubbers",
+      "tool_type": "telescoping-power-scrubber",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "A telescoping power scrubber that extends so you can clean floors, bathtub/shower walls, and other surfaces without bending or kneeling. The extended reach saves your back and knees. Multiple brush heads handle different cleaning tasks.",
+      "features": [
+        "Telescoping handle for extended reach",
+        "Multiple brush attachments",
+        "Scrub floors without kneeling",
+        "Variable speed",
+        "Water-resistant design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLSV718B",
+      "name": "Ryobi ONE+ HP High-Capacity Stick Vacuum (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "vacuums",
+      "tool_type": "stick-vacuum",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 600,
+      "description": "An HP brushless stick vacuum for quick cleanups in the workshop, garage, or home. The brushless motor provides strong suction, and the high-capacity dust bin means fewer trips to empty it. Uses your existing ONE+ batteries.",
+      "features": [
+        "HP Brushless motor for strong suction",
+        "High-capacity dust bin",
+        "Lightweight and maneuverable",
+        "Multiple floor attachments",
+        "Wall-mount charging station"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL733B",
+      "name": "Ryobi ONE+ 18V 1 Gallon Wet/Dry Vacuum (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "vacuums",
+      "tool_type": "wet-dry-vac",
+      "price_current": 89,
+      "price_msrp": 89,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "tank_size_gal": 1,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 800,
+      "description": "A compact 1-gallon wet/dry vacuum for workshop cleanups, car interiors, and small spills. Handles both wet and dry debris -- sawdust, drywall dust, and small water spills. Cordless operation means you can vacuum your car in the driveway without an extension cord.",
+      "features": [
+        "1-gallon capacity for small jobs",
+        "Wet AND dry pickup capability",
+        "Cordless convenience",
+        "Crevice tool and hose included",
+        "Compact and portable"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL734B",
+      "name": "Ryobi ONE+ 18V Link 3 Gallon Wet/Dry Vacuum (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "vacuums",
+      "tool_type": "wet-dry-vac",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "tank_size_gal": 3,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 500,
+      "description": "A 3-gallon wet/dry vacuum that connects to the LINK modular storage system. More capacity than the 1-gallon for bigger cleanups. The LINK compatibility lets you mount it on a LINK wall rail in your garage for organized storage.",
+      "features": [
+        "3-gallon capacity for bigger jobs",
+        "Wet and dry pickup",
+        "Compatible with LINK storage system",
+        "Cordless operation",
+        "Multiple accessory attachments"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLUV750B",
+      "name": "Ryobi ONE+ HP SWIFTClean Carpet Washer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "carpet-cleaners",
+      "tool_type": "carpet-washer",
+      "price_current": 249,
+      "price_msrp": 299,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A cordless carpet washer for deep cleaning carpets and rugs. The HP brushless motor drives the cleaning brush while the suction pulls dirty water out. No cords to trip over and no need to be near an outlet. Clean carpet stains, pet messes, and high-traffic areas anywhere in your home.",
+      "features": [
+        "HP Brushless motor for deep cleaning",
+        "Cordless -- clean anywhere without cords",
+        "Dual tank system for clean and dirty water",
+        "Interchangeable brush rolls",
+        "Edge cleaning capability"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 12,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCL780K",
+      "name": "Ryobi ONE+ 18V Pool Vacuum Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "pool-care",
+      "tool_type": "pool-vacuum",
+      "price_current": 189,
+      "price_msrp": 189,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 400,
+      "description": "A cordless pool vacuum for cleaning pool floors and surfaces. No hoses to hook up, no complicated suction lines -- just drop it in and start vacuuming. Works for above-ground and in-ground pools. A unique tool in the ONE+ ecosystem.",
+      "features": [
+        "Cordless pool cleaning",
+        "No hose hookups needed",
+        "Rechargeable filter canister",
+        "Telescoping pole included",
+        "Works in all pool types"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY120350",
+      "name": "Ryobi ONE+ 18V EZClean 320 PSI Power Cleaner (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "pressure-washers",
+      "tool_type": "power-cleaner",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_gpm": 0.8,
+        "max_psi": 320,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 2000,
+      "description": "A portable cordless power cleaner for cleaning outdoor furniture, grills, bikes, cars, and patio surfaces. Not a full pressure washer but powerful enough for most residential cleaning. The cordless convenience means you can clean anywhere -- no outlet or garden hose required if you use the bucket draw feature.",
+      "features": [
+        "320 PSI cleaning pressure",
+        "0.8 GPM flow rate",
+        "EZClean 3-in-1 nozzle",
+        "Cordless operation",
+        "Siphon hose for bucket draw"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 7,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY121850",
+      "name": "Ryobi ONE+ HP Brushless EZClean 600 PSI Power Cleaner (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "pressure-washers",
+      "tool_type": "power-cleaner",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_gpm": 0.7,
+        "max_psi": 600,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1500,
+      "description": "The HP brushless EZClean delivers nearly double the pressure of the standard model. Handles tougher cleaning jobs like concrete patios, siding, and heavily soiled surfaces. The brushless motor provides better pressure consistency and longer runtime.",
+      "features": [
+        "600 PSI cleaning pressure",
+        "HP Brushless motor for more power",
+        "3-in-1 turbo/15-degree/rinse nozzle",
+        "20-foot siphon hose for bucket draw",
+        "Cordless portability"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 7.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSP01B",
+      "name": "Ryobi ONE+ 18V Handheld Sprayer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "sprayers",
+      "tool_type": "handheld-sprayer",
+      "price_current": 24,
+      "price_msrp": 24,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 500,
+      "description": "A cordless handheld sprayer for herbicides, pesticides, fertilizer, and cleaning solutions. No more hand-pumping a manual sprayer. Just fill the bottle, attach a battery, and spray. Great for weed control, garden feeding, and small-area cleaning.",
+      "features": [
+        "Powered spray -- no hand pumping",
+        "Adjustable nozzle for spray pattern",
+        "Compatible with multiple chemicals",
+        "Lightweight and easy to use",
+        "Uses any ONE+ battery"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 1.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2890",
+      "name": "Ryobi ONE+ 18V 1/2 Gallon Electrostatic Sprayer Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "sprayers",
+      "tool_type": "electrostatic-sprayer",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "tank_size_gal": 0.5,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 600,
+      "description": "An electrostatic sprayer that electrically charges liquid droplets so they wrap around surfaces for complete coverage. Originally popular for disinfection, also excellent for applying stain, sealers, and pesticides with less waste and more even coverage.",
+      "features": [
+        "Electrostatic charge for wrap-around coverage",
+        "1/2-gallon tank capacity",
+        "Adjustable flow rate",
+        "Cordless operation",
+        "Reduces chemical waste"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P755",
+      "name": "Ryobi ONE+ 18V Compact Workshop Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "workshop-blowers",
+      "tool_type": "workshop-blower",
+      "price_current": 64,
+      "price_msrp": 64,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 500,
+      "description": "A compact blower designed for workshop cleanup -- blowing sawdust off tools, clearing workbench debris, and dusting off equipment. Smaller and quieter than an outdoor leaf blower, making it more appropriate for indoor use.",
+      "features": [
+        "Designed for indoor workshop use",
+        "Compact and quiet operation",
+        "Variable speed trigger",
+        "Concentrated air stream",
+        "Lightweight design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P21011BTL",
+      "name": "Ryobi ONE+ 18V 250 CFM Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_cfm": 250,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 1500,
+      "description": "An entry-level cordless leaf blower for small yards, driveways, and patios. The 250 CFM airflow handles leaves on hard surfaces and light debris. Quieter than gas blowers and requires zero maintenance. Great for apartment dwellers with small patios or balconies.",
+      "features": [
+        "250 CFM airflow",
+        "Variable speed trigger",
+        "Lightweight and quiet",
+        "Zero maintenance -- no gas, oil, or spark plugs",
+        "Uses any ONE+ battery"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCLLB01B",
+      "name": "Ryobi ONE+ 18V 350 CFM Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 109,
+      "price_msrp": 109,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_cfm": 350,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "A mid-range 350 CFM leaf blower for medium-sized yards. More power than the 250 CFM model for moving heavier debris and wet leaves. Still quiet enough for suburban neighborhoods where noise is a concern.",
+      "features": [
+        "350 CFM airflow for medium yards",
+        "Variable speed trigger",
+        "Turbo boost button for stubborn debris",
+        "Lightweight design",
+        "Cordless convenience"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBLB01B",
+      "name": "Ryobi ONE+ HP Compact Brushless 220 CFM Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 109,
+      "price_msrp": 109,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 220,
+        "max_mph": 140,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 700,
+      "description": "The compact HP brushless blower emphasizes air speed (140 MPH) over volume. The focused high-speed air stream is better at dislodging stuck-on debris from sidewalk cracks and tight areas. The brushless motor runs longer per charge than standard models.",
+      "features": [
+        "HP Brushless motor for efficiency",
+        "220 CFM at 140 MPH -- high-velocity air stream",
+        "Compact and lightweight design",
+        "Variable speed with turbo mode",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P21014BTL",
+      "name": "Ryobi ONE+ HP Brushless Whisper Series 450 CFM Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 450,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 600,
+      "description": "The Whisper Series 450 CFM blower delivers serious leaf-moving power while being dramatically quieter than standard blowers. The reduced noise is a game-changer in neighborhoods with noise restrictions. The brushless motor maximizes runtime for larger yards.",
+      "features": [
+        "450 CFM Whisper Series -- significantly quieter",
+        "HP Brushless motor for power and runtime",
+        "Variable speed with turbo boost",
+        "Reduced noise for neighborhood use",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLLB01B",
+      "name": "Ryobi ONE+ HP Brushless 510 CFM Whisper Series Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 510,
+        "max_mph": 130,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 500,
+      "description": "The most powerful 18V blower in the ONE+ lineup at 510 CFM. Still part of the Whisper Series for reduced noise. Handles larger yards and heavier leaf coverage. For homeowners who want to stay in the 18V ecosystem but need more blowing power.",
+      "features": [
+        "510 CFM -- most powerful ONE+ 18V blower",
+        "130 MPH air speed",
+        "Whisper Series quiet operation",
+        "HP Brushless motor",
+        "Variable speed with boost"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P20014BTL",
+      "name": "Ryobi ONE+ 18V 13\" String Trimmer/Edger (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "string-trimmers",
+      "tool_type": "string-trimmer",
+      "price_current": 79,
+      "price_msrp": 79,
+      "specs": {
+        "brushless": false,
+        "cutting_width": "13 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 2000,
+      "description": "A 13-inch cordless string trimmer and edger for maintaining lawn edges, trimming around obstacles, and edging sidewalks. Converts from trimmer to edger with a twist of the shaft. No gas, no fumes, no pull-cord starting -- just battery power.",
+      "features": [
+        "13-inch cutting swath",
+        "Converts from trimmer to edger",
+        "Auto-feed string head",
+        "Adjustable shaft length",
+        "Cordless operation -- no gas needed"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P20190",
+      "name": "Ryobi ONE+ HP Brushless 15\" String Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "string-trimmers",
+      "tool_type": "string-trimmer",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "15 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 1000,
+      "description": "The HP brushless 15-inch string trimmer delivers more power and a wider cut than the standard model. The brushless motor handles thicker weeds and grass without bogging down. The wider cutting swath means fewer passes along fence lines and yard edges.",
+      "features": [
+        "HP Brushless motor for more cutting power",
+        "15-inch cutting swath -- wider than standard",
+        "Attachment capable for optional add-ons",
+        "Variable speed trigger",
+        "Auto-feed string head"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 7,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PCLCW01B",
+      "name": "Ryobi ONE+ 18V 6\" Pruning Mini Chainsaw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "pruning-chainsaw",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "bar_length": "6 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1500,
+      "description": "A 6-inch mini chainsaw for pruning small branches, trimming shrubs, and cutting small limbs. The compact size makes it easy to handle with one hand. Extremely popular for light yard maintenance without hauling out a full-size chainsaw.",
+      "features": [
+        "6-inch bar and chain for small branches",
+        "Lightweight one-hand operation",
+        "Tool-free chain tensioning",
+        "Auto-oiling system",
+        "Low kickback chain for safety"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PSBCW01B",
+      "name": "Ryobi ONE+ HP Brushless 8\" Pruning Chainsaw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "pruning-chainsaw",
+      "price_current": 149,
+      "price_msrp": 149,
+      "specs": {
+        "bar_length": "8 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.6,
+      "review_count": 900,
+      "description": "The HP brushless 8-inch pruning chainsaw handles thicker branches than the 6-inch model. The brushless motor provides more power for cutting through 4-6 inch limbs without bogging down. Still compact enough for easy handling while pruning trees.",
+      "features": [
+        "HP Brushless motor for more cutting power",
+        "8-inch bar and chain",
+        "Tool-free chain tensioning",
+        "Auto-oiling system",
+        "Low kickback chain"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2520",
+      "name": "Ryobi ONE+ HP Brushless 10\" Chainsaw Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "chainsaw",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "bar_length": "10 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.5,
+      "review_count": 1200,
+      "description": "A 10-inch cordless chainsaw for small tree felling, storm cleanup, and cutting firewood. The 18V battery can handle trees up to about 8 inches in diameter. Good for homeowners who need occasional chainsaw use without the maintenance of a gas chainsaw.",
+      "features": [
+        "HP Brushless motor for sustained cutting",
+        "10-inch bar and chain",
+        "Tool-free chain tensioning and bar tightening",
+        "Auto-oiling with oil level indicator",
+        "Includes 4.0 Ah battery and charger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2607BTL",
+      "name": "Ryobi ONE+ 18V 18\" Hedge Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "hedge-trimmer",
+      "price_current": 79,
+      "price_msrp": 79,
+      "specs": {
+        "blade_length": "18 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 1200,
+      "description": "An 18-inch cordless hedge trimmer for maintaining hedges, shrubs, and bushes. The dual-action blades cut on both sides for efficient trimming. Lighter and quieter than gas hedge trimmers, and the 18-inch blade handles most residential hedges.",
+      "features": [
+        "18-inch dual-action blade",
+        "Cuts branches up to 3/8-inch thick",
+        "Lightweight design",
+        "Cordless -- no gas or cords",
+        "Wrap-around front handle for comfort"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2608BTL",
+      "name": "Ryobi ONE+ HP Brushless 22\" Hedge Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "hedge-trimmer",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "blade_length": "22 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 800,
+      "description": "The HP brushless 22-inch hedge trimmer covers more hedge per pass and cuts through thicker branches than the 18-inch model. The brushless motor delivers cleaner cuts and longer runtime. Worth the upgrade if you have extensive hedging to maintain.",
+      "features": [
+        "HP Brushless motor for clean cutting",
+        "22-inch blade for wider coverage",
+        "Cuts branches up to 3/4-inch thick",
+        "Dual-action blades for less vibration",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLHG01B",
+      "name": "Ryobi ONE+ HP Brushless 24\" Hedge Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "hedge-trimmer",
+      "price_current": 139,
+      "price_msrp": 139,
+      "specs": {
+        "blade_length": "24 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.7,
+      "review_count": 500,
+      "description": "The longest blade hedge trimmer in the ONE+ 18V lineup at 24 inches. Covers the most hedge per pass, reducing trimming time on long hedgerows. The brushless motor maintains cutting speed throughout the battery charge.",
+      "features": [
+        "24-inch blade -- longest in ONE+ lineup",
+        "HP Brushless motor",
+        "Dual-action blades",
+        "Cuts thicker branches",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2504BTL",
+      "name": "Ryobi ONE+ 18V Pruning Shear (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "pruning-shears",
+      "tool_type": "pruning-shear",
+      "price_current": 69,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 500,
+      "description": "A powered pruning shear for cutting small branches and stems without hand fatigue. Replaces manual pruners for rose bushes, fruit trees, and garden maintenance. The powered action lets you make hundreds of cuts without your hand getting tired.",
+      "features": [
+        "Powered cutting action",
+        "Cuts branches up to 1 inch",
+        "Bypass blade design for clean cuts",
+        "Ergonomic grip",
+        "Cordless operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 2.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2909BTL",
+      "name": "Ryobi ONE+ 18V Compact Cultivator (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "cultivators",
+      "tool_type": "cultivator",
+      "price_current": 69,
+      "price_msrp": 69,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 400,
+      "description": "A compact cordless cultivator for garden bed preparation, weeding, and soil aeration. The spinning tines break up compacted soil and mix in compost or fertilizer. Much easier than hand-tilling with a garden fork, especially for raised beds and flower gardens.",
+      "features": [
+        "Heavy-duty steel tines",
+        "Adjustable tilling width (6-8 inches)",
+        "3 speed modes",
+        "Cordless -- no cord to tangle in garden beds",
+        "Compact for raised bed use"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P1108BTL",
+      "name": "Ryobi ONE+ 18V 13\" Push Mower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "push-mower",
+      "price_current": 199,
+      "price_msrp": 199,
+      "specs": {
+        "brushless": false,
+        "cutting_width": "13 inch",
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.2,
+      "review_count": 600,
+      "description": "A compact 13-inch cordless push mower for very small lawns, condo courtyards, and tight areas. Uses ONE+ 18V batteries you may already own. Not for large lawns, but perfect for small patches of grass where a full mower is overkill.",
+      "features": [
+        "13-inch cutting deck for small areas",
+        "Uses ONE+ 18V batteries",
+        "7-position height adjustment",
+        "Lightweight and easy to store",
+        "Quiet electric operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 25,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P1109BTL",
+      "name": "Ryobi ONE+ HP Brushless 16\" Push Mower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "push-mower",
+      "price_current": 229,
+      "price_msrp": 229,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "16 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.4,
+      "review_count": 400,
+      "description": "The HP brushless 16-inch mower handles slightly larger lawns while still using 18V ONE+ batteries. The brushless motor provides more consistent cutting power and longer runtime than the 13-inch standard model. Good for small to medium suburban lawns.",
+      "features": [
+        "HP Brushless motor for better cutting power",
+        "16-inch cutting deck",
+        "7-position height adjustment",
+        "Mulching and bagging capability",
+        "Quiet electric operation"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 30,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-PBLSN01K",
+      "name": "Ryobi ONE+ HP Brushless 18\" Single-Stage Snow Blower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "outdoor-power",
+      "subcategory": "snow-blowers",
+      "tool_type": "snow-blower",
+      "price_current": 529,
+      "price_msrp": 529,
+      "specs": {
+        "brushless": true,
+        "clearing_width": "18 inch",
+        "hp": true,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 300,
+      "description": "An 18V battery-powered snow blower for clearing driveways and walkways. Uses the same ONE+ batteries as all your other tools. For light to moderate snowfall (up to 6-8 inches), it gets the job done without the hassle of a gas snow blower.",
+      "features": [
+        "HP Brushless motor for snow clearing power",
+        "18-inch clearing width",
+        "Single-stage auger",
+        "180-degree chute rotation",
+        "Uses ONE+ HP batteries for maximum runtime"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 35,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-P2940",
+      "name": "Ryobi ONE+ 18V Outdoor Patio Cleaner Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-one-plus",
+      "category": "cleaning",
+      "subcategory": "outdoor-cleaners",
+      "tool_type": "patio-cleaner",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 18
+      },
+      "rating": 4.3,
+      "review_count": 400,
+      "description": "A unique cordless outdoor patio cleaner with rotating brushes for scrubbing concrete, pavers, and deck surfaces. Connects to a garden hose for water supply. More thorough than a pressure washer for surface cleaning because the brushes physically scrub the surface.",
+      "features": [
+        "Rotating brush heads for surface scrubbing",
+        "Connects to standard garden hose",
+        "Cordless battery operation",
+        "Interchangeable brush types",
+        "For concrete, pavers, and deck surfaces"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLM06B",
+      "name": "Ryobi 40V HP Brushless 20\" Push Mower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "push-mower",
+      "price_current": 279,
+      "price_msrp": 279,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "20 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 1200,
+      "description": "The 40V HP brushless push mower delivers more power than a 150cc gas mower. The 20-inch deck handles most suburban lawns efficiently. Part of the 40V ecosystem with 85+ compatible tools and batteries. For homeowners who want gas-equivalent performance without gas.",
+      "features": [
+        "HP Brushless motor -- more power than 150cc gas",
+        "20-inch cutting deck",
+        "7-position height adjustment",
+        "3-in-1: mulch, bag, or side discharge",
+        "Up to 48 minutes runtime"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 45,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLM07B",
+      "name": "Ryobi 40V HP Brushless 20\" Self-Propelled Mower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "self-propelled-mower",
+      "price_current": 379,
+      "price_msrp": 379,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "20 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 800,
+      "description": "A self-propelled version of the 40V HP 20-inch mower. The self-propel drive takes the effort out of mowing, especially on slopes and large yards. Adjust the speed to match your walking pace.",
+      "features": [
+        "HP Brushless motor for gas-like performance",
+        "Self-propelled drive system",
+        "20-inch cutting deck",
+        "7-position height adjustment",
+        "3-in-1: mulch, bag, or side discharge"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 55,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLM01K2",
+      "name": "Ryobi 40V HP Brushless 21\" Self-Propelled Mower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "self-propelled-mower",
+      "price_current": 589,
+      "price_msrp": 639,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "21 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 1500,
+      "description": "Ryobi's premium 21-inch self-propelled mower delivers more power than a 163cc gas mower. The 21-inch deck is standard residential size, and the self-propel makes mowing effortless. Includes two 40V batteries for extended runtime.",
+      "features": [
+        "HP Brushless motor -- more power than 163cc gas",
+        "21-inch cutting deck -- standard residential size",
+        "Self-propelled with variable speed",
+        "Includes two 40V batteries and charger",
+        "3-in-1: mulch, bag, or side discharge"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 65,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLM03K2",
+      "name": "Ryobi 40V HP Brushless 21\" Self-Propelled AWD Multi-Blade Mower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "lawn-mowers",
+      "tool_type": "self-propelled-mower",
+      "price_current": 849,
+      "price_msrp": 849,
+      "specs": {
+        "brushless": true,
+        "cutting_width": "21 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 600,
+      "description": "The top-of-the-line 40V mower with all-wheel drive and multi-blade technology. AWD keeps traction on hills and slopes. Multi-blade design finely chops clippings for better mulching. This is Ryobi's answer to premium gas mowers.",
+      "features": [
+        "All-wheel drive for hills and slopes",
+        "Multi-blade technology for superior mulching",
+        "HP Brushless motor",
+        "21-inch deck",
+        "Includes two 40V batteries and charger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 70,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPST02B",
+      "name": "Ryobi 40V HP Brushless 17\" Attachment Capable String Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "string-trimmers",
+      "tool_type": "string-trimmer",
+      "price_current": 189,
+      "price_msrp": 189,
+      "specs": {
+        "attachment_capable": true,
+        "brushless": true,
+        "cutting_width": "17 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 1000,
+      "description": "The 40V HP brushless 17-inch string trimmer is attachment capable, meaning you can swap the trimmer head for an edger, pole saw, blower, or cultivator attachment. One powerhead, multiple tools. The 40V battery delivers more power than any 18V trimmer for thick weeds and heavy grass.",
+      "features": [
+        "HP Brushless motor for thick vegetation",
+        "17-inch cutting swath",
+        "Attachment capable for multiple tools",
+        "Variable speed trigger",
+        "Auto-feed string head"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40ST01K",
+      "name": "Ryobi 40V 15\" Attachment Capable String Trimmer Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "string-trimmers",
+      "tool_type": "string-trimmer",
+      "price_current": 159,
+      "price_msrp": 159,
+      "specs": {
+        "attachment_capable": true,
+        "brushless": false,
+        "cutting_width": "15 inch",
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 1500,
+      "description": "The entry-level 40V string trimmer with a 15-inch cutting width and attachment capability. Includes battery and charger to get you started in the 40V ecosystem. Good for medium-sized yards with moderate weed growth.",
+      "features": [
+        "15-inch cutting width",
+        "Attachment capable for versatility",
+        "Includes 40V battery and charger",
+        "Auto-feed string head",
+        "Adjustable shaft length"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLB01B",
+      "name": "Ryobi 40V HP Brushless 800 CFM Whisper Series Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 229,
+      "price_msrp": 229,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 800,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 1000,
+      "description": "The 40V HP 800 CFM blower is Ryobi's most powerful handheld leaf blower. 800 CFM moves serious amounts of leaves and debris, rivaling many gas blowers. The Whisper Series design keeps noise manageable despite the power. Ideal for large yards with heavy leaf coverage.",
+      "features": [
+        "800 CFM -- rivals gas blower power",
+        "HP Brushless motor for maximum performance",
+        "Whisper Series noise reduction",
+        "Variable speed with turbo button",
+        "Cruise control for sustained blowing"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40LB01B",
+      "name": "Ryobi 40V 550 CFM Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "leaf-blower",
+      "price_current": 119,
+      "price_msrp": 119,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "max_cfm": 550,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 2000,
+      "description": "The entry-level 40V blower at 550 CFM provides more power than any 18V model at an affordable price. A solid choice for medium to large yards where 18V blowers run out of steam. No brushless motor keeps the price down.",
+      "features": [
+        "550 CFM airflow",
+        "Variable speed trigger",
+        "Turbo boost for stubborn debris",
+        "Lightweight design",
+        "Cordless 40V power"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPLB02K",
+      "name": "Ryobi 40V HP Brushless 850 CFM Whisper Series Backpack Blower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "blowers",
+      "tool_type": "backpack-blower",
+      "price_current": 629,
+      "price_msrp": 629,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 850,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 400,
+      "description": "The most powerful blower in Ryobi's lineup -- an 850 CFM backpack blower. The backpack design puts the weight on your back instead of your arm, allowing for extended use. Comparable to commercial gas backpack blowers but without the noise, fumes, or maintenance.",
+      "features": [
+        "850 CFM -- Ryobi's most powerful blower",
+        "Backpack design for all-day comfort",
+        "HP Brushless motor",
+        "Whisper Series noise reduction",
+        "Variable speed with cruise control"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 14,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPCW02B",
+      "name": "Ryobi 40V HP Brushless 16\" Chainsaw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "chainsaw",
+      "price_current": 199,
+      "price_msrp": 219,
+      "specs": {
+        "bar_length": "16 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 800,
+      "description": "A 16-inch cordless chainsaw with serious cutting capability. Handles trees up to 14 inches in diameter. The 40V HP brushless motor provides the sustained power needed for felling medium trees, cutting firewood, and storm cleanup. A genuine gas chainsaw replacement for most homeowners.",
+      "features": [
+        "HP Brushless motor for sustained cutting power",
+        "16-inch bar and chain",
+        "Tool-free chain tensioning",
+        "Auto-oiling system",
+        "Mechanical chain brake for safety"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 10,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPCW03B",
+      "name": "Ryobi 40V HP Brushless 20\" Chainsaw (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "chainsaw",
+      "price_current": 349,
+      "price_msrp": 349,
+      "specs": {
+        "bar_length": "20 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 400,
+      "description": "Ryobi's largest chainsaw at 20 inches handles large tree felling and heavy firewood processing. The 40V HP brushless motor provides enough power for trees up to 18 inches in diameter. For homeowners with wooded properties who need serious cutting capability without gas.",
+      "features": [
+        "20-inch bar -- Ryobi's largest chainsaw",
+        "HP Brushless motor for heavy cutting",
+        "Tool-free chain tensioning",
+        "Auto-oiling system",
+        "Mechanical chain brake"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 12,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40570",
+      "name": "Ryobi 40V 10\" Chainsaw Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "chainsaws",
+      "tool_type": "chainsaw",
+      "price_current": 209,
+      "price_msrp": 209,
+      "specs": {
+        "bar_length": "10 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.4,
+      "review_count": 800,
+      "description": "A 10-inch 40V chainsaw for light to medium cutting tasks. The 40V battery provides more power than 18V chainsaws for cutting through thicker branches and small trees. Includes battery and charger to get you started in the 40V ecosystem.",
+      "features": [
+        "10-inch bar and chain",
+        "40V battery for more power than 18V",
+        "Includes battery and charger",
+        "Tool-free chain tensioning",
+        "Auto-oiling system"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 8.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HG01B",
+      "name": "Ryobi 40V 24\" Hedge Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "hedge-trimmer",
+      "price_current": 119,
+      "price_msrp": 119,
+      "specs": {
+        "blade_length": "24 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 1200,
+      "description": "A 40V 24-inch hedge trimmer for maintaining large hedges and thick shrubs. The 40V battery provides more power than 18V models for cutting through thicker branches. The 24-inch blade covers more hedge per pass.",
+      "features": [
+        "24-inch dual-action blade",
+        "40V power for thicker branches",
+        "Wrap-around front handle",
+        "Cordless operation",
+        "Lightweight design"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 6.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40606BTL",
+      "name": "Ryobi 40V HP Brushless Whisper Series 26\" Hedge Trimmer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "hedge-trimmer",
+      "price_current": 279,
+      "price_msrp": 279,
+      "specs": {
+        "blade_length": "26 inch",
+        "brushless": true,
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 300,
+      "description": "The premium 40V hedge trimmer with a 26-inch Whisper Series blade. The longest blade available, designed for professional-level hedge maintenance with reduced noise. Cuts thick branches easily with the HP brushless motor.",
+      "features": [
+        "26-inch blade -- longest available",
+        "HP Brushless Whisper Series -- quiet operation",
+        "Cuts thick branches with ease",
+        "Dual-action blade for less vibration",
+        "Cordless 40V power"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 7,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40708BTL",
+      "name": "Ryobi 40V HP Brushless Edger (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "edgers",
+      "tool_type": "edger",
+      "price_current": 259,
+      "price_msrp": 259,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A dedicated 40V edger for creating clean, defined edges along sidewalks, driveways, and garden beds. More powerful and precise than using a string trimmer as an edger. The 40V HP brushless motor cuts through established sod and thick grass edges.",
+      "features": [
+        "HP Brushless motor for clean edging",
+        "Dedicated edger blade for precision",
+        "Adjustable depth control",
+        "Guide wheel for straight lines",
+        "Cordless 40V power"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 12,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPSN01B",
+      "name": "Ryobi 40V HP Brushless 18\" Single-Stage Snow Blower (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "snow-blowers",
+      "tool_type": "snow-blower",
+      "price_current": 499,
+      "price_msrp": 499,
+      "specs": {
+        "brushless": true,
+        "clearing_width": "18 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 500,
+      "description": "A 40V HP brushless snow blower for clearing driveways and walkways. The 18-inch clearing width handles standard two-car driveways. Auger-propelled design pulls itself forward through heavy snow. No gas, no oil, no pull-cord -- just charge the battery and go.",
+      "features": [
+        "HP Brushless motor for snow clearing power",
+        "18-inch clearing width",
+        "Auger-propelled self-driving",
+        "180-degree chute rotation",
+        "LED headlights for early morning clearing"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 45,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPSN02K2",
+      "name": "Ryobi 40V HP Brushless 21\" Single-Stage Snow Blower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "snow-blowers",
+      "tool_type": "snow-blower",
+      "price_current": 799,
+      "price_msrp": 799,
+      "specs": {
+        "brushless": true,
+        "clearing_width": "21 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 400,
+      "description": "The premium 40V 21-inch snow blower handles heavier snowfall and wider paths. The larger clearing width means fewer passes on wide driveways. Includes two 40V batteries for extended clearing time during heavy storms.",
+      "features": [
+        "21-inch clearing width for wide driveways",
+        "HP Brushless motor",
+        "Auger-propelled design",
+        "Includes two 40V batteries and charger",
+        "LED headlights"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 55,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY408150",
+      "name": "Ryobi 40V HP Brushless Whisper Series 22\" Two-Stage Snow Blower Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "snow-blowers",
+      "tool_type": "snow-blower",
+      "price_current": 1399,
+      "price_msrp": 1399,
+      "specs": {
+        "brushless": true,
+        "clearing_width": "22 inch",
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.7,
+      "review_count": 200,
+      "description": "Ryobi's most powerful snow blower -- a two-stage design that handles deep, heavy, wet snow that single-stage models cannot manage. The two-stage auger and impeller system throws snow farther and clears down to the pavement. For regions with serious winter weather.",
+      "features": [
+        "Two-stage auger and impeller for heavy snow",
+        "22-inch clearing width",
+        "HP Brushless Whisper Series -- reduced noise",
+        "Powered drive for self-propulsion",
+        "LED headlights"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 85,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HPPW12B",
+      "name": "Ryobi 40V HP Brushless 1200 PSI Pressure Washer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "cleaning",
+      "subcategory": "pressure-washers",
+      "tool_type": "pressure-washer",
+      "price_current": 199,
+      "price_msrp": 199,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_gpm": 1,
+        "max_psi": 1200,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 400,
+      "description": "A 40V cordless pressure washer delivering 1200 PSI for cleaning decks, driveways, siding, and vehicles. More powerful than the 18V EZClean models. True pressure washer performance without a gas engine or power cord. Just needs a garden hose connection.",
+      "features": [
+        "1200 PSI cleaning pressure",
+        "HP Brushless motor",
+        "Cordless portability",
+        "Standard garden hose connection",
+        "Multiple spray nozzles included"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 15,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40306BTL",
+      "name": "Ryobi 40V HP Brushless Whisper Series 2000 PSI Pressure Washer (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "cleaning",
+      "subcategory": "pressure-washers",
+      "tool_type": "pressure-washer",
+      "price_current": 399,
+      "price_msrp": 399,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_psi": 2000,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 300,
+      "description": "The most powerful cordless pressure washer in Ryobi's lineup at 2000 PSI. Handles tough cleaning jobs like concrete driveways, heavily stained decks, and house siding. Whisper Series design keeps noise down despite the high pressure. A true gas pressure washer replacement.",
+      "features": [
+        "2000 PSI -- strongest cordless option",
+        "HP Brushless Whisper Series",
+        "Cordless portability -- no gas engine",
+        "Wheeled cart for easy movement",
+        "Multiple spray nozzles"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 30,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40740",
+      "name": "Ryobi 40V HP Brushless Kinetic Log Splitter Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "log-splitters",
+      "tool_type": "log-splitter",
+      "price_current": 999,
+      "price_msrp": 999,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 200,
+      "description": "A battery-powered kinetic log splitter for processing firewood. Uses kinetic energy (a heavy flywheel) rather than hydraulics, delivering incredibly fast cycle times. Splits logs without the noise and fumes of a gas splitter. A unique and powerful tool for homeowners who heat with wood.",
+      "features": [
+        "Kinetic energy splitting -- fast cycle times",
+        "HP Brushless motor drives the flywheel",
+        "No hydraulic fluid to maintain",
+        "Cordless -- split wood anywhere",
+        "Splits logs up to 20 inches"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 100,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40CF01B",
+      "name": "Ryobi 40V Battery Topper Fan (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "lifestyle",
+      "subcategory": "fans",
+      "tool_type": "battery-topper-fan",
+      "price_current": 29,
+      "price_msrp": 39,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.4,
+      "review_count": 300,
+      "description": "A compact fan that sits directly on top of a 40V battery. No separate tool body -- just pop the fan onto a battery and you have instant airflow. Extremely portable for camping, tailgating, or keeping cool while doing yard work. One of Ryobi's clever accessory designs.",
+      "features": [
+        "Mounts directly on 40V battery",
+        "No separate tool body needed",
+        "Ultra-compact and portable",
+        "Multiple speed settings",
+        "Adjustable angle"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 0.8,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40HF01B",
+      "name": "Ryobi 40V HP Brushless Hybrid Whisper Series 20\" Air Cannon Fan (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "lifestyle",
+      "subcategory": "fans",
+      "tool_type": "air-cannon-fan",
+      "price_current": 249,
+      "price_msrp": 249,
+      "specs": {
+        "brushless": true,
+        "fan_diameter": "20 inch",
+        "hp": true,
+        "hybrid": true,
+        "voltage": 40
+      },
+      "rating": 4.6,
+      "review_count": 200,
+      "description": "A 20-inch industrial-style air cannon fan for garages, workshops, and outdoor events. The Whisper Series brushless motor moves serious air while being significantly quieter than comparable fans. Runs on 40V battery or AC power.",
+      "features": [
+        "20-inch fan for high-volume airflow",
+        "HP Brushless Whisper Series -- quiet operation",
+        "Hybrid: battery or AC power",
+        "Multiple speed settings",
+        "Adjustable tilt angle"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 15,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RYi300BG",
+      "name": "Ryobi 40V 300-Watt Power Source (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "lifestyle",
+      "subcategory": "power-sources",
+      "tool_type": "power-inverter",
+      "price_current": 99,
+      "price_msrp": 99,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 40,
+        "wattage": 300
+      },
+      "rating": 4.5,
+      "review_count": 800,
+      "description": "A 300-watt power inverter that turns 40V batteries into a portable AC outlet. Power small appliances, charge laptops, run holiday lights, or provide emergency power during outages. Provides a standard 120V AC outlet and USB ports.",
+      "features": [
+        "300-watt AC output (120V outlet)",
+        "USB charging ports",
+        "Pure sine wave output for sensitive electronics",
+        "Compact and portable",
+        "Uses standard 40V batteries"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 3.5,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RYi1802B6",
+      "name": "Ryobi 40V 1800-Watt Power Station Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "lifestyle",
+      "subcategory": "power-sources",
+      "tool_type": "power-station",
+      "price_current": 989,
+      "price_msrp": 989,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 40,
+        "wattage": 1800
+      },
+      "rating": 4.4,
+      "review_count": 300,
+      "description": "A 1800-watt portable power station running on 40V batteries. Powers refrigerators, power tools, TVs, and other household appliances during outages. Can run multiple devices simultaneously. For homeowners who want a portable generator alternative without gas.",
+      "features": [
+        "1800-watt AC output (peak 3600W)",
+        "Multiple AC outlets and USB ports",
+        "Accepts up to 6 batteries at once",
+        "Pure sine wave inverter",
+        "App connectivity for monitoring"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 25,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY404015BTL",
+      "name": "Ryobi 40V HP Brushless 600 CFM Blower/Vacuum (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "blower-vacuums",
+      "tool_type": "blower-vacuum",
+      "price_current": 369,
+      "price_msrp": 369,
+      "specs": {
+        "brushless": true,
+        "hp": true,
+        "max_cfm": 600,
+        "voltage": 40
+      },
+      "rating": 4.5,
+      "review_count": 300,
+      "description": "A combination blower and vacuum that blows leaves into piles then switches to vacuum mode to suck them up and mulch them. The built-in mulcher reduces leaf volume significantly for easier disposal. Eliminates the need for raking and bagging.",
+      "features": [
+        "Blower AND vacuum in one tool",
+        "Built-in mulcher reduces leaf volume",
+        "600 CFM blowing power",
+        "HP Brushless motor",
+        "Collection bag included"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 9,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40451",
+      "name": "Ryobi 40V Leaf Vacuum/Mulcher Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "blower-vacuums",
+      "tool_type": "leaf-vacuum",
+      "price_current": 229,
+      "price_msrp": 229,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.3,
+      "review_count": 500,
+      "description": "A dedicated leaf vacuum and mulcher for picking up leaves and grinding them into mulch. Walk behind it like a lawn mower and it vacuums up leaves from the yard. The mulching function reduces leaf volume by up to 10:1.",
+      "features": [
+        "Vacuums and mulches leaves",
+        "10:1 mulch ratio",
+        "Walk-behind design",
+        "Large collection bag",
+        "Includes battery and charger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 15,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40630",
+      "name": "Ryobi 40V 18\" Pole Hedge Trimmer Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "hedge-trimmers",
+      "tool_type": "pole-hedge-trimmer",
+      "price_current": 219,
+      "price_msrp": 219,
+      "specs": {
+        "blade_length": "18 inch",
+        "brushless": false,
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.4,
+      "review_count": 600,
+      "description": "A pole hedge trimmer for reaching tall hedges without a ladder. The extended pole puts the trimmer head up to 9 feet off the ground. The articulating head pivots to trim the tops of hedges at the correct angle. Safer and more efficient than climbing a ladder with a hedge trimmer.",
+      "features": [
+        "Extended reach for tall hedges -- no ladder needed",
+        "Articulating head pivots for top trimming",
+        "18-inch dual-action blade",
+        "40V battery for sustained cutting",
+        "Includes battery and charger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 10,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40BG02B",
+      "name": "Ryobi 40V 300W Power Source/Charger (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "lifestyle",
+      "subcategory": "power-sources",
+      "tool_type": "power-source-charger",
+      "price_current": 119,
+      "price_msrp": 119,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "voltage": 40,
+        "wattage": 300
+      },
+      "rating": 4.5,
+      "review_count": 200,
+      "description": "A combination power source and battery charger. Provides 300W of AC power from 40V batteries AND charges 40V batteries via USB-C. Dual functionality makes it one of the most versatile accessories in the 40V lineup.",
+      "features": [
+        "300W AC power output",
+        "Charges 40V batteries via USB-C",
+        "USB ports for device charging",
+        "Compact portable design",
+        "Dual functionality"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 4,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY408130",
+      "name": "Ryobi 40V 12\" Wheeled Snow Shovel Kit",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "outdoor-power",
+      "subcategory": "snow-removal",
+      "tool_type": "snow-shovel",
+      "price_current": 289,
+      "price_msrp": 289,
+      "specs": {
+        "brushless": false,
+        "clearing_width": "12 inch",
+        "hp": false,
+        "voltage": 40
+      },
+      "rating": 4.3,
+      "review_count": 300,
+      "description": "A powered wheeled snow shovel for light snowfall on walkways, patios, and small driveways. More powerful than a manual shovel but lighter and more compact than a full snow blower. Perfect for areas that get occasional light snow.",
+      "features": [
+        "12-inch clearing width",
+        "Wheeled for easy pushing",
+        "Powered auger throws snow to the side",
+        "Compact and lightweight",
+        "Includes battery and charger"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 20,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    },
+    {
+      "sku": "RYO-RY40WD01B",
+      "name": "Ryobi 40V 10 Gallon Wet/Dry Vacuum (Tool Only)",
+      "brand": "Ryobi",
+      "ecosystem": "ryobi-40v",
+      "category": "cleaning",
+      "subcategory": "vacuums",
+      "tool_type": "wet-dry-vac",
+      "price_current": 209,
+      "price_msrp": 209,
+      "specs": {
+        "brushless": false,
+        "hp": false,
+        "tank_size_gal": 10,
+        "voltage": 40
+      },
+      "rating": 4.4,
+      "review_count": 400,
+      "description": "A large 10-gallon cordless wet/dry vacuum powered by 40V batteries. Handles major workshop cleanups, drywall dust, water extraction, and construction debris. The cordless design lets you vacuum anywhere on a job site without needing an outlet.",
+      "features": [
+        "10-gallon capacity for big jobs",
+        "Wet and dry pickup",
+        "40V cordless operation",
+        "HEPA-compatible filter",
+        "Multiple accessory attachments"
+      ],
+      "is_cordless": true,
+      "weight_lbs": 18,
+      "retailers": [
+        "homedepot"
+      ],
+      "image_url": ""
+    }
+  ]
+}
