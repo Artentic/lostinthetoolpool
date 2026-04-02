@@ -33,8 +33,34 @@ Status: **COMPLETE**
 | Seed Data | `database/scripts/seed-clickhouse.sql` | ~30 representative products across ecosystems |
 | Data Pipeline Design | `database/docs/data-ingestion-pipeline.md` | 6-stage pipeline: fetch → normalize → ClickHouse → embed → Qdrant → Neo4j |
 
-## Phase 3: Backend API
-Status: **NOT STARTED**
+## Phase 3: Backend API (Go)
+Status: **COMPLETE**
+
+| Component | Files | Description |
+|---|---|---|
+| Entry point | `backend/cmd/api/main.go` | Chi router, graceful shutdown, all DB connections |
+| Config | `backend/internal/config/` | Environment-based configuration |
+| Models | `backend/internal/model/` | Product, Project, Ecosystem, Search, Advisor types |
+| Database clients | `backend/internal/database/` | ClickHouse, Neo4j, Qdrant, Redis connection pools |
+| Services | `backend/internal/service/` | Product, Ecosystem, Project, Search, Category business logic |
+| Handlers | `backend/internal/handler/` | REST endpoints for all API routes |
+| Middleware | `backend/internal/middleware/` | Request logging |
+| Dockerfile | `backend/Dockerfile` | Multi-stage Alpine build |
+
+API endpoints:
+- `GET /api/v1/projects` — list projects
+- `GET /api/v1/projects/:slug` — project detail
+- `GET /api/v1/projects/:slug/toolkit` — toolkit for project + ecosystem
+- `POST /api/v1/search` — vector search (embedding via Cohere, Phase 5)
+- `GET /api/v1/tools/:slug` — tool detail
+- `GET /api/v1/tools/:slug/prices` — price history
+- `GET /api/v1/tools/compare?ids=` — side-by-side comparison
+- `GET /api/v1/ecosystems` — list ecosystems
+- `GET /api/v1/ecosystems/:slug` — ecosystem detail + tools
+- `GET /api/v1/ecosystems/:slug/starter-kit` — recommended starter kit
+- `POST /api/v1/advisor` — AI advisor (stub, Phase 5)
+- `GET /api/v1/categories` — category tree
+- `GET /api/v1/affiliate/redirect/:sku` — track click + redirect
 
 ## Phase 4: Frontend Website
 Status: **NOT STARTED**
