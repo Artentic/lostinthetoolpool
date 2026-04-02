@@ -10,11 +10,11 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "engine_cc": 30.1,
       "bar_length": "16 inch",
-      "power_hp": 1.7,
+      "chain_type": "3/8\" PM3",
+      "engine_cc": 30.1,
       "fuel_capacity_oz": 8.5,
-      "chain_type": "3/8\" PM3"
+      "power_hp": 1.7
     },
     "rating": 4.5,
     "review_count": 8200,
@@ -28,7 +28,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 8.6,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -42,10 +44,10 @@
     "price_current": 219.99,
     "price_msrp": 219.99,
     "specs": {
-      "engine_cc": 31.8,
       "bar_length": "16 inch",
-      "power_hp": 2.0,
-      "fuel_capacity_oz": 8.5
+      "engine_cc": 31.8,
+      "fuel_capacity_oz": 8.5,
+      "power_hp": 2
     },
     "rating": 4.5,
     "review_count": 5600,
@@ -59,7 +61,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 8.6,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -73,10 +77,10 @@
     "price_current": 379.99,
     "price_msrp": 379.99,
     "specs": {
-      "engine_cc": 45.4,
       "bar_length": "18 inch",
-      "power_hp": 3.0,
-      "fuel_capacity_oz": 13.2
+      "engine_cc": 45.4,
+      "fuel_capacity_oz": 13.2,
+      "power_hp": 3
     },
     "rating": 4.7,
     "review_count": 12000,
@@ -90,7 +94,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.1,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -104,10 +110,10 @@
     "price_current": 479.99,
     "price_msrp": 479.99,
     "specs": {
-      "engine_cc": 50.2,
       "bar_length": "20 inch",
-      "power_hp": 3.49,
-      "fuel_capacity_oz": 16.9
+      "engine_cc": 50.2,
+      "fuel_capacity_oz": 16.9,
+      "power_hp": 3.49
     },
     "rating": 4.6,
     "review_count": 7500,
@@ -121,7 +127,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.3,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -135,10 +143,10 @@
     "price_current": 529.99,
     "price_msrp": 529.99,
     "specs": {
-      "engine_cc": 55.5,
       "bar_length": "20 inch",
-      "power_hp": 3.8,
-      "fuel_capacity_oz": 16.9
+      "engine_cc": 55.5,
+      "fuel_capacity_oz": 16.9,
+      "power_hp": 3.8
     },
     "rating": 4.5,
     "review_count": 4200,
@@ -152,7 +160,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.3,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -166,10 +176,10 @@
     "price_current": 849.99,
     "price_msrp": 849.99,
     "specs": {
-      "engine_cc": 59.0,
       "bar_length": "25 inch",
-      "power_hp": 4.69,
-      "fuel_capacity_oz": 20.3
+      "engine_cc": 59,
+      "fuel_capacity_oz": 20.3,
+      "power_hp": 4.69
     },
     "rating": 4.8,
     "review_count": 3200,
@@ -183,7 +193,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.35,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -197,10 +209,10 @@
     "price_current": 979.99,
     "price_msrp": 979.99,
     "specs": {
-      "engine_cc": 66.8,
       "bar_length": "25 inch",
-      "power_hp": 5.4,
-      "fuel_capacity_oz": 24.3
+      "engine_cc": 66.8,
+      "fuel_capacity_oz": 24.3,
+      "power_hp": 5.4
     },
     "rating": 4.8,
     "review_count": 1800,
@@ -213,8 +225,10 @@
       "Decompression valve"
     ],
     "is_cordless": false,
-    "weight_lbs": 13.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 13,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -228,10 +242,10 @@
     "price_current": 1099.99,
     "price_msrp": 1099.99,
     "specs": {
-      "engine_cc": 72.2,
       "bar_length": "28 inch",
-      "power_hp": 6.0,
-      "fuel_capacity_oz": 24.3
+      "engine_cc": 72.2,
+      "fuel_capacity_oz": 24.3,
+      "power_hp": 6
     },
     "rating": 4.9,
     "review_count": 2500,
@@ -244,8 +258,10 @@
       "Captive bar nuts"
     ],
     "is_cordless": false,
-    "weight_lbs": 13.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 13,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -259,8 +275,8 @@
     "price_current": 1319.99,
     "price_msrp": 1319.99,
     "specs": {
-      "engine_cc": 91.1,
       "bar_length": "36 inch",
+      "engine_cc": 91.1,
       "power_hp": 7.2
     },
     "rating": 4.8,
@@ -275,7 +291,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 16.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -289,8 +307,8 @@
     "price_current": 2189.99,
     "price_msrp": 2189.99,
     "specs": {
-      "engine_cc": 121.6,
       "bar_length": "41 inch",
+      "engine_cc": 121.6,
       "power_hp": 8.6
     },
     "rating": 4.9,
@@ -304,8 +322,10 @@
       "Anti-vibration system"
     ],
     "is_cordless": false,
-    "weight_lbs": 22.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 22,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -319,10 +339,10 @@
     "price_current": 279.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "12 inch",
       "battery_system": "AK",
-      "chain_speed_fps": 26.2
+      "chain_speed_fps": 26.2,
+      "voltage": 36
     },
     "rating": 4.3,
     "review_count": 3200,
@@ -336,7 +356,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.4,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -350,9 +372,9 @@
     "price_current": 329.99,
     "price_msrp": 329.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "14 inch",
-      "battery_system": "AK"
+      "battery_system": "AK",
+      "voltage": 36
     },
     "rating": 4.4,
     "review_count": 2400,
@@ -366,7 +388,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -380,10 +404,10 @@
     "price_current": 459.99,
     "price_msrp": 459.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "16 inch",
       "battery_system": "AP",
-      "runtime_min": 35
+      "runtime_min": 35,
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 1800,
@@ -397,7 +421,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.9,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -411,10 +437,10 @@
     "price_current": 829.99,
     "price_msrp": 829.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "20 inch",
       "battery_system": "AP",
-      "runtime_min": 40
+      "runtime_min": 40,
+      "voltage": 36
     },
     "rating": 4.7,
     "review_count": 900,
@@ -428,7 +454,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 11.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -442,10 +470,10 @@
     "price_current": 349.99,
     "price_msrp": 349.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "14 inch",
       "battery_system": "AP",
-      "runtime_min": 48
+      "runtime_min": 48,
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 400,
@@ -459,7 +487,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -473,10 +503,10 @@
     "price_current": 179.99,
     "price_msrp": 179.99,
     "specs": {
-      "voltage": 36,
-      "cutting_width": "11 inch",
       "battery_system": "AK",
-      "runtime_min": 25
+      "cutting_width": "11 inch",
+      "runtime_min": 25,
+      "voltage": 36
     },
     "rating": 4.3,
     "review_count": 4500,
@@ -490,7 +520,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.7,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -504,10 +536,10 @@
     "price_current": 269.99,
     "price_msrp": 269.99,
     "specs": {
-      "voltage": 36,
-      "cutting_width": "13 inch",
       "battery_system": "AK",
-      "runtime_min": 30
+      "cutting_width": "13 inch",
+      "runtime_min": 30,
+      "voltage": 36
     },
     "rating": 4.4,
     "review_count": 2800,
@@ -521,7 +553,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.3,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -535,9 +569,9 @@
     "price_current": 469.99,
     "price_msrp": 469.99,
     "specs": {
-      "voltage": 36,
+      "battery_system": "AK",
       "cutting_width": "15 inch",
-      "battery_system": "AK"
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 1200,
@@ -550,8 +584,10 @@
       "Brushless motor"
     ],
     "is_cordless": true,
-    "weight_lbs": 9.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 9,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -565,9 +601,9 @@
     "price_current": 529.99,
     "price_msrp": 529.99,
     "specs": {
-      "voltage": 36,
+      "battery_system": "AP",
       "cutting_width": "16.5 inch",
-      "battery_system": "AP"
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 900,
@@ -581,7 +617,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.3,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -595,12 +633,12 @@
     "price_current": 179.99,
     "price_msrp": 179.99,
     "specs": {
-      "voltage": 36,
-      "max_air_speed_mph": 108,
-      "cfm": 356,
       "battery_system": "AK",
+      "blowing_force_n": 11,
+      "cfm": 356,
+      "max_air_speed_mph": 108,
       "runtime_min": 20,
-      "blowing_force_n": 11
+      "voltage": 36
     },
     "rating": 4.4,
     "review_count": 5200,
@@ -614,7 +652,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.1,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -628,11 +668,11 @@
     "price_current": 219.99,
     "price_msrp": 219.99,
     "specs": {
-      "voltage": 36,
-      "max_air_speed_mph": 122,
-      "cfm": 420,
       "battery_system": "AK",
-      "blowing_force_n": 13
+      "blowing_force_n": 13,
+      "cfm": 420,
+      "max_air_speed_mph": 122,
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -646,7 +686,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -660,11 +702,11 @@
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "voltage": 36,
-      "max_air_speed_mph": 128,
-      "cfm": 520,
       "battery_system": "AP",
-      "blowing_force_n": 17
+      "blowing_force_n": 17,
+      "cfm": 520,
+      "max_air_speed_mph": 128,
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 2200,
@@ -678,7 +720,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.4,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -692,11 +736,11 @@
     "price_current": 749.99,
     "price_msrp": 749.99,
     "specs": {
-      "voltage": 36,
-      "max_air_speed_mph": 181,
-      "cfm": 765,
       "battery_system": "AP",
-      "blowing_force_n": 26
+      "blowing_force_n": 26,
+      "cfm": 765,
+      "max_air_speed_mph": 181,
+      "voltage": 36
     },
     "rating": 4.7,
     "review_count": 600,
@@ -710,7 +754,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 11.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -724,9 +770,9 @@
     "price_current": 139.99,
     "price_msrp": 139.99,
     "specs": {
+      "cfm": 412,
       "engine_cc": 27.2,
-      "max_air_speed_mph": 159,
-      "cfm": 412
+      "max_air_speed_mph": 159
     },
     "rating": 4.4,
     "review_count": 8500,
@@ -740,7 +786,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 7.9,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -754,10 +802,10 @@
     "price_current": 549.99,
     "price_msrp": 549.99,
     "specs": {
-      "engine_cc": 64.8,
-      "max_air_speed_mph": 238,
+      "blowing_force_n": 35,
       "cfm": 677,
-      "blowing_force_n": 35
+      "engine_cc": 64.8,
+      "max_air_speed_mph": 238
     },
     "rating": 4.8,
     "review_count": 4200,
@@ -771,7 +819,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 21.6,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -785,10 +835,10 @@
     "price_current": 649.99,
     "price_msrp": 649.99,
     "specs": {
-      "engine_cc": 79.9,
-      "max_air_speed_mph": 239,
+      "blowing_force_n": 41,
       "cfm": 912,
-      "blowing_force_n": 41
+      "engine_cc": 79.9,
+      "max_air_speed_mph": 239
     },
     "rating": 4.8,
     "review_count": 2400,
@@ -802,7 +852,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 23.4,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -816,10 +868,10 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 36,
-      "blade_length": "18 inch",
       "battery_system": "AK",
-      "stroke_rate": 3000
+      "blade_length": "18 inch",
+      "stroke_rate": 3000,
+      "voltage": 36
     },
     "rating": 4.3,
     "review_count": 3200,
@@ -833,7 +885,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.2,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -847,10 +901,10 @@
     "price_current": 589.99,
     "price_msrp": 589.99,
     "specs": {
-      "voltage": 36,
-      "blade_length": "24 inch",
       "battery_system": "AP",
-      "stroke_rate": 4200
+      "blade_length": "24 inch",
+      "stroke_rate": 4200,
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 800,
@@ -864,7 +918,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -878,11 +934,11 @@
     "price_current": 559.99,
     "price_msrp": 559.99,
     "specs": {
-      "voltage": 36,
-      "blade_length": "20 inch",
+      "articulating_head": true,
       "battery_system": "AP",
+      "blade_length": "20 inch",
       "max_reach_ft": 8.5,
-      "articulating_head": true
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 600,
@@ -895,8 +951,10 @@
       "Diamond-ground blades"
     ],
     "is_cordless": true,
-    "weight_lbs": 12.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 12,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -910,10 +968,10 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
-      "voltage": 36,
-      "deck_size": "19 inch",
       "battery_system": "AK",
-      "self_propelled": true
+      "deck_size": "19 inch",
+      "self_propelled": true,
+      "voltage": 36
     },
     "rating": 4.4,
     "review_count": 1200,
@@ -926,8 +984,10 @@
       "7-position cutting height"
     ],
     "is_cordless": true,
-    "weight_lbs": 55.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 55,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -941,11 +1001,11 @@
     "price_current": 859.99,
     "price_msrp": 859.99,
     "specs": {
-      "voltage": 36,
-      "deck_size": "21 inch",
       "battery_system": "AP",
+      "deck_size": "21 inch",
+      "runtime_min": 60,
       "self_propelled": true,
-      "runtime_min": 60
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 1500,
@@ -958,8 +1018,10 @@
       "Up to 60 minutes runtime"
     ],
     "is_cordless": true,
-    "weight_lbs": 65.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 65,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -973,12 +1035,12 @@
     "price_current": 399.99,
     "price_msrp": 399.99,
     "specs": {
-      "voltage": 36,
-      "deck_size": "21.7 inch",
       "battery_system": "AP",
-      "self_propelled": false,
+      "deck_size": "21.7 inch",
+      "dual_battery_slots": true,
       "runtime_min": 120,
-      "dual_battery_slots": true
+      "self_propelled": false,
+      "voltage": 36
     },
     "rating": 4.4,
     "review_count": 200,
@@ -992,7 +1054,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 62.6,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1006,8 +1070,8 @@
     "price_current": 229.99,
     "price_msrp": 229.99,
     "specs": {
-      "engine_cc": 27.2,
       "cutting_width": "16.5 inch",
+      "engine_cc": 27.2,
       "shaft_type": "straight"
     },
     "rating": 4.5,
@@ -1022,7 +1086,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.8,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1036,8 +1102,8 @@
     "price_current": 389.99,
     "price_msrp": 389.99,
     "specs": {
-      "engine_cc": 28.4,
       "cutting_width": "16.5 inch",
+      "engine_cc": 28.4,
       "shaft_type": "straight"
     },
     "rating": 4.7,
@@ -1052,7 +1118,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.1,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1066,9 +1134,9 @@
     "price_current": 529.99,
     "price_msrp": 529.99,
     "specs": {
-      "voltage": 36,
+      "battery_system": "AP",
       "tank_capacity_gal": 4.8,
-      "battery_system": "AP"
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 400,
@@ -1082,7 +1150,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.6,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1096,10 +1166,10 @@
     "price_current": 299.99,
     "price_msrp": 299.99,
     "specs": {
-      "engine_cc": 40.9,
       "bar_length": "16 inch",
-      "power_hp": 2.2,
-      "fuel_capacity_oz": 12.2
+      "engine_cc": 40.9,
+      "fuel_capacity_oz": 12.2,
+      "power_hp": 2.2
     },
     "rating": 4.3,
     "review_count": 4500,
@@ -1113,7 +1183,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 9.2,
-    "retailers": ["lowes", "husqvarna-dealer", "amazon"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
@@ -1127,9 +1201,9 @@
     "price_current": 399.99,
     "price_msrp": 399.99,
     "specs": {
-      "engine_cc": 50.2,
       "bar_length": "18 inch",
-      "power_hp": 3.0
+      "engine_cc": 50.2,
+      "power_hp": 3
     },
     "rating": 4.5,
     "review_count": 1200,
@@ -1143,7 +1217,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.8,
-    "retailers": ["lowes", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1157,10 +1234,10 @@
     "price_current": 479.99,
     "price_msrp": 479.99,
     "specs": {
-      "engine_cc": 50.2,
       "bar_length": "20 inch",
-      "power_hp": 3.2,
-      "fuel_capacity_oz": 14.9
+      "engine_cc": 50.2,
+      "fuel_capacity_oz": 14.9,
+      "power_hp": 3.2
     },
     "rating": 4.5,
     "review_count": 800,
@@ -1174,7 +1251,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 11.3,
-    "retailers": ["lowes", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1188,10 +1268,10 @@
     "price_current": 529.99,
     "price_msrp": 529.99,
     "specs": {
-      "engine_cc": 60.3,
       "bar_length": "24 inch",
-      "power_hp": 3.62,
-      "fuel_capacity_oz": 16.9
+      "engine_cc": 60.3,
+      "fuel_capacity_oz": 16.9,
+      "power_hp": 3.62
     },
     "rating": 4.6,
     "review_count": 7800,
@@ -1205,7 +1285,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.8,
-    "retailers": ["lowes", "husqvarna-dealer", "amazon"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
@@ -1219,8 +1303,8 @@
     "price_current": 649.99,
     "price_msrp": 649.99,
     "specs": {
-      "engine_cc": 50.1,
       "bar_length": "20 inch",
+      "engine_cc": 50.1,
       "power_hp": 3.6
     },
     "rating": 4.7,
@@ -1235,7 +1319,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.8,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1249,9 +1335,9 @@
     "price_current": 799.99,
     "price_msrp": 799.99,
     "specs": {
-      "engine_cc": 50.1,
       "bar_length": "20 inch",
-      "power_hp": 4.0
+      "engine_cc": 50.1,
+      "power_hp": 4
     },
     "rating": 4.8,
     "review_count": 2200,
@@ -1265,7 +1351,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.8,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1279,8 +1367,8 @@
     "price_current": 769.99,
     "price_msrp": 769.99,
     "specs": {
-      "engine_cc": 59.8,
       "bar_length": "24 inch",
+      "engine_cc": 59.8,
       "power_hp": 4.7
     },
     "rating": 4.8,
@@ -1294,8 +1382,10 @@
       "Magnesium crankcase"
     ],
     "is_cordless": false,
-    "weight_lbs": 13.0,
-    "retailers": ["husqvarna-dealer"],
+    "weight_lbs": 13,
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1309,8 +1399,8 @@
     "price_current": 1099.99,
     "price_msrp": 1099.99,
     "specs": {
-      "engine_cc": 90.7,
       "bar_length": "28 inch",
+      "engine_cc": 90.7,
       "power_hp": 7.6
     },
     "rating": 4.9,
@@ -1325,7 +1415,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 16.5,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1339,10 +1431,10 @@
     "price_current": 1099.99,
     "price_msrp": 1099.99,
     "specs": {
-      "engine_cc": 50.0,
       "bar_length": "20 inch",
-      "power_hp": 5.0,
-      "fuel_injection": true
+      "engine_cc": 50,
+      "fuel_injection": true,
+      "power_hp": 5
     },
     "rating": 4.8,
     "review_count": 200,
@@ -1356,7 +1448,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 11.5,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1370,12 +1464,12 @@
     "price_current": 449.99,
     "price_msrp": 449.99,
     "specs": {
-      "voltage": 40,
       "bar_length": "18 inch",
+      "battery_ah": 7.5,
       "power_hp": 1.9,
-      "battery_ah": 7.5
+      "voltage": 40
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 1940,
     "description": "Husqvarna's top homeowner battery chainsaw in the MAX series. More cutting power than many gas saws in a lighter, quieter package. Kit includes battery and charger.",
     "features": [
@@ -1387,7 +1481,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12.2,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1401,10 +1499,10 @@
     "price_current": 299.99,
     "price_msrp": 299.99,
     "specs": {
-      "voltage": 40,
       "bar_length": "14 inch",
+      "battery_ah": 4,
       "power_hp": 1.1,
-      "battery_ah": 4.0
+      "voltage": 40
     },
     "rating": 4.1,
     "review_count": 1200,
@@ -1418,7 +1516,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.6,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1432,10 +1534,10 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "14 inch",
+      "battery_system": "pro",
       "power_hp": 1.9,
-      "battery_system": "pro"
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 600,
@@ -1449,7 +1551,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.8,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1463,9 +1567,9 @@
     "price_current": 1099.99,
     "price_msrp": 1099.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "18 inch",
-      "battery_system": "pro"
+      "battery_system": "pro",
+      "voltage": 36
     },
     "rating": 4.7,
     "review_count": 150,
@@ -1479,7 +1583,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.5,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1493,9 +1599,9 @@
     "price_current": 269.99,
     "price_msrp": 319.99,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 4,
       "cutting_width": "16 inch",
-      "battery_ah": 4.0
+      "voltage": 40
     },
     "rating": 4.1,
     "review_count": 1520,
@@ -1508,8 +1614,12 @@
       "Battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 8.0,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "weight_lbs": 8,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1523,11 +1633,11 @@
     "price_current": 329.99,
     "price_msrp": 379.99,
     "specs": {
-      "voltage": 40,
-      "max_air_speed_mph": 200,
-      "cfm": 800,
+      "battery_ah": 7.5,
       "blowing_force_n": 23.5,
-      "battery_ah": 7.5
+      "cfm": 800,
+      "max_air_speed_mph": 200,
+      "voltage": 40
     },
     "rating": 4.6,
     "review_count": 1820,
@@ -1540,8 +1650,12 @@
       "Battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 10.0,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "weight_lbs": 10,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1555,9 +1669,9 @@
     "price_current": 269.99,
     "price_msrp": 299.99,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 4,
       "blade_length": "24 inch",
-      "battery_ah": 4.0
+      "voltage": 40
     },
     "rating": 4.3,
     "review_count": 630,
@@ -1571,7 +1685,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.9,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1585,10 +1703,10 @@
     "price_current": 699.99,
     "price_msrp": 949.99,
     "specs": {
-      "voltage": 40,
+      "cutting_modes": 3,
       "deck_size": "22 inch",
       "self_propelled": true,
-      "cutting_modes": 3
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 800,
@@ -1601,8 +1719,12 @@
       "30% longer runtime than previous generation"
     ],
     "is_cordless": true,
-    "weight_lbs": 72.0,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "weight_lbs": 72,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1616,10 +1738,10 @@
     "price_current": 349.99,
     "price_msrp": 349.99,
     "specs": {
-      "engine_cc": 25.4,
       "cutting_width": "17 inch",
-      "shaft_type": "straight",
-      "power_hp": 1.21
+      "engine_cc": 25.4,
+      "power_hp": 1.21,
+      "shaft_type": "straight"
     },
     "rating": 4.6,
     "review_count": 2800,
@@ -1633,7 +1755,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 9.9,
-    "retailers": ["lowes", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1647,9 +1772,9 @@
     "price_current": 349.99,
     "price_msrp": 349.99,
     "specs": {
+      "cfm": 493,
       "engine_cc": 25.4,
-      "max_air_speed_mph": 192,
-      "cfm": 493
+      "max_air_speed_mph": 192
     },
     "rating": 4.5,
     "review_count": 1500,
@@ -1663,7 +1788,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 9.4,
-    "retailers": ["lowes", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1677,9 +1805,9 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
+      "cfm": 908,
       "engine_cc": 75.6,
       "max_air_speed_mph": 208,
-      "cfm": 908,
       "power_hp": 4.22
     },
     "rating": 4.7,
@@ -1694,7 +1822,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 25.5,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1708,12 +1838,12 @@
     "price_current": 299.99,
     "price_msrp": 699.99,
     "specs": {
-      "max_area_sqft": 6500,
-      "cutting_width": "8.7 inch",
       "connectivity": "4G",
+      "cutting_width": "8.7 inch",
+      "max_area_sqft": 6500,
       "max_slope_pct": 17
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 3200,
     "description": "Entry-level Husqvarna robotic mower with 4G connectivity. Covers up to 0.15 acres of lawn automatically. Set it up with boundary wire and let it mow.",
     "features": [
@@ -1724,8 +1854,12 @@
       "Low noise (57 dB)"
     ],
     "is_cordless": true,
-    "weight_lbs": 20.0,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "weight_lbs": 20,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1739,11 +1873,11 @@
     "price_current": 1549.99,
     "price_msrp": 2999.99,
     "specs": {
-      "max_area_sqft": 10000,
-      "cutting_width": "9.4 inch",
       "connectivity": "cellular",
-      "max_slope_pct": 24,
+      "cutting_width": "9.4 inch",
       "gps": true,
+      "max_area_sqft": 10000,
+      "max_slope_pct": 24,
       "ultrasonic_obstacle_avoidance": true
     },
     "rating": 4.4,
@@ -1757,8 +1891,10 @@
       "Cellular app connectivity"
     ],
     "is_cordless": true,
-    "weight_lbs": 24.0,
-    "retailers": ["husqvarna-dealer"],
+    "weight_lbs": 24,
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1772,11 +1908,11 @@
     "price_current": 3199.99,
     "price_msrp": 4299.99,
     "specs": {
-      "max_area_sqft": 22000,
-      "cutting_width": "9.4 inch",
       "connectivity": "cellular",
-      "max_slope_pct": 35,
+      "cutting_width": "9.4 inch",
       "gps": true,
+      "max_area_sqft": 22000,
+      "max_slope_pct": 35,
       "ultrasonic_obstacle_avoidance": true
     },
     "rating": 4.5,
@@ -1790,8 +1926,10 @@
       "Smart scheduling and zone management"
     ],
     "is_cordless": true,
-    "weight_lbs": 26.0,
-    "retailers": ["husqvarna-dealer"],
+    "weight_lbs": 26,
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -1805,12 +1943,12 @@
     "price_current": 599.99,
     "price_msrp": 749.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 4,
       "deck_size": "25 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 4.0,
-      "batteries_included": 2
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 2800,
@@ -1823,8 +1961,12 @@
       "Brushless motor"
     ],
     "is_cordless": true,
-    "weight_lbs": 66.0,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "weight_lbs": 66,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1838,11 +1980,11 @@
     "price_current": 399.99,
     "price_msrp": 499.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "battery_ah": 5,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": false,
-      "battery_ah": 5.0
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 3500,
@@ -1855,8 +1997,12 @@
       "7-position cutting height"
     ],
     "is_cordless": true,
-    "weight_lbs": 55.0,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "weight_lbs": 55,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1870,11 +2016,11 @@
     "price_current": 3799.99,
     "price_msrp": 3799.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
       "deck_size": "42 inch",
+      "max_area_acres": 2,
       "max_speed_mph": 7,
-      "max_area_acres": 2
+      "motor_type": "brushless",
+      "voltage": 60
     },
     "rating": 4.2,
     "review_count": 400,
@@ -1887,8 +2033,11 @@
       "12 cutting height positions"
     ],
     "is_cordless": true,
-    "weight_lbs": 520.0,
-    "retailers": ["greenworks.com", "lowes"],
+    "weight_lbs": 520,
+    "retailers": [
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1902,10 +2051,10 @@
     "price_current": 199.99,
     "price_msrp": 299.99,
     "specs": {
-      "voltage": 60,
       "bar_length": "16 inch",
+      "battery_ah": 2.5,
       "chain_speed_fpm": 2950,
-      "battery_ah": 2.5
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 2200,
@@ -1919,7 +2068,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.4,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1933,10 +2086,10 @@
     "price_current": 159.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 60,
+      "battery_ah": 2.5,
       "cutting_width": "16 inch",
       "motor_rpm": 6000,
-      "battery_ah": 2.5
+      "voltage": 60
     },
     "rating": 4.2,
     "review_count": 1800,
@@ -1950,7 +2103,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.5,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1964,10 +2121,10 @@
     "price_current": 149.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 60,
-      "max_air_speed_mph": 130,
+      "battery_ah": 2.5,
       "cfm": 610,
-      "battery_ah": 2.5
+      "max_air_speed_mph": 130,
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 2400,
@@ -1981,7 +2138,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.5,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -1995,12 +2156,12 @@
     "price_current": 1399.99,
     "price_msrp": 1849.99,
     "specs": {
-      "voltage": 60,
-      "clearing_width": "24 inch",
+      "batteries_included": 2,
+      "battery_ah": 8,
       "clearing_depth": "18 inch",
+      "clearing_width": "24 inch",
       "throw_distance_ft": 50,
-      "battery_ah": 8.0,
-      "batteries_included": 2
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 800,
@@ -2013,8 +2174,12 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 120.0,
-    "retailers": ["amazon", "greenworks.com", "bestbuy"],
+    "weight_lbs": 120,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "bestbuy"
+    ],
     "image_url": ""
   },
   {
@@ -2028,11 +2193,11 @@
     "price_current": 399.99,
     "price_msrp": 499.99,
     "specs": {
-      "voltage": 80,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 4.0
+      "voltage": 80
     },
     "rating": 4.4,
     "review_count": 3200,
@@ -2045,8 +2210,11 @@
       "Brushless motor"
     ],
     "is_cordless": true,
-    "weight_lbs": 60.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 60,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -2060,12 +2228,12 @@
     "price_current": 349.99,
     "price_msrp": 499.99,
     "specs": {
-      "voltage": 80,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 2,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": false,
-      "battery_ah": 2.0,
-      "batteries_included": 2
+      "voltage": 80
     },
     "rating": 4.3,
     "review_count": 2800,
@@ -2078,8 +2246,11 @@
       "7-position cutting height"
     ],
     "is_cordless": true,
-    "weight_lbs": 56.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 56,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -2093,10 +2264,10 @@
     "price_current": 199.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 80,
-      "max_air_speed_mph": 170,
+      "battery_ah": 2.5,
       "cfm": 770,
-      "battery_ah": 2.5
+      "max_air_speed_mph": 170,
+      "voltage": 80
     },
     "rating": 4.5,
     "review_count": 1800,
@@ -2110,7 +2281,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.5,
-    "retailers": ["amazon", "greenworks.com"],
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -2124,10 +2298,10 @@
     "price_current": 499.99,
     "price_msrp": 599.99,
     "specs": {
-      "voltage": 80,
-      "clearing_width": "22 inch",
+      "battery_ah": 4,
       "clearing_depth": "13 inch",
-      "battery_ah": 4.0
+      "clearing_width": "22 inch",
+      "voltage": 80
     },
     "rating": 4.2,
     "review_count": 1600,
@@ -2140,8 +2314,11 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 45.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 45,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -2155,11 +2332,11 @@
     "price_current": 264.99,
     "price_msrp": 294.99,
     "specs": {
-      "voltage": 40,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "deck_size": "20 inch",
+      "motor_type": "brushless",
       "self_propelled": false,
-      "battery_ah": 4.0
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 4200,
@@ -2172,8 +2349,12 @@
       "Brushless motor"
     ],
     "is_cordless": true,
-    "weight_lbs": 48.0,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "weight_lbs": 48,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2187,9 +2368,9 @@
     "price_current": 159.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 40,
       "bar_length": "14 inch",
-      "battery_ah": 2.5
+      "battery_ah": 2.5,
+      "voltage": 40
     },
     "rating": 4.1,
     "review_count": 3500,
@@ -2203,7 +2384,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2217,10 +2402,10 @@
     "price_current": 107.99,
     "price_msrp": 151.99,
     "specs": {
-      "voltage": 40,
-      "max_air_speed_mph": 120,
+      "battery_ah": 4,
       "cfm": 450,
-      "battery_ah": 4.0
+      "max_air_speed_mph": 120,
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 5200,
@@ -2234,7 +2419,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2248,9 +2437,9 @@
     "price_current": 99.99,
     "price_msrp": 129.99,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 2,
       "cutting_width": "12 inch",
-      "battery_ah": 2.0
+      "voltage": 40
     },
     "rating": 4.1,
     "review_count": 4800,
@@ -2263,8 +2452,12 @@
       "Converts to edger"
     ],
     "is_cordless": true,
-    "weight_lbs": 7.0,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "weight_lbs": 7,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2278,11 +2471,11 @@
     "price_current": 99.99,
     "price_msrp": 139.99,
     "specs": {
-      "voltage": 24,
       "bar_length": "10 inch",
-      "battery_ah": 2.0
+      "battery_ah": 2,
+      "voltage": 24
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 6200,
     "description": "Ultra-affordable compact chainsaw in the 24V POWERALL system. Perfect for pruning small branches and light yard cleanup.",
     "features": [
@@ -2294,7 +2487,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.2,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2308,12 +2505,12 @@
     "price_current": 69.99,
     "price_msrp": 99.99,
     "specs": {
-      "voltage": 24,
-      "max_air_speed_mph": 90,
+      "battery_ah": 2,
       "cfm": 320,
-      "battery_ah": 2.0
+      "max_air_speed_mph": 90,
+      "voltage": 24
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 8400,
     "description": "Budget-friendly 24V blower from the POWERALL line. Cross-compatible with 150+ Greenworks 24V tools. Great for light cleanup.",
     "features": [
@@ -2324,8 +2521,12 @@
       "2.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 4.0,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "weight_lbs": 4,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2339,11 +2540,11 @@
     "price_current": 79.99,
     "price_msrp": 99.99,
     "specs": {
-      "voltage": 24,
+      "battery_ah": 2,
       "cutting_width": "12 inch",
-      "battery_ah": 2.0
+      "voltage": 24
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 5800,
     "description": "Entry-level 24V trimmer for basic yard edging and trimming. POWERALL cross-compatibility means one battery works across 150+ tools.",
     "features": [
@@ -2355,7 +2556,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2369,9 +2574,9 @@
     "price_current": 79.99,
     "price_msrp": 99.99,
     "specs": {
-      "voltage": 24,
+      "battery_ah": 2,
       "blade_length": "22 inch",
-      "battery_ah": 2.0
+      "voltage": 24
     },
     "rating": 4.1,
     "review_count": 4500,
@@ -2385,7 +2590,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.8,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2399,10 +2608,10 @@
     "price_current": 449.99,
     "price_msrp": 549.99,
     "specs": {
-      "voltage": 60,
+      "battery_or_corded": "hybrid",
+      "gpm": 2,
       "psi": 3000,
-      "gpm": 2.0,
-      "battery_or_corded": "hybrid"
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 600,
@@ -2415,8 +2624,11 @@
       "Multiple nozzle tips included"
     ],
     "is_cordless": true,
-    "weight_lbs": 45.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 45,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -2430,13 +2642,13 @@
     "price_current": 669.99,
     "price_msrp": 669.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "battery_ah": 6,
       "deck_size": "22 inch",
-      "self_propelled": true,
-      "battery_ah": 6.0,
+      "max_area_acres": 0.5,
+      "motor_type": "brushless",
       "runtime_min": 40,
-      "max_area_acres": 0.5
+      "self_propelled": true,
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 3800,
@@ -2449,8 +2661,12 @@
       "3-in-1: mulch, bag, side discharge"
     ],
     "is_cordless": true,
-    "weight_lbs": 72.0,
-    "retailers": ["homedepot", "lowes", "acehardware"],
+    "weight_lbs": 72,
+    "retailers": [
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -2464,12 +2680,12 @@
     "price_current": 699.99,
     "price_msrp": 699.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "battery_ah": 6,
       "deck_size": "22 inch",
+      "led_headlights": true,
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 6.0,
-      "led_headlights": true
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -2482,8 +2698,12 @@
       "6.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 72.0,
-    "retailers": ["homedepot", "lowes", "acehardware"],
+    "weight_lbs": 72,
+    "retailers": [
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -2497,12 +2717,12 @@
     "price_current": 1799.99,
     "price_msrp": 1799.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 10,
       "deck_size": "30 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 10.0,
-      "batteries_included": 2
+      "voltage": 60
     },
     "rating": 4.6,
     "review_count": 600,
@@ -2515,8 +2735,11 @@
       "Dual-blade design"
     ],
     "is_cordless": true,
-    "weight_lbs": 115.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 115,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2530,12 +2753,12 @@
     "price_current": 449.99,
     "price_msrp": 449.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 42,
       "self_propelled": false,
-      "battery_ah": 4.0,
-      "runtime_min": 42
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 2200,
@@ -2548,8 +2771,12 @@
       "Up to 42 minutes runtime"
     ],
     "is_cordless": true,
-    "weight_lbs": 63.0,
-    "retailers": ["homedepot", "lowes", "acehardware"],
+    "weight_lbs": 63,
+    "retailers": [
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -2563,10 +2790,10 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
-      "voltage": 60,
       "deck_size": "21 inch",
       "self_propelled": true,
-      "striping_kit": true
+      "striping_kit": true,
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 1400,
@@ -2579,8 +2806,11 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 68.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 68,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2594,10 +2824,10 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 60,
+      "battery_ah": 2,
       "cutting_width": "15 inch",
       "motor_type": "brushless",
-      "battery_ah": 2.0
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 2600,
@@ -2611,7 +2841,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.5,
-    "retailers": ["homedepot", "lowes", "acehardware"],
+    "retailers": [
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -2625,11 +2859,11 @@
     "price_current": 279.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 60,
+      "attachment_capable": true,
+      "battery_ah": 2.5,
       "cutting_width": "16 inch",
       "motor_type": "brushless",
-      "battery_ah": 2.5,
-      "attachment_capable": true
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 1800,
@@ -2643,7 +2877,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.2,
-    "retailers": ["homedepot", "lowes"],
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2657,11 +2894,11 @@
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "voltage": 60,
-      "max_air_speed_mph": 157,
+      "battery_ah": 4,
       "cfm": 605,
+      "max_air_speed_mph": 157,
       "motor_type": "brushless",
-      "battery_ah": 4.0
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 3200,
@@ -2675,7 +2912,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.5,
-    "retailers": ["homedepot", "lowes", "acehardware"],
+    "retailers": [
+      "homedepot",
+      "lowes",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -2689,11 +2930,11 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 60,
-      "max_air_speed_mph": 120,
+      "battery_ah": 2.5,
       "cfm": 605,
+      "max_air_speed_mph": 120,
       "motor_type": "brushless",
-      "battery_ah": 2.5
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 2800,
@@ -2707,7 +2948,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.8,
-    "retailers": ["homedepot", "lowes"],
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2721,10 +2965,10 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "voltage": 60,
+      "battery_ah": 2.5,
       "blade_length": "24 inch",
       "motor_type": "brushless",
-      "battery_ah": 2.5
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 1500,
@@ -2738,7 +2982,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.2,
-    "retailers": ["homedepot", "lowes"],
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2752,10 +2999,10 @@
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "voltage": 60,
       "bar_length": "16 inch",
+      "battery_ah": 2,
       "motor_type": "brushless",
-      "battery_ah": 2.0
+      "voltage": 60
     },
     "rating": 4.2,
     "review_count": 1200,
@@ -2769,7 +3016,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.5,
-    "retailers": ["homedepot", "lowes"],
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2783,10 +3033,10 @@
     "price_current": 289.99,
     "price_msrp": 289.99,
     "specs": {
-      "voltage": 60,
       "bar_length": "10 inch",
+      "battery_ah": 2,
       "max_reach_ft": 12,
-      "battery_ah": 2.0
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 800,
@@ -2800,7 +3050,10 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12.5,
-    "retailers": ["homedepot", "lowes"],
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2814,11 +3067,11 @@
     "price_current": 929.99,
     "price_msrp": 929.99,
     "specs": {
-      "voltage": 60,
-      "clearing_width": "21 inch",
-      "clearing_depth": "12 inch",
       "battery_ah": 7.5,
-      "throw_distance_ft": 40
+      "clearing_depth": "12 inch",
+      "clearing_width": "21 inch",
+      "throw_distance_ft": 40,
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 1500,
@@ -2831,8 +3084,11 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 65.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 65,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2846,11 +3102,11 @@
     "price_current": 1599.99,
     "price_msrp": 1599.99,
     "specs": {
-      "voltage": 60,
-      "clearing_width": "24 inch",
+      "battery_ah": 10,
       "clearing_depth": "18 inch",
-      "battery_ah": 10.0,
-      "throw_distance_ft": 40
+      "clearing_width": "24 inch",
+      "throw_distance_ft": 40,
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 400,
@@ -2863,8 +3119,11 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 90.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 90,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -2878,10 +3137,10 @@
     "price_current": 7999.99,
     "price_msrp": 7999.99,
     "specs": {
-      "voltage": 60,
       "deck_size": "54 inch",
+      "max_area_acres": 2.5,
       "max_speed_mph": 7,
-      "max_area_acres": 2.5
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 200,
@@ -2894,24 +3153,27 @@
       "MyRIDE suspension system"
     ],
     "is_cordless": true,
-    "weight_lbs": 700.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 700,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DCS5000",
     "name": "ECHO eFORCE 56V 18\" Chainsaw Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "rear-handle-chainsaw",
     "price_current": 349.99,
     "price_msrp": 349.99,
     "specs": {
-      "voltage": 56,
       "bar_length": "18 inch",
-      "battery_ah": 5.0
+      "battery_ah": 5,
+      "voltage": 56
     },
     "rating": 4.3,
     "review_count": 1800,
@@ -2924,24 +3186,27 @@
       "5.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 12.0,
-    "retailers": ["homedepot", "amazon"],
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DCS2500T",
     "name": "ECHO eFORCE 56V 12\" Top-Handle Chainsaw Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "top-handle-chainsaw",
     "price_current": 549.99,
     "price_msrp": 549.99,
     "specs": {
-      "voltage": 56,
       "bar_length": "12 inch",
-      "battery_ah": 2.5
+      "battery_ah": 2.5,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 600,
@@ -2955,23 +3220,26 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.8,
-    "retailers": ["homedepot", "amazon"],
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DHS3006",
     "name": "ECHO eFORCE 56V 6\" Handheld Pruning Saw Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "chainsaws",
     "tool_type": "pruning-saw",
     "price_current": 279.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 56,
       "bar_length": "6 inch",
-      "battery_ah": 2.5
+      "battery_ah": 2.5,
+      "voltage": 56
     },
     "rating": 4.2,
     "review_count": 900,
@@ -2985,24 +3253,27 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["homedepot", "amazon"],
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPB2500",
     "name": "ECHO eFORCE 56V 549 CFM Handheld Blower Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "blowers",
     "tool_type": "handheld-blower",
     "price_current": 269.99,
     "price_msrp": 269.99,
     "specs": {
-      "voltage": 56,
-      "max_air_speed_mph": 151,
+      "battery_ah": 2.5,
       "cfm": 549,
-      "battery_ah": 2.5
+      "max_air_speed_mph": 151,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 3200,
@@ -3016,24 +3287,27 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.7,
-    "retailers": ["homedepot", "amazon"],
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPB5800T",
     "name": "ECHO eFORCE 56V Backpack Blower Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "blowers",
     "tool_type": "backpack-blower",
     "price_current": 749.99,
     "price_msrp": 749.99,
     "specs": {
-      "voltage": 56,
-      "max_air_speed_mph": 170,
+      "battery_ah": 5,
       "cfm": 670,
-      "battery_ah": 5.0
+      "max_air_speed_mph": 170,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 800,
@@ -3046,26 +3320,29 @@
       "5.0Ah battery included"
     ],
     "is_cordless": true,
-    "weight_lbs": 15.0,
-    "retailers": ["homedepot", "echo-dealer"],
+    "weight_lbs": 15,
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPB7700T",
     "name": "ECHO eFORCE 56V X-Series 950 CFM Backpack Blower Kit (2x 8.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "blowers",
     "tool_type": "backpack-blower",
     "price_current": 1699.99,
     "price_msrp": 1699.99,
     "specs": {
-      "voltage": 56,
-      "max_air_speed_mph": 185,
+      "batteries_included": 2,
+      "battery_ah": 8,
       "cfm": 950,
-      "battery_ah": 8.0,
-      "batteries_included": 2
+      "max_air_speed_mph": 185,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 200,
@@ -3078,24 +3355,26 @@
       "Hip-mounted throttle"
     ],
     "is_cordless": true,
-    "weight_lbs": 25.0,
-    "retailers": ["echo-dealer"],
+    "weight_lbs": 25,
+    "retailers": [
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DSRM2100",
     "name": "ECHO eFORCE 56V 16\" String Trimmer Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 2.5,
       "cutting_width": "16 inch",
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.3,
     "review_count": 2400,
@@ -3109,23 +3388,26 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.5,
-    "retailers": ["homedepot", "amazon"],
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DSRM2600",
     "name": "ECHO eFORCE 56V 17\" Pro Trimmer Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "string-trimmers",
     "tool_type": "string-trimmer",
     "price_current": 619.99,
     "price_msrp": 619.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 5,
       "cutting_width": "17 inch",
-      "battery_ah": 5.0
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 600,
@@ -3139,25 +3421,28 @@
     ],
     "is_cordless": true,
     "weight_lbs": 11.5,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DLM2100SP",
     "name": "ECHO eFORCE 56V 21\" Self-Propelled Mower Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "lawn-mowers",
     "tool_type": "self-propelled-mower",
     "price_current": 699.99,
     "price_msrp": 699.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 5,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 5.0,
-      "motor_type": "brushless"
+      "voltage": 56
     },
     "rating": 4.3,
     "review_count": 1200,
@@ -3170,25 +3455,28 @@
       "Brushless motor"
     ],
     "is_cordless": true,
-    "weight_lbs": 68.0,
-    "retailers": ["homedepot", "amazon"],
+    "weight_lbs": 68,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DLM2100",
     "name": "ECHO eFORCE 56V 21\" Push Mower Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "lawn-mowers",
     "tool_type": "push-mower",
     "price_current": 399.99,
     "price_msrp": 399.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 2.5,
       "deck_size": "21 inch",
       "self_propelled": false,
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.2,
     "review_count": 1800,
@@ -3201,24 +3489,27 @@
       "7-position cutting height"
     ],
     "is_cordless": true,
-    "weight_lbs": 62.0,
-    "retailers": ["homedepot", "amazon"],
+    "weight_lbs": 62,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DHC2300",
     "name": "ECHO eFORCE 56V 24\" Hedge Trimmer Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "hedge-trimmers",
     "tool_type": "hedge-trimmer",
     "price_current": 269.99,
     "price_msrp": 269.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 2.5,
       "blade_length": "24 inch",
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.3,
     "review_count": 1200,
@@ -3231,25 +3522,28 @@
       "2.5Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 8.0,
-    "retailers": ["homedepot", "amazon"],
+    "weight_lbs": 8,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DHCS3400",
     "name": "ECHO eFORCE 56V 34\" Single-Sided Hedge Trimmer Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "hedge-trimmers",
     "tool_type": "hedge-trimmer",
     "price_current": 609.99,
     "price_msrp": 609.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 5,
       "blade_length": "34 inch",
-      "battery_ah": 5.0,
-      "single_sided": true
+      "single_sided": true,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 300,
@@ -3262,26 +3556,29 @@
       "Battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 12.0,
-    "retailers": ["homedepot", "echo-dealer"],
+    "weight_lbs": 12,
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPPT2600H",
     "name": "ECHO eFORCE 56V Telescoping Power Pruner Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "pole-saws",
     "tool_type": "power-pruner",
     "price_current": 719.99,
     "price_msrp": 719.99,
     "specs": {
-      "voltage": 56,
       "bar_length": "12 inch",
-      "battery_ah": 5.0,
+      "battery_ah": 5,
+      "max_reach_ft": 14,
       "telescoping": true,
-      "max_reach_ft": 14
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 400,
@@ -3294,24 +3591,27 @@
       "Professional-grade construction"
     ],
     "is_cordless": true,
-    "weight_lbs": 16.0,
-    "retailers": ["homedepot", "echo-dealer"],
+    "weight_lbs": 16,
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPE2100",
     "name": "ECHO eFORCE 56V Edger Kit (2.5Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "edgers",
     "tool_type": "stick-edger",
     "price_current": 329.99,
     "price_msrp": 329.99,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 2.5,
       "blade_size": "8 inch",
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.2,
     "review_count": 800,
@@ -3324,8 +3624,11 @@
       "2.5Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 9.0,
-    "retailers": ["homedepot", "amazon"],
+    "weight_lbs": 9,
+    "retailers": [
+      "homedepot",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
@@ -3339,10 +3642,10 @@
     "price_current": 349.99,
     "price_msrp": 349.99,
     "specs": {
-      "engine_cc": 50.2,
       "bar_length": "18 inch",
-      "power_hp": 3.13,
-      "fuel_capacity_oz": 18.6
+      "engine_cc": 50.2,
+      "fuel_capacity_oz": 18.6,
+      "power_hp": 3.13
     },
     "rating": 4.5,
     "review_count": 4800,
@@ -3356,7 +3659,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.6,
-    "retailers": ["homedepot", "amazon", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3370,10 +3677,10 @@
     "price_current": 419.99,
     "price_msrp": 419.99,
     "specs": {
-      "engine_cc": 59.8,
       "bar_length": "20 inch",
-      "power_hp": 3.89,
-      "fuel_capacity_oz": 21.8
+      "engine_cc": 59.8,
+      "fuel_capacity_oz": 21.8,
+      "power_hp": 3.89
     },
     "rating": 4.6,
     "review_count": 6200,
@@ -3387,7 +3694,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 13.2,
-    "retailers": ["homedepot", "amazon", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3401,10 +3712,10 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
-      "engine_cc": 25.0,
       "bar_length": "12 inch",
-      "power_hp": 1.49,
-      "fuel_capacity_oz": 6.4
+      "engine_cc": 25,
+      "fuel_capacity_oz": 6.4,
+      "power_hp": 1.49
     },
     "rating": 4.7,
     "review_count": 2200,
@@ -3418,7 +3729,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 5.2,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3432,10 +3746,10 @@
     "price_current": 279.99,
     "price_msrp": 279.99,
     "specs": {
-      "engine_cc": 21.2,
       "cutting_width": "17 inch",
-      "shaft_type": "straight",
-      "fuel_capacity_oz": 12.8
+      "engine_cc": 21.2,
+      "fuel_capacity_oz": 12.8,
+      "shaft_type": "straight"
     },
     "rating": 4.5,
     "review_count": 12000,
@@ -3449,7 +3763,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 11.5,
-    "retailers": ["homedepot", "amazon", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3463,10 +3781,10 @@
     "price_current": 449.99,
     "price_msrp": 449.99,
     "specs": {
-      "engine_cc": 25.4,
       "cutting_width": "17 inch",
-      "shaft_type": "straight",
-      "gear_ratio": "2:1"
+      "engine_cc": 25.4,
+      "gear_ratio": "2:1",
+      "shaft_type": "straight"
     },
     "rating": 4.6,
     "review_count": 3500,
@@ -3480,7 +3798,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 12.8,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3494,10 +3815,10 @@
     "price_current": 199.99,
     "price_msrp": 199.99,
     "specs": {
-      "engine_cc": 25.4,
-      "max_air_speed_mph": 170,
+      "blowing_force_n": 15.8,
       "cfm": 453,
-      "blowing_force_n": 15.8
+      "engine_cc": 25.4,
+      "max_air_speed_mph": 170
     },
     "rating": 4.5,
     "review_count": 8500,
@@ -3511,7 +3832,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 8.8,
-    "retailers": ["homedepot", "amazon", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3525,9 +3850,9 @@
     "price_current": 449.99,
     "price_msrp": 449.99,
     "specs": {
+      "cfm": 510,
       "engine_cc": 58.2,
-      "max_air_speed_mph": 216,
-      "cfm": 510
+      "max_air_speed_mph": 216
     },
     "rating": 4.6,
     "review_count": 5200,
@@ -3541,7 +3866,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 22.6,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3555,9 +3883,9 @@
     "price_current": 549.99,
     "price_msrp": 549.99,
     "specs": {
+      "cfm": 756,
       "engine_cc": 63.3,
-      "max_air_speed_mph": 234,
-      "cfm": 756
+      "max_air_speed_mph": 234
     },
     "rating": 4.7,
     "review_count": 3800,
@@ -3571,7 +3899,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 24.3,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3585,10 +3916,10 @@
     "price_current": 699.99,
     "price_msrp": 699.99,
     "specs": {
-      "engine_cc": 79.9,
-      "max_air_speed_mph": 220,
+      "blowing_force_n": 48,
       "cfm": 1110,
-      "blowing_force_n": 48
+      "engine_cc": 79.9,
+      "max_air_speed_mph": 220
     },
     "rating": 4.8,
     "review_count": 1600,
@@ -3601,8 +3932,11 @@
       "5-year commercial warranty"
     ],
     "is_cordless": false,
-    "weight_lbs": 27.0,
-    "retailers": ["homedepot", "echo-dealer"],
+    "weight_lbs": 27,
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -3616,12 +3950,12 @@
     "price_current": 279.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 40,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 4,
       "deck_size": "16 inch",
+      "motor_type": "brushless",
       "self_propelled": false,
-      "battery_ah": 4.0,
-      "batteries_included": 2
+      "voltage": 40
     },
     "rating": 4.1,
     "review_count": 2800,
@@ -3634,8 +3968,13 @@
       "3-in-1: mulch, bag, side discharge"
     ],
     "is_cordless": true,
-    "weight_lbs": 35.0,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "weight_lbs": 35,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -3649,12 +3988,12 @@
     "price_current": 599.99,
     "price_msrp": 599.99,
     "specs": {
-      "voltage": 40,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 4,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 4.0,
-      "batteries_included": 2
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 1200,
@@ -3667,8 +4006,12 @@
       "3-in-1: mulch, bag, side discharge"
     ],
     "is_cordless": true,
-    "weight_lbs": 55.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 55,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3682,10 +4025,10 @@
     "price_current": 129.99,
     "price_msrp": 129.99,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 2,
+      "convertible": true,
       "cutting_width": "12 inch",
-      "battery_ah": 2.0,
-      "convertible": true
+      "voltage": 20
     },
     "rating": 4.2,
     "review_count": 18000,
@@ -3699,7 +4042,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.3,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -3713,11 +4061,11 @@
     "price_current": 229.99,
     "price_msrp": 229.99,
     "specs": {
-      "voltage": 40,
-      "cutting_width": "15 inch",
-      "battery_ah": 2.0,
       "batteries_included": 2,
-      "motor_type": "brushless"
+      "battery_ah": 2,
+      "cutting_width": "15 inch",
+      "motor_type": "brushless",
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 1500,
@@ -3730,8 +4078,12 @@
       "Convertible to edger"
     ],
     "is_cordless": true,
-    "weight_lbs": 9.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 9,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3745,10 +4097,10 @@
     "price_current": 89.99,
     "price_msrp": 89.99,
     "specs": {
-      "voltage": 20,
-      "max_air_speed_mph": 90,
+      "battery_ah": 2,
       "cfm": 360,
-      "battery_ah": 2.0
+      "max_air_speed_mph": 90,
+      "voltage": 20
     },
     "rating": 4.1,
     "review_count": 12000,
@@ -3762,7 +4114,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 3.5,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -3776,12 +4133,12 @@
     "price_current": 234.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 40,
-      "max_air_speed_mph": 185,
-      "cfm": 350,
-      "battery_ah": 4.0,
       "batteries_included": 2,
-      "mulch_ratio": "16:1"
+      "battery_ah": 4,
+      "cfm": 350,
+      "max_air_speed_mph": 185,
+      "mulch_ratio": "16:1",
+      "voltage": 40
     },
     "rating": 4.3,
     "review_count": 5200,
@@ -3795,7 +4152,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.5,
-    "retailers": ["amazon", "worx.com", "bestbuy", "lowes"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "bestbuy",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3809,10 +4171,10 @@
     "price_current": 79.99,
     "price_msrp": 99.99,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 2,
       "blade_length": "22 inch",
-      "battery_ah": 2.0,
-      "cutting_capacity": "3/4 inch"
+      "cutting_capacity": "3/4 inch",
+      "voltage": 20
     },
     "rating": 4.2,
     "review_count": 8500,
@@ -3826,7 +4188,13 @@
     ],
     "is_cordless": true,
     "weight_lbs": 4.6,
-    "retailers": ["amazon", "worx.com", "lowes", "target", "walmart"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "target",
+      "walmart"
+    ],
     "image_url": ""
   },
   {
@@ -3840,9 +4208,9 @@
     "price_current": 159.99,
     "price_msrp": 159.99,
     "specs": {
-      "voltage": 20,
       "bar_length": "10 inch",
-      "battery_ah": 2.0
+      "battery_ah": 2,
+      "voltage": 20
     },
     "rating": 4.1,
     "review_count": 6800,
@@ -3856,7 +4224,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.2,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -3870,10 +4243,10 @@
     "price_current": 219.99,
     "price_msrp": 219.99,
     "specs": {
-      "voltage": 20,
       "bar_length": "12 inch",
-      "battery_ah": 4.0,
-      "motor_type": "brushless"
+      "battery_ah": 4,
+      "motor_type": "brushless",
+      "voltage": 20
     },
     "rating": 4.2,
     "review_count": 2200,
@@ -3886,8 +4259,12 @@
       "4.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 9.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 9,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3901,12 +4278,12 @@
     "price_current": 169.99,
     "price_msrp": 169.99,
     "specs": {
-      "voltage": 20,
       "bar_length": "10 inch",
+      "battery_ah": 2,
       "max_reach_ft": 12,
-      "battery_ah": 2.0
+      "voltage": 20
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 4500,
     "description": "2-in-1 pole saw and chainsaw. Detach the head to use as a hand-held chainsaw. Extends to 12 feet for high branch trimming.",
     "features": [
@@ -3917,8 +4294,13 @@
       "2.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 10.0,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "weight_lbs": 10,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -3932,14 +4314,14 @@
     "price_current": 899.99,
     "price_msrp": 899.99,
     "specs": {
-      "voltage": 20,
-      "max_area_sqft": 10890,
-      "cutting_width": "7 inch",
-      "battery_ah": 4.0,
+      "battery_ah": 4,
       "connectivity": "wifi",
-      "max_slope_pct": 20
+      "cutting_width": "7 inch",
+      "max_area_sqft": 10890,
+      "max_slope_pct": 20,
+      "voltage": 20
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 3200,
     "description": "WORX's mid-range robotic mower covering up to 1/4 acre. Uses boundary wire for perimeter mapping. WiFi-connected for app control and scheduling.",
     "features": [
@@ -3950,8 +4332,12 @@
       "20V PowerShare battery"
     ],
     "is_cordless": true,
-    "weight_lbs": 22.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 22,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3965,12 +4351,12 @@
     "price_current": 899.99,
     "price_msrp": 1299.99,
     "specs": {
-      "voltage": 20,
-      "max_area_sqft": 21780,
-      "cutting_width": "9 inch",
-      "battery_ah": 6.0,
+      "battery_ah": 6,
       "connectivity": "wifi",
-      "max_slope_pct": 20
+      "cutting_width": "9 inch",
+      "max_area_sqft": 21780,
+      "max_slope_pct": 20,
+      "voltage": 20
     },
     "rating": 4.1,
     "review_count": 2400,
@@ -3983,8 +4369,12 @@
       "Rain sensor"
     ],
     "is_cordless": true,
-    "weight_lbs": 24.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 24,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -3998,12 +4388,12 @@
     "price_current": 1169.99,
     "price_msrp": 1799.99,
     "specs": {
-      "voltage": 20,
-      "max_area_sqft": 21780,
-      "cutting_width": "8.7 inch",
-      "connectivity": "cloud",
       "camera_navigation": true,
-      "no_boundary_wire": true
+      "connectivity": "cloud",
+      "cutting_width": "8.7 inch",
+      "max_area_sqft": 21780,
+      "no_boundary_wire": true,
+      "voltage": 20
     },
     "rating": 4.2,
     "review_count": 300,
@@ -4016,8 +4406,11 @@
       "Advanced obstacle avoidance"
     ],
     "is_cordless": true,
-    "weight_lbs": 23.0,
-    "retailers": ["amazon", "worx.com"],
+    "weight_lbs": 23,
+    "retailers": [
+      "amazon",
+      "worx.com"
+    ],
     "image_url": ""
   },
   {
@@ -4031,12 +4424,12 @@
     "price_current": 189.99,
     "price_msrp": 189.99,
     "specs": {
-      "voltage": 20,
       "bar_length": "6 inch",
-      "battery_ah": 2.0,
-      "enclosed_blade": true
+      "battery_ah": 2,
+      "enclosed_blade": true,
+      "voltage": 20
     },
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 5200,
     "description": "The JawSaw is the world's safest chainsaw. Enclosed blade design means you can cut branches on the ground without kickback risk. Great for storm cleanup.",
     "features": [
@@ -4048,7 +4441,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 7.5,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -4062,12 +4460,12 @@
     "price_current": 234.99,
     "price_msrp": 279.99,
     "specs": {
-      "voltage": 40,
-      "max_air_speed_mph": 190,
-      "cfm": 780,
-      "battery_ah": 4.0,
       "batteries_included": 2,
-      "noise_db": 60
+      "battery_ah": 4,
+      "cfm": 780,
+      "max_air_speed_mph": 190,
+      "noise_db": 60,
+      "voltage": 40
     },
     "rating": 4.4,
     "review_count": 2800,
@@ -4081,7 +4479,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.5,
-    "retailers": ["amazon", "worx.com", "bestbuy"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "bestbuy"
+    ],
     "image_url": ""
   },
   {
@@ -4095,10 +4497,10 @@
     "price_current": 489.99,
     "price_msrp": 489.99,
     "specs": {
-      "engine_cc": 36.3,
       "cutting_width": "16.5 inch",
-      "shaft_type": "straight",
-      "power_hp": 1.9
+      "engine_cc": 36.3,
+      "power_hp": 1.9,
+      "shaft_type": "straight"
     },
     "rating": 4.7,
     "review_count": 2200,
@@ -4112,7 +4514,9 @@
     ],
     "is_cordless": false,
     "weight_lbs": 13.4,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4126,9 +4530,9 @@
     "price_current": 399.99,
     "price_msrp": 399.99,
     "specs": {
-      "voltage": 36,
+      "battery_system": "AP",
       "blade_size": "8 inch",
-      "battery_system": "AP"
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 400,
@@ -4142,7 +4546,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.5,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4156,9 +4562,9 @@
     "price_current": 439.99,
     "price_msrp": 439.99,
     "specs": {
-      "voltage": 36,
       "battery_system": "AP",
-      "compatible_attachments": 12
+      "compatible_attachments": 12,
+      "voltage": 36
     },
     "rating": 4.5,
     "review_count": 600,
@@ -4172,7 +4578,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["stihl-dealer"],
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4186,9 +4594,9 @@
     "price_current": 329.99,
     "price_msrp": 329.99,
     "specs": {
-      "voltage": 36,
+      "battery_system": "AK",
       "psi": 725,
-      "battery_system": "AK"
+      "voltage": 36
     },
     "rating": 4.2,
     "review_count": 800,
@@ -4201,8 +4609,10 @@
       "Compact and portable"
     ],
     "is_cordless": true,
-    "weight_lbs": 12.0,
-    "retailers": ["stihl-dealer"],
+    "weight_lbs": 12,
+    "retailers": [
+      "stihl-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4216,10 +4626,10 @@
     "price_current": 549.99,
     "price_msrp": 549.99,
     "specs": {
-      "voltage": 36,
       "bar_length": "12 inch",
+      "battery_system": "pro",
       "power_hp": 1.9,
-      "battery_system": "pro"
+      "voltage": 36
     },
     "rating": 4.6,
     "review_count": 500,
@@ -4233,7 +4643,9 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.9,
-    "retailers": ["husqvarna-dealer"],
+    "retailers": [
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4247,9 +4659,9 @@
     "price_current": 349.99,
     "price_msrp": 399.99,
     "specs": {
-      "voltage": 40,
+      "compatible_attachments": 15,
       "motor_rpm": 8500,
-      "compatible_attachments": 15
+      "voltage": 40
     },
     "rating": 4.3,
     "review_count": 900,
@@ -4263,7 +4675,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["lowes", "amazon", "husqvarna-dealer"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "husqvarna-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4277,10 +4693,10 @@
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "engine_cc": 38.0,
       "bar_length": "16 inch",
-      "power_hp": 2.0,
-      "fuel_capacity_oz": 10.1
+      "engine_cc": 38,
+      "fuel_capacity_oz": 10.1,
+      "power_hp": 2
     },
     "rating": 4.2,
     "review_count": 3800,
@@ -4294,7 +4710,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 10.3,
-    "retailers": ["lowes", "husqvarna-dealer", "amazon"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
@@ -4308,10 +4728,10 @@
     "price_current": 449.99,
     "price_msrp": 449.99,
     "specs": {
-      "engine_cc": 55.5,
       "bar_length": "20 inch",
-      "power_hp": 3.49,
-      "fuel_capacity_oz": 14.9
+      "engine_cc": 55.5,
+      "fuel_capacity_oz": 14.9,
+      "power_hp": 3.49
     },
     "rating": 4.6,
     "review_count": 9200,
@@ -4325,7 +4745,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 13.2,
-    "retailers": ["lowes", "husqvarna-dealer", "amazon"],
+    "retailers": [
+      "lowes",
+      "husqvarna-dealer",
+      "amazon"
+    ],
     "image_url": ""
   },
   {
@@ -4339,10 +4763,10 @@
     "price_current": 249.99,
     "price_msrp": 249.99,
     "specs": {
-      "engine_cc": 30.5,
       "bar_length": "16 inch",
-      "power_hp": 1.8,
-      "fuel_capacity_oz": 10.2
+      "engine_cc": 30.5,
+      "fuel_capacity_oz": 10.2,
+      "power_hp": 1.8
     },
     "rating": 4.3,
     "review_count": 5200,
@@ -4356,7 +4780,11 @@
     ],
     "is_cordless": false,
     "weight_lbs": 8.8,
-    "retailers": ["homedepot", "amazon", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "amazon",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4370,8 +4798,8 @@
     "price_current": 499.99,
     "price_msrp": 499.99,
     "specs": {
-      "engine_cc": 30.5,
       "cutting_width": "20 inch",
+      "engine_cc": 30.5,
       "shaft_type": "straight"
     },
     "rating": 4.6,
@@ -4386,7 +4814,10 @@
     ],
     "is_cordless": false,
     "weight_lbs": 14.5,
-    "retailers": ["homedepot", "echo-dealer"],
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4400,11 +4831,11 @@
     "price_current": 549.99,
     "price_msrp": 649.99,
     "specs": {
-      "voltage": 60,
-      "motor_type": "brushless",
+      "battery_ah": 8,
       "deck_size": "22 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 8.0
+      "voltage": 60
     },
     "rating": 4.4,
     "review_count": 1800,
@@ -4417,8 +4848,11 @@
       "7-position cutting height"
     ],
     "is_cordless": true,
-    "weight_lbs": 62.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 62,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -4432,12 +4866,12 @@
     "price_current": 1399.99,
     "price_msrp": 1999.99,
     "specs": {
-      "voltage": 80,
-      "clearing_width": "24 inch",
+      "batteries_included": 2,
+      "battery_ah": 4,
       "clearing_depth": "18 inch",
+      "clearing_width": "24 inch",
       "throw_distance_ft": 50,
-      "battery_ah": 4.0,
-      "batteries_included": 2
+      "voltage": 80
     },
     "rating": 4.3,
     "review_count": 1200,
@@ -4450,8 +4884,12 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 110.0,
-    "retailers": ["amazon", "greenworks.com", "bestbuy"],
+    "weight_lbs": 110,
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "bestbuy"
+    ],
     "image_url": ""
   },
   {
@@ -4465,10 +4903,10 @@
     "price_current": 349.99,
     "price_msrp": 449.99,
     "specs": {
-      "voltage": 60,
-      "clearing_width": "20 inch",
+      "battery_ah": 5,
       "clearing_depth": "10 inch",
-      "battery_ah": 5.0
+      "clearing_width": "20 inch",
+      "voltage": 60
     },
     "rating": 4.1,
     "review_count": 2400,
@@ -4481,8 +4919,11 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 32.0,
-    "retailers": ["amazon", "greenworks.com"],
+    "weight_lbs": 32,
+    "retailers": [
+      "amazon",
+      "greenworks.com"
+    ],
     "image_url": ""
   },
   {
@@ -4496,10 +4937,10 @@
     "price_current": 109.99,
     "price_msrp": 139.99,
     "specs": {
-      "voltage": 40,
+      "battery_ah": 2,
       "blade_length": "24 inch",
-      "battery_ah": 2.0,
-      "cutting_capacity": "3/4 inch"
+      "cutting_capacity": "3/4 inch",
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 3600,
@@ -4513,7 +4954,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.5,
-    "retailers": ["amazon", "greenworks.com", "lowes"],
+    "retailers": [
+      "amazon",
+      "greenworks.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -4527,10 +4972,10 @@
     "price_current": 229.99,
     "price_msrp": 229.99,
     "specs": {
-      "voltage": 60,
+      "battery_ah": 2.5,
       "blade_size": "8 inch",
       "motor_type": "brushless",
-      "battery_ah": 2.5
+      "voltage": 60
     },
     "rating": 4.3,
     "review_count": 900,
@@ -4543,8 +4988,11 @@
       "2.5Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 11.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 11,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -4558,10 +5006,10 @@
     "price_current": 2199.99,
     "price_msrp": 2199.99,
     "specs": {
-      "voltage": 60,
-      "clearing_width": "26 inch",
       "clearing_depth": "20 inch",
-      "throw_distance_ft": 45
+      "clearing_width": "26 inch",
+      "throw_distance_ft": 45,
+      "voltage": 60
     },
     "rating": 4.5,
     "review_count": 300,
@@ -4574,24 +5022,27 @@
       "LED headlights"
     ],
     "is_cordless": true,
-    "weight_lbs": 140.0,
-    "retailers": ["homedepot", "lowes"],
+    "weight_lbs": 140,
+    "retailers": [
+      "homedepot",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
     "sku": "ECHO-DPAS2600",
     "name": "ECHO eFORCE 56V Pro Attachment Power Head Kit (5.0Ah)",
     "brand": "ECHO",
-    "ecosystem": "echo-56v",
+    "ecosystem": "ego-56v",
     "category": "outdoor-power",
     "subcategory": "multi-tools",
     "tool_type": "attachment-powerhead",
     "price_current": 539.99,
     "price_msrp": 539.99,
     "specs": {
-      "voltage": 56,
-      "battery_ah": 5.0,
-      "compatible_attachments": 8
+      "battery_ah": 5,
+      "compatible_attachments": 8,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 400,
@@ -4604,8 +5055,11 @@
       "5.0Ah battery and charger included"
     ],
     "is_cordless": true,
-    "weight_lbs": 10.0,
-    "retailers": ["homedepot", "echo-dealer"],
+    "weight_lbs": 10,
+    "retailers": [
+      "homedepot",
+      "echo-dealer"
+    ],
     "image_url": ""
   },
   {
@@ -4619,12 +5073,12 @@
     "price_current": 429.99,
     "price_msrp": 429.99,
     "specs": {
-      "voltage": 40,
-      "motor_type": "brushless",
+      "batteries_included": 2,
+      "battery_ah": 4,
       "deck_size": "21 inch",
+      "motor_type": "brushless",
       "self_propelled": true,
-      "battery_ah": 4.0,
-      "batteries_included": 2
+      "voltage": 40
     },
     "rating": 4.2,
     "review_count": 1600,
@@ -4637,8 +5091,12 @@
       "3-in-1: mulch, bag, side discharge"
     ],
     "is_cordless": true,
-    "weight_lbs": 52.0,
-    "retailers": ["amazon", "worx.com", "lowes"],
+    "weight_lbs": 52,
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes"
+    ],
     "image_url": ""
   },
   {
@@ -4652,10 +5110,10 @@
     "price_current": 149.99,
     "price_msrp": 149.99,
     "specs": {
-      "voltage": 20,
       "bar_length": "8 inch",
+      "battery_ah": 2,
       "max_reach_ft": 13,
-      "battery_ah": 2.0
+      "voltage": 20
     },
     "rating": 4.1,
     "review_count": 3800,
@@ -4669,7 +5127,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.8,
-    "retailers": ["amazon", "worx.com", "lowes", "homedepot"],
+    "retailers": [
+      "amazon",
+      "worx.com",
+      "lowes",
+      "homedepot"
+    ],
     "image_url": ""
   }
 ]

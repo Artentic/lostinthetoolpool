@@ -10,14 +10,14 @@
     "price_current": 349,
     "price_msrp": 349,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "21 inch",
-      "self_propelled": false,
-      "cutting_height_min": 1.5,
       "cutting_height_max": 4,
+      "cutting_height_min": 1.5,
       "cutting_height_positions": 6,
-      "runtime_min": 45
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 45,
+      "self_propelled": false,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 3500,
@@ -31,7 +31,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 56,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -45,16 +49,16 @@
     "price_current": 449,
     "price_msrp": 449,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "21 inch",
-      "self_propelled": false,
-      "cutting_height_min": 1.25,
+      "battery_ah": 6,
       "cutting_height_max": 4,
+      "cutting_height_min": 1.25,
       "cutting_height_positions": 7,
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
       "runtime_min": 55,
-      "battery_ah": 6.0,
-      "torque_ft_lbs": 6.0
+      "self_propelled": false,
+      "torque_ft_lbs": 6,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 4200,
@@ -68,7 +72,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 56,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -82,16 +91,16 @@
     "price_current": 549,
     "price_msrp": 549,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "21 inch",
-      "self_propelled": true,
-      "cutting_height_min": 1.5,
-      "cutting_height_max": 4,
-      "cutting_height_positions": 6,
-      "runtime_min": 60,
       "battery_ah": 7.5,
-      "torque_ft_lbs": 6.0
+      "cutting_height_max": 4,
+      "cutting_height_min": 1.5,
+      "cutting_height_positions": 6,
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 60,
+      "self_propelled": true,
+      "torque_ft_lbs": 6,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 5500,
@@ -105,7 +114,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 62,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -119,16 +133,16 @@
     "price_current": 649,
     "price_msrp": 649,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "21 inch",
-      "self_propelled": true,
-      "cutting_height_min": 1.5,
-      "cutting_height_max": 4,
-      "runtime_min": 60,
       "battery_ah": 7.5,
-      "torque_ft_lbs": 7.0,
-      "select_cut": true
+      "cutting_height_max": 4,
+      "cutting_height_min": 1.5,
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 60,
+      "select_cut": true,
+      "self_propelled": true,
+      "torque_ft_lbs": 7,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 9200,
@@ -142,7 +156,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 62.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -156,14 +175,14 @@
     "price_current": 799,
     "price_msrp": 799,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 10,
       "deck_size": "21 inch",
-      "self_propelled": true,
+      "motor_type": "brushless",
       "runtime_min": 75,
-      "battery_ah": 10.0,
+      "select_cut": true,
+      "self_propelled": true,
       "torque_ft_lbs": 8.3,
-      "select_cut": true
+      "voltage": 56
     },
     "rating": 4.8,
     "review_count": 3800,
@@ -177,7 +196,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 65,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -191,15 +215,15 @@
     "price_current": 599,
     "price_msrp": 599,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "21 inch",
-      "self_propelled": true,
-      "runtime_min": 65,
-      "battery_ah": 4.0,
+      "battery_ah": 4,
       "battery_count": 2,
+      "deck_size": "21 inch",
+      "motor_type": "brushless",
+      "runtime_min": 65,
+      "self_propelled": true,
+      "speed_max_mph": 3.1,
       "speed_min_mph": 0.9,
-      "speed_max_mph": 3.1
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 3200,
@@ -213,7 +237,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 63,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -227,12 +256,12 @@
     "price_current": 1299,
     "price_msrp": 1299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "30 inch",
-      "self_propelled": true,
+      "battery_count": 2,
       "deck_material": "super composite",
-      "battery_count": 2
+      "deck_size": "30 inch",
+      "motor_type": "brushless",
+      "self_propelled": true,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 500,
@@ -246,7 +275,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 85,
-    "retailers": ["lowes", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -260,17 +293,17 @@
     "price_current": 4999,
     "price_msrp": 4999,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "42 inch",
-      "deck_gauge": "12-gauge steel",
+      "acreage": 1.5,
+      "battery_ah": 6,
       "battery_count": 6,
-      "battery_ah": 6.0,
-      "max_speed_mph": 8,
-      "cutting_height_min": 1.5,
       "cutting_height_max": 4.5,
+      "cutting_height_min": 1.5,
+      "deck_gauge": "12-gauge steel",
+      "deck_size": "42 inch",
       "hp_equivalent": 22,
-      "acreage": 1.5
+      "max_speed_mph": 8,
+      "motor_type": "brushless",
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 1200,
@@ -284,7 +317,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 540,
-    "retailers": ["lowes", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -298,14 +335,14 @@
     "price_current": 5799,
     "price_msrp": 5799,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "42 inch",
+      "acreage": 2,
       "battery_count": 6,
-      "max_speed_mph": 8,
+      "deck_size": "42 inch",
+      "e_steer": true,
       "hp_equivalent": 24,
-      "acreage": 2.0,
-      "e_steer": true
+      "max_speed_mph": 8,
+      "motor_type": "brushless",
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 800,
@@ -319,7 +356,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 560,
-    "retailers": ["lowes", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -333,15 +374,15 @@
     "price_current": 5999,
     "price_msrp": 5999,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "52 inch",
-      "deck_gauge": "10-gauge fabricated steel",
+      "acreage": 3,
+      "battery_ah": 10,
       "battery_count": 6,
-      "battery_ah": 10.0,
-      "max_speed_mph": 8,
+      "deck_gauge": "10-gauge fabricated steel",
+      "deck_size": "52 inch",
       "hp_equivalent": 27,
-      "acreage": 3.0
+      "max_speed_mph": 8,
+      "motor_type": "brushless",
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 400,
@@ -355,7 +396,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 620,
-    "retailers": ["lowes", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -369,15 +414,15 @@
     "price_current": 4399,
     "price_msrp": 4399,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "deck_size": "42 inch",
-      "battery_count": 6,
-      "battery_ah": 6.0,
-      "hp_equivalent": 21,
       "acreage": 1.5,
+      "battery_ah": 6,
+      "battery_count": 6,
+      "cutting_height_positions": 12,
+      "deck_size": "42 inch",
+      "hp_equivalent": 21,
+      "motor_type": "brushless",
       "towing_capacity_lbs": 600,
-      "cutting_height_positions": 12
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 900,
@@ -391,7 +436,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 490,
-    "retailers": ["lowes", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -405,12 +454,12 @@
     "price_current": 249,
     "price_msrp": 249,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "cutting_width": 15,
       "battery_ah": 2.5,
+      "cutting_width": 15,
+      "motor_type": "brushless",
+      "powerload": true,
       "shaft_type": "carbon fiber split",
-      "powerload": true
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 5500,
@@ -424,7 +473,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.6,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -438,13 +492,13 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "cutting_width": 15,
-      "battery_ah": 4.0,
-      "shaft_type": "carbon fiber",
+      "motor_type": "brushless",
       "powerload": true,
-      "runtime_min": 50
+      "runtime_min": 50,
+      "shaft_type": "carbon fiber",
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 4800,
@@ -458,12 +512,17 @@
     ],
     "is_cordless": true,
     "weight_lbs": 8.2,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
     "sku": "EGO-ST1502LB",
-    "name": "EGO POWER+ 56V 15\" String Trimmer & 530 CFM Blower Combo Kit (2.5Ah)",
+    "name": "EGO POWER+ 56V 15\" String Trimmer \u0026 530 CFM Blower Combo Kit (2.5Ah)",
     "brand": "EGO",
     "ecosystem": "ego-56v",
     "category": "outdoor-power",
@@ -472,11 +531,11 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 2.5,
+      "blower_cfm": 530,
       "motor_type": "brushless",
       "trimmer_width": 15,
-      "blower_cfm": 530,
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 6800,
@@ -490,12 +549,17 @@
     ],
     "is_cordless": true,
     "weight_lbs": 14,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
     "sku": "EGO-ST6151LB",
-    "name": "EGO POWER+ 56V 15\" POWERLOAD String Trimmer & 615 CFM Blower Combo Kit (2.5Ah)",
+    "name": "EGO POWER+ 56V 15\" POWERLOAD String Trimmer \u0026 615 CFM Blower Combo Kit (2.5Ah)",
     "brand": "EGO",
     "ecosystem": "ego-56v",
     "category": "outdoor-power",
@@ -504,12 +568,12 @@
     "price_current": 349,
     "price_msrp": 349,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "trimmer_width": 15,
-      "blower_cfm": 615,
       "battery_ah": 2.5,
-      "powerload": true
+      "blower_cfm": 615,
+      "motor_type": "brushless",
+      "powerload": true,
+      "trimmer_width": 15,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 2500,
@@ -523,7 +587,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 14,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -537,12 +606,12 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "cfm": 530,
-      "mph": 110,
       "battery_ah": 2.5,
-      "runtime_min": 75
+      "cfm": 530,
+      "motor_type": "brushless",
+      "mph": 110,
+      "runtime_min": 75,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 7500,
@@ -555,8 +624,13 @@
       "Lightweight at 5 lbs with battery"
     ],
     "is_cordless": true,
-    "weight_lbs": 5.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 5,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -570,12 +644,12 @@
     "price_current": 249,
     "price_msrp": 249,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 4,
       "cfm": 615,
+      "motor_type": "brushless",
       "mph": 170,
-      "battery_ah": 4.0,
-      "runtime_min": 80
+      "runtime_min": 80,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 4200,
@@ -589,7 +663,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.3,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -603,12 +682,12 @@
     "price_current": 279,
     "price_msrp": 279,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 5,
       "cfm": 650,
+      "motor_type": "brushless",
       "mph": 180,
-      "battery_ah": 5.0,
-      "runtime_min": 90
+      "runtime_min": 90,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 8500,
@@ -622,7 +701,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -636,11 +720,11 @@
     "price_current": 329,
     "price_msrp": 329,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 5,
       "cfm": 765,
+      "motor_type": "brushless",
       "mph": 200,
-      "battery_ah": 5.0
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 3200,
@@ -654,7 +738,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 9.6,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -668,10 +757,10 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "cfm": 880,
-      "mph": 200
+      "motor_type": "brushless",
+      "mph": 200,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 1200,
@@ -685,7 +774,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.8,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -699,12 +793,12 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "cfm": 600,
-      "mph": 145,
+      "backpack": true,
       "battery_ah": 7.5,
-      "backpack": true
+      "cfm": 600,
+      "motor_type": "brushless",
+      "mph": 145,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -718,7 +812,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 14.2,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -732,12 +831,12 @@
     "price_current": 249,
     "price_msrp": 249,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 14,
-      "chain_speed_rpm": 6800,
       "battery_ah": 2.5,
-      "noise_db": 86
+      "chain_speed_rpm": 6800,
+      "motor_type": "brushless",
+      "noise_db": 86,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 4200,
@@ -751,7 +850,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 11.4,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -765,12 +869,12 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 16,
-      "chain_speed_rpm": 11000,
       "battery_ah": 2.5,
-      "cuts_per_charge_4x4": 130
+      "chain_speed_rpm": 11000,
+      "cuts_per_charge_4x4": 130,
+      "motor_type": "brushless",
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 3800,
@@ -783,8 +887,13 @@
       "Up to 130 cuts on a 4x4 per charge (2.5Ah)"
     ],
     "is_cordless": true,
-    "weight_lbs": 13.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 13,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -798,13 +907,13 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 18,
+      "battery_ah": 5,
       "chain_speed_rpm": 11000,
-      "battery_ah": 5.0,
       "cuts_per_charge_4x4": 300,
-      "gas_equivalent_cc": 45
+      "gas_equivalent_cc": 45,
+      "motor_type": "brushless",
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 6500,
@@ -818,7 +927,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 21.8,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -832,13 +946,13 @@
     "price_current": 349,
     "price_msrp": 349,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 18,
-      "motor_watts": 2500,
       "chain_speed_ms": 22,
       "cuts_per_charge_4x4": 330,
-      "gas_equivalent_cc": 50
+      "gas_equivalent_cc": 50,
+      "motor_type": "brushless",
+      "motor_watts": 2500,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 2200,
@@ -851,8 +965,12 @@
       "Adjustable LED work light"
     ],
     "is_cordless": true,
-    "weight_lbs": 16.0,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "weight_lbs": 16,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -866,12 +984,12 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 12,
-      "battery_ah": 4.0,
+      "battery_ah": 4,
       "gas_equivalent_cc": 35,
-      "top_handle": true
+      "motor_type": "brushless",
+      "top_handle": true,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 800,
@@ -885,7 +1003,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 11.5,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -899,12 +1021,12 @@
     "price_current": 229,
     "price_msrp": 229,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
+      "battery_ah": 2.5,
       "blade_length": 24,
+      "cut_capacity_in": 1,
+      "motor_type": "brushless",
       "spm": 3000,
-      "cut_capacity_in": 1.0,
-      "battery_ah": 2.5
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 5200,
@@ -918,7 +1040,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 6.2,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -932,12 +1059,12 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "blade_length": 26,
-      "spm": 3400,
       "cut_capacity_in": 1.2,
-      "shaft_type": "carbon fiber"
+      "motor_type": "brushless",
+      "shaft_type": "carbon fiber",
+      "spm": 3400,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 2200,
@@ -951,7 +1078,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.8,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -965,12 +1096,12 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "blade_size": 8,
-      "max_depth_in": 3.0,
       "battery_ah": 2.5,
-      "runtime_min": 35
+      "blade_size": 8,
+      "max_depth_in": 3,
+      "motor_type": "brushless",
+      "runtime_min": 35,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 1800,
@@ -984,7 +1115,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 10.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -998,11 +1134,11 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "voltage": 56,
+      "ipx_rating": 4,
       "motor_type": "brushless",
       "shaft_type": "carbon fiber",
       "speed_settings": 2,
-      "ipx_rating": 4
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 2500,
@@ -1015,8 +1151,13 @@
       "IPX4 weather resistant"
     ],
     "is_cordless": true,
-    "weight_lbs": 5.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 5,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1030,8 +1171,8 @@
     "price_current": 179,
     "price_msrp": 179,
     "specs": {
-      "bar_length": 10,
-      "auto_oiler": true
+      "auto_oiler": true,
+      "bar_length": 10
     },
     "rating": 4.5,
     "review_count": 2000,
@@ -1045,7 +1186,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 4.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1060,7 +1206,7 @@
     "price_msrp": 119,
     "specs": {
       "blade_size": 8,
-      "max_depth_in": 3.0
+      "max_depth_in": 3
     },
     "rating": 4.4,
     "review_count": 1500,
@@ -1074,7 +1220,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 3.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1101,8 +1252,13 @@
       "Requires EGO Power Head (sold separately)"
     ],
     "is_cordless": true,
-    "weight_lbs": 3.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 3,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1117,7 +1273,7 @@
     "price_msrp": 149,
     "specs": {
       "blade_length": 20,
-      "cut_capacity_in": 1.0
+      "cut_capacity_in": 1
     },
     "rating": 4.5,
     "review_count": 1200,
@@ -1130,8 +1286,13 @@
       "Requires EGO Power Head (sold separately)"
     ],
     "is_cordless": true,
-    "weight_lbs": 4.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 4,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1145,8 +1306,8 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
-      "tilling_width_min": 8,
-      "tilling_width_max": 9.5
+      "tilling_width_max": 9.5,
+      "tilling_width_min": 8
     },
     "rating": 4.3,
     "review_count": 500,
@@ -1160,7 +1321,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 4.5,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1174,8 +1339,8 @@
     "price_current": 179,
     "price_msrp": 179,
     "specs": {
-      "cutting_width": 12,
-      "blade_type": "3-tooth steel"
+      "blade_type": "3-tooth steel",
+      "cutting_width": 12
     },
     "rating": 4.4,
     "review_count": 600,
@@ -1188,8 +1353,12 @@
       "Requires PH1420 Power Head (sold separately)"
     ],
     "is_cordless": true,
-    "weight_lbs": 4.0,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "weight_lbs": 4,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1203,10 +1372,10 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 56,
+      "battery_ah": 4,
       "motor_type": "brushless",
-      "battery_ah": 4.0,
-      "tools_included": 3
+      "tools_included": 3,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 1800,
@@ -1220,7 +1389,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1234,11 +1408,11 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "bar_length": 10,
       "battery_ah": 2.5,
-      "telescopic": true
+      "motor_type": "brushless",
+      "telescopic": true,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 1500,
@@ -1252,7 +1426,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1266,11 +1445,11 @@
     "price_current": 499,
     "price_msrp": 499,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "clearing_width": 21,
+      "motor_type": "brushless",
+      "peak_power": true,
       "throwing_distance_ft": 35,
-      "peak_power": true
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 4800,
@@ -1284,7 +1463,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 43,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1298,15 +1482,15 @@
     "price_current": 749,
     "price_msrp": 749,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "clearing_width": 21,
-      "throwing_distance_ft": 40,
       "auger_material": "steel",
-      "battery_ah": 5.0,
+      "battery_ah": 5,
       "battery_count": 2,
+      "clearing_width": 21,
+      "driveway_capacity": 12,
+      "motor_type": "brushless",
       "peak_power": true,
-      "driveway_capacity": 12
+      "throwing_distance_ft": 40,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 2500,
@@ -1320,7 +1504,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 45,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1334,14 +1523,14 @@
     "price_current": 799,
     "price_msrp": 799,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "clearing_width": 24,
+      "driveway_capacity": 18,
       "intake_height": 20,
-      "throwing_distance_ft": 40,
-      "self_propelled": true,
+      "motor_type": "brushless",
       "peak_power": true,
-      "driveway_capacity": 18
+      "self_propelled": true,
+      "throwing_distance_ft": 40,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 3200,
@@ -1355,7 +1544,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 95,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1369,15 +1563,15 @@
     "price_current": 879,
     "price_msrp": 879,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "max_psi": 3200,
-      "gpm": 1.2,
-      "gpm_max": 2.0,
-      "battery_ah": 6.0,
+      "battery_ah": 6,
       "battery_count": 2,
+      "gpm": 1.2,
+      "gpm_max": 2,
+      "max_psi": 3200,
+      "motor_type": "brushless",
+      "nozzle_count": 5,
       "runtime_min": 60,
-      "nozzle_count": 5
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -1391,7 +1585,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 42,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1405,11 +1604,11 @@
     "price_current": 549,
     "price_msrp": 549,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
-      "max_psi": 3200,
       "gpm": 1.2,
-      "nozzle_count": 5
+      "max_psi": 3200,
+      "motor_type": "brushless",
+      "nozzle_count": 5,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 1200,
@@ -1423,7 +1622,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 35,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1437,14 +1641,14 @@
     "price_current": 1199,
     "price_msrp": 1199,
     "specs": {
-      "voltage": 56,
-      "continuous_watts": 2000,
-      "peak_watts": 3000,
       "ac_outlets": 3,
-      "usb_ports": 4,
       "battery_ah": 7.5,
       "battery_count": 2,
-      "pure_sine_wave": true
+      "continuous_watts": 2000,
+      "peak_watts": 3000,
+      "pure_sine_wave": true,
+      "usb_ports": 4,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 1800,
@@ -1458,7 +1662,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 22,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1472,16 +1681,16 @@
     "price_current": 799,
     "price_msrp": 799,
     "specs": {
-      "voltage": 56,
+      "ac_outlets": 3,
+      "battery_ah": 6,
+      "battery_count": 2,
       "continuous_watts": 1400,
       "peak_watts": 2100,
-      "ac_outlets": 3,
+      "pure_sine_wave": true,
       "usb_a_ports": 2,
-      "usb_c_ports": 1,
       "usb_c_pd_watts": 100,
-      "battery_ah": 6.0,
-      "battery_count": 2,
-      "pure_sine_wave": true
+      "usb_c_ports": 1,
+      "voltage": 56
     },
     "rating": 4.4,
     "review_count": 800,
@@ -1495,7 +1704,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 18,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1509,11 +1722,11 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
-      "voltage": 56,
+      "ac_outlets": 2,
       "continuous_watts": 400,
       "peak_watts": 800,
-      "ac_outlets": 2,
-      "usb_ports": 2
+      "usb_ports": 2,
+      "voltage": 56
     },
     "rating": 4.3,
     "review_count": 1500,
@@ -1527,7 +1740,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 2.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1541,9 +1759,9 @@
     "price_current": 129,
     "price_msrp": 129,
     "specs": {
-      "voltage": 56,
       "modes": 3,
-      "tire_capable": true
+      "tire_capable": true,
+      "voltage": 56
     },
     "rating": 4.5,
     "review_count": 600,
@@ -1557,7 +1775,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 4.5,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1571,9 +1793,9 @@
     "price_current": 249,
     "price_msrp": 249,
     "specs": {
-      "voltage": 56,
-      "motor_type": "brushless",
       "cfm_suction": 85,
+      "motor_type": "brushless",
+      "voltage": 56,
       "water_lift_in": 60
     },
     "rating": 4.4,
@@ -1588,7 +1810,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 12,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1616,7 +1842,11 @@
     ],
     "is_cordless": true,
     "weight_lbs": 3.5,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1643,8 +1873,12 @@
       "Requires EGO Power Head (sold separately)"
     ],
     "is_cordless": true,
-    "weight_lbs": 4.0,
-    "retailers": ["lowes", "amazon", "acehardware"],
+    "weight_lbs": 4,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware"
+    ],
     "image_url": ""
   },
   {
@@ -1658,9 +1892,9 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "voltage": 56,
-      "amp_hours": 5.0,
-      "fuel_gauge": true
+      "amp_hours": 5,
+      "fuel_gauge": true,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 8000,
@@ -1673,8 +1907,13 @@
       "Keep Cool cell technology extends life"
     ],
     "is_cordless": true,
-    "weight_lbs": 3.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 3,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1688,9 +1927,9 @@
     "price_current": 279,
     "price_msrp": 279,
     "specs": {
-      "voltage": 56,
       "amp_hours": 7.5,
-      "fuel_gauge": true
+      "fuel_gauge": true,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 5500,
@@ -1703,8 +1942,13 @@
       "Keep Cool cell technology"
     ],
     "is_cordless": true,
-    "weight_lbs": 4.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 4,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1718,9 +1962,9 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 56,
-      "amp_hours": 10.0,
-      "fuel_gauge": true
+      "amp_hours": 10,
+      "fuel_gauge": true,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 2500,
@@ -1734,7 +1978,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 5.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1748,9 +1997,9 @@
     "price_current": 129,
     "price_msrp": 129,
     "specs": {
-      "voltage": 56,
       "amp_hours": 2.5,
-      "fuel_gauge": true
+      "fuel_gauge": true,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 6000,
@@ -1764,7 +2013,12 @@
     ],
     "is_cordless": true,
     "weight_lbs": 1.8,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1778,8 +2032,8 @@
     "price_current": 99,
     "price_msrp": 99,
     "specs": {
-      "voltage": 56,
-      "charge_watts": 550
+      "charge_watts": 550,
+      "voltage": 56
     },
     "rating": 4.6,
     "review_count": 4500,
@@ -1792,8 +2046,13 @@
       "Charges 2.5Ah battery in ~40 minutes"
     ],
     "is_cordless": false,
-    "weight_lbs": 3.0,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "weight_lbs": 3,
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   },
   {
@@ -1807,8 +2066,8 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
-      "voltage": 56,
-      "charge_watts": 700
+      "charge_watts": 700,
+      "voltage": 56
     },
     "rating": 4.7,
     "review_count": 1800,
@@ -1822,7 +2081,12 @@
     ],
     "is_cordless": false,
     "weight_lbs": 3.5,
-    "retailers": ["lowes", "amazon", "acehardware", "homedepot"],
+    "retailers": [
+      "lowes",
+      "amazon",
+      "acehardware",
+      "homedepot"
+    ],
     "image_url": ""
   }
 ]

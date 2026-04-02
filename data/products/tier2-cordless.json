@@ -13,10 +13,10 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/2 inch",
+        "max_bpm": 22000,
         "max_rpm": 1800,
         "max_torque_in_lbs": 490,
         "speeds": 2,
-        "max_bpm": 22000,
         "voltage": 18
       },
       "rating": 4.6,
@@ -31,7 +31,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.1,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -64,7 +68,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.8,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -97,7 +105,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -130,7 +142,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.6,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -146,9 +162,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 4200,
         "max_rpm": 3400,
         "max_torque_in_lbs": 1800,
-        "max_ipm": 4200,
         "voltage": 18
       },
       "rating": 4.6,
@@ -163,7 +179,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.4,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -179,9 +199,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex + 1/2 inch square",
+        "max_ipm": 4200,
         "max_rpm": 3400,
         "max_torque_in_lbs": 1800,
-        "max_ipm": 4200,
         "voltage": 18
       },
       "rating": 4.7,
@@ -196,7 +216,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -212,9 +236,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 4100,
         "max_rpm": 3600,
         "max_torque_in_lbs": 1860,
-        "max_ipm": 4100,
         "voltage": 18
       },
       "rating": 4.7,
@@ -229,7 +253,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -243,12 +271,12 @@
       "price_current": 199,
       "price_msrp": 219,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 5800,
-        "max_cut_depth": "2-7/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-7/16 inch at 90°",
+        "max_rpm": 5800,
         "voltage": 18
       },
       "rating": 4.7,
@@ -263,7 +291,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.7,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -277,12 +309,12 @@
       "price_current": 229,
       "price_msrp": 249,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 5800,
-        "max_cut_depth": "2-7/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-7/16 inch at 90°",
+        "max_rpm": 5800,
         "track_compatible": true,
         "voltage": 18
       },
@@ -298,7 +330,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.1,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -312,12 +348,12 @@
       "price_current": 149,
       "price_msrp": 159,
       "specs": {
-        "brushless": true,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 4000,
-        "max_cut_depth": "1-9/16 inch at 90°",
-        "bevel_capacity": "50 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "50 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": true,
+        "max_cut_depth": "1-9/16 inch at 90°",
+        "max_rpm": 4000,
         "voltage": 18
       },
       "rating": 4.5,
@@ -332,7 +368,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.2,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -347,9 +386,9 @@
       "price_msrp": 169,
       "specs": {
         "brushless": true,
-        "stroke_length": "1-1/4 inch",
         "max_spm": 3100,
         "orbital_action": true,
+        "stroke_length": "1-1/4 inch",
         "voltage": 18
       },
       "rating": 4.6,
@@ -364,7 +403,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -378,11 +421,11 @@
       "price_current": 179,
       "price_msrp": 199,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": true,
         "max_spm": 3800,
         "min_spm": 800,
         "stroke_length": "1 inch",
-        "bevel_capacity": "45 degrees",
         "voltage": 18
       },
       "rating": 4.7,
@@ -397,7 +440,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.2,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -411,12 +458,12 @@
       "price_current": 599,
       "price_msrp": 649,
       "specs": {
-        "brushless": true,
-        "blade_size": "12 inch",
-        "max_rpm": 4000,
         "bevel_range": "47 degrees left, 47 degrees right",
-        "miter_range": "52 degrees left, 60 degrees right",
+        "blade_size": "12 inch",
+        "brushless": true,
         "crosscut_capacity": "13-3/4 inch",
+        "max_rpm": 4000,
+        "miter_range": "52 degrees left, 60 degrees right",
         "voltage": 18
       },
       "rating": 4.8,
@@ -431,7 +478,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 53,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -445,10 +496,10 @@
       "price_current": 449,
       "price_msrp": 499,
       "specs": {
-        "brushless": true,
-        "blade_size": "10 inch",
-        "max_rpm": 4600,
         "bevel_range": "47 degrees left, 47 degrees right",
+        "blade_size": "10 inch",
+        "brushless": true,
+        "max_rpm": 4600,
         "miter_range": "52 degrees left, 60 degrees right",
         "voltage": 18
       },
@@ -464,7 +515,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 43,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -479,9 +533,9 @@
       "price_msrp": 169,
       "specs": {
         "brushless": true,
-        "wheel_size": "5-6 inch",
         "max_rpm": 9000,
-        "voltage": 18
+        "voltage": 18,
+        "wheel_size": "5-6 inch"
       },
       "rating": 4.6,
       "review_count": 220,
@@ -495,7 +549,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.3,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -511,8 +568,8 @@
       "specs": {
         "brushless": true,
         "chuck_type": "SDS-plus",
-        "max_bpm": 4800,
         "impact_energy_ft_lbs": 2.6,
+        "max_bpm": 4800,
         "max_rpm": 980,
         "voltage": 18
       },
@@ -528,7 +585,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.7,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -544,8 +605,8 @@
       "specs": {
         "brushless": true,
         "chuck_type": "SDS-max",
-        "max_bpm": 3000,
         "impact_energy_ft_lbs": 5.6,
+        "max_bpm": 3000,
         "max_rpm": 500,
         "voltage": 18
       },
@@ -561,7 +622,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 14.3,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -577,9 +642,9 @@
       "specs": {
         "brushless": true,
         "drive_size": "1/2 inch",
-        "max_torque_ft_lbs": 553,
-        "max_rpm": 2600,
         "max_ipm": 3400,
+        "max_rpm": 2600,
+        "max_torque_ft_lbs": 553,
         "voltage": 18
       },
       "rating": 4.6,
@@ -594,7 +659,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -610,9 +678,9 @@
       "specs": {
         "brushless": true,
         "drive_size": "3/4 inch",
-        "max_torque_ft_lbs": 770,
-        "max_rpm": 1800,
         "max_ipm": 2400,
+        "max_rpm": 1800,
+        "max_torque_ft_lbs": 770,
         "voltage": 18
       },
       "rating": 4.7,
@@ -627,7 +695,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.9,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -658,7 +729,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -674,9 +748,9 @@
       "specs": {
         "brushless": true,
         "collet_size": "1/4 inch",
+        "hp": 1.39,
         "max_rpm": 30000,
         "min_rpm": 10000,
-        "hp": 1.39,
         "voltage": 18
       },
       "rating": 4.7,
@@ -691,7 +765,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -706,8 +784,8 @@
       "price_msrp": 109,
       "specs": {
         "brushless": true,
-        "pad_size": "1/4 sheet",
         "max_opm": 12000,
+        "pad_size": "1/4 sheet",
         "voltage": 18
       },
       "rating": 4.5,
@@ -722,7 +800,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.6,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -753,7 +834,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -784,7 +868,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -800,10 +887,10 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/2 inch",
+        "max_bpm": 30000,
         "max_rpm": 2000,
         "max_torque_in_lbs": 750,
         "speeds": 2,
-        "max_bpm": 30000,
         "voltage": 18
       },
       "rating": 4.7,
@@ -818,7 +905,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -834,9 +923,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3600,
         "max_rpm": 3100,
         "max_torque_in_lbs": 1850,
-        "max_ipm": 3600,
         "voltage": 18
       },
       "rating": 4.7,
@@ -851,7 +940,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.7,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -884,7 +975,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.2,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -917,7 +1010,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.4,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -949,7 +1044,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.1,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -981,7 +1078,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -997,9 +1096,9 @@
       "specs": {
         "brushless": true,
         "drive_size": "1/2 inch",
-        "max_torque_ft_lbs": 600,
-        "max_rpm": 2200,
         "max_ipm": 3200,
+        "max_rpm": 2200,
+        "max_torque_ft_lbs": 600,
         "voltage": 18
       },
       "rating": 4.7,
@@ -1014,7 +1113,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.4,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1030,8 +1131,8 @@
       "specs": {
         "brushless": true,
         "drive_size": "3/8 inch",
-        "max_torque_ft_lbs": 60,
         "max_rpm": 250,
+        "max_torque_ft_lbs": 60,
         "voltage": 18
       },
       "rating": 4.5,
@@ -1046,7 +1147,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.1,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1060,12 +1163,12 @@
       "price_current": 129,
       "price_msrp": 149,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 5500,
-        "max_cut_depth": "2-7/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-7/16 inch at 90°",
+        "max_rpm": 5500,
         "voltage": 18
       },
       "rating": 4.6,
@@ -1080,7 +1183,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1094,12 +1199,12 @@
       "price_current": 169,
       "price_msrp": 189,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 5800,
-        "max_cut_depth": "2-7/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-7/16 inch at 90°",
+        "max_rpm": 5800,
         "voltage": 18
       },
       "rating": 4.7,
@@ -1114,7 +1219,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.6,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1128,12 +1235,12 @@
       "price_current": 99,
       "price_msrp": 119,
       "specs": {
-        "brushless": true,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 4500,
-        "max_cut_depth": "2-1/16 inch at 90°",
-        "bevel_capacity": "50 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "50 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": true,
+        "max_cut_depth": "2-1/16 inch at 90°",
+        "max_rpm": 4500,
         "voltage": 18
       },
       "rating": 4.5,
@@ -1148,7 +1255,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.4,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1163,8 +1272,8 @@
       "price_msrp": 119,
       "specs": {
         "brushless": true,
-        "stroke_length": "1-1/8 inch",
         "max_spm": 3000,
+        "stroke_length": "1-1/8 inch",
         "voltage": 18
       },
       "rating": 4.6,
@@ -1179,7 +1288,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1193,10 +1304,10 @@
       "price_current": 199,
       "price_msrp": 219,
       "specs": {
-        "brushless": true,
         "blade_size": "27-inch x 1/2-inch",
-        "max_sfpm": 540,
+        "brushless": true,
         "cut_capacity": "2-1/2 inch round",
+        "max_sfpm": 540,
         "voltage": 18
       },
       "rating": 4.5,
@@ -1211,7 +1322,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1241,7 +1354,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.2,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1256,9 +1371,9 @@
       "price_msrp": 99,
       "specs": {
         "brushless": true,
-        "wheel_size": "4-1/2 inch",
         "max_rpm": 9000,
-        "voltage": 18
+        "voltage": 18,
+        "wheel_size": "4-1/2 inch"
       },
       "rating": 4.5,
       "review_count": 360,
@@ -1272,7 +1387,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.1,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1287,8 +1404,8 @@
       "price_msrp": 69,
       "specs": {
         "brushless": false,
-        "pad_size": "5 inch",
         "max_opm": 11000,
+        "pad_size": "5 inch",
         "voltage": 18
       },
       "rating": 4.5,
@@ -1302,8 +1419,10 @@
         "Lifetime Service Agreement"
       ],
       "is_cordless": true,
-      "weight_lbs": 3.0,
-      "retailers": ["homedepot"],
+      "weight_lbs": 3,
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1318,8 +1437,8 @@
       "price_msrp": 149,
       "specs": {
         "brushless": true,
-        "pad_size": "1/4 sheet",
         "max_opm": 12000,
+        "pad_size": "1/4 sheet",
         "voltage": 18
       },
       "rating": 4.4,
@@ -1334,7 +1453,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1365,7 +1486,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.1,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1396,7 +1519,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1426,7 +1551,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.1,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -1458,8 +1585,12 @@
         "22+1 clutch positions"
       ],
       "is_cordless": true,
-      "weight_lbs": 3.0,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "weight_lbs": 3,
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1475,9 +1606,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3400,
         "max_rpm": 3100,
         "max_torque_in_lbs": 1549,
-        "max_ipm": 3400,
         "voltage": 18
       },
       "rating": 4.6,
@@ -1491,8 +1622,12 @@
         "MultiVolt battery compatible"
       ],
       "is_cordless": true,
-      "weight_lbs": 2.0,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "weight_lbs": 2,
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1508,10 +1643,10 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/2 inch",
+        "max_bpm": 33000,
         "max_rpm": 2100,
         "max_torque_in_lbs": 1400,
         "speeds": 2,
-        "max_bpm": 33000,
         "voltage": 36
       },
       "rating": 4.7,
@@ -1526,7 +1661,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1542,8 +1681,8 @@
       "specs": {
         "brushless": true,
         "chuck_type": "SDS-plus",
-        "max_bpm": 4300,
         "impact_energy_ft_lbs": 2.8,
+        "max_bpm": 4300,
         "max_rpm": 1100,
         "voltage": 36
       },
@@ -1559,7 +1698,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1573,12 +1715,12 @@
       "price_current": 169,
       "price_msrp": 199,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 6000,
-        "max_cut_depth": "2-9/16 inch at 90°",
-        "bevel_capacity": "55 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "55 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-9/16 inch at 90°",
+        "max_rpm": 6000,
         "voltage": 36
       },
       "rating": 4.6,
@@ -1593,7 +1735,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.9,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1607,11 +1753,11 @@
       "price_current": 549,
       "price_msrp": 599,
       "specs": {
-        "brushless": true,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 5300,
-        "max_cut_depth": "2-1/2 inch at 90°",
         "bevel_capacity": "45 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": true,
+        "max_cut_depth": "2-1/2 inch at 90°",
+        "max_rpm": 5300,
         "voltage": 36
       },
       "rating": 4.7,
@@ -1626,7 +1772,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.4,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1641,9 +1790,9 @@
       "price_msrp": 229,
       "specs": {
         "brushless": true,
-        "stroke_length": "1-1/4 inch",
         "max_spm": 3000,
         "orbital_action": true,
+        "stroke_length": "1-1/4 inch",
         "voltage": 36
       },
       "rating": 4.6,
@@ -1658,7 +1807,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.5,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1673,8 +1826,8 @@
       "price_msrp": 119,
       "specs": {
         "brushless": true,
-        "stroke_length": "7/8 inch",
         "max_spm": 3000,
+        "stroke_length": "7/8 inch",
         "voltage": 18
       },
       "rating": 4.4,
@@ -1689,7 +1842,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.9,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1703,8 +1859,8 @@
       "price_current": 239,
       "price_msrp": 269,
       "specs": {
-        "brushless": true,
         "blade_size": "5-3/8 inch",
+        "brushless": true,
         "max_rpm": 3700,
         "voltage": 18
       },
@@ -1720,7 +1876,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.2,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1736,8 +1895,8 @@
       "specs": {
         "brushless": false,
         "gauge": 18,
-        "nail_length_range": "5/8 to 2 inch",
         "magazine_capacity": 110,
+        "nail_length_range": "5/8 to 2 inch",
         "nails_per_charge": 700,
         "voltage": 18
       },
@@ -1753,7 +1912,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.2,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1769,9 +1932,9 @@
       "specs": {
         "brushless": true,
         "gauge": "clipped head",
-        "nail_length_range": "2 to 3-1/2 inch",
         "magazine_angle": "21 degrees",
         "magazine_capacity": 64,
+        "nail_length_range": "2 to 3-1/2 inch",
         "voltage": 18
       },
       "rating": 4.7,
@@ -1786,7 +1949,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.5,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1802,8 +1969,8 @@
       "specs": {
         "brushless": false,
         "gauge": 23,
-        "nail_length_range": "5/8 to 1-3/8 inch",
         "magazine_capacity": 120,
+        "nail_length_range": "5/8 to 1-3/8 inch",
         "voltage": 18
       },
       "rating": 4.6,
@@ -1818,7 +1985,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1834,8 +2004,8 @@
       "specs": {
         "brushless": false,
         "gauge": 18,
-        "staple_length_range": "1/2 to 1-1/2 inch",
         "magazine_capacity": 100,
+        "staple_length_range": "1/2 to 1-1/2 inch",
         "voltage": 18
       },
       "rating": 4.5,
@@ -1850,7 +2020,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.4,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1881,7 +2054,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.8,
-      "retailers": ["amazon", "acmetools"],
+      "retailers": [
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -1896,9 +2072,9 @@
       "price_msrp": 149,
       "specs": {
         "brushless": true,
-        "wheel_size": "4-1/2 inch",
         "max_rpm": 10000,
-        "voltage": 36
+        "voltage": 36,
+        "wheel_size": "4-1/2 inch"
       },
       "rating": 4.5,
       "review_count": 100,
@@ -1912,7 +2088,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.1,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1926,8 +2105,8 @@
       "price_current": 199,
       "price_msrp": 229,
       "specs": {
-        "brushless": true,
         "belt_size": "3 x 21 inch",
+        "brushless": true,
         "max_sfpm": 1300,
         "voltage": 36
       },
@@ -1943,7 +2122,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.1,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -1975,7 +2157,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.8,
-      "retailers": ["amazon", "acmetools"],
+      "retailers": [
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -2005,8 +2190,11 @@
         "MultiVolt battery compatible"
       ],
       "is_cordless": true,
-      "weight_lbs": 2.0,
-      "retailers": ["lowes", "amazon"],
+      "weight_lbs": 2,
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2039,7 +2227,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.1,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2072,7 +2264,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2105,7 +2301,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.4,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2121,9 +2320,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3500,
         "max_rpm": 2800,
         "max_torque_in_lbs": 1500,
-        "max_ipm": 3500,
         "voltage": 20
       },
       "rating": 4.6,
@@ -2138,7 +2337,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2154,9 +2357,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3800,
         "max_rpm": 3100,
         "max_torque_in_lbs": 1800,
-        "max_ipm": 3800,
         "voltage": 20
       },
       "rating": 4.7,
@@ -2171,7 +2374,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.7,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2187,9 +2393,9 @@
       "specs": {
         "brushless": true,
         "drive_size": "1/2 inch",
-        "max_torque_ft_lbs": 400,
-        "max_rpm": 2500,
         "max_ipm": 3200,
+        "max_rpm": 2500,
+        "max_torque_ft_lbs": 400,
         "voltage": 20
       },
       "rating": 4.6,
@@ -2204,7 +2410,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.2,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2218,12 +2427,12 @@
       "price_current": 69,
       "price_msrp": 89,
       "specs": {
-        "brushless": false,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 4200,
-        "max_cut_depth": "2-1/16 inch at 90°",
-        "bevel_capacity": "50 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "50 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": false,
+        "max_cut_depth": "2-1/16 inch at 90°",
+        "max_rpm": 4200,
         "voltage": 20
       },
       "rating": 4.4,
@@ -2237,8 +2446,12 @@
         "Lightweight for easy handling"
       ],
       "is_cordless": true,
-      "weight_lbs": 6.0,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "weight_lbs": 6,
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2252,12 +2465,12 @@
       "price_current": 119,
       "price_msrp": 139,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 5500,
-        "max_cut_depth": "2-7/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-7/16 inch at 90°",
+        "max_rpm": 5500,
         "voltage": 20
       },
       "rating": 4.6,
@@ -2272,7 +2485,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.2,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2286,10 +2502,10 @@
       "price_current": 99,
       "price_msrp": 109,
       "specs": {
-        "brushless": true,
-        "blade_size": "4-1/2 inch",
-        "max_rpm": 5000,
         "bevel_capacity": "45 degrees",
+        "blade_size": "4-1/2 inch",
+        "brushless": true,
+        "max_rpm": 5000,
         "voltage": 20
       },
       "rating": 4.4,
@@ -2304,7 +2520,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2319,8 +2538,8 @@
       "price_msrp": 89,
       "specs": {
         "brushless": false,
-        "stroke_length": "7/8 inch",
         "max_spm": 3000,
+        "stroke_length": "7/8 inch",
         "voltage": 20
       },
       "rating": 4.4,
@@ -2335,7 +2554,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.5,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2349,11 +2572,11 @@
       "price_current": 69,
       "price_msrp": 89,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": false,
         "max_spm": 3000,
-        "stroke_length": "3/4 inch",
-        "bevel_capacity": "45 degrees",
         "orbital_settings": 3,
+        "stroke_length": "3/4 inch",
         "voltage": 20
       },
       "rating": 4.4,
@@ -2367,8 +2590,12 @@
         "LED work light"
       ],
       "is_cordless": true,
-      "weight_lbs": 4.0,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "weight_lbs": 4,
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2397,8 +2624,11 @@
         "LED work light"
       ],
       "is_cordless": true,
-      "weight_lbs": 3.0,
-      "retailers": ["lowes", "amazon"],
+      "weight_lbs": 3,
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2413,9 +2643,9 @@
       "price_msrp": 99,
       "specs": {
         "brushless": true,
-        "wheel_size": "4-1/2 inch",
         "max_rpm": 8500,
-        "voltage": 20
+        "voltage": 20,
+        "wheel_size": "4-1/2 inch"
       },
       "rating": 4.5,
       "review_count": 240,
@@ -2429,7 +2659,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2444,8 +2677,8 @@
       "price_msrp": 59,
       "specs": {
         "brushless": false,
-        "pad_size": "5 inch",
         "max_opm": 12000,
+        "pad_size": "5 inch",
         "voltage": 20
       },
       "rating": 4.4,
@@ -2460,7 +2693,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.8,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2476,8 +2713,8 @@
       "specs": {
         "brushless": false,
         "gauge": 18,
-        "nail_length_range": "5/8 to 2 inch",
         "magazine_capacity": 100,
+        "nail_length_range": "5/8 to 2 inch",
         "voltage": 20
       },
       "rating": 4.5,
@@ -2492,7 +2729,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2508,8 +2749,8 @@
       "specs": {
         "brushless": false,
         "gauge": 16,
-        "nail_length_range": "1 to 2-1/2 inch",
         "magazine_capacity": 100,
+        "nail_length_range": "1 to 2-1/2 inch",
         "voltage": 20
       },
       "rating": 4.5,
@@ -2524,7 +2765,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2554,7 +2798,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2585,7 +2832,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2616,7 +2866,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2647,7 +2900,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -2680,7 +2936,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.2,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2696,10 +2954,10 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/2 inch",
+        "max_bpm": 32000,
         "max_rpm": 2000,
         "max_torque_in_lbs": 850,
         "speeds": 2,
-        "max_bpm": 32000,
         "voltage": 24
       },
       "rating": 4.5,
@@ -2714,7 +2972,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.4,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2730,9 +2990,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3800,
         "max_rpm": 3000,
         "max_torque_in_lbs": 2000,
-        "max_ipm": 3800,
         "speeds": 3,
         "voltage": 24
       },
@@ -2748,7 +3008,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2764,8 +3026,8 @@
       "specs": {
         "brushless": true,
         "drive_size": "1/2 inch",
-        "max_torque_ft_lbs": 650,
         "fastening_torque_ft_lbs": 500,
+        "max_torque_ft_lbs": 650,
         "voltage": 24
       },
       "rating": 4.6,
@@ -2780,7 +3042,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2794,11 +3058,11 @@
       "price_current": 129,
       "price_msrp": 129,
       "specs": {
-        "brushless": true,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 5500,
-        "bevel_capacity": "50 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "50 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": true,
+        "max_rpm": 5500,
         "voltage": 24
       },
       "rating": 4.5,
@@ -2813,7 +3077,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.8,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2828,8 +3094,8 @@
       "price_msrp": 129,
       "specs": {
         "brushless": true,
-        "stroke_length": "1-1/4 inch",
         "max_spm": 3200,
+        "stroke_length": "1-1/4 inch",
         "voltage": 24
       },
       "rating": 4.5,
@@ -2844,7 +3110,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.1,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2858,9 +3126,9 @@
       "price_current": 99,
       "price_msrp": 119,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": true,
         "max_spm": 3000,
-        "bevel_capacity": "45 degrees",
         "voltage": 24
       },
       "rating": 4.4,
@@ -2875,7 +3143,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2905,7 +3175,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.3,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2920,9 +3192,9 @@
       "price_msrp": 99,
       "specs": {
         "brushless": true,
-        "wheel_size": "5 inch",
         "max_rpm": 8500,
-        "voltage": 24
+        "voltage": 24,
+        "wheel_size": "5 inch"
       },
       "rating": 4.4,
       "review_count": 170,
@@ -2936,7 +3208,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2951,9 +3225,9 @@
       "price_msrp": 69,
       "specs": {
         "brushless": true,
-        "pad_size": "5 inch",
         "max_opm": 11000,
         "min_opm": 7000,
+        "pad_size": "5 inch",
         "voltage": 24
       },
       "rating": 4.4,
@@ -2968,7 +3242,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.9,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -2982,8 +3258,8 @@
       "price_current": 99,
       "price_msrp": 109,
       "specs": {
-        "brushless": true,
         "belt_size": "3 x 18 inch",
+        "brushless": true,
         "voltage": 24
       },
       "rating": 4.3,
@@ -2998,7 +3274,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.6,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -3029,7 +3307,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -3060,7 +3340,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.2,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -3090,7 +3372,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -3106,8 +3390,8 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/2 inch",
-        "max_rpm": 1800,
         "clutch_positions": 24,
+        "max_rpm": 1800,
         "speeds": 2,
         "voltage": 20
       },
@@ -3123,7 +3407,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3139,8 +3425,8 @@
       "specs": {
         "brushless": false,
         "chuck_size": "1/2 inch",
-        "max_rpm": 1500,
         "clutch_positions": 16,
+        "max_rpm": 1500,
         "speeds": 2,
         "voltage": 20
       },
@@ -3156,7 +3442,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.8,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3172,9 +3460,9 @@
       "specs": {
         "brushless": false,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3400,
         "max_rpm": 2600,
         "max_torque_in_lbs": 1800,
-        "max_ipm": 3400,
         "voltage": 20
       },
       "rating": 4.5,
@@ -3189,7 +3477,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3203,12 +3493,12 @@
       "price_current": 79,
       "price_msrp": 79,
       "specs": {
-        "brushless": false,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 4700,
-        "max_cut_depth": "2-1/16 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": false,
+        "max_cut_depth": "2-1/16 inch at 90°",
+        "max_rpm": 4700,
         "voltage": 20
       },
       "rating": 4.3,
@@ -3222,8 +3512,10 @@
         "24T carbide-tipped blade included"
       ],
       "is_cordless": true,
-      "weight_lbs": 5.0,
-      "retailers": ["walmart"],
+      "weight_lbs": 5,
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3237,12 +3529,12 @@
       "price_current": 129,
       "price_msrp": 129,
       "specs": {
-        "brushless": true,
-        "blade_size": "7-1/4 inch",
-        "max_rpm": 4000,
-        "max_cut_depth": "2-3/8 inch at 90°",
-        "bevel_capacity": "56 degrees",
         "arbor_size": "5/8 inch",
+        "bevel_capacity": "56 degrees",
+        "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-3/8 inch at 90°",
+        "max_rpm": 4000,
         "voltage": 20
       },
       "rating": 4.4,
@@ -3257,7 +3549,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.8,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3272,8 +3566,8 @@
       "price_msrp": 64,
       "specs": {
         "brushless": false,
-        "stroke_length": "7/8 inch",
         "max_spm": 3300,
+        "stroke_length": "7/8 inch",
         "voltage": 20
       },
       "rating": 4.3,
@@ -3288,7 +3582,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.9,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3303,8 +3599,8 @@
       "price_msrp": 129,
       "specs": {
         "brushless": true,
-        "stroke_length": "1-1/4 inch",
         "max_spm": 3200,
+        "stroke_length": "1-1/4 inch",
         "voltage": 20
       },
       "rating": 4.5,
@@ -3318,8 +3614,10 @@
         "LED work light"
       ],
       "is_cordless": true,
-      "weight_lbs": 5.0,
-      "retailers": ["walmart"],
+      "weight_lbs": 5,
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3333,10 +3631,10 @@
       "price_current": 64,
       "price_msrp": 64,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": false,
         "max_spm": 3000,
         "min_spm": 1300,
-        "bevel_capacity": "45 degrees",
         "orbital_settings": 4,
         "voltage": 20
       },
@@ -3352,7 +3650,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.25,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3366,12 +3666,12 @@
       "price_current": 129,
       "price_msrp": 129,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": true,
         "max_spm": 3350,
         "min_spm": 800,
-        "stroke_length": "1 inch",
-        "bevel_capacity": "45 degrees",
         "orbital_settings": 4,
+        "stroke_length": "1 inch",
         "voltage": 20
       },
       "rating": 4.5,
@@ -3386,7 +3686,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.1,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3416,7 +3718,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.65,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3431,9 +3735,9 @@
       "price_msrp": 49,
       "specs": {
         "brushless": false,
-        "wheel_size": "4-1/2 inch",
         "max_rpm": 6500,
-        "voltage": 20
+        "voltage": 20,
+        "wheel_size": "4-1/2 inch"
       },
       "rating": 4.3,
       "review_count": 280,
@@ -3447,7 +3751,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.55,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3461,11 +3767,11 @@
       "price_current": 119,
       "price_msrp": 119,
       "specs": {
-        "brushless": true,
-        "wheel_size": "4-1/2 inch",
-        "max_rpm": 9200,
         "arbor_size": "5/8 inch",
-        "voltage": 20
+        "brushless": true,
+        "max_rpm": 9200,
+        "voltage": 20,
+        "wheel_size": "4-1/2 inch"
       },
       "rating": 4.5,
       "review_count": 70,
@@ -3479,7 +3785,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.92,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3494,8 +3802,8 @@
       "price_msrp": 56,
       "specs": {
         "brushless": false,
-        "pad_size": "5 inch",
         "max_opm": 10000,
+        "pad_size": "5 inch",
         "voltage": 20
       },
       "rating": 4.3,
@@ -3510,7 +3818,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3526,8 +3836,8 @@
       "specs": {
         "brushless": false,
         "gauge": 18,
-        "nail_length_range": "5/8 to 2 inch",
         "magazine_capacity": 105,
+        "nail_length_range": "5/8 to 2 inch",
         "nails_per_charge": 600,
         "voltage": 20
       },
@@ -3542,8 +3852,10 @@
         "Tool-free depth adjustment with 2 no-mar pads"
       ],
       "is_cordless": true,
-      "weight_lbs": 5.0,
-      "retailers": ["walmart"],
+      "weight_lbs": 5,
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3559,9 +3871,9 @@
       "specs": {
         "brushless": false,
         "drive_size": "3/8 inch",
-        "max_torque_ft_lbs": 230,
-        "max_rpm": 2700,
         "max_ipm": 3400,
+        "max_rpm": 2700,
+        "max_torque_ft_lbs": 230,
         "voltage": 20
       },
       "rating": 4.4,
@@ -3576,7 +3888,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.6,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3592,9 +3906,9 @@
       "specs": {
         "brushless": true,
         "drive_size": "1/2 inch",
-        "max_torque_ft_lbs": 600,
-        "max_rpm": 2800,
         "max_ipm": 3200,
+        "max_rpm": 2800,
+        "max_torque_ft_lbs": 600,
         "speeds": 3,
         "voltage": 20
       },
@@ -3610,7 +3924,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.6,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3626,8 +3942,8 @@
       "specs": {
         "brushless": false,
         "drive_size": "3/8 inch",
-        "max_torque_ft_lbs": 35,
         "max_rpm": 230,
+        "max_torque_ft_lbs": 35,
         "voltage": 20
       },
       "rating": 4.3,
@@ -3642,7 +3958,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.9,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3658,8 +3976,8 @@
       "specs": {
         "brushless": false,
         "drive_size": "1/4 inch",
-        "max_torque_ft_lbs": 30,
         "max_rpm": 250,
+        "max_torque_ft_lbs": 30,
         "voltage": 20
       },
       "rating": 4.3,
@@ -3674,7 +3992,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.7,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3705,7 +4025,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.45,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -3719,10 +4041,10 @@
       "price_current": 179,
       "price_msrp": 199,
       "specs": {
-        "brushless": true,
         "blade_width": "3-1/4 inch",
-        "max_rpm": 14000,
+        "brushless": true,
         "cutting_depth": "1/16 inch",
+        "max_rpm": 14000,
         "voltage": 18
       },
       "rating": 4.6,
@@ -3737,7 +4059,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -3752,8 +4077,8 @@
       "price_msrp": 119,
       "specs": {
         "brushless": true,
-        "pad_size": "5 inch",
         "max_opm": 12000,
+        "pad_size": "5 inch",
         "voltage": 18
       },
       "rating": 4.6,
@@ -3768,7 +4093,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.9,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -3782,9 +4110,9 @@
       "price_current": 699,
       "price_msrp": 749,
       "specs": {
+        "accuracy": "1/16 inch at 100 ft",
         "brushless": false,
         "range_ft": 2000,
-        "accuracy": "1/16 inch at 100 ft",
         "self_leveling": true,
         "voltage": 18
       },
@@ -3800,7 +4128,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.4,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -3814,11 +4145,11 @@
       "price_current": 499,
       "price_msrp": 549,
       "specs": {
-        "brushless": true,
         "blade_size": "8-1/4 inch",
+        "brushless": true,
+        "max_cut_depth": "2-9/16 inch at 90°",
         "max_rpm": 5000,
         "rip_capacity": "24-1/2 inch",
-        "max_cut_depth": "2-9/16 inch at 90°",
         "voltage": 18
       },
       "rating": 4.6,
@@ -3833,7 +4164,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 45,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -3847,9 +4181,9 @@
       "price_current": 89,
       "price_msrp": 99,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": true,
         "max_spm": 3000,
-        "bevel_capacity": "45 degrees",
         "orbital_settings": 4,
         "voltage": 18
       },
@@ -3865,7 +4199,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.4,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -3896,7 +4232,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.8,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -3926,7 +4264,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 6.5,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -3956,7 +4296,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.6,
-      "retailers": ["homedepot"],
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -3970,11 +4312,11 @@
       "price_current": 99,
       "price_msrp": 129,
       "specs": {
+        "bevel_capacity": "45 degrees",
         "brushless": true,
         "max_spm": 3000,
-        "stroke_length": "1 inch",
-        "bevel_capacity": "45 degrees",
         "orbital_settings": 4,
+        "stroke_length": "1 inch",
         "voltage": 18
       },
       "rating": 4.5,
@@ -3989,7 +4331,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.6,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4018,8 +4363,11 @@
         "MultiVolt battery compatible"
       ],
       "is_cordless": true,
-      "weight_lbs": 3.0,
-      "retailers": ["lowes", "amazon"],
+      "weight_lbs": 3,
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4034,8 +4382,8 @@
       "price_msrp": 89,
       "specs": {
         "brushless": true,
-        "pad_size": "5 inch",
         "max_opm": 12000,
+        "pad_size": "5 inch",
         "voltage": 18
       },
       "rating": 4.4,
@@ -4050,7 +4398,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.7,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4081,7 +4432,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.3,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4111,7 +4465,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.8,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4141,7 +4499,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 0.7,
-      "retailers": ["lowes", "acehardware", "amazon"],
+      "retailers": [
+        "lowes",
+        "acehardware",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4155,12 +4517,12 @@
       "price_current": 249,
       "price_msrp": 279,
       "specs": {
-        "brushless": true,
+        "bevel_range": "45 degrees left",
         "blade_size": "7-1/4 inch",
+        "brushless": true,
+        "crosscut_capacity": "8 inch",
         "max_rpm": 4800,
         "miter_range": "50 degrees left, 50 degrees right",
-        "bevel_range": "45 degrees left",
-        "crosscut_capacity": "8 inch",
         "voltage": 20
       },
       "rating": 4.4,
@@ -4175,7 +4537,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 28,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4204,7 +4569,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4234,7 +4602,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.3,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4264,7 +4635,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 8.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4294,7 +4667,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 14.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4325,7 +4700,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4339,9 +4716,9 @@
       "price_current": 49,
       "price_msrp": 49,
       "specs": {
-        "wattage": 150,
         "charge_time_4ah": "60 minutes",
-        "voltage": 24
+        "voltage": 24,
+        "wattage": 150
       },
       "rating": 4.5,
       "review_count": 210,
@@ -4355,7 +4732,9 @@
       ],
       "is_cordless": false,
       "weight_lbs": 1.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4387,7 +4766,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 3.2,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4403,9 +4784,9 @@
       "specs": {
         "brushless": true,
         "chuck_size": "1/4 inch hex",
+        "max_ipm": 3600,
         "max_rpm": 3200,
         "max_torque_in_lbs": 2150,
-        "max_ipm": 3600,
         "speeds": 3,
         "voltage": 20
       },
@@ -4421,7 +4802,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 2.5,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4451,7 +4834,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.8,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4465,8 +4850,8 @@
       "price_current": 59,
       "price_msrp": 69,
       "specs": {
-        "brushless": false,
         "ac_outlet": true,
+        "brushless": false,
         "usb_ports": 2,
         "voltage": 20
       },
@@ -4482,7 +4867,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 1.2,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4498,8 +4885,8 @@
       "specs": {
         "brushless": false,
         "gauge": 16,
-        "nail_length_range": "1 to 2-1/2 inch",
         "magazine_capacity": 110,
+        "nail_length_range": "1 to 2-1/2 inch",
         "voltage": 18
       },
       "rating": 4.6,
@@ -4514,7 +4901,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4530,8 +4920,8 @@
       "specs": {
         "brushless": false,
         "gauge": 18,
-        "nail_length_range": "5/8 to 2-1/8 inch",
         "magazine_capacity": 100,
+        "nail_length_range": "5/8 to 2-1/8 inch",
         "voltage": 18
       },
       "rating": 4.5,
@@ -4546,7 +4936,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.6,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4560,11 +4953,11 @@
       "price_current": 199,
       "price_msrp": 229,
       "specs": {
-        "brushless": true,
-        "blade_size": "6-1/2 inch",
-        "max_rpm": 5000,
-        "max_cut_depth": "2-1/8 inch at 90°",
         "bevel_capacity": "47 degrees",
+        "blade_size": "6-1/2 inch",
+        "brushless": true,
+        "max_cut_depth": "2-1/8 inch at 90°",
+        "max_rpm": 5000,
         "voltage": 18
       },
       "rating": 4.6,
@@ -4578,8 +4971,10 @@
         "Lifetime Service Agreement"
       ],
       "is_cordless": true,
-      "weight_lbs": 8.0,
-      "retailers": ["homedepot"],
+      "weight_lbs": 8,
+      "retailers": [
+        "homedepot"
+      ],
       "image_url": ""
     },
     {
@@ -4595,9 +4990,9 @@
       "specs": {
         "brushless": false,
         "gauge": "full-round-head",
-        "nail_length_range": "2 to 3-1/2 inch",
         "magazine_angle": "21 degrees",
         "magazine_capacity": 55,
+        "nail_length_range": "2 to 3-1/2 inch",
         "voltage": 20
       },
       "rating": 4.4,
@@ -4612,7 +5007,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.8,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4643,7 +5041,10 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.2,
-      "retailers": ["lowes", "amazon"],
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     },
     {
@@ -4673,8 +5074,10 @@
         "Compact storage"
       ],
       "is_cordless": true,
-      "weight_lbs": 4.0,
-      "retailers": ["walmart"],
+      "weight_lbs": 4,
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4705,7 +5108,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.5,
-      "retailers": ["walmart"],
+      "retailers": [
+        "walmart"
+      ],
       "image_url": ""
     },
     {
@@ -4736,7 +5141,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 4.8,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4767,7 +5174,9 @@
       ],
       "is_cordless": true,
       "weight_lbs": 5.5,
-      "retailers": ["lowes"],
+      "retailers": [
+        "lowes"
+      ],
       "image_url": ""
     },
     {
@@ -4783,9 +5192,9 @@
       "specs": {
         "brushless": true,
         "gauge": "clipped head",
-        "nail_length_range": "2 to 3-1/2 inch",
         "magazine_angle": "30 degrees",
         "magazine_capacity": 64,
+        "nail_length_range": "2 to 3-1/2 inch",
         "voltage": 18
       },
       "rating": 4.7,
@@ -4800,7 +5209,11 @@
       ],
       "is_cordless": true,
       "weight_lbs": 7.7,
-      "retailers": ["lowes", "amazon", "acmetools"],
+      "retailers": [
+        "lowes",
+        "amazon",
+        "acmetools"
+      ],
       "image_url": ""
     },
     {
@@ -4814,8 +5227,8 @@
       "price_current": 79,
       "price_msrp": 99,
       "specs": {
-        "brushless": false,
         "bluetooth": true,
+        "brushless": false,
         "voltage": 18
       },
       "rating": 4.3,
@@ -4829,8 +5242,11 @@
         "AUX input for wired connection"
       ],
       "is_cordless": true,
-      "weight_lbs": 7.0,
-      "retailers": ["lowes", "amazon"],
+      "weight_lbs": 7,
+      "retailers": [
+        "lowes",
+        "amazon"
+      ],
       "image_url": ""
     }
   ]

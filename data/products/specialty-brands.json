@@ -11,12 +11,12 @@
     "price_msrp": 393,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_type": "SDS-Plus",
-      "max_drilling_diameter_in": 1.0,
       "impact_energy_ft_lbs": 2.1,
+      "max_drilling_diameter_in": 1,
       "max_rpm": 1100,
-      "vibration_reduction": true
+      "vibration_reduction": true,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 420,
@@ -49,11 +49,11 @@
     "price_msrp": 329,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_type": "SDS-Plus",
-      "max_drilling_diameter_in": 0.63,
       "impact_energy_ft_lbs": 1.3,
-      "max_rpm": 1300
+      "max_drilling_diameter_in": 0.63,
+      "max_rpm": 1300,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 310,
@@ -84,12 +84,12 @@
     "price_msrp": 549,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_type": "SDS-Plus",
+      "impact_energy_ft_lbs": 3,
       "max_drilling_diameter_in": 1.25,
-      "impact_energy_ft_lbs": 3.0,
       "max_rpm": 900,
-      "vibration_reduction": true
+      "vibration_reduction": true,
+      "voltage": 22
     },
     "rating": 4.8,
     "review_count": 180,
@@ -121,12 +121,12 @@
     "price_msrp": 718,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_type": "SDS-Max",
-      "max_drilling_diameter_in": 1.5,
       "impact_energy_ft_lbs": 4.9,
+      "max_drilling_diameter_in": 1.5,
       "max_rpm": 600,
-      "vibration_reduction": true
+      "vibration_reduction": true,
+      "voltage": 22
     },
     "rating": 4.8,
     "review_count": 95,
@@ -157,12 +157,12 @@
     "price_current": 1165,
     "price_msrp": 1165,
     "specs": {
+      "bpm": 2040,
       "brushless": true,
-      "voltage": 22,
       "chuck_type": "SDS-Max",
       "impact_energy_ft_lbs": 8.2,
-      "bpm": 2040,
-      "vibration_reduction": true
+      "vibration_reduction": true,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 45,
@@ -194,10 +194,10 @@
     "price_msrp": 249,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_size_in": 0.5,
       "max_rpm": 2150,
-      "max_torque_in_lbs": 920
+      "max_torque_in_lbs": 920,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 380,
@@ -229,11 +229,11 @@
     "price_msrp": 169,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "drive_size": "1/4\" hex",
+      "max_ipm": 4200,
       "max_rpm": 3400,
       "max_torque_in_lbs": 1800,
-      "max_ipm": 4200
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 520,
@@ -265,11 +265,11 @@
     "price_msrp": 355,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "drive_size": "1/2\" sq",
-      "max_torque_ft_lbs": 590,
+      "max_ipm": 3200,
       "max_rpm": 2400,
-      "max_ipm": 3200
+      "max_torque_ft_lbs": 590,
+      "voltage": 22
     },
     "rating": 4.8,
     "review_count": 260,
@@ -301,10 +301,10 @@
     "price_msrp": 334,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "drive_size": "1/2\" sq",
+      "max_rpm": 1900,
       "max_torque_ft_lbs": 1182,
-      "max_rpm": 1900
+      "voltage": 22
     },
     "rating": 4.8,
     "review_count": 190,
@@ -336,10 +336,10 @@
     "price_msrp": 420,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "drive_size": "3/4\" sq",
+      "max_rpm": 1700,
       "max_torque_ft_lbs": 1475,
-      "max_rpm": 1700
+      "voltage": 22
     },
     "rating": 4.8,
     "review_count": 75,
@@ -371,10 +371,10 @@
     "price_msrp": 319,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "disc_size_in": 6,
       "max_rpm": 8500,
-      "no_load_speed": 8500
+      "no_load_speed": 8500,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 210,
@@ -406,10 +406,10 @@
     "price_msrp": 229,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "disc_size_in": 5,
       "max_rpm": 9500,
-      "no_load_speed": 9500
+      "no_load_speed": 9500,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 340,
@@ -440,11 +440,11 @@
     "price_current": 349,
     "price_msrp": 349,
     "specs": {
-      "brushless": true,
-      "voltage": 22,
       "blade_size_in": 6.5,
+      "brushless": true,
+      "cutting_depth_in": 2.25,
       "max_rpm": 4500,
-      "cutting_depth_in": 2.25
+      "voltage": 22
     },
     "rating": 4.6,
     "review_count": 150,
@@ -475,11 +475,11 @@
     "price_current": 899,
     "price_msrp": 899,
     "specs": {
-      "brushless": true,
-      "voltage": 22,
       "blade_size_in": 10,
+      "brushless": true,
+      "cutting_depth_90_in": 3.25,
       "max_rpm": 4000,
-      "cutting_depth_90_in": 3.25
+      "voltage": 22
     },
     "rating": 4.6,
     "review_count": 35,
@@ -492,7 +492,7 @@
       "Nuron connectivity"
     ],
     "is_cordless": true,
-    "weight_lbs": 52.0,
+    "weight_lbs": 52,
     "retailers": [
       "hilti-direct",
       "homedepot"
@@ -511,9 +511,9 @@
     "price_msrp": 279,
     "specs": {
       "brushless": true,
-      "voltage": 22,
+      "max_spm": 3000,
       "stroke_length_in": 1.25,
-      "max_spm": 3000
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 185,
@@ -545,9 +545,9 @@
     "price_msrp": 236,
     "specs": {
       "brushless": true,
-      "voltage": 22,
+      "drive_size": "1/4\" hex",
       "max_rpm": 5000,
-      "drive_size": "1/4\" hex"
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 220,
@@ -578,10 +578,10 @@
     "price_current": 1295,
     "price_msrp": 1295,
     "specs": {
-      "power_source": "powder-cartridge",
+      "automatic": true,
       "fastener_length_max_in": 2.75,
       "magazine_capacity": 10,
-      "automatic": true
+      "power_source": "powder-cartridge"
     },
     "rating": 4.8,
     "review_count": 160,
@@ -611,9 +611,9 @@
     "price_current": 169,
     "price_msrp": 169,
     "specs": {
-      "voltage": 22,
+      "beam_type": "flood",
       "lumens": 3000,
-      "beam_type": "flood"
+      "voltage": 22
     },
     "rating": 4.6,
     "review_count": 120,
@@ -645,10 +645,10 @@
     "price_msrp": 199,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "chuck_size_in": 0.5,
       "max_rpm": 1800,
-      "max_torque_in_lbs": 650
+      "max_torque_in_lbs": 650,
+      "voltage": 22
     },
     "rating": 4.6,
     "review_count": 290,
@@ -680,10 +680,10 @@
     "price_msrp": 289,
     "specs": {
       "brushless": true,
-      "voltage": 22,
       "drive_size": "1/2\" sq",
+      "max_rpm": 2200,
       "max_torque_ft_lbs": 442,
-      "max_rpm": 2200
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 165,
@@ -714,13 +714,13 @@
     "price_current": 559,
     "price_msrp": 559,
     "specs": {
-      "brushless": true,
-      "voltage": 18,
       "blade_size_in": 6.25,
-      "max_rpm": 5200,
-      "cutting_depth_90_in": 2.13,
+      "brushless": true,
       "cutting_depth_45_in": 1.5,
-      "kerf_in": 0.063
+      "cutting_depth_90_in": 2.13,
+      "kerf_in": 0.063,
+      "max_rpm": 5200,
+      "voltage": 18
     },
     "rating": 4.9,
     "review_count": 850,
@@ -754,12 +754,12 @@
     "price_current": 575,
     "price_msrp": 575,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 10.7,
       "blade_size_in": 6.25,
+      "brushless": false,
+      "cutting_depth_90_in": 2.19,
       "max_rpm": 6500,
-      "cutting_depth_90_in": 2.19
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 2100,
@@ -773,7 +773,7 @@
       "Compatible with guide rails"
     ],
     "is_cordless": false,
-    "weight_lbs": 10.0,
+    "weight_lbs": 10,
     "retailers": [
       "festool-direct",
       "rockler",
@@ -794,11 +794,11 @@
     "price_msrp": 310,
     "specs": {
       "brushless": true,
-      "voltage": 18,
-      "pad_size_in": 5,
-      "orbit_size_mm": 2.5,
+      "dust_extraction": true,
       "max_rpm": 10000,
-      "dust_extraction": true
+      "orbit_size_mm": 2.5,
+      "pad_size_in": 5,
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 620,
@@ -832,11 +832,11 @@
     "price_msrp": 300,
     "specs": {
       "brushless": true,
-      "voltage": 18,
-      "pad_type": "delta/triangular",
-      "orbit_size_mm": 1.5,
+      "dust_extraction": true,
       "max_rpm": 10000,
-      "dust_extraction": true
+      "orbit_size_mm": 1.5,
+      "pad_type": "delta/triangular",
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 280,
@@ -869,13 +869,13 @@
     "price_current": 730,
     "price_msrp": 730,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 6.3,
-      "pad_size_in": 6,
+      "brushless": false,
+      "dust_extraction": true,
       "max_rpm": 10000,
       "modes": 3,
-      "dust_extraction": true
+      "pad_size_in": 6,
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 1200,
@@ -909,13 +909,13 @@
     "price_current": 370,
     "price_msrp": 370,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 3.3,
-      "pad_size_in": 6,
-      "orbit_size_mm": 3,
+      "brushless": false,
+      "dust_extraction": true,
       "max_rpm": 10000,
-      "dust_extraction": true
+      "orbit_size_mm": 3,
+      "pad_size_in": 6,
+      "voltage": 120
     },
     "rating": 4.8,
     "review_count": 890,
@@ -948,12 +948,15 @@
     "price_current": 559,
     "price_msrp": 559,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 8.2,
+      "brushless": false,
+      "collet_sizes": [
+        "1/4\"",
+        "8mm"
+      ],
       "max_rpm": 27000,
-      "collet_sizes": ["1/4\"", "8mm"],
-      "plunge_depth_in": 2.17
+      "plunge_depth_in": 2.17,
+      "voltage": 120
     },
     "rating": 4.8,
     "review_count": 650,
@@ -987,12 +990,16 @@
     "price_current": 665,
     "price_msrp": 665,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 10.6,
+      "brushless": false,
+      "collet_sizes": [
+        "1/4\"",
+        "1/2\"",
+        "8mm"
+      ],
       "max_rpm": 22500,
-      "collet_sizes": ["1/4\"", "1/2\"", "8mm"],
-      "plunge_depth_in": 2.76
+      "plunge_depth_in": 2.76,
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 520,
@@ -1026,12 +1033,18 @@
     "price_current": 1129,
     "price_msrp": 1129,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 5.6,
+      "brushless": false,
+      "max_depth_mm": 28,
       "max_rpm": 25500,
-      "tenon_sizes_mm": [4, 5, 6, 8, 10],
-      "max_depth_mm": 28
+      "tenon_sizes_mm": [
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 1800,
@@ -1066,10 +1079,16 @@
     "price_msrp": 1399,
     "specs": {
       "brushless": true,
-      "voltage": 18,
+      "max_depth_mm": 28,
       "max_rpm": 25500,
-      "tenon_sizes_mm": [4, 5, 6, 8, 10],
-      "max_depth_mm": 28
+      "tenon_sizes_mm": [
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "voltage": 18
     },
     "rating": 4.9,
     "review_count": 45,
@@ -1103,11 +1122,11 @@
     "price_msrp": 425,
     "specs": {
       "brushless": true,
-      "voltage": 18,
-      "max_spm": 3800,
-      "stroke_length_in": 1.0,
+      "cutting_depth_metal_in": 0.39,
       "cutting_depth_wood_in": 4.75,
-      "cutting_depth_metal_in": 0.39
+      "max_spm": 3800,
+      "stroke_length_in": 1,
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 480,
@@ -1142,11 +1161,11 @@
     "price_msrp": 499,
     "specs": {
       "brushless": true,
-      "voltage": 18,
       "chuck_size_in": 0.5,
+      "gear_speeds": 2,
       "max_rpm": 1800,
       "max_torque_in_lbs": 620,
-      "gear_speeds": 2
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 590,
@@ -1181,11 +1200,11 @@
     "price_msrp": 385,
     "specs": {
       "brushless": true,
-      "voltage": 18,
       "drive_size": "1/4\" hex",
+      "max_ipm": 4300,
       "max_rpm": 3600,
       "max_torque_in_lbs": 1475,
-      "max_ipm": 4300
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 310,
@@ -1219,10 +1238,10 @@
     "price_msrp": 345,
     "specs": {
       "brushless": true,
-      "voltage": 18,
       "chuck_size_in": 0.375,
       "max_rpm": 1400,
-      "max_torque_in_lbs": 177
+      "max_torque_in_lbs": 177,
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 440,
@@ -1255,12 +1274,12 @@
     "price_current": 550,
     "price_msrp": 550,
     "specs": {
-      "voltage": 120,
       "amps": 8.3,
       "container_gal": 3.96,
-      "suction_cfm": 130,
+      "hepa": false,
       "static_pressure_in": 85,
-      "hepa": false
+      "suction_cfm": 130,
+      "voltage": 120
     },
     "rating": 4.8,
     "review_count": 1400,
@@ -1294,12 +1313,12 @@
     "price_current": 729,
     "price_msrp": 729,
     "specs": {
+      "battery_config": "dual 18V",
       "brushless": true,
-      "voltage": 36,
       "container_gal": 3.96,
-      "suction_cfm": 109,
       "static_pressure_in": 76,
-      "battery_config": "dual 18V"
+      "suction_cfm": 109,
+      "voltage": 36
     },
     "rating": 4.8,
     "review_count": 180,
@@ -1332,13 +1351,13 @@
     "price_current": 1799,
     "price_msrp": 1799,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 13.5,
+      "bevel_range_deg": 47,
       "blade_size_in": 10.25,
-      "max_rpm": 4200,
+      "brushless": false,
       "crosscut_capacity_90_in": 12.5,
-      "bevel_range_deg": 47
+      "max_rpm": 4200,
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 680,
@@ -1373,10 +1392,10 @@
     "price_msrp": 475,
     "specs": {
       "brushless": true,
-      "voltage": 18,
-      "planing_width_mm": 82,
       "max_depth_mm": 3.5,
-      "max_rpm": 14000
+      "max_rpm": 14000,
+      "planing_width_mm": 82,
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 55,
@@ -1409,9 +1428,12 @@
     "price_msrp": 399,
     "specs": {
       "brushless": true,
-      "voltage": 18,
+      "collet_sizes": [
+        "1/4\"",
+        "8mm"
+      ],
       "max_rpm": 26000,
-      "collet_sizes": ["1/4\"", "8mm"]
+      "voltage": 18
     },
     "rating": 4.7,
     "review_count": 65,
@@ -1444,12 +1466,12 @@
     "price_msrp": 340,
     "specs": {
       "brushless": true,
-      "voltage": 18,
-      "pad_size_in": 5,
-      "orbit_size_mm": 2.5,
-      "max_rpm": 10000,
       "dust_extraction": true,
-      "led_ring": true
+      "led_ring": true,
+      "max_rpm": 10000,
+      "orbit_size_mm": 2.5,
+      "pad_size_in": 5,
+      "voltage": 18
     },
     "rating": 4.8,
     "review_count": 90,
@@ -1481,12 +1503,12 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
+      "battery_ah": 3,
       "brushless": true,
-      "voltage": 12,
-      "battery_ah": 3.0,
       "max_rpm": 35000,
       "min_rpm": 5000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 12
     },
     "rating": 4.7,
     "review_count": 2800,
@@ -1519,12 +1541,12 @@
     "price_current": 99,
     "price_msrp": 99,
     "specs": {
+      "battery_ah": 2,
       "brushless": false,
-      "voltage": 12,
-      "battery_ah": 2.0,
       "max_rpm": 35000,
       "min_rpm": 5000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 12
     },
     "rating": 4.6,
     "review_count": 1900,
@@ -1556,13 +1578,13 @@
     "price_current": 89,
     "price_msrp": 89,
     "specs": {
+      "battery_ah": 2,
       "brushless": true,
-      "voltage": 8,
-      "battery_ah": 2.0,
+      "charging": "USB-C",
       "max_rpm": 30000,
       "min_rpm": 5000,
       "variable_speed": true,
-      "charging": "USB-C"
+      "voltage": 8
     },
     "rating": 4.6,
     "review_count": 450,
@@ -1594,12 +1616,12 @@
     "price_current": 99,
     "price_msrp": 99,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 1.8,
+      "brushless": false,
       "max_rpm": 35000,
       "min_rpm": 5000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 120
     },
     "rating": 4.8,
     "review_count": 5200,
@@ -1632,12 +1654,12 @@
     "price_current": 59,
     "price_msrp": 59,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 1.2,
+      "brushless": false,
       "max_rpm": 32000,
       "min_rpm": 5000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 120
     },
     "rating": 4.7,
     "review_count": 8900,
@@ -1669,12 +1691,12 @@
     "price_current": 39,
     "price_msrp": 39,
     "specs": {
+      "battery_ah": 2,
       "brushless": false,
-      "voltage": 4,
-      "battery_ah": 2.0,
       "max_rpm": 25000,
       "min_rpm": 8000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 4
     },
     "rating": 4.5,
     "review_count": 3200,
@@ -1706,12 +1728,12 @@
     "price_current": 129,
     "price_msrp": 129,
     "specs": {
+      "amps": 5,
       "brushless": false,
-      "voltage": 120,
-      "amps": 5.0,
       "max_opm": 21000,
       "min_opm": 10000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 120
     },
     "rating": 4.6,
     "review_count": 1100,
@@ -1743,11 +1765,11 @@
     "price_current": 99,
     "price_msrp": 99,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 7.5,
       "blade_size_in": 4,
-      "max_rpm": 15000
+      "brushless": false,
+      "max_rpm": 15000,
+      "voltage": 120
     },
     "rating": 4.4,
     "review_count": 780,
@@ -1779,12 +1801,12 @@
     "price_current": 89,
     "price_msrp": 89,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
-      "amps": 6.0,
+      "amps": 6,
       "blade_size_in": 3.375,
+      "brushless": false,
       "max_rpm": 17000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 120
     },
     "rating": 4.3,
     "review_count": 1500,
@@ -1816,12 +1838,12 @@
     "price_current": 49,
     "price_msrp": 49,
     "specs": {
-      "brushless": false,
-      "voltage": 120,
       "amps": 0.5,
+      "brushless": false,
       "max_rpm": 22000,
       "min_rpm": 5000,
-      "variable_speed": true
+      "variable_speed": true,
+      "voltage": 120
     },
     "rating": 4.6,
     "review_count": 2100,
@@ -1853,10 +1875,10 @@
     "price_current": 49,
     "price_msrp": 49,
     "specs": {
+      "burn_time_min": 75,
       "fuel_type": "butane",
-      "max_temp_f": 2192,
       "ignition": "self-lighting",
-      "burn_time_min": 75
+      "max_temp_f": 2192
     },
     "rating": 4.4,
     "review_count": 680,
@@ -1888,10 +1910,10 @@
     "price_current": 42,
     "price_msrp": 42,
     "specs": {
-      "length_in": 9.38,
-      "jaw_type": "cross-hatched",
       "cutting_capacity": "ACSR, screws, nails, hard wire",
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_type": "cross-hatched",
+      "length_in": 9.38
     },
     "rating": 4.8,
     "review_count": 4200,
@@ -1924,9 +1946,9 @@
     "price_current": 30,
     "price_msrp": 30,
     "specs": {
-      "length_in": 8.19,
+      "handle_type": "dip-coated",
       "jaw_type": "long nose with side cutter",
-      "handle_type": "dip-coated"
+      "length_in": 8.19
     },
     "rating": 4.8,
     "review_count": 3100,
@@ -1959,10 +1981,10 @@
     "price_current": 21,
     "price_msrp": 21,
     "specs": {
+      "handle_type": "curved",
       "length_in": 7.13,
       "strip_range_solid_awg": "10-18",
-      "strip_range_stranded_awg": "12-20",
-      "handle_type": "curved"
+      "strip_range_stranded_awg": "12-20"
     },
     "rating": 4.8,
     "review_count": 5800,
@@ -1995,10 +2017,10 @@
     "price_current": 35,
     "price_msrp": 35,
     "specs": {
-      "length_in": 8.0,
+      "length_in": 8,
+      "self_adjusting": true,
       "strip_range_solid_awg": "10-20",
-      "strip_range_stranded_awg": "12-22",
-      "self_adjusting": true
+      "strip_range_stranded_awg": "12-22"
     },
     "rating": 4.7,
     "review_count": 2400,
@@ -2031,12 +2053,12 @@
     "price_msrp": 120,
     "specs": {
       "ac_current_range_a": 600,
-      "dc_current_range_a": 600,
-      "voltage_range_v": 1000,
-      "trms": true,
-      "cat_rating": "CAT IV 600V",
       "auto_ranging": true,
-      "ncvt": true
+      "cat_rating": "CAT IV 600V",
+      "dc_current_range_a": 600,
+      "ncvt": true,
+      "trms": true,
+      "voltage_range_v": 1000
     },
     "rating": 4.7,
     "review_count": 3500,
@@ -2069,11 +2091,11 @@
     "price_current": 65,
     "price_msrp": 65,
     "specs": {
-      "voltage_range_v": 1000,
-      "trms": true,
-      "cat_rating": "CAT IV 600V",
       "auto_ranging": true,
-      "temperature": true
+      "cat_rating": "CAT IV 600V",
+      "temperature": true,
+      "trms": true,
+      "voltage_range_v": 1000
     },
     "rating": 4.7,
     "review_count": 4600,
@@ -2106,10 +2128,10 @@
     "price_current": 30,
     "price_msrp": 30,
     "specs": {
-      "voltage_range_low": "12-1000V AC",
-      "voltage_range_high": "70-1000V AC",
+      "cat_rating": "CAT IV",
       "flashlight": true,
-      "cat_rating": "CAT IV"
+      "voltage_range_high": "70-1000V AC",
+      "voltage_range_low": "12-1000V AC"
     },
     "rating": 4.7,
     "review_count": 5100,
@@ -2143,9 +2165,9 @@
     "price_msrp": 85,
     "specs": {
       "length_ft": 65,
-      "width_in": 0.125,
+      "markings": "laser-etched every foot",
       "material": "spring steel",
-      "markings": "laser-etched every foot"
+      "width_in": 0.125
     },
     "rating": 4.7,
     "review_count": 1800,
@@ -2178,11 +2200,11 @@
     "price_msrp": 259,
     "specs": {
       "brushless": true,
-      "voltage": 20,
       "drive_size": "1/4\" hex",
-      "max_torque_ft_lbs": 134,
+      "max_ipm": 3200,
       "max_rpm": 2600,
-      "max_ipm": 3200
+      "max_torque_ft_lbs": 134,
+      "voltage": 20
     },
     "rating": 4.5,
     "review_count": 280,
@@ -2215,10 +2237,10 @@
     "price_msrp": 279,
     "specs": {
       "brushless": true,
-      "voltage": 20,
       "drive_size": "1/2\" detent pin",
+      "max_rpm": 2500,
       "max_torque_ft_lbs": 300,
-      "max_rpm": 2500
+      "voltage": 20
     },
     "rating": 4.5,
     "review_count": 190,
@@ -2251,10 +2273,10 @@
     "price_msrp": 399,
     "specs": {
       "brushless": true,
-      "voltage": 20,
       "drive_size": "7/16\" hex",
+      "head_angle_deg": 90,
       "max_torque_ft_lbs": 350,
-      "head_angle_deg": 90
+      "voltage": 20
     },
     "rating": 4.6,
     "review_count": 95,
@@ -2286,10 +2308,10 @@
     "price_current": 899,
     "price_msrp": 899,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 2,
       "cutting_capacity_ehs": "3/4\" EHS Guy Strand",
       "jaw_type": "closed",
-      "battery_ah": 2.0
+      "voltage": 20
     },
     "rating": 4.7,
     "review_count": 110,
@@ -2320,10 +2342,10 @@
     "price_current": 1199,
     "price_msrp": 1199,
     "specs": {
-      "voltage": 20,
+      "battery_ah": 4,
       "crimping_force_tons": 7,
-      "battery_ah": 4.0,
-      "die_type": "BG Die/D3 Groove"
+      "die_type": "BG Die/D3 Groove",
+      "voltage": 20
     },
     "rating": 4.7,
     "review_count": 85,
@@ -2355,8 +2377,13 @@
     "price_msrp": 22,
     "specs": {
       "bits_included": 11,
-      "tip_types": ["Phillips #1, #2", "Slotted 3/16, 1/4", "Square #1, #2", "Nut 1/4, 5/16, 3/8"],
-      "length_in": 8.5
+      "length_in": 8.5,
+      "tip_types": [
+        "Phillips #1, #2",
+        "Slotted 3/16, 1/4",
+        "Square #1, #2",
+        "Nut 1/4, 5/16, 3/8"
+      ]
     },
     "rating": 4.8,
     "review_count": 6200,
@@ -2389,10 +2416,10 @@
     "price_current": 95,
     "price_msrp": 95,
     "specs": {
-      "pockets": 39,
-      "material": "1680d ballistic weave",
+      "hard_bottom": true,
       "laptop_pocket": true,
-      "hard_bottom": true
+      "material": "1680d ballistic weave",
+      "pockets": 39
     },
     "rating": 4.7,
     "review_count": 2800,
@@ -2425,11 +2452,11 @@
     "price_current": 34,
     "price_msrp": 34,
     "specs": {
-      "length_in": 10,
-      "length_mm": 250,
-      "jaw_capacity_in": 1.77,
       "adjustment_positions": 25,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_capacity_in": 1.77,
+      "length_in": 10,
+      "length_mm": 250
     },
     "rating": 4.9,
     "review_count": 12000,
@@ -2463,11 +2490,11 @@
     "price_current": 42,
     "price_msrp": 42,
     "specs": {
-      "length_in": 12,
-      "length_mm": 300,
-      "jaw_capacity_in": 2.75,
       "adjustment_positions": 30,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_capacity_in": 2.75,
+      "length_in": 12,
+      "length_mm": 300
     },
     "rating": 4.9,
     "review_count": 6500,
@@ -2500,11 +2527,11 @@
     "price_current": 58,
     "price_msrp": 58,
     "specs": {
-      "length_in": 10,
-      "length_mm": 250,
-      "jaw_capacity_in": 1.77,
       "adjustment_positions": 19,
-      "jaw_type": "smooth parallel"
+      "jaw_capacity_in": 1.77,
+      "jaw_type": "smooth parallel",
+      "length_in": 10,
+      "length_mm": 250
     },
     "rating": 4.9,
     "review_count": 8900,
@@ -2538,12 +2565,12 @@
     "price_current": 68,
     "price_msrp": 68,
     "specs": {
-      "length_in": 10,
-      "length_mm": 250,
-      "jaw_capacity_in": 1.77,
       "adjustment_positions": 19,
+      "finish": "chrome",
+      "jaw_capacity_in": 1.77,
       "jaw_type": "smooth parallel",
-      "finish": "chrome"
+      "length_in": 10,
+      "length_mm": 250
     },
     "rating": 4.9,
     "review_count": 4200,
@@ -2575,12 +2602,12 @@
     "price_current": 32,
     "price_msrp": 32,
     "specs": {
-      "length_in": 10,
-      "length_mm": 250,
       "cutting_capacity_hard_wire_mm": 3.6,
       "cutting_capacity_medium_wire_mm": 4.8,
       "cutting_capacity_soft_wire_mm": 6.2,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "length_in": 10,
+      "length_mm": 250
     },
     "rating": 4.9,
     "review_count": 5600,
@@ -2593,7 +2620,7 @@
       "German-made"
     ],
     "is_cordless": false,
-    "weight_lbs": 0.70,
+    "weight_lbs": 0.7,
     "retailers": [
       "homedepot",
       "lowes",
@@ -2613,11 +2640,11 @@
     "price_current": 28,
     "price_msrp": 28,
     "specs": {
-      "length_in": 8,
-      "length_mm": 200,
-      "jaw_type": "half-round needle nose",
       "cutting_edges": true,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_type": "half-round needle nose",
+      "length_in": 8,
+      "length_mm": 200
     },
     "rating": 4.8,
     "review_count": 3200,
@@ -2650,11 +2677,11 @@
     "price_current": 25,
     "price_msrp": 25,
     "specs": {
-      "length_in": 8,
-      "length_mm": 200,
-      "jaw_type": "gripping + cutting",
       "cutting_edges": true,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_type": "gripping + cutting",
+      "length_in": 8,
+      "length_mm": 200
     },
     "rating": 4.8,
     "review_count": 2900,
@@ -2686,12 +2713,12 @@
     "price_current": 23,
     "price_msrp": 23,
     "specs": {
-      "length_in": 8,
-      "length_mm": 200,
-      "cutting_capacity_hard_wire_mm": 3.0,
-      "cutting_capacity_medium_wire_mm": 4.0,
+      "cutting_capacity_hard_wire_mm": 3,
+      "cutting_capacity_medium_wire_mm": 4,
       "cutting_capacity_soft_wire_mm": 5.4,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "length_in": 8,
+      "length_mm": 200
     },
     "rating": 4.8,
     "review_count": 4100,
@@ -2724,12 +2751,12 @@
     "price_current": 42,
     "price_msrp": 42,
     "specs": {
-      "length_in": 8,
-      "length_mm": 200,
-      "cutting_capacity_hard_wire_mm": 4.0,
+      "cutting_capacity_hard_wire_mm": 4,
       "cutting_capacity_medium_wire_mm": 5.5,
       "force_amplification": "39x",
-      "joint_type": "patented double-joint"
+      "joint_type": "patented double-joint",
+      "length_in": 8,
+      "length_mm": 200
     },
     "rating": 4.8,
     "review_count": 1800,
@@ -2760,11 +2787,11 @@
     "price_current": 35,
     "price_msrp": 35,
     "specs": {
-      "length_in": 5,
-      "length_mm": 125,
+      "cutting_capacity_medium_wire_mm": 1,
       "cutting_capacity_soft_wire_mm": 1.6,
-      "cutting_capacity_medium_wire_mm": 1.0,
-      "jaw_type": "micro-head flush cut"
+      "jaw_type": "micro-head flush cut",
+      "length_in": 5,
+      "length_mm": 125
     },
     "rating": 4.9,
     "review_count": 7200,
@@ -2796,9 +2823,14 @@
     "price_current": 115,
     "price_msrp": 115,
     "specs": {
-      "pieces": 4,
-      "included": ["87 01 250 Cobra", "86 01 250 Pliers Wrench", "74 01 250 Diagonal Cutter", "26 11 200 Needle Nose"],
-      "foam_insert": true
+      "foam_insert": true,
+      "included": [
+        "87 01 250 Cobra",
+        "86 01 250 Pliers Wrench",
+        "74 01 250 Diagonal Cutter",
+        "26 11 200 Needle Nose"
+      ],
+      "pieces": 4
     },
     "rating": 4.9,
     "review_count": 3400,
@@ -2830,11 +2862,11 @@
     "price_current": 28,
     "price_msrp": 28,
     "specs": {
-      "length_in": 4,
-      "length_mm": 100,
-      "jaw_capacity_in": 0.87,
       "adjustment_positions": 10,
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_capacity_in": 0.87,
+      "length_in": 4,
+      "length_mm": 100
     },
     "rating": 4.8,
     "review_count": 5200,
@@ -2867,11 +2899,11 @@
     "price_current": 38,
     "price_msrp": 38,
     "specs": {
-      "length_in": 7.5,
-      "length_mm": 190,
-      "cutting_edges": true,
       "crimping_function": true,
-      "handle_type": "multi-component"
+      "cutting_edges": true,
+      "handle_type": "multi-component",
+      "length_in": 7.5,
+      "length_mm": 190
     },
     "rating": 4.7,
     "review_count": 1600,
@@ -2902,13 +2934,13 @@
     "price_current": 399,
     "price_msrp": 399,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": "clipped/full head",
+      "magazine_capacity": 37,
       "nail_angle_deg": 30,
+      "nail_gauge": "clipped/full head",
       "nail_length_range": "2\" to 3-1/4\"",
       "nails_per_charge": 9000,
       "power_source": "battery + fuel cell",
-      "magazine_capacity": 37
+      "voltage": 7
     },
     "rating": 4.5,
     "review_count": 1800,
@@ -2942,12 +2974,12 @@
     "price_current": 449,
     "price_msrp": 449,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": "clipped/full head",
       "nail_angle_deg": 30,
+      "nail_gauge": "clipped/full head",
       "nail_length_range": "2\" to 3-1/4\"",
       "nails_per_charge": 12000,
-      "power_source": "battery + fuel cell"
+      "power_source": "battery + fuel cell",
+      "voltage": 7
     },
     "rating": 4.6,
     "review_count": 320,
@@ -2980,12 +3012,12 @@
     "price_current": 349,
     "price_msrp": 349,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": 16,
       "nail_angle_deg": 20,
+      "nail_gauge": 16,
       "nail_length_range": "1-1/4\" to 2-1/2\"",
       "nails_per_charge": 8000,
-      "power_source": "battery + fuel cell"
+      "power_source": "battery + fuel cell",
+      "voltage": 7
     },
     "rating": 4.5,
     "review_count": 920,
@@ -3019,12 +3051,12 @@
     "price_current": 329,
     "price_msrp": 329,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": 16,
       "nail_angle_deg": 0,
+      "nail_gauge": 16,
       "nail_length_range": "3/4\" to 2-1/2\"",
       "nails_per_charge": 8000,
-      "power_source": "battery + fuel cell"
+      "power_source": "battery + fuel cell",
+      "voltage": 7
     },
     "rating": 4.5,
     "review_count": 680,
@@ -3056,12 +3088,12 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": 18,
       "nail_angle_deg": 0,
+      "nail_gauge": 18,
       "nail_length_range": "5/8\" to 2\"",
       "nails_per_charge": 8000,
-      "power_source": "battery + fuel cell"
+      "power_source": "battery + fuel cell",
+      "voltage": 7
     },
     "rating": 4.5,
     "review_count": 1200,
@@ -3086,7 +3118,7 @@
   },
   {
     "sku": "PAS-919100",
-    "name": "Paslode Cordless CSF Siding & Fencing Nailer",
+    "name": "Paslode Cordless CSF Siding \u0026 Fencing Nailer",
     "brand": "Paslode",
     "ecosystem": "paslode",
     "category": "fastening",
@@ -3095,12 +3127,12 @@
     "price_current": 590,
     "price_msrp": 590,
     "specs": {
-      "voltage": 7,
-      "nail_gauge": 15,
+      "coil_type": "wire weld",
       "nail_angle_deg": 0,
+      "nail_gauge": 15,
       "nail_length_range": "1-1/4\" to 2\"",
       "power_source": "battery + fuel cell",
-      "coil_type": "wire weld"
+      "voltage": 7
     },
     "rating": 4.4,
     "review_count": 180,
@@ -3133,12 +3165,12 @@
     "price_current": 89,
     "price_msrp": 89,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "magazine_angle_deg": 0,
+      "magazine_capacity": 100,
       "nail_gauge": 18,
       "nail_length_range": "5/8\" to 2-1/8\"",
-      "magazine_capacity": 100,
-      "magazine_angle_deg": 0
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.6,
     "review_count": 5400,
@@ -3172,12 +3204,12 @@
     "price_current": 119,
     "price_msrp": 119,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "magazine_angle_deg": 0,
+      "magazine_capacity": 100,
       "nail_gauge": 16,
       "nail_length_range": "1-1/4\" to 2-1/2\"",
-      "magazine_capacity": 100,
-      "magazine_angle_deg": 0
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 2800,
@@ -3191,7 +3223,7 @@
       "Tool-free jam release"
     ],
     "is_cordless": false,
-    "weight_lbs": 4.0,
+    "weight_lbs": 4,
     "retailers": [
       "homedepot",
       "lowes",
@@ -3210,12 +3242,12 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "collation": "plastic",
+      "magazine_capacity": 60,
       "nail_angle_deg": 21,
       "nail_length_range": "1-1/2\" to 3-1/2\"",
-      "magazine_capacity": 60,
-      "collation": "plastic"
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 3200,
@@ -3249,12 +3281,12 @@
     "price_current": 269,
     "price_msrp": 269,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "magazine_capacity": 120,
+      "magazine_type": "coil",
       "nail_angle_deg": 15,
       "nail_length_range": "3/4\" to 1-3/4\"",
-      "magazine_type": "coil",
-      "magazine_capacity": 120
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 1500,
@@ -3288,12 +3320,12 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
-      "nail_gauge": 15,
+      "magazine_capacity": 130,
       "nail_angle_deg": 34,
+      "nail_gauge": 15,
       "nail_length_range": "1-1/4\" to 2-1/2\"",
-      "magazine_capacity": 130
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 1900,
@@ -3326,12 +3358,12 @@
     "price_current": 199,
     "price_msrp": 199,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "magazine_capacity": 300,
+      "magazine_type": "coil",
       "nail_angle_deg": 15,
       "nail_length_range": "1-1/4\" to 2-1/2\"",
-      "magazine_type": "coil",
-      "magazine_capacity": 300
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.4,
     "review_count": 890,
@@ -3363,12 +3395,12 @@
     "price_current": 149,
     "price_msrp": 149,
     "specs": {
-      "voltage": 120,
       "amps": 10,
-      "tank_gal": 6,
       "max_psi": 150,
+      "oil_free": true,
       "scfm_at_90psi": 2.6,
-      "oil_free": true
+      "tank_gal": 6,
+      "voltage": 120
     },
     "rating": 4.5,
     "review_count": 7200,
@@ -3382,7 +3414,7 @@
       "Only 29 lbs"
     ],
     "is_cordless": false,
-    "weight_lbs": 29.0,
+    "weight_lbs": 29,
     "retailers": [
       "homedepot",
       "lowes",
@@ -3402,11 +3434,15 @@
     "price_current": 249,
     "price_msrp": 249,
     "specs": {
-      "voltage": 120,
-      "tank_gal": 6,
+      "hose_included": true,
+      "included_tools": [
+        "18ga brad nailer",
+        "16ga finish nailer",
+        "3/8\" crown stapler"
+      ],
       "max_psi": 150,
-      "included_tools": ["18ga brad nailer", "16ga finish nailer", "3/8\" crown stapler"],
-      "hose_included": true
+      "tank_gal": 6,
+      "voltage": 120
     },
     "rating": 4.5,
     "review_count": 3800,
@@ -3420,7 +3456,7 @@
       "Carrying case"
     ],
     "is_cordless": false,
-    "weight_lbs": 42.0,
+    "weight_lbs": 42,
     "retailers": [
       "homedepot",
       "lowes",
@@ -3439,11 +3475,11 @@
     "price_current": 99,
     "price_msrp": 99,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
       "nail_gauge": 18,
-      "staple_gauge": 18,
       "nail_length_range": "5/8\" to 2-1/8\"",
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic",
+      "staple_gauge": 18,
       "staple_length_range": "5/8\" to 1-5/8\""
     },
     "rating": 4.4,
@@ -3476,11 +3512,11 @@
     "price_current": 359,
     "price_msrp": 359,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
       "nail_gauge": 16,
       "nail_length_range": "1-1/2\" to 2\"",
-      "nail_type": "L-cleat"
+      "nail_type": "L-cleat",
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 620,
@@ -3506,7 +3542,7 @@
     "sku": "BOS-BCN680D1",
     "name": "Bostitch BCN680D1 20V MAX Cordless 18-Gauge Brad Nailer",
     "brand": "Bostitch",
-    "ecosystem": "bostitch",
+    "ecosystem": "dewalt-20v-max",
     "category": "fastening",
     "subcategory": "brad-nailers",
     "tool_type": "brad-nailer",
@@ -3514,11 +3550,11 @@
     "price_msrp": 229,
     "specs": {
       "brushless": false,
-      "voltage": 20,
+      "magazine_capacity": 110,
       "nail_gauge": 18,
       "nail_length_range": "5/8\" to 2-1/8\"",
-      "magazine_capacity": 110,
-      "power_source": "battery"
+      "power_source": "battery",
+      "voltage": 20
     },
     "rating": 4.3,
     "review_count": 950,
@@ -3544,7 +3580,7 @@
     "sku": "BOS-BCN662D1",
     "name": "Bostitch BCN662D1 20V MAX Cordless 16-Gauge Finish Nailer",
     "brand": "Bostitch",
-    "ecosystem": "bostitch",
+    "ecosystem": "dewalt-20v-max",
     "category": "fastening",
     "subcategory": "finish-nailers",
     "tool_type": "finish-nailer",
@@ -3552,12 +3588,12 @@
     "price_msrp": 249,
     "specs": {
       "brushless": false,
-      "voltage": 20,
+      "magazine_angle_deg": 0,
+      "magazine_capacity": 110,
       "nail_gauge": 16,
       "nail_length_range": "1\" to 2-1/2\"",
-      "magazine_capacity": 110,
       "power_source": "battery",
-      "magazine_angle_deg": 0
+      "voltage": 20
     },
     "rating": 4.3,
     "review_count": 720,
@@ -3590,10 +3626,10 @@
     "price_current": 28,
     "price_msrp": 28,
     "specs": {
-      "length_in": 8.06,
-      "jaw_type": "diagonal cutting",
       "cutting_capacity": "soft copper, aluminum, communications cable",
-      "handle_type": "dip-coated"
+      "handle_type": "dip-coated",
+      "jaw_type": "diagonal cutting",
+      "length_in": 8.06
     },
     "rating": 4.8,
     "review_count": 3400,
@@ -3626,10 +3662,10 @@
     "price_current": 50,
     "price_msrp": 50,
     "specs": {
-      "voltage_range": "90-120V AC",
+      "accessories": "transmitter + receiver",
       "frequency": "50/60 Hz",
       "max_distance_ft": 1000,
-      "accessories": "transmitter + receiver"
+      "voltage_range": "90-120V AC"
     },
     "rating": 4.5,
     "review_count": 2900,
@@ -3661,11 +3697,11 @@
     "price_current": 299,
     "price_msrp": 299,
     "specs": {
-      "power_source": "pneumatic",
-      "operating_pressure_psi": "70-120",
+      "magazine_capacity": 37,
       "nail_angle_deg": 30,
       "nail_length_range": "2\" to 3-1/4\"",
-      "magazine_capacity": 37
+      "operating_pressure_psi": "70-120",
+      "power_source": "pneumatic"
     },
     "rating": 4.5,
     "review_count": 1400,
@@ -3698,11 +3734,11 @@
     "price_msrp": 399,
     "specs": {
       "brushless": true,
-      "voltage": 22,
-      "stroke_length_in": 1.25,
-      "max_spm": 3000,
+      "cutting_capacity_pipe_in": 6,
       "cutting_capacity_wood_in": 12,
-      "cutting_capacity_pipe_in": 6
+      "max_spm": 3000,
+      "stroke_length_in": 1.25,
+      "voltage": 22
     },
     "rating": 4.7,
     "review_count": 120,
@@ -3734,13 +3770,13 @@
     "price_current": 750,
     "price_msrp": 750,
     "specs": {
-      "voltage": 120,
       "amps": 11.7,
+      "auto_clean": true,
       "container_gal": 9.5,
-      "suction_cfm": 170,
-      "static_pressure_in": 95,
       "hepa": false,
-      "auto_clean": true
+      "static_pressure_in": 95,
+      "suction_cfm": 170,
+      "voltage": 120
     },
     "rating": 4.9,
     "review_count": 920,
@@ -3754,7 +3790,7 @@
       "SYS-dock for Systainer storage"
     ],
     "is_cordless": false,
-    "weight_lbs": 29.0,
+    "weight_lbs": 29,
     "retailers": [
       "festool-direct",
       "rockler",
@@ -3774,13 +3810,13 @@
     "price_current": 179,
     "price_msrp": 179,
     "specs": {
+      "battery_ah": 3,
+      "bluetooth": true,
       "brushless": true,
-      "voltage": 12,
-      "battery_ah": 3.0,
       "max_rpm": 35000,
       "min_rpm": 5000,
       "variable_speed": true,
-      "bluetooth": true
+      "voltage": 12
     },
     "rating": 4.5,
     "review_count": 420,
