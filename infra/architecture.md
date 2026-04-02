@@ -1,198 +1,126 @@
-# Serverless Architecture — 100% AWS, us-east-1
+# Serverless Architecture — AWS us-east-1
 
 ## Overview
 
-Everything on AWS. One console, one bill, one IAM. Zero servers.
+API on Lambda, databases on managed cloud services running on AWS infrastructure.
+Same region (us-east-1), same peering, minimal latency. ClickHouse and Qdrant
+billed through AWS Marketplace = one AWS bill.
 
 ```
 Users (US)
    │
    ▼
 ┌──────────────┐     ┌──────────────────┐
-│  CloudFront  │────▶│  S3 (static)     │  Frontend (SvelteKit pre-rendered)
-│  (CDN/edge)  │     │  + Lambda@Edge   │  SSR for dynamic pages
-└──────┬───────┘     └──────────────────┘
-       │
+│  CloudFront  │────▶│  S3 (static)     │  Frontend
+│  (CDN/edge)  │     └──────────────────┘
+└──────┬───────┘
        │ /api/*
        ▼
 ┌──────────────┐
-│ API Gateway  │  HTTP API (cheaper, faster than REST API)
+│ API Gateway  │  HTTP API
 │ (us-east-1)  │
 └──────┬───────┘
        │
        ▼
 ┌──────────────┐
-│   Lambda     │  Go binary, ARM64 Graviton, 512MB
-│ (us-east-1)  │  <15ms cold start
+│   Lambda     │  Go, ARM64, 512MB
+│ (us-east-1)  │
 └──┬──┬──┬──┬──┘
    │  │  │  │
-   │  │  │  └──────────────────────────────┐
-   │  │  └──────────────────┐              │
-   │  └──────────┐          │              │
-   ▼             ▼          ▼              ▼
-┌──────────┐ ┌──────────┐ ┌───────────┐ ┌──────────┐
-│ DynamoDB │ │OpenSearch │ │ Firehose  │ │ Bedrock  │
-│          │ │Serverless│ │ → S3      │ │ (Claude) │
-│ Products │ │ (vectors)│ │ → Athena  │ │          │
-│ Projects │ │          │ │           │ │          │
-│ Ecosys.  │ │ Semantic │ │ Analytics │ │ Advisor  │
-│ Cache    │ │ search   │ │           │ │          │
-└──────────┘ └──────────┘ └───────────┘ └──────────┘
+   ▼  ▼  ▼  ▼
+┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
+│ClickHouse│ │  Qdrant  │ │  Neo4j   │ │  Redis   │ │ Bedrock  │
+│  Cloud   │ │  Cloud   │ │  Aura    │ │(Upstash) │ │ (Claude) │
+│          │ │          │ │          │ │          │ │          │
+│ Products │ │ Vectors  │ │  Graph   │ │  Cache   │ │ Advisor  │
+│Analytics │ │ Search   │ │Ecosystem │ │          │ │          │
+│ Prices   │ │          │ │Relations │ │          │ │          │
+└──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘
+  AWS infra    AWS infra    AWS infra    AWS infra     AWS native
+  us-east-1    us-east-1    us-east-1    us-east-1     us-east-1
 ```
 
-## AWS Services Used
+## Where Everything Runs
 
-| Service | Purpose | Replaces | Why |
-|---|---|---|---|
-| **CloudFront + S3** | Frontend hosting | Cloudflare Pages | Same AWS account, Origin Access Control |
-| **Lambda@Edge** | SSR for dynamic pages | SvelteKit SSR | SEO-critical pages need server rendering |
-| **API Gateway (HTTP)** | API routing | — | Cheapest API Gateway option |
-| **Lambda** | API compute | Go server | ARM64, pay-per-request |
-| **DynamoDB** | Products, projects, ecosystems, categories, cache | ClickHouse + Neo4j + Redis | Single data store, no VPC, scales to zero |
-| **OpenSearch Serverless** | Vector search (k-NN) | Qdrant | AWS-native, same k-NN capability, no VPC required |
-| **Kinesis Firehose → S3** | Event ingestion | ClickHouse analytics | Serverless, zero ops |
-| **Athena** | Analytics queries | ClickHouse queries | Query S3 directly, pay per scan |
-| **Bedrock** | Claude AI for advisor | — | Same as before |
-| **Route 53** | DNS | Cloudflare DNS | One console |
-| **SES** | Transactional email | ConvertKit (keep for newsletter) | Verification emails, receipts |
-| **ACM** | TLS certificates | — | Free, auto-renewing |
+| Service | Provider | Infra | Region | Billing |
+|---|---|---|---|---|
+| **Lambda** | AWS | AWS | us-east-1 | AWS bill |
+| **API Gateway** | AWS | AWS | us-east-1 | AWS bill |
+| **CloudFront + S3** | AWS | AWS | Global/us-east-1 | AWS bill |
+| **ClickHouse** | ClickHouse Cloud | **AWS** | us-east-1 | AWS Marketplace |
+| **Qdrant** | Qdrant Cloud | **AWS** | us-east-1 | AWS Marketplace |
+| **Neo4j** | Neo4j Aura | **AWS** | us-east-1 | AWS Marketplace |
+| **Redis** | Upstash | **AWS** | us-east-1 | AWS Marketplace |
+| **Bedrock** | AWS | AWS | us-east-1 | AWS bill |
+| **Route 53** | AWS | AWS | Global | AWS bill |
 
-## Why DynamoDB For Everything
+**Key:** ClickHouse Cloud, Qdrant Cloud, Neo4j Aura, and Upstash all run on AWS
+infrastructure and are available through the AWS Marketplace. This means:
+- Same physical network as Lambda (sub-1ms latency within us-east-1)
+- Billed on your AWS account (consolidated billing)
+- No separate vendor accounts needed if purchased via Marketplace
 
-Our data model is simpler than it looks:
-- **Products**: Key-value by SKU, GSI on slug, ecosystem, category
-- **Projects**: Key-value by slug, small dataset (~20 items)
-- **Ecosystems**: Key-value by slug, small dataset (~20 items)
-- **Categories**: Hierarchical but small (~16 categories, ~50 subcategories)
-- **Relationships**: Project→Tools, Ecosystem→Tools — modeled as GSIs and list attributes
-- **Cache**: DynamoDB with TTL attribute (items auto-expire)
+## Why These Specific Databases
 
-The "graph" we had in Neo4j is really just:
-- Brand owns Ecosystem (static, 13 records)
-- Project requires Tool categories (static, ~200 relationships)
-- Tool belongs to Ecosystem (attribute on product)
+| Database | Why Not a Generic AWS Service |
+|---|---|
+| **ClickHouse** | 100x faster than Athena for analytics. Column-oriented, perfect for "top searches this week" instant queries. DynamoDB can't aggregate. |
+| **Qdrant** | Purpose-built vector DB. OpenSearch Serverless has $25/mo minimum AND k-NN is slower. Qdrant free tier = 1GB, plenty for launch. |
+| **Neo4j** | Ecosystem → Tool → Battery → Project relationships are naturally a graph. DynamoDB can model this but queries become ugly. Aura free tier = 200K nodes. |
+| **Redis/Upstash** | Sub-millisecond cache. DynamoDB with TTL works but adds 5-10ms per cache read. Redis: <1ms. Critical for the 50ms API response target. |
 
-This is easily modeled in DynamoDB. No need for a dedicated graph database.
+## Cost Estimates
 
-## DynamoDB Table Design
-
-### Table: `litp-products`
-```
-PK: SKU
-GSI1: slug (for URL lookups)
-GSI2: ecosystem#category (for listing tools by ecosystem or category)
-GSI3: subcategory#rating (for "best in subcategory" queries)
-
-Attributes: name, brand, ecosystem, category, subcategory, slug,
-            price, specs (map), rating, review_count, description,
-            features (list), affiliate_links (map), is_cordless, weight
-```
-
-### Table: `litp-content`
-```
-PK: TYPE#SLUG (e.g., "PROJECT#build-a-deck", "ECOSYSTEM#milwaukee-m18", "CATEGORY#cutting")
-SK: "DETAIL"
-
-For relationships:
-PK: "PROJECT#build-a-deck"
-SK: "TOOL#circular-saws" (with priority attribute: essential/recommended/optional)
-
-PK: "ECOSYSTEM#milwaukee-m18"
-SK: "META" (ecosystem details)
-
-PK: "CATEGORY#cutting"
-SK: "SUBCATEGORY#circular-saws"
-```
-
-### Table: `litp-cache`
-```
-PK: cache_key
-TTL: expires_at (DynamoDB auto-deletes expired items)
-Attributes: data (JSON string), created_at
-```
-
-### Table: `litp-prices`
-```
-PK: SKU
-SK: timestamp#retailer
-Attributes: price, in_stock, retailer
-```
-
-## Analytics Pipeline
-
-```
-Frontend/API events
-       │
-       ▼
-┌──────────────┐     ┌──────────┐     ┌──────────┐
-│ API Gateway  │────▶│ Firehose │────▶│   S3     │
-│ (POST /anal.)│     │ (buffer) │     │ (Parquet)│
-└──────────────┘     └──────────┘     └────┬─────┘
-                                           │
-                                      ┌────▼─────┐
-                                      │  Athena  │  SQL queries on demand
-                                      └──────────┘
-```
-
-- Events go directly from API Gateway to Firehose (no Lambda needed)
-- Firehose buffers and writes Parquet to S3 every 60 seconds
-- Athena queries S3 directly — pay only when you query ($5/TB scanned)
-- Partition by date for fast, cheap queries
-
-Analytics event types stored in S3:
-- `searches/` — every search query
-- `pageviews/` — every page view with device type
-- `affiliate-clicks/` — every affiliate click with source
-- `product-views/` — every product view
-- `ecosystem-selections/` — ecosystem choices
-- `toolkit-generations/` — advisor usage
-
-## Cost Estimates (us-east-1)
-
-### Launch (0-1K visitors/day)
+### Launch ($0 — 1K visitors/day)
 | Service | Cost |
 |---|---|
-| CloudFront + S3 | $0 (free tier: 1TB/mo, 10M requests) |
-| Lambda | $0 (free tier: 1M requests, 400K GB-sec) |
-| API Gateway | $0 (free tier: 1M requests/mo for 12 months) |
-| DynamoDB | $0 (free tier: 25GB, 25 WCU, 25 RCU) |
-| OpenSearch Serverless | ~$25 (minimum 0.5 OCU indexing + 0.5 OCU search) |
-| Firehose + S3 | $0-5 |
-| Athena | $0-2 (pay per query) |
+| CloudFront + S3 | $0 (free tier) |
+| Lambda + API Gateway | $0 (free tier) |
+| ClickHouse Cloud | $0 (30-day trial, then ~$47/mo for smallest) |
+| Qdrant Cloud | $0 (free tier: 1GB) |
+| Neo4j Aura | $0 (free tier: 200K nodes) |
+| Upstash Redis | $0 (free tier: 10K cmds/day) |
 | Bedrock | ~$5-20 |
-| Route 53 | $0.50/zone |
-| **Total** | **~$30-50/month** |
+| Route 53 | $0.50 |
+| **Total** | **~$5-20/month** |
 
-**Note:** OpenSearch Serverless has a ~$25/month minimum (0.5 OCU each for indexing and search). This is the biggest cost at launch. Alternative: use Bedrock Knowledge Bases for vector search (pay-per-query, no minimum) or defer vector search and use DynamoDB text search initially.
+### After ClickHouse trial ($47/mo minimum)
+| Service | Cost |
+|---|---|
+| ClickHouse Cloud | $47 (smallest serverless) |
+| Everything else | ~$5-20 |
+| **Total** | **~$50-70/month** |
 
 ### Growth (10K visitors/day)
 | Service | Cost |
 |---|---|
-| CloudFront + S3 | ~$5 |
-| Lambda | ~$10 |
-| API Gateway | ~$10 |
-| DynamoDB | ~$15 (on-demand pricing) |
-| OpenSearch Serverless | ~$50 |
-| Firehose + S3 + Athena | ~$10 |
+| ClickHouse Cloud | ~$60 |
+| Qdrant Cloud | ~$25 (past free tier) |
+| All AWS services | ~$30 |
 | Bedrock | ~$50-150 |
-| **Total** | **~$150-250/month** |
+| Upstash | ~$10 |
+| **Total** | **~$175-275/month** |
 
-## Alternative: Skip OpenSearch, Use Bedrock Knowledge Bases
+## Lambda Deployment
 
-To avoid the $25/month OpenSearch minimum at launch:
-1. Store tool descriptions in S3
-2. Create a Bedrock Knowledge Base pointing to that S3 bucket
-3. Use `RetrieveAndGenerate` API for semantic search
-4. Pay only per query (~$0.005/query)
+Go on Lambda ARM64 (Graviton):
+- Cold start: <15ms (Go is the fastest Lambda runtime)
+- Warm invocation: <1ms overhead
+- DB connections initialized in `init()`, reused across invocations
+- Chi router works unchanged via `aws-lambda-go-api-proxy`
+- No VPC needed (all databases have public endpoints)
 
-This is cheaper until ~5,000 searches/month. Can migrate to OpenSearch later when traffic justifies the minimum cost.
+## Environment Variables
 
-## No VPC Required
-
-Every service in this architecture works without a VPC:
-- DynamoDB: Public endpoints with IAM auth
-- OpenSearch Serverless: Public endpoints with IAM auth
-- Firehose: Public endpoints with IAM auth
-- Bedrock: Public endpoints with IAM auth
-
-This means: **zero VPC cold start penalty on Lambda** (~6-10 seconds avoided).
+```bash
+CLICKHOUSE_DSN=clickhouse://default:PASSWORD@HOST.clickhouse.cloud:8443/litp?secure=true
+QDRANT_HOST=HOST.cloud.qdrant.io
+QDRANT_PORT=6334
+NEO4J_URI=neo4j+s://HOST.databases.neo4j.io
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=xxx
+REDIS_URL=rediss://default:PASSWORD@HOST.upstash.io:6379
+AWS_REGION=us-east-1
+BEDROCK_MODEL=anthropic.claude-sonnet-4-6-20250514-v1:0
+COHERE_API_KEY=xxx
+```
