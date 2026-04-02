@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+	body {
+		@apply bg-charcoal text-gray-100 font-body antialiased;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		@apply font-heading font-bold uppercase tracking-wide;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply bg-safety-orange hover:bg-safety-orange-light text-white font-heading font-bold uppercase
+		       px-6 py-3 rounded-lg transition-all duration-200 tracking-wider
+		       shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0;
+	}
+
+	.btn-secondary {
+		@apply bg-electric-blue hover:bg-electric-blue-light text-charcoal font-heading font-bold uppercase
+		       px-6 py-3 rounded-lg transition-all duration-200 tracking-wider;
+	}
+
+	.btn-outline {
+		@apply border-2 border-safety-orange text-safety-orange hover:bg-safety-orange hover:text-white
+		       font-heading font-bold uppercase px-6 py-3 rounded-lg transition-all duration-200 tracking-wider;
+	}
+
+	.card {
+		@apply bg-charcoal-light border border-gray-700/50 rounded-xl p-6
+		       hover:border-safety-orange/30 transition-all duration-300;
+	}
+
+	.input-search {
+		@apply w-full bg-charcoal-dark border-2 border-gray-600 rounded-xl px-6 py-4
+		       text-lg text-white placeholder-gray-400 font-body
+		       focus:outline-none focus:border-safety-orange focus:ring-2 focus:ring-safety-orange/20
+		       transition-all duration-200;
+	}
+
+	.ecosystem-badge {
+		@apply inline-flex items-center px-3 py-1 rounded-full text-xs font-heading font-bold uppercase tracking-wider;
+	}
+
+	.difficulty-dot {
+		@apply w-3 h-3 rounded-full;
+	}
+
+	.affiliate-btn {
+		@apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-heading font-bold uppercase text-sm
+		       tracking-wider transition-all duration-200 hover:-translate-y-0.5;
+	}
+}

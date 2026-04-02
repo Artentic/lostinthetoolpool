@@ -62,8 +62,24 @@ API endpoints:
 - `GET /api/v1/categories` — category tree
 - `GET /api/v1/affiliate/redirect/:sku` — track click + redirect
 
-## Phase 4: Frontend Website
-Status: **NOT STARTED**
+## Phase 4: Frontend Website (SvelteKit)
+Status: **COMPLETE**
+
+| Page | Route | Description |
+|---|---|---|
+| Homepage | `/` | Hero with search, project tiles, ecosystem chooser, how-it-works |
+| Project Advisor | `/advisor` | AI conversational interface (streaming in Phase 5) |
+| Projects List | `/projects` | All 20 projects with difficulty badges |
+| Project Detail | `/projects/[slug]` | Toolkit, ecosystem selector, safety, mistakes |
+| Tool Detail | `/tools/[slug]` | Specs, features, buy buttons, price comparison |
+| Ecosystems List | `/ecosystems` | All 13 ecosystems with stats |
+| Ecosystem Detail | `/ecosystems/[slug]` | Strengths/weaknesses, starter kit |
+| Compare | `/compare` | Side-by-side tool comparison builder |
+| Search | `/search` | Text search with filters |
+
+Components: Nav, Footer, SearchBar, ProductCard, DifficultyBadge
+Design: Dark workshop theme, Barlow Condensed + Inter, safety orange + electric blue accents
+Config: Cloudflare Pages adapter, Tailwind CSS, custom color palette per ecosystem
 
 ## Phase 5: LLM Integration
 Status: **NOT STARTED**
