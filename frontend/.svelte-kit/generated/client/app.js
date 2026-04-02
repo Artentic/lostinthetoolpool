@@ -25,8 +25,8 @@ export const dictionary = {
 		"/": [2],
 		"/advisor": [3],
 		"/compare": [4],
-		"/ecosystems": [5],
-		"/ecosystems/[slug]": [6],
+		"/ecosystems": [~5],
+		"/ecosystems/[slug]": [~6],
 		"/legal/accessibility": [7],
 		"/legal/affiliate-disclosure": [8],
 		"/legal/disclaimer": [9],
@@ -35,7 +35,7 @@ export const dictionary = {
 		"/projects": [12],
 		"/projects/[slug]": [13],
 		"/search": [14],
-		"/tools/[slug]": [15]
+		"/tools/[slug]": [~15]
 	};
 
 export const hooks = {

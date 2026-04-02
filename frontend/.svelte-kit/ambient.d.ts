@@ -38,6 +38,7 @@
  * The above values will be the same _even if_ different values for `ENVIRONMENT` or `PUBLIC_BASE_URL` are set at runtime, as they are statically replaced in your code with their build time values.
  */
 declare module '$env/static/private' {
+	export const VITE_API_URL: string;
 	export const MANPATH: string;
 	export const NoDefaultCurrentDirectoryInExePath: string;
 	export const GHOSTTY_RESOURCES_DIR: string;
@@ -185,6 +186,7 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		VITE_API_URL: string;
 		MANPATH: string;
 		NoDefaultCurrentDirectoryInExePath: string;
 		GHOSTTY_RESOURCES_DIR: string;

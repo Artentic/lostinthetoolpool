@@ -1,116 +1,62 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
+	export let data;
 	$: slug = $page.params.slug;
+	$: tools = data.tools || [];
+	$: ecoName = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
-	// In production: load from API
-	const ecoData: Record<string, any> = {
-		'milwaukee-m18': {
-			name: 'Milwaukee M18', brand: 'Milwaukee', voltage: 18, tools: '250+',
-			target: 'Professional trades and serious DIYers',
-			parent: 'TTI Group', exclusive: 'Home Depot',
-			warranty: '5-year tool warranty',
-			color: 'bg-milwaukee',
-			strengths: ['Industry-leading impact drivers and drills', 'ONE-KEY smart tool connectivity', 'Largest pro-grade selection', 'Excellent battery life with high-output packs'],
-			weaknesses: ['Premium pricing', 'Home Depot exclusive limits availability', 'Overkill for casual DIY'],
-			starter_kit: ['Drill/Driver', 'Impact Driver', 'Circular Saw', 'Reciprocating Saw', 'Multi-Tool'],
-			starter_cost: 685
-		}
-	};
-
-	$: eco = ecoData[slug] || {
-		name: slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
-		brand: slug.split('-')[0], voltage: 18, tools: 'TBD', target: 'TBD',
-		parent: '', exclusive: '', warranty: '', color: 'bg-gray-600',
-		strengths: [], weaknesses: [], starter_kit: [], starter_cost: 0
-	};
+	// Group tools by category
+	$: byCategory = tools.reduce((acc, t) => {
+		const cat = t.category || 'other';
+		if (!acc[cat]) acc[cat] = [];
+		acc[cat].push(t);
+		return acc;
+	}, {});
 </script>
 
 <svelte:head>
-	<title>{eco.name} Ecosystem Guide — Lost in the Tool Pool</title>
-	<meta name="description" content="Complete guide to the {eco.name} battery ecosystem. {eco.tools} tools, compatibility info, starter kit recommendations, and honest pros/cons." />
+	<title>{ecoName} — {tools.length} Tools — Lost in the Tool Pool</title>
 </svelte:head>
 
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 	<div class="mb-6">
 		<a href="/ecosystems" class="text-sm text-gray-500 hover:text-safety-orange transition font-heading uppercase tracking-wider">
 			← All Ecosystems
 		</a>
 	</div>
 
-	<div class="flex items-center gap-4 mb-8">
-		<span class="ecosystem-badge {eco.color} text-lg px-6 py-3">{eco.brand}</span>
-		<div>
-			<h1 class="text-3xl sm:text-4xl text-white">{eco.name}</h1>
-			<p class="text-gray-400 font-body normal-case mt-1">{eco.target}</p>
-		</div>
-	</div>
+	<h1 class="text-3xl sm:text-4xl text-white mb-2">{ecoName}</h1>
+	<p class="text-gray-400 font-body normal-case mb-8">{tools.length} tools in this ecosystem</p>
 
-	<!-- Quick Stats -->
-	<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-		<div class="card text-center">
-			<span class="text-2xl font-heading font-bold text-safety-orange">{eco.voltage}V</span>
-			<p class="text-xs text-gray-500 font-heading uppercase mt-1">Voltage</p>
-		</div>
-		<div class="card text-center">
-			<span class="text-2xl font-heading font-bold text-electric-blue">{eco.tools}</span>
-			<p class="text-xs text-gray-500 font-heading uppercase mt-1">Tools</p>
-		</div>
-		<div class="card text-center">
-			<span class="text-sm font-heading font-bold text-gray-300">{eco.exclusive || 'Everywhere'}</span>
-			<p class="text-xs text-gray-500 font-heading uppercase mt-1">Sold At</p>
-		</div>
-		<div class="card text-center">
-			<span class="text-sm font-heading font-bold text-gray-300">{eco.warranty || 'Varies'}</span>
-			<p class="text-xs text-gray-500 font-heading uppercase mt-1">Warranty</p>
-		</div>
-	</div>
-
-	<!-- Strengths -->
-	{#if eco.strengths.length}
-		<div class="card mb-4">
-			<h2 class="text-lg text-green-400 mb-3">Strengths</h2>
-			<ul class="space-y-2">
-				{#each eco.strengths as s}
-					<li class="flex items-start gap-3 text-gray-300 font-body normal-case text-sm">
-						<span class="text-green-400 flex-shrink-0">+</span> {s}
-					</li>
+	{#each Object.entries(byCategory) as [category, catTools]}
+		<div class="mb-8">
+			<h2 class="text-lg text-safety-orange mb-4 font-heading uppercase">{category.replace(/-/g, ' ')}</h2>
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+				{#each catTools as tool}
+					<a href="/tools/{tool.slug}" class="card group hover:-translate-y-0.5 transition-all">
+						<h3 class="font-body text-sm text-gray-200 group-hover:text-safety-orange transition normal-case leading-tight">
+							{tool.name}
+						</h3>
+						<div class="flex items-end justify-between mt-3">
+							<span class="text-xl font-heading font-bold text-safety-orange">
+								{#if tool.price_current > 0}${tool.price_current}{:else}TBD{/if}
+							</span>
+							{#if tool.rating > 0}
+								<span class="text-xs text-gray-500 flex items-center gap-1">
+									<svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									{tool.rating}
+								</span>
+							{/if}
+						</div>
+						{#if tool.subcategory}
+							<span class="text-[10px] text-gray-600 font-heading uppercase mt-1 block">{tool.subcategory.replace(/-/g, ' ')}</span>
+						{/if}
+					</a>
 				{/each}
-			</ul>
+			</div>
 		</div>
-	{/if}
-
-	<!-- Weaknesses -->
-	{#if eco.weaknesses.length}
-		<div class="card mb-4">
-			<h2 class="text-lg text-red-400 mb-3">Weaknesses</h2>
-			<ul class="space-y-2">
-				{#each eco.weaknesses as w}
-					<li class="flex items-start gap-3 text-gray-300 font-body normal-case text-sm">
-						<span class="text-red-400 flex-shrink-0">-</span> {w}
-					</li>
-				{/each}
-			</ul>
-		</div>
-	{/if}
-
-	<!-- Starter Kit -->
-	{#if eco.starter_kit.length}
-		<div class="card">
-			<h2 class="text-lg text-safety-orange mb-3">Recommended Starter Kit</h2>
-			<ul class="space-y-2 mb-4">
-				{#each eco.starter_kit as tool}
-					<li class="flex items-center gap-3 text-gray-300 font-body normal-case text-sm">
-						<span class="w-2 h-2 rounded-full bg-safety-orange flex-shrink-0" />
-						{tool}
-					</li>
-				{/each}
-			</ul>
-			{#if eco.starter_cost}
-				<p class="text-sm text-gray-400 font-body normal-case">
-					Estimated cost (tools only): <span class="text-safety-orange font-bold">${eco.starter_cost}</span>
-				</p>
-			{/if}
-		</div>
-	{/if}
+	{/each}
 </div>
