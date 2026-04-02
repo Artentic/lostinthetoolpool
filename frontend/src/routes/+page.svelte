@@ -35,7 +35,7 @@
 <!-- Hero -->
 <section class="relative overflow-hidden">
 	<div class="absolute inset-0 bg-gradient-to-b from-charcoal-dark via-charcoal to-charcoal-dark" />
-	<div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 60 60\"><rect fill=\"none\" stroke=\"%23ff6b35\" stroke-width=\"0.5\" width=\"60\" height=\"60\"/></svg>'); background-size: 60px 60px;" />
+	<div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22%3E%3Crect fill=%22none%22 stroke=%22%23ff6b35%22 stroke-width=%220.5%22 width=%2260%22 height=%2260%22/%3E%3C/svg%3E'); background-size: 60px 60px;" />
 
 	<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center">
 		<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
