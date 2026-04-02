@@ -43,8 +43,17 @@
 			</div>
 		</div>
 
-		<div class="mt-10 pt-6 border-t border-gray-700/30 text-center text-xs text-gray-500">
-			&copy; {new Date().getFullYear()} Lost in the Tool Pool. Built by tool nerds, for humans who build things.
+		<div class="mt-8 pt-6 border-t border-gray-700/30">
+			<div class="flex flex-wrap justify-center gap-4 text-xs text-gray-500 mb-4">
+				<a href="/legal/privacy" class="hover:text-gray-300 transition">Privacy Policy</a>
+				<a href="/legal/terms" class="hover:text-gray-300 transition">Terms of Service</a>
+				<a href="/legal/affiliate-disclosure" class="hover:text-gray-300 transition">Affiliate Disclosure</a>
+				<a href="/legal/disclaimer" class="hover:text-gray-300 transition">Disclaimer</a>
+				<a href="/legal/accessibility" class="hover:text-gray-300 transition">Accessibility</a>
+			</div>
+			<p class="text-center text-xs text-gray-600">
+				&copy; {new Date().getFullYear()} Lost in the Tool Pool, operated by CYBERNITED (Belgium). Built by tool nerds, for humans who build things.
+			</p>
 		</div>
 	</div>
 </footer>
