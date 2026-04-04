@@ -1,63 +1,45 @@
 <script lang="ts">
-	import DifficultyBadge from '$components/DifficultyBadge.svelte';
-
-	const projects = [
-		{ slug: 'build-a-deck', name: 'Build a Deck', difficulty: 3, time: '3-5 weekends', icon: '🪵', description: 'Build a wood or composite deck' },
-		{ slug: 'build-a-fence', name: 'Build a Fence', difficulty: 2, time: '2-3 weekends', icon: '🏗️', description: 'Install a privacy or picket fence' },
-		{ slug: 'bathroom-renovation', name: 'Bathroom Renovation', difficulty: 4, time: '4-8 weekends', icon: '🚿', description: 'Full bathroom remodel' },
-		{ slug: 'kitchen-renovation', name: 'Kitchen Renovation', difficulty: 5, time: '8-16 weekends', icon: '🍳', description: 'Full kitchen remodel' },
-		{ slug: 'finish-a-basement', name: 'Finish a Basement', difficulty: 4, time: '8-12 weekends', icon: '🏠', description: 'Frame, insulate, drywall, finish' },
-		{ slug: 'install-hardwood-flooring', name: 'Install Flooring', difficulty: 3, time: '2-4 weekends', icon: '🪵', description: 'Hardwood or laminate flooring' },
-		{ slug: 'install-tile', name: 'Install Tile', difficulty: 3, time: '2-4 weekends', icon: '🧱', description: 'Ceramic or porcelain tile' },
-		{ slug: 'build-raised-garden-beds', name: 'Garden Beds', difficulty: 1, time: '1 weekend', icon: '🌱', description: 'Simple raised garden beds' },
-		{ slug: 'build-a-shed', name: 'Build a Shed', difficulty: 3, time: '3-5 weekends', icon: '🏚️', description: 'Small to medium storage shed' },
-		{ slug: 'drywall-installation', name: 'Drywall', difficulty: 3, time: '2-4 weekends', icon: '🧱', description: 'Hang, tape, mud, and sand' },
-		{ slug: 'paint-a-room', name: 'Paint a Room', difficulty: 1, time: '1-2 days', icon: '🎨', description: 'Prep and paint walls and trim' },
-		{ slug: 'install-crown-molding', name: 'Crown Molding', difficulty: 3, time: '1-2 weekends', icon: '📐', description: 'Install crown molding or trim' },
-		{ slug: 'basic-plumbing-repairs', name: 'Plumbing Repairs', difficulty: 2, time: '1-4 hours', icon: '🔧', description: 'Fix leaks, replace faucets' },
-		{ slug: 'basic-electrical-work', name: 'Electrical Work', difficulty: 3, time: '1-4 hours', icon: '⚡', description: 'Replace outlets, switches, fixtures' },
-		{ slug: 'hang-shelves-cabinets', name: 'Hang Shelves', difficulty: 2, time: '2-4 hours', icon: '📦', description: 'Mount shelves or wall cabinets' },
-		{ slug: 'assemble-furniture', name: 'Assemble Furniture', difficulty: 1, time: '1-3 hours', icon: '🪑', description: 'Flat-pack or kit furniture' },
-		{ slug: 'car-maintenance', name: 'Car Maintenance', difficulty: 2, time: '1-4 hours', icon: '🚗', description: 'Oil changes, brake pads, basics' },
-		{ slug: 'yard-maintenance', name: 'Yard Maintenance', difficulty: 1, time: '2-4 hrs/week', icon: '🌿', description: 'Mowing, edging, trimming' },
-		{ slug: 'tree-trimming', name: 'Tree Trimming', difficulty: 4, time: '1-2 days', icon: '🌳', description: 'Trim branches or remove trees' },
-		{ slug: 'concrete-work', name: 'Concrete Work', difficulty: 4, time: '2-4 weekends', icon: '🧱', description: 'Small patio or walkway' }
-	];
+	export let data;
+	$: projects = data.projects || [];
 </script>
 
 <svelte:head>
 	<title>DIY Projects — What Tools Do You Need? — Lost in the Tool Pool</title>
-	<meta name="description" content="Browse 20 common home improvement projects and see exactly what tools you need for each one. From painting a room to building a deck." />
+	<meta name="description" content="Browse {projects.length} common home improvement projects and see exactly what tools you need for each one." />
 </svelte:head>
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-	<div class="text-center mb-10">
-		<h1 class="text-3xl sm:text-4xl mb-4">
-			<span class="text-white">Browse</span>
-			<span class="text-safety-orange"> Projects</span>
-		</h1>
-		<p class="text-gray-400 font-body normal-case max-w-xl mx-auto">
-			Pick a project and see exactly what tools you need, how long it'll take,
-			and what it'll cost across different tool ecosystems.
+<div class="max-w-7xl mx-auto px-6 lg:px-8 pt-28 pb-16">
+	<div class="mb-14">
+		<span class="text-ember font-mono text-xs tracking-widest uppercase mb-3 block">Browse Projects</span>
+		<h1 class="text-3xl sm:text-4xl">Pick a project, get your toolkit</h1>
+		<p class="text-steel mt-3 max-w-xl text-sm leading-relaxed">
+			{projects.length} common home improvement projects. Each one shows exactly what tools you need,
+			how long it'll take, and what it'll cost.
 		</p>
 	</div>
 
-	<div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+	<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
 		{#each projects as project}
-			<a href="/projects/{project.slug}" class="card group hover:-translate-y-1 transition-all duration-300">
-				<div class="flex items-start gap-3">
-					<span class="text-3xl">{project.icon}</span>
-					<div class="flex-1">
-						<h3 class="font-heading text-sm text-gray-200 group-hover:text-safety-orange transition normal-case">
+			<a href="/projects/{project.slug}" class="card group">
+				<div class="flex items-start justify-between">
+					<div>
+						<h3 class="font-display text-sm text-white group-hover:text-ember transition-colors duration-300">
 							{project.name}
 						</h3>
-						<p class="text-xs text-gray-500 font-body normal-case mt-1">{project.description}</p>
-						<div class="mt-2 flex items-center justify-between">
-							<DifficultyBadge level={project.difficulty} />
-							<span class="text-xs text-gray-500">{project.time}</span>
-						</div>
+						<p class="text-steel-dark text-xs mt-1 line-clamp-2">{project.description}</p>
 					</div>
 				</div>
+				<div class="flex items-center justify-between mt-4">
+					<div class="flex items-center gap-1.5">
+						{#each Array(5) as _, i}
+							<span class="w-1.5 h-1.5 rounded-full {i < project.difficulty ? 'bg-ember/70' : 'bg-void-400'}" />
+						{/each}
+					</div>
+					<span class="text-xs text-steel-dark font-mono">{project.time_estimate}</span>
+				</div>
+				{#if project.permit_required}
+					<span class="text-[10px] text-amber-500/60 font-mono mt-2 block">Permit likely required</span>
+				{/if}
 			</a>
 		{/each}
 	</div>

@@ -32,8 +32,8 @@ export const dictionary = {
 		"/legal/disclaimer": [9],
 		"/legal/privacy": [10],
 		"/legal/terms": [11],
-		"/projects": [12],
-		"/projects/[slug]": [13],
+		"/projects": [~12],
+		"/projects/[slug]": [~13],
 		"/search": [14],
 		"/tools/[slug]": [~15]
 	};

@@ -27,6 +27,11 @@ func main() {
 		port = "8080"
 	}
 
+	projectsPath := os.Getenv("PROJECTS_PATH")
+	if projectsPath == "" {
+		projectsPath = "../data/projects.json"
+	}
+
 	log.Printf("Loading catalog from %s...", catalogPath)
 	s, err := store.Load(catalogPath)
 	if err != nil {
@@ -34,6 +39,23 @@ func main() {
 	}
 	log.Printf("Loaded %d products, %d ecosystems, %d brands",
 		s.Count(), len(s.Ecosystems()), len(s.Brands()))
+
+	// Load projects
+	var projects []map[string]any
+	if data, err := os.ReadFile(projectsPath); err == nil {
+		json.Unmarshal(data, &projects)
+		log.Printf("Loaded %d projects", len(projects))
+	} else {
+		log.Printf("No projects file: %v", err)
+	}
+
+	// Index projects by slug
+	projectBySlug := make(map[string]map[string]any)
+	for _, p := range projects {
+		if slug, ok := p["slug"].(string); ok {
+			projectBySlug[slug] = p
+		}
+	}
 
 	r := chi.NewRouter()
 	r.Use(chimw.RealIP)
@@ -60,6 +82,77 @@ func main() {
 	})
 
 	r.Route("/api/v1", func(r chi.Router) {
+		// Projects
+		r.Get("/projects", func(w http.ResponseWriter, r *http.Request) {
+			writeJSON(w, 200, projects)
+		})
+
+		r.Get("/projects/{slug}", func(w http.ResponseWriter, r *http.Request) {
+			slug := chi.URLParam(r, "slug")
+			p, ok := projectBySlug[slug]
+			if !ok {
+				writeErr(w, 404, "project not found")
+				return
+			}
+			writeJSON(w, 200, p)
+		})
+
+		r.Get("/projects/{slug}/toolkit", func(w http.ResponseWriter, r *http.Request) {
+			slug := chi.URLParam(r, "slug")
+			p, ok := projectBySlug[slug]
+			if !ok {
+				writeErr(w, 404, "project not found")
+				return
+			}
+
+			ecosystem := r.URL.Query().Get("ecosystem")
+			if ecosystem == "" {
+				ecosystem = "ryobi-one-plus"
+			}
+
+			// Match essential tools to real products in the chosen ecosystem
+			var toolkitProducts []map[string]any
+			if tools, ok := p["essential_tools"].([]any); ok {
+				for _, t := range tools {
+					toolName, _ := t.(string)
+					// Search for this tool type in the ecosystem
+					results := s.FilteredSearch(strings.ReplaceAll(toolName, "-", " "), ecosystem, 0, 0, false, 1)
+					if len(results) > 0 {
+						toolkitProducts = append(toolkitProducts, map[string]any{
+							"tool_type": toolName,
+							"priority":  "essential",
+							"product":   results[0],
+						})
+					} else {
+						// Fallback: search across all ecosystems
+						results = s.Search(strings.ReplaceAll(toolName, "-", " "), 1)
+						if len(results) > 0 {
+							toolkitProducts = append(toolkitProducts, map[string]any{
+								"tool_type": toolName,
+								"priority":  "essential",
+								"product":   results[0],
+							})
+						}
+					}
+				}
+			}
+
+			// Total cost
+			totalCost := 0.0
+			for _, tp := range toolkitProducts {
+				if prod, ok := tp["product"].(*store.Product); ok {
+					totalCost += prod.PriceCurrent
+				}
+			}
+
+			writeJSON(w, 200, map[string]any{
+				"project":    p,
+				"ecosystem":  ecosystem,
+				"toolkit":    toolkitProducts,
+				"total_cost": totalCost,
+			})
+		})
+
 		// Products / Tools
 		r.Get("/tools/{slug}", func(w http.ResponseWriter, r *http.Request) {
 			p := s.GetBySlug(chi.URLParam(r, "slug"))
